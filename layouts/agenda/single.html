@@ -1,0 +1,40 @@
+{{ partial "head.html" . }}
+{{ partial "header.html" . }}
+
+<div class="hero-image ">
+  {{ range .Site.Params.banner.sections }}
+  {{ if eq .name  "Agendas" }}
+  <img src="{{ .image }}" alt="Agendas">
+  {{ end }}
+  {{ end }}
+</div>
+
+
+<div class="container">
+<div class="row">
+      {{ range .Site.Data.events.ByDate }}
+    <div class="col s6 m4">
+      <div class="card card-small">
+        <div class="card-image">
+          <img src="{{ .image }}">
+        </div>
+        <div class="card-content">
+          <div class="kind">{{ .kind }}</div>
+          <div class="card-agenda-title">{{ .title }}</div>
+          <div class="row card-details">
+          <div class="col s6">
+            <p>{{ .place }}</p>
+            <p>{{ .city }}</p>
+          </div>
+          <div class="col s6">
+          </div>
+        </div>
+        <div class="row center">{{ .Site.Params.more }}</div>
+      </div>
+      </div>
+    </div>
+    {{ end }}
+</div>
+</div>
+
+{{ partial "footer.html" }}

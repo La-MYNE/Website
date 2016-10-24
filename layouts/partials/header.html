@@ -1,0 +1,42 @@
+
+<body>
+  <nav class="light-grey">
+    <div class="nav-wrapper container">
+      <a href="{{.Site.BaseURL}}{{.LanguagePrefix }}"> <img id="logo-container" class="brand-logo" src="/img/lamyne-logo.png" alt="logo la MYNE"></a>
+      {{ if .IsTranslated }}
+      <ul class="language">
+          {{ range .Translations }}
+          <li>
+                <a href="{{ .Permalink }}">{{ .Lang }}</a>
+          </li>
+          {{ end}}
+      </ul>
+      {{ end }}
+
+      <ul class="right hide-on-med-and-down">
+        {{ range .Site.Params.menu.main }}
+        <li><a href="{{ .url }}">{{ .name }}</a></li>
+        {{end}}
+        
+          {{ range .Site.Params.social}}
+          {{ if .header }}
+          <li class="social-icons" ><a href="{{ .url }}"><i class="{{ .icon }}"></i></a></li>
+          {{ end }}
+          {{ end }}
+      
+      </ul>
+
+      <ul id="nav-mobile" class="side-nav">
+        {{ range .Site.Params.menu.main }}
+        <li><a href="{{ .url }}">{{ .name }}</a></li>
+        {{end}}
+
+        {{ range .Site.Params.social}}
+        {{ if .header }}
+        <li><a href="{{ .url }}"><i class="{{ .icon }}"></i></a></li>
+        {{ end }}
+        {{ end }}
+      </ul>
+      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>

@@ -1,0 +1,33 @@
+{{ partial "head.html" . }}
+{{ partial "header.html" . }}
+{{ partial "banner-hero.html" . }}
+
+<section class ="container">
+  <div class="row">
+  <div class="grid">
+    <!-- .grid-sizer empty element, only used for element sizing -->
+    <div class="grid-sizer "></div>
+    {{ range .Data.Pages }}
+    <div class="grid-item">
+      <div class="card card-agenda">
+        <div class="card-image">
+          <img class="responsive-img" src="{{ .Params.thumbnail }}" alt="thumbnail">
+        </div>
+        <div class="card-content">
+          <div class="kind"> {{ .Type }}</div>
+          <div class="card-agenda-title">{{ .Title | title }}  </div>
+          <div class="row card-details">
+            <p>{{ .Description }} </p>
+        </div>
+        <div class="row center">{{ .Site.Params.more }}</div>
+      </div>
+      </div>
+  </div>
+  {{ end }}
+
+    </div>
+  </div>
+</section>
+
+{{ partial "footer.html" . }}
+{{ partial "foot.html" }}

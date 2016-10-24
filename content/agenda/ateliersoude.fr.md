@@ -1,0 +1,16 @@
+---
+date : "2016-09-09T17:00:00+02:00"
+end : "2016-09-09T18:30:00+02:00"
+time : "-2100"
+thumbnail : "/img/atelier-soude-thumbnail.jpg"
+logo : "/img/atelier-soude-logo.png"
+title : " Atelier Soudé "
+place : "La MYNE"
+city : " "
+kind : "Atelier"
+recurrent : "Yes"
+link : " "
+featured : "yes"
+section : "agenda"
+description : "Retrouvez l'Atelier Soudé tous les mercredis de 18.00 à 21.00. L'Atelier Soudé est un atelier de co-réparation d'objets électroniques et électriques qui propose de vous accompagner dans la réparation, voire l'augmentation, de vos appareils électroniques."
+---

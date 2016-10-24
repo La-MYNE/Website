@@ -1,0 +1,164 @@
+{{ partial "head.html" . }}
+{{ partial "header.html" . }}
+<section id = "page-project">
+<div class="hero-image ">
+  <img  id="beggining" src="{{ .Params.banner }}" alt="{{ .Title }}"> </div>
+
+<nav class ="nav-pin">
+    <div class="nav-wrapper center orange">
+      <div class="col s12">
+        <a href="#pitch" class="breadcrumb">Pitch</a>
+        <a href="#agenda" class="breadcrumb">Agenda</a>
+        <a href="#contribuer" class="breadcrumb">Contribuer</a>
+        <a href="#documentation" class="breadcrumb">Documentation</a>
+      </div>
+    </div>
+  </nav>
+
+<div class="row">
+   <div class="col s12 m4">
+     <div class="card dark-grey">
+       <div class="card-content white-text">
+         <h1 class="card-title">{{ .Title }}</h1>
+         <div class ="row">
+         {{ range .Params.tags}}
+         <div class="chip">{{ . }}</div>
+         {{ end }}
+       </div>
+         <p> {{ .Description }} </p>
+
+<section class="entrepreneur">
+  <h2>Porteurs du Projet</h2>
+  <div class ="row">
+{{ range .Params.porteurs }}
+<div class="col s12 m4">
+  <figure class="avatar" style='background-image: url("{{ .image }}");background-size:cover;background-repeat:none'></figure>
+</div>
+{{ end }}
+</div>
+</section>
+
+<section class = "row">
+          <h2>Ressources</h2>
+         <ul>
+           {{ range .Params.documentation}}
+           <li><a class="text-light-grey" href="{{ .link }}">{{ .name }}</a></li>
+           {{ end }}
+         </ul>
+</section>
+
+       <section class="steps">
+<h2> Etat d'avancement </h2>
+          <div class="steps-chart first-done second-done">
+
+            <div class="illustration">
+              <span class="line"></span>
+              <span class="step step-1"></span>
+              <span class="step step-2"></span>
+              <span class="step step-3"></span>
+              <span class="step step-4"></span>
+              <span class="progress"></span>
+            </div>
+
+          </div>
+</section>
+      </div>
+</div>
+     </div>
+
+
+   <div class="col s12 m8">
+     <section id="pitch" class="container scrollspy">{{ .Content }}</section>
+ </div>
+
+ </div>
+
+ <section id="agenda" class="container scrollspy">
+   <h2>Agenda</h2>
+   <div class="row">
+         {{ range $key, $taxonomy := .Site.Taxonomies.projects }}
+         {{ range $taxonomy.Pages }}
+       <div class="col s6 m4">
+         <div class="card card-small">
+           <div class="card-image">
+             <img src="{{ .Params.image }}">
+           </div>
+           <div class="card-content">
+             <div class="kind">{{ .Params.kind }}</div>
+             <div class="card-agenda-title">{{ .Title }}</div>
+             <div class="row card-details">
+
+               <p>{{ .Params.place }}</p>
+               <p>{{ .Params.city }}</p>
+
+              <div class="col s8">
+               <p>{{ .Date.Format "Monday, Jan 2" }}</p>
+               <p>{{ .Params.end  | dateFormat "Monday, 2" }}</p>
+             </div>
+
+             <div class="col s4">
+               <p>{{ .Weight }}</p>
+               <p>{{ .Params.time }}</p>
+             </div>
+
+           </div>
+           <div class="row center">En savoir plus</div>
+         </div>
+         </div>
+       </div>
+       {{ end }}
+       {{ end }}
+   </div>
+   </div>
+
+</section>
+
+<section id="contribuer" class="container scrollspy">
+<div class="row">
+
+  <h4>{{ .Params.contribute.name }}</h4>
+  <div class= "col s12 m4">
+    <ul class="collapsible collection" data-collapsible="accordion">
+      <li class="collection-item">{{ .Params.contribute.section1 }}</li>
+        {{ range .Params.contribute.competence }}
+        <li>
+          <div class="collapsible-header">{{ .name }}</div>
+          <div class="collapsible-body"><p>{{ .description }}</p></div>
+        </li>
+  {{ end }}
+      </ul>
+</div>
+
+<div class= "col s12 m4">
+  <ul class="collapsible collection" data-collapsible="accordion">
+    <li class="collection-item">{{ .Params.contribute.section2 }}</li>
+{{ range .Params.contribute.materiel }}
+      <li>
+        <div class="collapsible-header">{{ .name }}</div>
+        <div class="collapsible-body"><p>{{ .description }}</p></div>
+      </li>
+{{ end }}
+    </ul>
+</div>
+
+<div class= "col s12 m4">
+  <ul class="collapsible collection" data-collapsible="accordion">
+    <li class="collection-item">{{ .Params.contribute.section3 }}</li>
+{{ range .Params.contribute.financier }}
+      <li>
+        <div class="collapsible-header">{{ .name }}</div>
+        <div class="collapsible-body"><p>{{ .description }}</p></div>
+      </li>
+{{ end }}
+    </ul>
+</div>
+</div>
+</section>
+
+<section id="documentation" class="container scrollspy">
+  <h2>Documentation</h2>
+</section>
+
+</section>
+{{ partial "footer.html" . }}
+{{ partial "foot.html" . }}

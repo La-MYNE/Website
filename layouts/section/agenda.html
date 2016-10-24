@@ -1,0 +1,41 @@
+{{ partial "head.html" . }}
+{{ partial "header.html" . }}
+{{ partial "banner-hero.html" . }}
+
+<div class="container">
+<div class="row">
+      {{ range .Data.Pages.ByDate }}
+    <div class="col m6 l4">
+      <div class="card card-small">
+        <div class="card-image">
+          <img src="{{ .Params.thumbnail }}">
+        </div>
+        <div class="card-content">
+          <div class="kind">{{ .Params.kind }}</div>
+          <div class="card-agenda-title">{{ .Title }}</div>
+          <div class="row card-details">
+
+            <p>{{ .Params.place }}</p>
+            <p>{{ .Params.city }}</p>
+
+           <div class="col s8">
+            <p>{{ .Date | time }}</p>
+            <p>{{ .Params.end | time }}</p>
+          </div>
+
+          <div class="col s4">
+            <p>{{ .Weight }}</p>
+            <p>{{ .Params.time }}</p>
+          </div>
+
+        </div>
+        <div class="row center">{{ .Site.Params.more }}</div>
+      </div>
+      </div>
+    </div>
+    {{ end }}
+</div>
+</div>
+
+{{ partial "footer.html" . }}
+{{ partial "foot.html" . }}

@@ -1,0 +1,218 @@
+
+DefaultContentLanguage: fr
+address: "1 Rue de Croix de Luizet<br>69100 Villeurbanne"
+title: La MYNE
+
+Languages:
+  en:
+    lang: en
+    info: "Ouverture au public<br> le Mercredi à partir de 18h<br> ou contactez-nous"
+    subtitle: Manufacture of Ideas and New Experiments
+    catchline: "Tiers-Lieu Libre and Open-Source:<br><br> A Space for Freedom, Experimentations<br> and Citizen Innovation"
+    weight: 2
+    newsletter: Follow our Newsletter
+    event: "Meet us during:"
+    news: Check our last news
+    more: More
+
+    menu:
+      main:
+      - identifier: about
+        name: About
+        url: /en/about
+        weight: 0
+      - identifier: program
+        name: Program
+        url: /en/program/
+        weight: 1
+      - identifier: projects
+        name: Projects
+        url: /en/project/
+        weight: 2
+      - identifier: contribute
+        name: Contribute
+        url: /en/contribute/
+        weight: 3
+  #    - identifier: agenda
+  #      name: Agenda
+  #      url: /en/agenda/
+  #      weight: 4
+    weight: 1
+
+    mission:
+      - title: "A place for Work and Prototyping"
+        description: "La MYNE as a space for work, creation and Experimentation welcomes you in its Serious Space for co-working, its N[O]t So Seri[O]us Space for co-talking, its Lab[O] for experiments and its Atel[I]er for creation without forgetting the garden for your permaculture desires. Find us every Wednesday evening at the OX[Y]GEN sessions."
+        picto: /img/picto-house.png
+        link: /en/program#accompagnement
+
+      - title: "Peer-to-Peer Learning"
+        description: "La MYNE offers all a framework for the development of research-based experimental projects through a peer-to-peer learning approach and free access to either material or immaterial resources. Members of La M[Y]NE can benefit freely from our workshops and masterclasses program."
+        picto: /img/picto-experiment.png
+        link: /en/program
+
+      - title: "Appropriation and Contribution to the Projects"
+        description: "La MYNE lives by and for its community and its projects. La MYNE is a co-constructed and co-managed space. Fed by an effort of transparency, we ensure open governance and economic model(s). Support La M[Y]NE project by becoming a member - having a project or not - and / or participating in the work groups."
+        picto: /img/picto-fork.png
+        link: /contribute
+
+    catchlinehero:
+      - content: "For all and by all.<br>Experts or not.<br>For Organizations of all types.<br><br>La MYNE and the ecosystem we belong to propose its PROGRAM <br><br>Atelier - Conference - Camp - Masterclass - projets supports et pre-incubation."
+        calltoaction: Discover our program
+        link: /program
+
+    ecosystem:
+      - title: La MYNE and its ecosytem
+        content: "The finesse of the local, the strength of the global!<br><br> Because the community of La MYNE is based on new forms of partnerships, collaboration and collective intelligence, it is part of a closely interconnected ecosystem."
+
+  fr:
+    lang: fr
+    info: 'Ouverture au public<br> le Mercredi à partir de 18h<br> ou contactez-nous'
+    subtitle: Manufacture des Idées et des Nouvelles Expérimentations
+    catchline: "Tiers-Lieu Libre et Open-Source:<br><br> Un Espace de Liberté, d'Expérimentations<br> et d'Innovation Citoyenne"
+    weight: 2
+    newsletter: Suivez notre Newsletter
+    event: Retrouvez-nous
+    news: Dernières Actualités
+    more: En Savoir Plus
+    menu:
+      main:
+      - identifier: about
+        name: About
+        url: /about
+        weight: 0
+      - identifier: program
+        name: Programme
+        url: /program/
+        weight: 1
+      - identifier: projects
+        name: Projets
+        url: /project/
+        weight: 2
+      - identifier: contribute
+        name: Contribuer
+        url: /contribute/
+        weight: 3
+  #    - identifier: agenda
+  #      name: Agenda
+  #      url: /agenda/
+  #      weight: 4
+    mission:
+      - title: "Espace de Travail et de Prototypage"
+        description: "La MYNE comme espace de travail, de création et d'expérimentation vous accueille au Seri[O]us Space pour Coworker, au N[O]t So Seri[O]us Space pour Coparler, au Lab[O] expérimenter et à l'Atel[I]er pour créer, sans oublier le Jardin pour vos envies permacoles. Retrouvez-nous les mercredi soir lors des sessions OX[Y]GEN."
+        picto: /img/picto-house.png
+        link: /program#accompagnement
+
+      - title: "Apprentissage pair-à-pair"
+        description: "La MYNE offre à tous et toutes un cadre pour le développement de projets de recherche et d'expérimentation innovants au travers d'un apprentissage pair-à-pair et de la mise à dispositions de ressources matérielles et immatérielles. Les membres de la MYNE peuvent bénéficier librement de nos programmes de rencontres, d'ateliers et de masterclasses."
+        picto: /img/picto-experiment.png
+        link: /program
+
+      - title: "Appropriation et Contribution aux Projets"
+        description: "La MYNE vit par et pour sa communauté et les projets qui la composent. C'est un espace co-construit et co-géré. Nourris par un effort de transparence, nous veillons à ouvrir la gouvernance et le(s) modèle(s) économique(s). Soutenez la la MYNE en devenant membre (porteur de projet ou non) et/ou en participant aux groupes de travail."
+        picto: /img/picto-fork.png
+        link: /contribute
+
+    catchlinehero:
+      - content: Pour tous-toutes- et par tous-toutes-. <br>Expert-e-s ou non.<br>Quel que soit votre organisation.<br><br>La MYNE et   l'écosystème dans lequel elle s'inscrit vous proposent leur PROGRAMME <br><br>Atelier - Conférence - Camp - Masterclass - support de projets et pré-incubation.
+        calltoaction: Découvrez notre programme
+        link: /program
+
+    ecosystem:
+      - title: La MYNE et son écosytème
+        content: La finesse du local, la force du global !<br><br> Parce que la communauté de la MYNE repose sur de nouveaux modes de partenariat, de collaboration et d’intelligence collective, elle s’inscrit dans un écosystème fortement interconnecté globalement et soudé localement.
+
+
+SectionPagesMenu:
+- main
+- citoyen
+baseurl: /
+canonifyurls: true
+config: config.yaml
+MetaDataFormat : yaml
+params:
+  DateForm: Monday, Jan 2
+  banner:
+    sections:
+    - image: /img/project-banner.jpg
+      name: Projects
+    - image: /img/lamyne-banner.jpg
+      name: La MYNE
+    - image: /img/contribute-banner.jpg
+      name: Contribute
+    - image: /img/agenda-banner.jpg
+      name: Agendas
+    - image: /img/program-banner.jpg
+      name: Programs
+  partners:
+  - link: http://lapaillasse.org/
+    logo: /img/paillasse-logo.png
+    name: La Paillasse
+  - link: http://movilab.org/index.php?title=La_POC_Foundation
+    logo: /img/poc-foundation-logo.png
+    name: POC Foundation
+  - link: https://openara.org/
+    logo: /img/open-ara-logo.png
+    name: Open Ara
+  - link: http://www.cellabz.com/
+    logo: /img/cellabz-logo.jpg
+    name: Cellabz
+  - link: http://www.grandlyon.com/
+    logo: /img/grand-lyon-logo.png
+    name: 'Grand Lyon '
+  - link: https://www.insa-lyon.fr/
+    logo: /img/insa-logo.png
+    name: INSA Lyon
+  - link: http://www.fablab-lyon.fr/
+    logo: /img/fol-logo.jpg
+    name: La Fabrique d'Objets Libres
+  - link: https://labolyon.fr/
+    logo: /img/lol-logo.png
+    name: Le Laboratoire Ouvert Lyonnais
+  - link: http://www.ecam.fr/fr/ecam-lyon/ecam-lyon
+    logo: /img/ecam-logo.png
+    name: 'ECAM '
+  - link: http://ouishare.net/fr
+    logo: /img/ouishare-logo.png
+    name: Ouishare
+  - link: http://www.ens-lyon.fr/
+    logo: /img/ens-logo.jpg
+    name: ENS Lyon
+  - link: http://www.tuba-lyon.com/
+    logo: /img/tuba-logo.jpg
+    name: TUBA
+  social:
+  - header: 'yes'
+    icon: icon-twitter
+    title: twitter
+    url: https://twitter.com/https://twitter.com/LaPaillassaone
+  - header: 'yes'
+    icon: icon-github
+    title: github
+    url: https://github.com/lamyne
+  - header: 'yes'
+    icon: icon-facebook
+    title: facebook
+    url: https://www.facebook.com/groups/644546245604963/
+  - icon: icon-linkedin
+    title: linkedin
+    url: https://www.linkedin.com/company/la-myne-by-lps-
+  - icon: icon-flickr
+    title: flickr
+    url: https://www.flickr.com/photos/lps_myne/
+  - header: 'yes'
+    icon: icon-slack
+    title: slack
+    url: https://la-myne.slack.com
+  - header: 'yes'
+    icon: icon-mail
+    title: email
+    url: team@lamyne.org
+  - icon: ion-social-youtube-outline
+    title: youtube
+    url: https://www.youtube.com/channel/UC-AkSeIOQf3-fscKmoXfmxA
+
+
+taxonomies:
+  categorie: categories
+  project: projects
+  tag: tags

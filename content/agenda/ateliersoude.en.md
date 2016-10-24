@@ -1,0 +1,16 @@
+---
+date : "2016-09-09T17:00:00+02:00"
+end : "2016-09-09T18:30:00+02:00"
+time : "-2100"
+thumbnail : "/img/atelier-soude-thumbnail.jpg"
+logo : "/img/atelier-soude-logo.png"
+title : " Atelier Soudé "
+place : "La MYNE"
+city : " "
+kind : "Atelier"
+recurrent : "Yes"
+link : " "
+featured : "yes"
+section : "agenda"
+description : "Meet l'Atelier Soudé every Wednesdays from 18.00 to 21.00. L'Atelier Soudé is an electronic and electric co-reparation workshop which offer its support in reparing or improving your electronics ."
+---
