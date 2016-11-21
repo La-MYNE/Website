@@ -1,29 +1,30 @@
 ---
-address: 1 Rue du Luizet, 69100 Villeurbanne
+address: '1 Rue du Luizet, 69100 Villeurbanne'
 college:
-- Rieul Techer
-- Charlotte Rizzo
-- Melia Villard
-- Baptiste Nomine
-- Timothee Gosselin
-- Yoann Duriaux
-- Yvain Berthiot
-- Isabelle Radkte
-- Jérémy Virgo
-- Connie Benjamin Chow-Petit
-- Claudine Revol
+  - Rieul Techer
+  - Charlotte Rizzo
+  - Melia Villard
+  - Baptiste Nomine
+  - Timothee Gosselin
+  - Yoann Duriaux
+  - Yvain Berthiot
+  - Isabelle Radkte
+  - Jérémy Virgo
+  - Connie Benjamin Chow-Petit
+  - Claudine Revol
 description: La Manufacture des Idées et des Nouvelles Expérimentations
 gt:
-- GT Finance
-- GT MYNE
-- GT Stratégie - Ethique
-- GT Projet
-- GT Système d'Information
+  - GT Finance
+  - GT MYNE
+  - GT Stratégie - Ethique
+  - GT Projet
+  - GT Système d'Information
 info: Ouverture au public le mercredi à partir de 18h
 title: La MYNE
+published: true
 ---
 
-# Une Manufacture du concret
+# Une Manufacture du concret et du réel
 
 La MYNE est un espace hybride partagé et ouvert, au coeur de la région Rhône-Alpes. Elle est hybride car elle regroupe les fonctions de **hacklab** - *laboratoire communautaire ouvert* - **fablab** - *laboratoire/atelier de fabrication* - espace de **co-working** - *espace de travail partagé et en réseau* - et espace de vie. La MYNE est au service de l’expérimentation et du développement de projets bio-inspirés s’inscrivant dans une logique de soutenabilité/durabilité. C'est **un tiers-lieu open-source de l'innovation citoyenne**.
 
