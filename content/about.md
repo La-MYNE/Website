@@ -20,10 +20,15 @@ gt:
   - GT Projet
   - GT Système d'Information
 info: 
+
   - Ouverture au public le mercredi de 18h à 21h
+  
   - Lundi 14h-19h & Mercredi 14h 18h avec CLEMENT
+  
   - Jeudi 10h-12h & 14h 18h & Mercredi 14h 18h avec PAUL
+  
   - Mardi 14h 18h & Jeudi 14h 18h avec ORIANE
+  
 title: La MYNE
 published: true
 ---
