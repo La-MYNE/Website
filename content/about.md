@@ -19,7 +19,11 @@ gt:
   - GT Stratégie - Ethique
   - GT Projet
   - GT Système d'Information
-info: Ouverture au public le mercredi à partir de 18h
+info: 
+  - Ouverture au public le Mercredi de 18h à 21h
+  - Lundi 14h-19h et Mercredi 14h 18h avec CLEMENT
+  - Jeudi 10h-12h et 14h 18h et mercredi 14h 18h avec PAUL
+  - Mardi 14h 18h et jeudi 14h 18h avec ORIANE
 title: La MYNE
 published: true
 ---
