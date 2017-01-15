@@ -9,6 +9,7 @@ college:
 - Chloe Mayere
 - Baptiste Nomine
 - Charlotte Rizzo
+- Rieul Techer
 - Melia Villard
 - Jeremy Virgo
 
