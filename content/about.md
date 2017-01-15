@@ -1,8 +1,8 @@
 ---
 address: '1 Rue du Luizet, 69100 Villeurbanne'
 college:
-  - David Bartholoméo
-  - Chloé Mayere
+  - David Bartholomeo
+  - Chloe Mayere
   - Oriane Marignier
   - Thomas Germain
   - Charlotte Rizzo
