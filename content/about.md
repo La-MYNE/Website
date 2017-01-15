@@ -2,14 +2,14 @@
 address: '1 Rue du Luizet, 69100 Villeurbanne'
 college:
   - David Bartholomeo
-  - Chloe Mayere
-  - Oriane Marignier
+  - Yoann Duriaux
   - Thomas Germain
+  - Timothee Gosselin
+  - Oriane Marignier
+  - Chloe Mayere
+  - Baptiste Nomine
   - Charlotte Rizzo
   - Melia Villard
-  - Baptiste Nomine
-  - Timothee Gosselin
-  - Yoann Duriaux
   - Jeremy Virgo
 
 description: La Manufacture des Idées et des Nouvelles Expérimentations

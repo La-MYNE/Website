@@ -1,26 +1,33 @@
 ---
 address: 1 Rue du Luizet, 69100 Villeurbanne
 college:
-- Rieul Techer
+- David Bartholomeo
+- Yoann Duriaux
+- Thomas Germain
+- Timothee Gosselin
+- Oriane Marignier
+- Chloe Mayere
+- Baptiste Nomine
 - Charlotte Rizzo
 - Melia Villard
-- Baptiste Nomine
-- Timothee Gosselin
-- Yoann Duriaux
-- Yvain Berthiot
-- Isabelle Radkte
-- Jérémy Virgo
-- Connie Benjamin Chow-Petit
-- Claudine Revol
+- Jeremy Virgo
+
 contact: team@lamyne.org
+
 description: La Manufacture des Idées et des Nouvelles Expérimentations
+
 gt:
 - GT Finance
 - GT MYNE
 - GT Stratégie - Ethique
 - GT Projet
 - GT Système d'Information
-info: Open to public on wednesdays from 18h
+
+info:
+- Public opening: wednesdays from 18h to 21h
+- Ponctual external appointments: from monday to thursday from 14h to 18h
+- Project leaders and teams: daily opening
+
 name: about
 title: La MYNE
 ---
