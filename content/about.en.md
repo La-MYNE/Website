@@ -25,9 +25,7 @@ gt:
 - GT Système d'Information
 
 info:
-- Public opening: wednesdays from 18h to 21h
-- Ponctual external appointments: from monday to thursday from 14h to 18h
-- Project leaders and teams: daily opening
+  - Public opening is wednesday from 18h to 21h / Ponctual external appointments are from monday to thursday from 14h to 18h / Project leaders and teams can access at any moment
 
 name: about
 title: La MYNE
