@@ -10,7 +10,7 @@ college:
   - Baptiste Nomine
   - Timothee Gosselin
   - Yoann Duriaux
-  - Jérémy Virgo
+  - Jeremy Virgo
 
 description: La Manufacture des Idées et des Nouvelles Expérimentations
 gt:
