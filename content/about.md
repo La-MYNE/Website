@@ -1,29 +1,28 @@
 ---
 address: '1 Rue du Luizet, 69100 Villeurbanne'
 college:
-  - Rieul Techer
+  - David Bartholoméo
+  - Chloé Mayere
+  - Oriane Marignier
+  - Thomas Germain
   - Charlotte Rizzo
   - Melia Villard
   - Baptiste Nomine
   - Timothee Gosselin
   - Yoann Duriaux
-  - Yvain Berthiot
-  - Isabelle Radkte
   - Jérémy Virgo
-  - Connie Benjamin Chow-Petit
-  - Claudine Revol
+
 description: La Manufacture des Idées et des Nouvelles Expérimentations
 gt:
   - GT Finance
   - GT MYNE
   - GT Stratégie - Ethique
-  - GT Projet
+  - GT Projets
   - GT Système d'Information
-info: 
-  - Ouverture au public le mercredi de 18h à 21h /
-  - Lundi 14h-19h & Mercredi 14h 18h avec CLEMENT /
-  - Jeudi 10h-12h & 14h 18h & Mercredi 14h 18h avec PAUL /
-  - Mardi 14h 18h & Jeudi 14h 18h avec ORIANE  
+info:
+  - Pour le public: Ouverture au public le mercredi de 18h à 21h /
+  - Pour l'accueil d'extérieurs ponctuel: du lundi au jeudi de 14h 18h / 
+  - Pour les porteurs et équipes projets: Ouvert tous les jours pour les porteurs et équipes projets
 title: La MYNE
 published: true
 ---
