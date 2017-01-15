@@ -22,10 +22,8 @@ gt:
   - GT Système d'Information
 
 info:
-  - Pour le public: Ouverture au public le mercredi de 18h à 21h
-  - Pour l'accueil d'extérieurs ponctuel: du lundi au jeudi de 14h 18h
-  - Pour les porteurs et équipes projets: Ouvert tous les jours pour les porteurs et équipes projets
-
+  - Ouverture public le mercredi à partir de 18h / Accueil extérieur ponctuel du lundi au jeudi de 18h à 14h / Ouvert aux projets tous les jours
+  
 title: La MYNE
 
 published: true
