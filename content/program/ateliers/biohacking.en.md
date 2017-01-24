@@ -7,5 +7,5 @@ type : "masterclass"
 logo : "/img/biohacking-logo.png"
 thumbnail : "/img/biohacking-thumbnail.jpg"
 banner : "/img/biohacking-banner.png"
-home : "yes"
+home : "no"
 ---
