@@ -14,7 +14,7 @@ contribute:
   - description: Connaissance du fonctionnement d'une place de marché et en particulier celui de l'électricité afin de développer un nouveau modèle décentralisé.
     name: Economie de marché
   financier:
-  - description: Contribuez au finacement du projet.
+  - description: Contribuez au finacemendu projet.
     name: Faire un don au projet
   materiel:
   - description: Nous recherchons du matériel électroniques servant à capter les données
