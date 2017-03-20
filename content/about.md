@@ -4,7 +4,6 @@ college:
   - David Bartholomeo
   - Yoann Duriaux
   - Thomas Germain
-  - Timothee Gosselin
   - Oriane Marignier
   - Chloe Mayere
   - Baptiste Nomine
