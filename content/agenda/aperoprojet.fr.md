@@ -12,6 +12,6 @@ kind: "Apéro"
 recurrent: "Yes"
 link: " "
 featured: "yes"
-description: "Retrouvez les porteurs de projets et la communauté de la MYNE tous les derniers lundis de chaque mois. L'occasion de faire des rencontres, d'échanger autour d'un verre, ou d'une tasse, et de suivre l'évolution des projets."
+description: "Retrouvez les porteurs de projets et la communauté de la MYNE tous les premiers vendredi de chaque mois. L'occasion de faire des rencontres, d'échanger autour d'un verre, ou d'une tasse, et de suivre l'évolution des projets."
 section : "agenda"
 ---
