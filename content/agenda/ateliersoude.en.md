@@ -12,5 +12,5 @@ recurrent : "Yes"
 link : " "
 featured : "yes"
 section : "agenda"
-description : "Meet l'Atelier Soudé every Wednesdays from 18.00 to 21.00. L'Atelier Soudé is an electronic and electric co-reparation workshop which offer its support in reparing or improving your electronics ."
+description : "Meet l'Atelier Soudé on Monday from 4.30 PM to 7.30PM  and Wednesday from 6.00 PM to 9.00 PM. L'Atelier Soudé is an electronic and electric co-reparation workshop which offer its support in reparing or improving your electronics ."
 ---

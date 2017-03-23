@@ -29,14 +29,15 @@ porteurs:
 - image: /img/pascal-tabary.jpg
   name: Pascal Tabary
 slug: daisee
-stade: '
+stade:
 tags:
 - Cuiseur
 - Charbon
 - Outdoor
 thumbnail: /img/pyrocarb-thumbnail.png
-title: Pyrocarb nomade
+title: Pyrocarb Nomade
 type: project
+
 ---
 # Pyrocarb Nomade
 
@@ -47,4 +48,3 @@ Il rend autonome celles et ceux qui ont besoin de chauffer de l'eau, cuire des p
 Fini le gaz, le pétrole et le kérosène, aujourd'hui on cuisine avec du renouvelable, en camping, en randonnée et même sur son balcon sans enfumer ses voisins.
 
 Brûler du bois sans fumée apparente est aujourd'hui possible grâce au Pyrocarb.
-

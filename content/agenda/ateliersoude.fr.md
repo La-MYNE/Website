@@ -12,5 +12,5 @@ recurrent : "Yes"
 link : " "
 featured : "yes"
 section : "agenda"
-description : "Retrouvez l'Atelier Soudé tous les mercredis de 18.00 à 21.00. L'Atelier Soudé est un atelier de co-réparation d'objets électroniques et électriques qui propose de vous accompagner dans la réparation, voire l'augmentation, de vos appareils électroniques."
+description : "Retrouvez l'Atelier Soudé les lundis 16.30 à 19.30 et les mercredis de 18.00 à 21.00. L'Atelier Soudé est un atelier de co-réparation d'objets électroniques et électriques qui propose de vous accompagner dans la réparation, voire l'augmentation, de vos appareils électroniques."
 ---
