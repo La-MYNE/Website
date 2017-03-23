@@ -10,7 +10,7 @@ contribute:
   - description: Pour fabriquer notre second prototype en inox on recherche quelqu’un sachant souder l’inox
     name: Soudage Inox
   financier:
-  - description: Contribuez au finacement du projet.
+  - description: Contribuez au financement du projet.
     name: Faire un don au projet
   materiel:
   - description: Pour fabriquer le second prototype.
@@ -28,7 +28,7 @@ documentation:
 porteurs:
 - image: /img/pascal-tabary.jpg
   name: Pascal Tabary
-slug: daisee
+slug: pyrocarb-nomade
 stade:
 tags:
 - Cuiseur
