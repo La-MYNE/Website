@@ -4,12 +4,10 @@ college:
   - David Bartholomeo
   - Yoann Duriaux
   - Thomas Germain
-  - Timothee Gosselin
   - Oriane Marignier
   - Chloe Mayere
   - Baptiste Nomine
   - Charlotte Rizzo
-  - Rieul Techer
   - Melia Villard
   - Jeremy Virgo
 
