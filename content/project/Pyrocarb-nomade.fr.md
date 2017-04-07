@@ -34,7 +34,7 @@ tags:
 - Cuiseur
 - Charbon
 - Outdoor
-thumbnail: /img/pyrocarb-thumbnail.png
+thumbnail: /img/pyrocarb-thumbnail.jpg
 title: Pyrocarb Nomade
 type: project
 
