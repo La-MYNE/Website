@@ -188,7 +188,7 @@ params:
   - header: 'yes'
     icon: icon-github
     title: github
-    url: https://github.com/LPS-MYNE
+    url: https://github.com/La-MYNE
   - header: 'yes'
     icon: icon-facebook
     title: facebook
