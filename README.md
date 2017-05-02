@@ -5,13 +5,13 @@ Adresse: http://lamyne.org
 Ce dépôt GitHub est dédié aux composants du site internet de la MYNE.
 Afin de comprendre comment contribuer à l'alimentation de ce site internet, différents dossiers existent dans lesquels les fichiers sources du site peuvent être au choix modifiés ou ajoutés.
 Les dossiers sont les suivants:
-* archetypes 
-* bin
-* content
-* data/events
-* i18n
-* layouts
-* static
+* archetypes : https://github.com/La-MYNE/website/tree/master/archetypes
+* bin : https://github.com/La-MYNE/website/tree/master/bin
+* content : https://github.com/La-MYNE/website/tree/master/content
+* data/events : https://github.com/La-MYNE/website/tree/master/data/events
+* i18n : https://github.com/La-MYNE/website/tree/master/i18n
+* layouts : https://github.com/La-MYNE/website/tree/master/layouts
+* static : https://github.com/La-MYNE/website/tree/master/static
 
 ## archetypes 
 Structure d'affichage des différents composants des activités de la MYNE. Aujourd'hui les archetypes effectivement existant sont:
