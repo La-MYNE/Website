@@ -1,4 +1,4 @@
-{{ partial "head.html" . }}
+h{{ partial "head.html" . }}
 {{ partial "header.html" . }}
 {{ partial "banner-hero.html" . }}
 
@@ -21,7 +21,7 @@
 
       <ul class="collapsible collection" data-collapsible="accordion">
         <li>
-          <div class="collapsible-header">Créer une start Up en France - en partenariat avec Lyon French Tech</div>
+          <div class="collapsible-header">FrenchTech Ticket</div>
           <div class="collapsible-body">
             {{ range .Data.Pages }}
               {{ if eq .Params.theme "Créer une start Up en France" }}
