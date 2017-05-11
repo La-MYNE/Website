@@ -6,9 +6,9 @@ title: La MYNE
 Languages:
   en:
     lang: en
-    info: "Ouverture au public le Mercredi à partir de 18h ou contactez-nous"
+    info: "Public openings on Wednesday from 6PM or through personal contact"
     subtitle: Manufacture of Ideas and New Experiments
-    catchline: "Tiers-Lieu Libre and Open-Source:<br><br> A Space for Freedom, Experimentations<br> and Citizen Innovation"
+    catchline: "A Common based Tiers-Lieu for Transitions - #TILIOS <br><br> A Space for Freedom, Experimentations<br> and Citizen Innovation"
     weight: 2
     newsletter: Follow our Newsletter
     event: "Meet us during:"
@@ -41,22 +41,22 @@ Languages:
 
     mission:
       - title: "A place for Work and Prototyping"
-        description: "La MYNE as a space for work, creation and Experimentation welcomes you in its Serious Space for co-working, its N[O]t So Seri[O]us Space for co-talking, its Lab[O] for experiments and its Atel[I]er for creation without forgetting the garden for your permaculture desires. Find us every Wednesday evening at the OX[Y]GEN sessions."
+        description: "Creation and experimentation space, la MYNE welcomes you in the Seri[O]us Space for coworking, in the N[O]t So Seri[O]us Space for cotalking, in the Lab[O] for experimenting and in the Atel[I]er for creation, not forgetting the garden for your permaculture desires."
         picto: /img/picto-house.png
         link: /en/program#accompagnement
 
-      - title: "Peer-to-Peer Learning"
-        description: "La MYNE offers all a framework for the development of research-based experimental projects through a peer-to-peer learning approach and free access to either material or immaterial resources. Members of La M[Y]NE can benefit freely from our workshops and masterclasses program."
+      - title: "Peer-to-Peer Learning, MeetUp and Sharing"
+        description: "Through a peer-to-peer learning approach and free access to either material or immaterial resources, La M[Y]NE members can freely benefit from the meetups, as well as open workshops and masterclasses program. La MYNE is a space for improbable meetups and exchanges times."
         picto: /img/picto-experiment.png
         link: /en/program
 
-      - title: "Appropriation and Contribution to the Projects"
-        description: "La MYNE lives by and for its community and its projects. La MYNE is a co-constructed and co-managed space. Fed by an effort of transparency, we ensure open governance and economic model(s). Support La M[Y]NE project by becoming a member - having a project or not - and / or participating in the work groups."
+      - title: "Appropriation, Contribution and Autonomy"
+        description: "As a co-constructed and co-managed space, La MYNE lives by and for the community and projects that compose it. Nurture by transparency, governance as well as business models are open both for auditability and to contribution. Anyone can contribute and learn."
         picto: /img/picto-fork.png
         link: /contribute
 
     catchlinehero:
-      - content: "For all and by all.<br>Experts or not.<br>For Organizations of all types.<br><br>La MYNE and the ecosystem we belong to propose its PROGRAM <br><br>Atelier - Conference - Camp - Masterclass - projets supports et pre-incubation."
+      - content: "For and by all.<br>Either experts or not | For Organizations of all types.<br><br>La MYNE and the ecosystem we belong to are reglarly gathering around <br>Workshops - Conference - Camp - Masterclass<br> as well as to come in support and pre-incubation of projects."
         calltoaction: Discover our program
         link: /program
 
@@ -68,7 +68,7 @@ Languages:
     lang: fr
     info: 'Ouverture au public le Mercredi à partir de 18h ou contactez-nous'
     subtitle: Manufacture des Idées et des Nouvelles Expérimentations
-    catchline: "Tiers-Lieu Libre et Open-Source:<br><br> Un Espace de Liberté, d'Expérimentations<br> et d'Innovation Citoyenne"
+    catchline: "Tiers-Lieu des Transitions par les communs - #TILIOS<br><br> Un Espace de Liberté, d'Expérimentations<br> et d'Innovation Citoyenne"
     weight: 2
     newsletter: Suivez notre Newsletter
     event: Retrouvez-nous
@@ -98,22 +98,22 @@ Languages:
   #      weight: 4
     mission:
       - title: "Espace de Travail et de Prototypage"
-        description: "La MYNE comme espace de travail, de création et d'expérimentation vous accueille au Seri[O]us Space pour Coworker, au N[O]t So Seri[O]us Space pour Coparler, au Lab[O] expérimenter et à l'Atel[I]er pour créer, sans oublier le Jardin pour vos envies permacoles. Retrouvez-nous les mercredi soir lors des sessions OX[Y]GEN."
+        description: "Espace de création et d'expérimentation, la MYNE vous accueille au Seri[O]us Space pour Coworker, au N[O]t So Seri[O]us Space pour Coparler, au Lab[O] expérimenter et à l'Atel[I]er pour créer, sans oublier le Jardin pour vos envies permacoles. Retrouvez-nous les mercredi soir lors des sessions OX[Y]GEN."
         picto: /img/picto-house.png
         link: /program#accompagnement
 
-      - title: "Apprentissage pair-à-pair"
-        description: "La MYNE offre à tous et toutes un cadre pour le développement de projets de recherche et d'expérimentation innovants au travers d'un apprentissage pair-à-pair et de la mise à dispositions de ressources matérielles et immatérielles. Les membres de la MYNE peuvent bénéficier librement de nos programmes de rencontres, d'ateliers et de masterclasses."
+      - title: "Apprentissage pair-à-pair, Rencontre et Partage"
+        description: "Au travers d'un cadre d'apprentissage pair-à-pair et la mise à disposition de ressources matérielles et immatérielles, tous les membres bénéfécient librement de programmes de recontres et d'ateliers ouverts. La MYNE est un espace de rencontres et d'échanges plus ou moins improbables."
         picto: /img/picto-experiment.png
         link: /program
 
-      - title: "Appropriation et Contribution aux Projets"
-        description: "La MYNE vit par et pour sa communauté et les projets qui la composent. C'est un espace co-construit et co-géré. Nourris par un effort de transparence, nous veillons à ouvrir la gouvernance et le(s) modèle(s) économique(s). Soutenez la la MYNE en devenant membre (porteur de projet ou non) et/ou en participant aux groupes de travail."
+      - title: "Appropriation, Contribution et Autonomisation"
+        description: "Espace co-construit et co-géré, la MYNE vit par et pour la communauté et les projets qui la composent. Nourries par un effort de transparence, les modalités de gouvernance et de développements économiques sont ouvertes. Chacun peut contribuer et apprendre en devenant membre ou en participant aux groupes de travail."
         picto: /img/picto-fork.png
         link: /contribute
 
     catchlinehero:
-      - content: Pour tous-toutes- et par tous-toutes-. <br>Expert-e-s ou non.<br>Quel que soit votre organisation.<br><br>La MYNE et   l'écosystème dans lequel elle s'inscrit vous proposent leur PROGRAMME <br><br>Atelier - Conférence - Camp - Masterclass - support de projets et pré-incubation.
+      - content: Par tou.te.s, pour tou.te.s et avec chacun. <br>Expert-e-s ou non | Quel que soit votre organisation.<br><br>La MYNE et l'écosystème dans lequel elle s'inscrit se retrouvent régulièrement pour des <br>Ateliers - Conférences - Camps - Masterclasses<br> ainsi que pour venir en support de projets et en pré-incubation.
         calltoaction: Découvrez notre programme
         link: /program
 
@@ -188,11 +188,11 @@ params:
   - header: 'yes'
     icon: icon-github
     title: github
-    url: https://github.com/LPS-MYNE
+    url: https://github.com/La-MYNE
   - header: 'yes'
     icon: icon-facebook
     title: facebook
-    url: https://www.facebook.com/groups/644546245604963/
+    url: https://www.facebook.com/La-MYNE-initi%C3%A9e-par-La-Paillasse-Sa%C3%B4ne-648362331890903/
   - icon: icon-linkedin
     title: linkedin
     url: https://www.linkedin.com/company/la-myne-by-lps-
