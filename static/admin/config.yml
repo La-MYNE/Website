@@ -13,5 +13,10 @@ collections: # A list of collections the CMS should be able to edit
     fields:
       - {label: "Title", name: "title", widget: "string", tagname: "h1"}
       - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Foo", name: "foo", widget: "foo"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Image Banner", name: "banner", widget:"image"}
+      - {label: "Thumbnail", name: "thumbnail", widget:"image"}
+      - {label: "Description", name: "description", widget:"string"}
+      - {label: "Porteur de Projet", name: "porteurs.image", widget:"list"}
+      - {label: "Categories", name: "categories", widget:"string"}
+      - {label: "Tags", name: "tags", widget:"markdown"}
