@@ -1,0 +1,17 @@
+backend:
+  name: github
+  repo: La-MYNE/website # Path to your GitHub repository
+  branch: master # Branch to update (master by default)
+
+media_folder: "img/uploads" # Folder where user uploaded files should go
+
+collections: # A list of collections the CMS should be able to edit
+  - name: "project" # Used in routes, ie.: /admin/collections/:slug/edit
+    label: "Project" # Used in the UI, ie.: "New Post"
+    folder: "content/project/" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    fields: # The fields each document in this collection have
+      - {label: "Title", name: "title", widget: "string", tagname: "h1"}
+      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Foo", name: "foo", widget: "foo"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
