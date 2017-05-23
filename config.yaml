@@ -40,23 +40,23 @@ Languages:
     weight: 1
 
     mission:
-      - title: "A place for Work and Prototyping"
-        description: "Creation and experimentation space, la MYNE welcomes you in the Seri[O]us Space for coworking, in the N[O]t So Seri[O]us Space for cotalking, in the Lab[O] for experimenting and in the Atel[I]er for creation, not forgetting the garden for your permaculture desires."
+      - title: "Open Spaces, Meeting and Sharing"
+        description: "The Seri[O]us Space - for Coworking, the N[O]t So Seri[O]us Space - for Cotalking, the Lab[O] - for experimentation, the Atel[I]er - for creation, th Garden - for permaculture' desires, and the Community are so many open spaces for learning, realizing and creating to the members. Through a peer-to-peer learning approach by research and experimentation, as well as free access to either material or immaterial resources, La M[Y]NE members can freely benefit from the programs supported by la MYNE."
         picto: /img/picto-house.png
         link: /en/program#accompagnement
 
-      - title: "Peer-to-Peer Learning, MeetUp and Sharing"
-        description: "Through a peer-to-peer learning approach and free access to either material or immaterial resources, La M[Y]NE members can freely benefit from the meetups, as well as open workshops and masterclasses program. La MYNE is a space for improbable meetups and exchanges times."
+      - title: "Research, Experimentation and Prototyping"
+        description: "As an open citizen laboratory, la MYNE is welcoming anyone willing to learn and/or develop or participate to a project. Research relies on free and open experimentation, within physical spaces and beyond. La MYNE is a space for improbable meetups and exchanges times, a citizen-researchers either named as or ignoring it. It's both a community and a crossing of values and practices communities. In short, it's an undefined space for freedom and experimentation."
         picto: /img/picto-experiment.png
         link: /en/program
 
       - title: "Appropriation, Contribution and Autonomy"
-        description: "As a co-constructed and co-managed space, La MYNE lives by and for the community and projects that compose it. Nurture by transparency, governance as well as business models are open both for auditability and to contribution. Anyone can contribute and learn."
+        description: "As a co-constructed and co-managed space, La MYNE lives by and for the community and projects that compose it. Nurture by transparency, governance as well as business models and projects are open both for auditability and to contribution. Anyone can contribute and learn either if you're a member or participant to the working groups, or curious non-members of la MYNE as a structure but who appeal to values, practices and projects that are supported by la MYNE as a community."
         picto: /img/picto-fork.png
         link: /contribute
 
     catchlinehero:
-      - content: "For and by all.<br>Either experts or not | For Organizations of all types.<br><br>La MYNE and the ecosystem we belong to are reglarly gathering around <br>Workshops - Conference - Camp - Masterclass<br> as well as to come in support and pre-incubation of projects."
+      - content: "'We all are born researcher in the sens of the one experimenting, testing and validating or not his/her hypethesis thourgh the experience of life, or the inventor who goes to the discovery of the possible' - L'Aventure Ordinaire, Yearly 2015 report from La Paillasse Saône."
         calltoaction: Discover our program
         link: /program
 
@@ -97,23 +97,23 @@ Languages:
   #      url: /agenda/
   #      weight: 4
     mission:
-      - title: "Espace de Travail et de Prototypage"
-        description: "Espace de création et d'expérimentation, la MYNE vous accueille au Seri[O]us Space pour Coworker, au N[O]t So Seri[O]us Space pour Coparler, au Lab[O] expérimenter et à l'Atel[I]er pour créer, sans oublier le Jardin pour vos envies permacoles. Retrouvez-nous les mercredi soir lors des sessions OX[Y]GEN."
+      - title: "Espaces, Rencontre et Partage ouverts"
+        description: "Le Seri[O]us Space - pour Coworker, le N[O]t So Seri[O]us Space - pour Coparler, le Lab[O] - pour expérimenter, l'Atel[I]er - pour créer, le Jardin - pour vos envies permacoles et la communauté - pour échanger, sont autant d'espaces d'apprentissage, de réalisation et de création ouverts aux membres. Au travers d'un cadre d'apprentissage pair-à-pair par la recherche et l'expérimentation, et la mise à disposition de ressources matérielles et immatérielles, tous les membres bénéfécient librement de programmes supportés par la MYNE."
         picto: /img/picto-house.png
         link: /program#accompagnement
 
-      - title: "Apprentissage pair-à-pair, Rencontre et Partage"
-        description: "Au travers d'un cadre d'apprentissage pair-à-pair et la mise à disposition de ressources matérielles et immatérielles, tous les membres bénéfécient librement de programmes de recontres et d'ateliers ouverts. La MYNE est un espace de rencontres et d'échanges plus ou moins improbables."
+      - title: "Recherche, Expérimentation et Prototypage"
+        description: "Laboratoire ouvert citoyen, la MYNE accueille toute personne désireuse d'apprendre et/ou de développer ou participer à un projet. La recherche s'appuie sur l'expérimentation libre et ouverte, au sein d'espaces physique et au delà. La MYNE est un espace de rencontres et d'échanges plus ou moins improbables, un réseau de citoyens-chercheurs revendiqués ou qui s'ignorent. C'est à la fois une communauté et le croisement de communautés de valeur et de pratiques. En bref, c'est un espace, non défini, de liberté et d'expérimentation."
         picto: /img/picto-experiment.png
         link: /program
 
       - title: "Appropriation, Contribution et Autonomisation"
-        description: "Espace co-construit et co-géré, la MYNE vit par et pour la communauté et les projets qui la composent. Nourries par un effort de transparence, les modalités de gouvernance et de développements économiques sont ouvertes. Chacun peut contribuer et apprendre en devenant membre ou en participant aux groupes de travail."
+        description: "Espace co-construit et co-géré, la MYNE vit par et pour la communauté et les projets qui la composent. Nourries par un effort de transparence, les modalités de gouvernance et de développements économiques sont ouvertes et les projets et processus open-sources. Chacun peut contribuer et apprendre qu'il soit membre ou participant aux groupes de travail, ou curieux non membre de la MYNE en tant que structure mais se retrouvant dans les valeurs, les pratiques et les projets supportés par la MYNE en tant que communauté."
         picto: /img/picto-fork.png
         link: /contribute
 
     catchlinehero:
-      - content: Par tou.te.s, pour tou.te.s et avec chacun. <br>Expert-e-s ou non | Quel que soit votre organisation.<br><br>La MYNE et l'écosystème dans lequel elle s'inscrit se retrouvent régulièrement pour des <br>Ateliers - Conférences - Camps - Masterclasses<br> ainsi que pour venir en support de projets et en pré-incubation.
+      - content: Nous sommes tous chercheurs et chercheuses nés au sens de l‘expérimentateur qui teste et valide ou invalide ses hypothèses au travers de l’expérience, ou de l’inventeur qui va à la découverte des possibles - L'Aventure Ordinaire, Rapport d'Activité 2015 La Paillasse Saône.
         calltoaction: Découvrez notre programme
         link: /program
 
