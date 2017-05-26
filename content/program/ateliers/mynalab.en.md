@@ -6,5 +6,4 @@ theme: "atelier"
 logo: "/img/mynalab-logo.jpg"
 thumbnail: "/img/mynalab-thumbnail.png"
 banner: "/img/mynalab-banner.png"
-home:  "yes"
 ---

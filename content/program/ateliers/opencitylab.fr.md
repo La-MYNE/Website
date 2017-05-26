@@ -7,5 +7,4 @@ type : "masterclass"
 logo : "/img/opencitylab-logo.png"
 thumbnail : "/img/opencitylab-thumbnail.jpg"
 banner : "/img/opencitylab-banner.png"
-home : "yes"
 ---
