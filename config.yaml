@@ -10,7 +10,7 @@ Languages:
     subtitle: Manufacture of Ideas and New Experiments
     catchline: "A Common(s) based Tiers-Lieu for Transitions - #TILIOS <br><br> A Space for Freedom, Experimentations<br> and Citizen Innovation"
     weight: 2
-    newsletter: Follow our Newsletter
+    newsletter: Follow Newsletter | We're not intrusive
     event: "Meet us during:"
     news: Check our last news
     more: More
@@ -62,7 +62,7 @@ Languages:
 
     ecosystem:
       - title: La MYNE and its ecosytem
-        content: "The finesse of the local, the strength of the global!<br><br> Because the community of La MYNE is based on new forms of partnerships, collaboration and collective intelligence, it is part of a closely interconnected ecosystem."
+        content: "Acting local with a global strength !<br><br> Because the community of La MYNE is based on new forms of partnerships, collaboration and collective intelligence, it is part of a intimately interconnected ecosystem."
 
   fr:
     lang: fr
@@ -70,7 +70,7 @@ Languages:
     subtitle: Manufacture des Idées et des Nouvelles Expérimentations
     catchline: "Tiers-Lieu des Transitions par les Communs - #TILIOS<br><br> Un Espace de Liberté, d'Expérimentations<br> et d'Innovation Citoyenne"
     weight: 2
-    newsletter: Suivez notre Newsletter
+    newsletter: Suivez notre Newsletter | Notre communication est frugale
     event: Retrouvez-nous
     news: Dernières Actualités
     more: En Savoir Plus

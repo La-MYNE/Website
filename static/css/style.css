@@ -126,7 +126,7 @@ nav .brand-logo {
 /* HOME - Section Newsletter */
 #section-newsletter {
   background-color: #ff7f00;
-  color: #fff
+  color: black
 }
 input[type=email] {
     background-color: #fff
@@ -150,7 +150,7 @@ input[type=email] {
      width: 100vh;
    }
 .parallax-container .container {
-     padding-top: 8%;
+     padding-top: 0%;
    }
 @media only screen and (max-width : 992px) {
    .parallax-container .section {
