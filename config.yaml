@@ -192,7 +192,7 @@ params:
   - header: 'yes'
     icon: icon-facebook
     title: facebook
-    url: https://www.facebook.com/La-MYNE-initi%C3%A9e-par-La-Paillasse-Sa%C3%B4ne-648362331890903/
+    url: https://www.facebook.com/La-MYNE-Manufacture-des-Id%C3%A9es-et-Nouvelles-Exp%C3%A9rimentations-648362331890903/
   - icon: icon-linkedin
     title: linkedin
     url: https://www.linkedin.com/company/la-myne-by-lps-
@@ -201,13 +201,13 @@ params:
     url: https://www.flickr.com/photos/lps_myne/
   - header: 'yes'
     icon: icon-slack
-    title: slack
-    url: https://la-myne.slack.com
+    title: rocketchat
+    url: http://chat.lamyne.org
   - header: 'yes'
     icon: icon-mail
     title: email
     url: team@lamyne.org
-  - icon: ion-social-youtube-outline
+  - icon: icon-social-youtube-outline
     title: youtube
     url: https://www.youtube.com/channel/UC-AkSeIOQf3-fscKmoXfmxA
 
