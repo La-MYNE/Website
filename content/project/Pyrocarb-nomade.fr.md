@@ -1,5 +1,5 @@
 ---
-banner: /img/pyrocarb-thumbnail.jpg
+banner: /img/pyrocarb-thumbnail.png
 categories: Projet
 contribute:
   competence:
