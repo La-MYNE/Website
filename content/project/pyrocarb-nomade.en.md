@@ -36,7 +36,7 @@ tags:
 - Coocker
 - Charcoan
 - Outdoor
-thumbnail: /img/pyrocarb-thumbnail.png
+thumbnail: /img/pyrocarb-thumbnail.jpg
 title: Pyrocarb Nomad
 type: project
 
