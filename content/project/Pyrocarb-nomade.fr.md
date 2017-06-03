@@ -1,5 +1,5 @@
 ---
-banner: /img/pyrocarb-thumbnail.png
+banner: /img/pyrocarb-thumbnail.jpg
 categories: Projet
 contribute:
   competence:
@@ -34,7 +34,7 @@ tags:
 - Cuiseur
 - Charbon
 - Outdoor
-thumbnail: /img/pyrocarb-thumbnail.png
+thumbnail: /img/pyrocarb-thumbnail.jpg
 title: Pyrocarb Nomade
 type: project
 
