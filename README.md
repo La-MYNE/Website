@@ -1,8 +1,6 @@
 # [Site de La MYNE](http://lamyne.org) (anciennement La Paillasse Saône)
 
-Ce dépôt est dédié aux composants du site de la MYNE. Afin de comprendre comment contribuer à l'alimentation de ce site internet, différents dossiers existent dans lesquels les fichiers sources du site peuvent être au choix modifiés ou ajoutés.
-
-Les dossiers sont les suivants:
+Ce dépôt est dédié aux composants du site Internet de la MYNE. Afin de comprendre comment contribuer au site, différents dossiers existent dans lesquels les fichiers sources du site peuvent être au choix modifiés ou ajoutés.
 * archetypes : https://github.com/La-MYNE/website/tree/master/archetypes
 * bin : https://github.com/La-MYNE/website/tree/master/bin
 * content : https://github.com/La-MYNE/website/tree/master/content
@@ -55,6 +53,4 @@ Rassemble l'ensemble des éléments statiques du site:
 
 # Contributions
 
-Toute contribution est la bienvenue. Que ce soit sur la création de contenus, d'alimentation du site en information, de la remonter de bug ou fautes par des issues... n'hésitez pas.
-
-Au plaisir de vous lire. L'équipe de la MYNE
+Toute contribution est la bienvenue. Que ce soit sur la création de contenus, d'alimentation du site en information, de la remonter de bug ou fautes par des issues... n'hésitez pas. Au plaisir de vous lire. L'équipe de la MYNE
