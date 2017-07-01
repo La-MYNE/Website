@@ -33,11 +33,11 @@ Les fichiers de contnus généraux sont principalement soient des fichiers perma
 
 ## data/events
 
-Rassemble l'ensemle des fichiers des événements qui sont affichés sur la page principale sous la bannière "Retrouvez-nous".
+Rassemble les fichiers des événements affichés sur la page principale sous la bannière "Retrouvez-nous".
 
 ## i18n
 
-Rassemble les fichiers permettant la traduction automatique du site dans diverses langues. A JARDINER.
+Rassemble les fichiers permettant la traduction automatique du site dans diverses langues. `À JARDINER`.
 
 ## layouts
 
@@ -53,4 +53,4 @@ Rassemble l'ensemble des éléments statiques du site:
 
 # Contributions
 
-Toute contribution est la bienvenue. Que ce soit sur la création de contenus, d'alimentation du site en information, de la remonter de bug ou fautes par des issues... n'hésitez pas. Au plaisir de vous lire. L'équipe de la MYNE
+Toute contribution est la bienvenue, Que ce soit sur la création des textes, le constat de bugs ou la correction des fautes. Au plaisir de vous lire !
