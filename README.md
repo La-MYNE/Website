@@ -53,4 +53,4 @@ Rassemble l'ensemble des éléments statiques du site:
 
 # Contributions
 
-Toute contribution est la bienvenue, Que ce soit sur la création des textes, le constat de bugs ou la correction des fautes. Au plaisir de vous lire !
+Toute contribution est la bienvenue, Que ce soit sur la création des textes, le constat de bugs ou la correction des fautes !
