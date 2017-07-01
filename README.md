@@ -1,8 +1,6 @@
-# Site de La MYNE (anciennement La Paillasse Saône)
+# [Site de La MYNE](http://lamyne.org) (anciennement La Paillasse Saône)
 
-Adresse: http://lamyne.org
-
-Ce dépôt GitHub est dédié aux composants du site internet de la MYNE. Afin de comprendre comment contribuer à l'alimentation de ce site internet, différents dossiers existent dans lesquels les fichiers sources du site peuvent être au choix modifiés ou ajoutés.
+Ce dépôt est dédié aux composants du site de la MYNE. Afin de comprendre comment contribuer à l'alimentation de ce site internet, différents dossiers existent dans lesquels les fichiers sources du site peuvent être au choix modifiés ou ajoutés.
 
 Les dossiers sont les suivants:
 * archetypes : https://github.com/La-MYNE/website/tree/master/archetypes
