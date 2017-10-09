@@ -1,5 +1,5 @@
 ---
-banner: /img/pyrocarb-thumbnail.jpg
+banner: /img/scoby.jpg
 categories: Projet
 contribute:
   skills:
