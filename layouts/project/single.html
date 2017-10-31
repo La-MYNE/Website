@@ -1,5 +1,5 @@
-{{ partial "head.html" . }}
-{{ partial "header.html" . }}
+{{ define "main" }}
+
 <section id = "page-project">
 <div class="hero-image ">
   <img  id="beggining" src="{{ .Params.banner }}" alt="{{ .Title }}"> </div>
@@ -160,5 +160,4 @@
 </section>
 
 </section>
-{{ partial "footer.html" . }}
-{{ partial "foot.html" . }}
+{{ end }}

@@ -1,5 +1,4 @@
-h{{ partial "head.html" . }}
-{{ partial "header.html" . }}
+{{ define "main" }}
 {{ partial "banner-hero.html" . }}
 
 <div class="row">
@@ -119,5 +118,4 @@ h{{ partial "head.html" . }}
 
 </div>
 
-{{ partial "footer.html" . }}
-{{ partial "foot.html" }}
+{{ end }}

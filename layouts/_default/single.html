@@ -1,5 +1,5 @@
-{{ partial "head.html" . }}
-{{ partial "header.html" . }}
+{{ define "main" }}
+
 {{ partial "banner-hero.html" . }}
 <section class="row" id="page-about">
    <section class="col s10 m5 offset-s1 l4">
@@ -49,5 +49,5 @@
 </section>
 
 
- {{ partial "footer.html" . }}
- {{ partial "foot.html" . }}
+ {{ end }}
+

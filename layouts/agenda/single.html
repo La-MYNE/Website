@@ -1,5 +1,4 @@
-{{ partial "head.html" . }}
-{{ partial "header.html" . }}
+{{ define "main" }}
 
 <div class="hero-image ">
   {{ range .Site.Params.banner.sections }}
@@ -37,4 +36,4 @@
 </div>
 </div>
 
-{{ partial "footer.html" }}
+{{ end }}

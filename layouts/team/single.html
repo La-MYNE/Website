@@ -1,4 +1,4 @@
-{{ partial "header.html" . }}
+{{ define "main" }}
 
 <div class="hero-image ">
   <img  id="beggining" src="{{ .Site.BaseURL }}img/{{ .Params.imgbg }}" alt="{{ .Title }}">
@@ -354,4 +354,4 @@
       </section>
 
 
-{{ partial "footer.html" }}
+{{ end }}
