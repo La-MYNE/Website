@@ -1,0 +1,41 @@
+{{ partial "head.html" . }}
+{{ partial "header.html" . }}
+<section id = "page-project">
+<div class="hero-image ">
+  <img  id="beggining" src="{{ .Params.banner }}" alt="{{ .Title }}"> </div>
+<div class="row">
+   <div class="col s12 m4">
+     <div class="card dark-grey">
+       <div class="card-content white-text">
+         <h1 class="card-title">{{ .Title }}</h1>
+         <div class ="row">
+         {{ range .Params.tags}}
+         <div class="chip">{{ . }}</div>
+         {{ end }}
+       </div>
+         <p> {{ .Description }} </p>
+
+<section class="entrepreneur">
+  <h2>Animateur(s)</h2>
+  <div class ="row">
+
+  <p>{{ .Params.animateur }}</p>
+
+</div>
+</section>
+
+<div class="row">
+  <h2> Quand? </h2>
+  <p>{{ .Params.eventdate }}</p>
+</div>
+
+      </div>
+</div>
+     </div>
+   <div class="col s12 m8">
+     <section id="pitch" class="container">{{ .Content }}</section>
+ </div>
+ </div>
+</section>
+{{ partial "footer.html" . }}
+{{ partial "foot.html" . }}

@@ -1,4 +1,4 @@
-h{{ partial "head.html" . }}
+{{ partial "head.html" . }}
 {{ partial "header.html" . }}
 {{ partial "banner-hero.html" . }}
 
@@ -97,12 +97,14 @@ h{{ partial "head.html" . }}
           <div class="row card-details">
             <p>{{ .Description }} </p>
         </div>
-        <div class="row center">{{ .Site.Params.more }}</div>
+        <div class="row center">
+        <a href="{{ .URL }}">En savoir Plus</a></li>
+       </div>
       </div>
       </div>
   </div>
   {{ end }}
-  {{ end }}
+  {{ end }}{ .Params.name }}
   </div>
 </div>
 </div>

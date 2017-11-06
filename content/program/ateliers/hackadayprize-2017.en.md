@@ -8,5 +8,4 @@ type : "exposition"
 logo : "/img/hackadayprize-2017.png"
 thumbnail : "/img/hackadayprize-2017-thumbnail.png"
 banner : "/img/hackadayprize-2017-banner.png"
-home : "yes"
 ---
