@@ -2,20 +2,24 @@
 title:
 type: project
 categories: Projet
-description:
+description: Ceci est la description de mon projet (moins de 140 mots)
 stade:
 tags:
 -
 -
 -
-banner:
-thumbnail:
+banner: /img/default-banner.png
+thumbnail: /img/default-thumbnail.png
 
 documentation:
 - link:
   name:
+- link:
+  name:
 
 porteurs:
+- image:
+  name:
 - image:
   name:
 
@@ -28,10 +32,16 @@ contribute:
   competence:
   - description:
     name:
+  - description:
+    name:
   financier:
   - description:
     name:
+  - description:
+    name:
   materiel:
+  - description:
+    name:
   - description:
     name:
 ---
