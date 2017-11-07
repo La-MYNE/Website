@@ -10,9 +10,6 @@ Languages:
     subtitle: Manufacture of Ideas and New Experiments
     catchline: "A Common(s) based Tiers-Lieu for Transitions - #TILIOS <br><br> A Space for Freedom, Experimentations<br> and Citizen Innovation"
     weight: 2
-    newsletter: Follow Newsletter | We're not intrusive
-    event: "Meet us"
-    news: Check our last news
     more: More
 
     menu:
@@ -39,40 +36,10 @@ Languages:
   #      weight: 4
     weight: 1
 
-    mission:
-      - title: "Open Spaces, Meeting and Sharing"
-        description: "Physical and virtual spaces for meeting, exchanging, sharing, working and experimentnig: The Seri[O]us Space - for Coworking, the N[O]t So Seri[O]us Space - for Cotalking, the Lab[O] - for experimentation, the Atel[I]er - for creation, th Garden - for permaculture' desires, and the Community."
-        picto: /img/picto-house.png
-        link: /en/program#accompagnement
-
-      - title: "Research, Experimentation and Prototyping"
-        description: "Research is at the heart of the activities that are supported by la MYNE: it's relying on free and open experimentation, within physical spaces and beyond. It's an undefined space for freedom and experimentation at the service of sustainable citizen projects."
-        picto: /img/picto-experiment.png
-        link: /en/program
-
-      - title: "Appropriation, Contribution and Autonomy"
-        description: "Autonomy through appropriation of sciences and technics, and world cmplexity along with doing and peer-to-peer learning is facilitated and enabled by everyone's contribution. Commons are both a value and a practice for empowerment : anyone can contribute and learn."
-        picto: /img/picto-fork.png
-        link: /contribute
-
-    catchlinehero:
-      - content: "'We all are born researcher in the sens of the one experimenting, testing and validating or not his/her hypethesis thourgh the experience of life, or the inventor who goes to the discovery of the possible' - L'Aventure Ordinaire, Yearly 2015 report from La Paillasse Saône."
-        calltoaction: Discover our program
-        link: /program
-
-    ecosystem:
-      - title: La MYNE and its ecosytem
-        content: "Acting local with a global strength !<br><br> Because the community of La MYNE is based on new forms of partnerships, collaboration and collective intelligence, it is part of a intimately interconnected ecosystem."
-
   fr:
     lang: fr
-    info: 'Ouverture au public le Mercredi à partir de 18h. Téléphone: 04 26 64 36 16'
     subtitle: Manufacture des Idées et des Nouvelles Expérimentations
     catchline: "Tiers-Lieu des Transitions par les Communs - #TILIOS<br><br> Un Espace de Liberté, d'Expérimentations<br> et d'Innovation Citoyenne"
-    weight: 2
-    newsletter: Suivez notre Newsletter | Notre communication est frugale
-    event: Retrouvez-nous
-    news: Dernières Actualités
     more: En Savoir Plus
     menu:
       main:
@@ -96,31 +63,6 @@ Languages:
   #      name: Agenda
   #      url: /agenda/
   #      weight: 4
-    mission:
-      - title: "Espaces, Rencontre et Partage ouverts"
-        description: "Des espaces, physiques et virtuels pour se rencontrer, échanger, partager, travailler et expérimenter: Le Seri[O]us Space - pour Coworker, le N[O]t So Seri[O]us Space - pour Coparler, le Lab[O] - pour expérimenter, l'Atel[I]er - pour créer, le Jardin - pour vos envies permacoles et la communauté."
-        picto: /img/picto-house.png
-        link: /program#accompagnement
-
-      - title: "Recherche, Expérimentation et Prototypage"
-        description: "La recherche au coeur des activités suportées par la MYNE: c'est un Laboratoire ouvert citoyen s'appuyant sur l'expérimentation libre et ouverte, au sein d'espaces physique et au delà. C'est un espace, non défini, de liberté et d'expérimentation au service des projet citoyens soutenables, par toutes et tous."
-        picto: /img/picto-experiment.png
-        link: /program
-
-      - title: "Appropriation, Contribution et Autonomisation"
-        description: "L'autonomisation par l'appropriation des sciences et techniques et de la complexité du monde, ainsi que par le faire et l'apprentissage pair-à-pair est facilitée et permise par la contribution de toutes et tous. Le commun sert ici tant de valeur que de pratique à la mise en capacité d'agir au sein de la communauté."
-        picto: /img/picto-fork.png
-        link: /contribute
-
-    catchlinehero:
-      - content: Nous sommes tous chercheurs et chercheuses nés au sens de l‘expérimentateur qui teste et valide ou invalide ses hypothèses au travers de l’expérience, ou de l’inventeur qui va à la découverte des possibles - L'Aventure Ordinaire, Rapport d'Activité 2015 La Paillasse Saône.
-        calltoaction: Découvrez notre programme
-        link: /program
-
-    ecosystem:
-      - title: La MYNE et son écosytème
-        content: La finesse du local, la force du global !<br><br> Parce que la communauté de la MYNE repose sur de nouveaux modes de partenariat, de collaboration et d’intelligence collective, elle s’inscrit dans un écosystème fortement interconnecté globalement et soudé localement.
-
 
 SectionPagesMenu:
 - main
@@ -211,7 +153,7 @@ params:
     title: youtube
     url: https://www.youtube.com/channel/UC-AkSeIOQf3-fscKmoXfmxA
 
-
+calendar: https://calendar.google.com/calendar/embed?showTitle=0&amp;mode=WEEK&amp;height=600&amp;wkst=2&amp;bgcolor=%23FFFFFF&amp;src=1es2mhb9dqbisemc5bbnpa1uo8%40group.calendar.google.com&amp;color=%23B1440E&amp;src=vp15sr8j80a0tee88ktcsalfos%40group.calendar.google.com&amp;color=%23AB8B00&amp;src=fr.french%23holiday%40group.v.calendar.google.com&amp;color=%23182C57&amp;src=e_2_fr%23weeknum%40group.v.calendar.google.com&amp;color=%2342104A&amp;ctz=Europe%2FParis3
 taxonomies:
   categorie: categories
   project: projects
