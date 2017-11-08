@@ -1,0 +1,11 @@
+---
+title: "We are the Projects"
+animateur: "Dianne Lenne"
+description: "Training courses to find your own life path after college or after an educational journey that raises questions."
+theme: "atelier"
+logo: "/img/wap-logo.png"
+thumbnail: "/img/wap-thumbnail.jpg"
+banner: "/img/wap-banner.png"
+categories: ["program"]
+type: atelier
+---

@@ -309,10 +309,6 @@ ul.menu_horizontal i {
   height: 160px;
 }
 
-.card {
-  max-width: 260px
-}
-
 #page-about .card {
   min-width: 100%
 }
