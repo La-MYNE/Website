@@ -2,12 +2,9 @@
 title:
 type: project
 categories: Projet
-description: Ceci est la description de mon projet (moins de 140 mots)
+description: "Ceci est la description de mon projet (moins de 140 mots)"
 stade:
-tags:
--
--
--
+tags: [tag1, tag2]
 banner: /img/default-banner.png
 thumbnail: /img/default-thumbnail.png
 

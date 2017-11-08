@@ -1,121 +1,31 @@
 {{ define "main" }}
+
 {{ partial "banner-hero.html" . }}
-
-<div class="row">
-  <div class="col s12">
-    <ul class="tabs">
-      {{ range where .Data.Pages ".Params.identifier" "!=" nil }}
-      <li class="tab col s3"><a href="#{{ .Params.identifier }}">{{ .Params.name }}</a></li>
-      {{ end }}
-    </ul>
-  </div>
-
-  <div id="masterclasses" class="col s12">
-    <div class="container">
-      <div class="row">
-        {{ range where .Data.Pages ".Params.identifier" "masterclasses" }}
-        {{ .Content }}
-        {{ end }}
-      </div>
-
-      <ul class="collapsible collection" data-collapsible="accordion">
-        <li>
-          <div class="collapsible-header">FrenchTech Ticket</div>
-          <div class="collapsible-body">
-            {{ range .Data.Pages }}
-              {{ if eq .Params.theme "Créer une start Up en France" }}
-              <ul>
-                <li class= "collection-item">{{ .Title }}</li>
-                </ul>
-              {{ end }}
-              {{ end }}
-          </div>
-          </li>
-
-          <li>
-            <div class="collapsible-header">Open Science</div>
-            <div class="collapsible-body">
-              {{ range .Data.Pages }}
-              {{ if eq .Params.theme "Open Science" }}
-              <ul>
-                <li class= "collection-item">{{ .Title }}</li>
-                </ul>
-              {{ end }}
-              {{ end }}
-            </div>
-            </li>
-
-            <li>
-              <div class="collapsible-header">Transdisciplinarité</div>
-              <div class="collapsible-body">
-                {{ range .Data.Pages }}
-                {{ if eq .Params.theme "Transdisciplinarité" }}
-                <ul>
-                  <li class= "collection-item">{{ .Title }}</li>
-                  </ul>
-                {{ end }}
-                {{ end }}
-              </div>
-              </li>
-
-              <li>
-                <div class="collapsible-header">Prendre le pouvoir</div>
-                <div class="collapsible-body">
-                  {{ range .Data.Pages }}
-                  {{ if eq .Params.theme "Prendre le pouvoir" }}
-                  <ul>
-                    <li class= "collection-item">{{ .Title }}</li>
-                    </ul>
-                  {{ end }}
-                  {{ end }}
-                </div>
-              </li>
-
-              </ul>
-  </div>
-</div>
-
-<div id="ateliers" class="col s12">
-<div class="container">
-  {{ range where .Data.Pages ".Params.identifier" "ateliers" }}
-  {{ .Content }}
-  {{ end }}
+<section class ="container">
+  <div class="row">
   <div class="grid">
     <!-- .grid-sizer empty element, only used for element sizing -->
-    <div class="grid-sizer"></div>
+    <div class="grid-sizer "></div>
     {{ range .Data.Pages }}
-    {{ if eq .Params.theme "atelier" }}
     <div class="grid-item">
       <div class="card card-agenda">
         <div class="card-image">
-          <img src="{{ .Params.thumbnail }}" alt="thumbnail">
+          <img class="responsive-img" src="{{ .Params.thumbnail }}" alt="thumbnail">
         </div>
         <div class="card-content">
-          <div class="kind">{{ .Params.theme }}</div>
-          <div class="card-agenda-title">{{ .Title }}</div>
+          <div class="kind"> {{ .Type }}</div>
+          <div class="card-agenda-title">{{ .Title | title }}  </div>
           <div class="row card-details">
             <p>{{ .Description }} </p>
         </div>
-        <div class="row center">{{ .Site.Params.more }}</div>
+        <div class="row center"><a class="btn" href='{{ .URL }}'>{{ .Site.Params.more }}</a></div>
       </div>
       </div>
   </div>
   {{ end }}
-  {{ end }}
-  </div>
-</div>
-</div>
 
-<div id="accompagnement" class="col s12">
-  <div class="container">
-    <div class="row">
-      {{ range where .Data.Pages ".Params.identifier" "accompagnement" }}
-      {{ .Content }}
-      {{ end }}
     </div>
   </div>
-</div>
-
-</div>
+</section>
 
 {{ end }}

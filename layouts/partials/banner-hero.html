@@ -1,12 +1,7 @@
 <div class="banner-hero">
 <div class="parallax-container valign-wrapper">
   <div class="parallax">
-    {{ $1 := .Title }}
-    {{ range .Site.Params.banner.sections }}
-    {{ if eq .name  $1 }}
-    <img src="{{ .image }}" alt="{{ .name }}">
+    <img src="{{ .Params.banner }}" alt="{{ .Title }}">
   </div>
-  {{ end }}
-  {{ end }}
 </div>
 </div>

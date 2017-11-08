@@ -1,9 +1,10 @@
 {{ define "main" }}
 
 {{ partial "banner-hero.html" . }}
-
 <section class ="container">
   <div class="row">
+    <h1>{{ .Title }}</h1>
+    <p> {{ .Content }}</p>
   <div class="grid">
     <!-- .grid-sizer empty element, only used for element sizing -->
     <div class="grid-sizer "></div>
