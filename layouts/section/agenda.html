@@ -1,39 +1,72 @@
 {{ define "main" }}
-{{ partial "banner-hero.html" . }}
 
-<div class="container">
-<div class="row">
-      {{ range .Data.Pages.ByDate }}
-    <div class="col m6 l4">
-      <div class="card card-small">
+{{ partial "banner-hero.html" . }}
+<section class ="container">
+  <div class="row">
+    <h1>{{ .Title }}</h1>
+    <p> {{ .Content }}</p>
+  </div>
+
+  <div class="row">
+    <h2>Retrouvez nous regulierement pour:</h2>
+  <div class="grid">
+    <!-- .grid-sizer empty element, only used for element sizing -->
+    <div class="grid-sizer "></div>
+    {{ range where .Data.Pages ".Params.recurring" "yes" }}
+    <div class="grid-item">
+      <div class="card card-agenda">
         <div class="card-image">
-          <img src="{{ .Params.thumbnail }}">
+          <img class="responsive-img" src="{{ .Params.thumbnail }}" alt="thumbnail">
         </div>
         <div class="card-content">
-          <div class="kind">{{ .Params.kind }}</div>
-          <div class="card-agenda-title">{{ .Title }}</div>
+          <div class="kind"> {{ .Type }}</div>
+          <div class="card-agenda-title">{{ .Title | title }}  </div>
           <div class="row card-details">
-
-            <p>{{ .Params.place }}</p>
-            <p>{{ .Params.city }}</p>
-
-           <div class="col s8">
-            <p>{{ .Date | time }}</p>
-            <p>{{ .Params.end | time }}</p>
-          </div>
-
-          <div class="col s4">
-            <p>{{ .Weight }}</p>
-            <p>{{ .Params.time }}</p>
-          </div>
-
+            <p>{{ .Description }} </p>
         </div>
-        <div class="row center">{{ .Site.Params.more }}</div>
+        <div class="row center"><a class="btn" href='{{ .URL }}'>{{ .Site.Params.more }}</a></div>
       </div>
       </div>
+  </div>
+  {{ end }}
+    </div>
+  </div>
+
+  <div class="row">
+    <h2>Ou pour nos prochaines rencontres:</h2>
+    <div class="grid">
+      <!-- .grid-sizer empty element, only used for element sizing -->
+      <div class="grid-sizer "></div>
+      {{ range where .Data.Pages ".Params.recurring" "no"  }}
+      {{ if isset .Params "start" }}
+      {{$time := time .Params.start}}
+      <div class="grid-item">
+        <div class="card card-agenda">
+          <div class="card-image">
+            <div class=" btn-date">
+              <p class="jour">{{ $time.Day }}</p>
+              <p class="mois">{{ $time.Month }}</p>
+            </div>
+            <img class="responsive-img" src="{{ .Params.thumbnail }}" alt="thumbnail">
+          </div>
+          <div class="card-content">
+            <div class="kind"> {{ .Type }}</div>
+            <div class="card-agenda-title">{{ .Title | title }}  </div>
+            <div class="row card-details">
+              <p>{{ .Description }} </p>
+              <div class="divider"></div>
+              <div class=row>
+                <p>{{ .Params.start | dateFormat "Monday, 2. Jan. 2006"}}</p>
+              </div>
+          </div>
+          <div class="row center"><a class="btn" href='{{ .URL }}'>{{ .Site.Params.more }}</a></div>
+        </div>
+        </div>
     </div>
     {{ end }}
-</div>
-</div>
+    {{ end }}
+      </div>
+
+</section>
 
 {{ end }}

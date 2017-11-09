@@ -285,6 +285,38 @@ ul.menu_horizontal i {
   margin-left: 15px;
 }
 
+.btn-date {
+  display: inline-block;
+  color: #fff;
+  position: absolute;
+  overflow: hidden;
+  z-index: 1;
+  left: 80%;
+  top: 10%;
+  width: 60px;
+  height: 60px;
+  line-height: 40px;
+  padding: 0;
+  background-color: #26a69a;
+  border-radius: 50%;
+  transition: .3s;
+  cursor: pointer;
+  vertical-align: middle;
+}
+
+.btn-date .jour {
+  position: relative;
+  top: -25%;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.btn-date .mois {
+  position: relative;
+  top: -80%;
+  text-align: center;
+}
+
 .card-title {
   text-align: center;
   padding: 0;
