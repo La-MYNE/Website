@@ -2,12 +2,18 @@
 title : "Civic Tech - la politique comme commun"
 tags : [ "comnmun", "politique", "civic tech"]
 categories : ["program"]
-type: "masterclass"
 startdate: 2017-11-01
 enddate: 2017-11-01
-startime: 18:30:00+02:00
+starttime: 18:30:00+02:00
 endtime: 20:30:00+02:00
-animateur : ["Sylvia Fredriksson", "Alexandre Monnin"]
+tarif: "adhesion a la myne, 2e/an"
+thumbnail: /img/masterclass-civic-tech-thumbnail.jpg
+banner: /img/default-banner.png
+porteurs:
+- image: /img/avatar.jpg
+  name: Sylvia Fredriksson
+- image: /img/avatar.jpg
+  name: Alexandre Monnin
 description : "Dans un dialogue mené par Sylvia Fredriksson avec Alexandre Monnin, il est question de la politique comme commun - Processus, Infrastructures, Échelles et Controverses."
 documentation:
 - link: https://pad.lamyne.org/s/rkUuQYhaZ#
@@ -15,11 +21,14 @@ documentation:
 - link: https://www.youtube.com/watch?v=Pn9_q9h6JiI
   name: Live Stream
 - link: https://www.facebook.com/events/1516396091742213
-  name: facebook
-thumbnail: /img/masterclass-civic-tech-thumbnail.jpg
-banner: /img/default-banner.png
+  name: annonce
+ressources:
+- link: http://www.booksandideas.net/IMG/pdf/2017_07_06_civic-tech.pdf
+  name: Clément Mabi - Citizen Hacker (typologie de la civictech)
+- link: http://www.remixthecommons.org/2015/04/atlas-interactif-des-chartes-des-communs-urbains/
+  name: Charte des communs par le collectif remix the commons
+recurring: "no"
 ---
-
 Dans le cadre de la programmation des Masterclasse à la MYNE, et ici plus spécifiquement dans le cadre du Programme French Tech Ticket, nous vous convions à une Masterclasse CivicTech sur "La politique comme commun - Processus, Infrastructures, Échelles et Controverses." mené par Sylvia Fredriksson en dialogue avec Alexandre Monnin
 
 Sylvia est designer et chargée de recherche à la Cité du design de Saint-Étienne, porte des projets dédiés à la valorisation des communs et travaille autour des enjeux d’appropriation citoyenne des technologies et des cultures numériques comme levier d’émancipation de la société civile.

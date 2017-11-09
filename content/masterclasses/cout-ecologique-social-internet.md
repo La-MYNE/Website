@@ -14,6 +14,7 @@ enddate: 2017-11-24
 startime: 12:00:00+02:00
 endtime: 14:00:00+02:00
 home: "yes"
+recurring: "no"
 ---
 Félix Tréguer est membre fondateur de La Quadrature du Net - association de défense des libertés publiques à l’ère numérique. Gaël Trouvé est cofondateur de Scolopendre - hackerspace visant une réappropriation citoyenne de la gestion des déchets électroniques.
 

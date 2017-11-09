@@ -1,6 +1,7 @@
 ---
 title : "Masterclasses et Conferences"
 banner: /img/program-banner.jpg
+foo: "bar"
 ---
 
 Alors que l’échange de connaissances constitue à la MYNE la base de la réappropriation des techniques et des sciences, deux rencontres par mois sont proposés aux membres et aux personnes extérieures de la communauté.

@@ -7,4 +7,5 @@ type: "masterclass"
 theme : "Transdisciplinarité"
 thumbnail: /img/default-thumbnail.png
 banner: /img/default-banner.png
+recurring: "no"
 ---

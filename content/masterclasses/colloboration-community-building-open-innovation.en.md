@@ -13,4 +13,5 @@ startdate: 2017-10-24
 enddate: 2017-10-24
 startime: 12:00:00+02:00
 endtime: 14:00:00+02:00
+recurring: "no"
 ---

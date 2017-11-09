@@ -1,0 +1,65 @@
+{{ define "main" }}
+
+<section id = "page-project">
+  <div class="hero-image ">
+    <img src="{{ .Params.banner }}" alt="{{ .Title }}"> </div>
+    <div class="row">
+      <div class="col s12 m4">
+        <div class="card dark-grey">
+          <div class="card-content white-text">
+            <h1 class="card-title">{{ .Title }}</h1>
+            <div class ="row">
+              {{ range .Params.tags}}
+              <div class="chip">{{ . }}</div>
+              {{ end }}
+            </div>
+            <p> {{ .Description }} </p>
+            <div class="row">
+              <h2>Quand?</h2>
+              <p>le {{ .Params.startdate}}</p>
+              <p>de {{ .Params.starttime}} a {{ .Params.endtime}}</p>
+            </div>
+
+            <section class="entrepreneur">
+              <h2>Porteurs du Projet</h2>
+              <div class ="row">
+                {{ range .Params.porteurs }}
+                <div class="col s4 m5 l3 center">
+                  <figure class="avatar" style='background-image: url("{{ .image }}");background-size:cover;background-repeat:none'></figure>
+
+                </div>
+                {{ end }}
+              </div>
+            </section>
+
+            <section class = "row">
+              <h2>Ressources</h2>
+              <ul>
+                {{ range .Params.documentation}}
+                <li><a class="text-light-grey" href="{{ .link }}">{{ .name }}</a></li>
+                {{ end }}
+              </ul>
+            </section>
+          </div>
+        </div>
+      </div>
+
+      <div class="col s12 m8">
+        <section class="container">{{ .Content }}</section>
+      </div>
+ </div>
+ <section class="container">
+   <div class=row>
+     <h2>Les prochains ateliers</h2>
+     {{ range where .Site.Taxonomies.categories.program ".Params.atelier" "mynikids"}}
+   {{ .Title }}
+ {{ else }}
+ <p>Pas d'ateliers contactez-nous</p>
+   {{ end }}
+   </div>
+ </section>
+ <section id="documentation" class="container scrollspy">
+   <h2>Documentation</h2>
+ </section>
+</section>
+{{ end }}
