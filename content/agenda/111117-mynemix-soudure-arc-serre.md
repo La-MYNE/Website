@@ -3,7 +3,7 @@ title: "Myne Mix - Atelier Soudure à l'Arc & Chantier Grande Serre"
 child: ["mynalab", "soudurearc"]
 categories: ["program"]
 start: 2017-11-11T14:30:00+02:00
-end: "2016-09-09T18:30:00+02:00"
+end: 2017-11-11T18:30:00+02:00
 logo: "/img/apero-projet-logo.png"
 thumbnail: "/img/apero-projet-logo.png"
 place: "La MYNE"

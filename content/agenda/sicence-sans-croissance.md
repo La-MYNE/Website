@@ -1,20 +1,17 @@
 ---
 title : "Pour une science sans croissance ? Débat avec Fabrice Flipo"
-animateur : "Fabrice Flipo - Valentine Porche"
+porteurs:
+- image: /img/avatar.jpg
+  name: Fabrice Flipo
+- image: /img/avatar.jpg
+  name: Valentine Porche
 description : "La MYNE invite à questionner les finalités de la recherche scientifique à l'occasion d'un apéro-débat avec Fabrice Flipo."
 logo : "/img/science-sans-croissance.jpg"
 thumbnail : "/img/science-sans-croissance.jpg"
 banner : "/img/science-sans-croissance-banner.png"
-theme : "atelier"
-type : "program"
-eventdate: "14 Novembre, 18h20 - 20h00"
-startdate: 2017-11-14T23:29:49-06:00
-enddate: 2017-11-14
-startime: 18:20:00+02:00
-endtime: 20:00:00+02:00
+start: 2017-11-14T18:20:00+02:00
+end: 2017-11-14T20:00:00+02:00
 categories: ["program"]
-home: "yes"
-recurring: "no"
 ---
 
 Philosophe, chercheur et administrateur de l'association Sciences Citoyennes, Fabrice Flipo travaille sur une anthropologie de la modernité et de la globalisation, croisant des réflexions sur les relations internationales, le service public, le développement durable, la décroissance et l’écologie des infrastructures numériques. Il a notamment publié les ouvrages "Nature et politique" (Amsterdam, 2014), "Réenchanter le monde. Anthropologie politique de l’émancipation" (Le Croquant, 2016), et plus récemment "Décroissance, ici et maintenant !" (Le passager clandestin, 2017).

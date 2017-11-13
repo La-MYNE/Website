@@ -12,7 +12,7 @@
   <div class="grid">
     <!-- .grid-sizer empty element, only used for element sizing -->
     <div class="grid-sizer "></div>
-    {{ range where .Data.Pages ".Params.recurring" "yes" }}
+    {{ range where .Site.Taxonomies.categories.program  ".Params.recurring" "yes" }}
     <div class="grid-item">
       <div class="card card-agenda">
         <div class="card-image">
@@ -28,7 +28,8 @@
       </div>
       </div>
   </div>
-  {{ end }}
+
+  {{end }}
     </div>
   </div>
 
@@ -37,9 +38,10 @@
     <div class="grid">
       <!-- .grid-sizer empty element, only used for element sizing -->
       <div class="grid-sizer "></div>
-      {{ range where .Data.Pages ".Params.recurring" "no"  }}
+      {{ range .Data.Pages }}
       {{ if isset .Params "start" }}
       {{$time := time .Params.start}}
+      {{ if ge $time now}}
       <div class="grid-item">
         <div class="card card-agenda">
           <div class="card-image">
@@ -65,6 +67,47 @@
     </div>
     {{ end }}
     {{ end }}
+    {{ end }}
+      </div>
+    </div>
+
+    <div class="row">
+      <h2>Retrouvez nos anciens evenements</h2>
+      <div class="grid">
+        <!-- .grid-sizer empty element, only used for element sizing -->
+        <div class="grid-sizer "></div>
+        {{ range .Data.Pages  }}
+        {{ if isset .Params "start" }}
+        {{$time := time .Params.start}}
+        {{ if lt $time now}}
+        <div class="grid-item">
+          <div class="card card-agenda">
+            <div class="card-image">
+              <div class=" btn-date">
+                <p class="jour">{{ $time.Day }}</p>
+                <p class="mois">{{ $time.Month }}</p>
+              </div>
+              <img class="responsive-img" src="{{ .Params.thumbnail }}" alt="thumbnail">
+            </div>
+            <div class="card-content">
+              <div class="horaire">blabla</div>
+              <div class="kind"> {{ .Type }}</div>
+              <div class="card-agenda-title">{{ .Title | title }}  </div>
+              <div class="row card-details">
+                <p>{{ .Description }} </p>
+                <div class="divider"></div>
+                <div class=row>
+                  <p>{{ .Params.start | dateFormat "Monday, 2. Jan. 2006"}}</p>
+                </div>
+            </div>
+            <div class="row center"><a class="btn" href='{{ .URL }}'>{{ .Site.Params.more }}</a></div>
+          </div>
+          </div>
+      </div>
+      {{ end }}
+      {{ end }}
+      {{ end }}
+        </div>
       </div>
 
 </section>

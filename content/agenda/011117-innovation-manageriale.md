@@ -1,8 +1,8 @@
 ---
 title: "Atelier | Séminaire : L’innovation managériale - David Vallat"
 categories: ["program"]
-start: 2017-11-01T09:00:00+02:00
-end: "2017-11-01T12:00:00+02:00"
+start: 2017-11-01T14:48:23.864Z
+end: 2017-11-01T14:48:23.864Z
 thumbnail: "/img/defaul-thumbnail.png"
 banner: "/img/default-banner.png"
 place: "La MYNE"

@@ -2,10 +2,8 @@
 title : "Civic Tech - la politique comme commun"
 tags : [ "comnmun", "politique", "civic tech"]
 categories : ["program"]
-startdate: 2017-11-01
-enddate: 2017-11-01
-starttime: 18:30:00+02:00
-endtime: 20:30:00+02:00
+start: 2017-11-01T18:30:00+02:00
+end: 2017-11-01T20:30:00+02:00
 tarif: "adhesion a la myne, 2e/an"
 thumbnail: /img/masterclass-civic-tech-thumbnail.jpg
 banner: /img/default-banner.png

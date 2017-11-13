@@ -285,6 +285,26 @@ ul.menu_horizontal i {
   margin-left: 15px;
 }
 
+.horaire {
+  background: #ededed;
+  max-width: 50%;
+  position: absolute;
+  margin-top: -30px;
+  top: 35%;
+  right: 0px;
+  border-bottom-right-radius: 3px;
+  border-top-right-radius: 3px;
+  font-size: 0.75rem;
+  font-weight: 500;
+  line-height: 24px;
+  text-transform: uppercase;
+  padding: 0 10px;
+  display: block;
+  float: left;
+  height: 34px;
+  color: #fff;
+}
+
 .btn-date {
   display: inline-block;
   color: #fff;

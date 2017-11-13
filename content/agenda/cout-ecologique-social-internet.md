@@ -1,20 +1,18 @@
 ---
 title : "Le coût écologique et social d'Internet : Déjeuner-débat"
-animateur : "Félix Tréguer - Gaël Trouvé - Valentine Porche"
+start: 2017-11-24T12:00:00+02:00
+end: 2017-11-24T14:00:00+02:00
+porteurs :
+  - name: Félix Tréguer
+    image:
+  - name: Gaël Trouvé
+    image:
+  - name: Valentine Porche
+    image:
 description : "Félix Tréguer et Gaël Trouvé discutent des coûts écologiques et humain d'Internet, et des alternatives possibles pour développer un Internet low-tech, résilient, pertinent et souhaitable."
 logo : "/img/cout-ecologique-social-internet.jpg"
 thumbnail : "/img/cout-ecologique-social-internet.jpg"
 banner : "/img/cout-ecologique-social-internet-banner.png"
-theme : "atelier"
-type : "program"
-section: "program"
-eventdate: "24 Novembre, 12h-14h"
-startdate: 2017-11-24
-enddate: 2017-11-24
-startime: 12:00:00+02:00
-endtime: 14:00:00+02:00
-home: "yes"
-recurring: "no"
 ---
 Félix Tréguer est membre fondateur de La Quadrature du Net - association de défense des libertés publiques à l’ère numérique. Gaël Trouvé est cofondateur de Scolopendre - hackerspace visant une réappropriation citoyenne de la gestion des déchets électroniques.
 

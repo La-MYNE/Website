@@ -1,7 +1,4 @@
 ---
-date : "2016-09-09T17:00:00+02:00"
-end : "2016-09-09T18:30:00+02:00"
-time : "-2100"
 thumbnail : "/img/cocooning-project-thumbnail.png"
 logo : "/img/cocooning-projet-logo.jpg"
 title : " Cocooning Project "

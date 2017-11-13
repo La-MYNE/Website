@@ -1,7 +1,4 @@
 ---
-date: "2016-09-09T10:00:00+02:00"
-end: "2016-09-09T19:30:00+02:00"
-time : "21:00"
 logo: "/img/apero-projet-logo.png"
 thumbnail: "/img/apero-projet-logo.png"
 title: "Apéros Projets"
