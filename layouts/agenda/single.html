@@ -1,39 +1,73 @@
 {{ define "main" }}
 
-<div class="hero-image ">
-  {{ range .Site.Params.banner.sections }}
-  {{ if eq .name  "Agendas" }}
-  <img src="{{ .image }}" alt="Agendas">
-  {{ end }}
-  {{ end }}
-</div>
-
-
-<div class="container">
-<div class="row">
-      {{ range .Site.Data.events.ByDate }}
-    <div class="col s6 m4">
-      <div class="card card-small">
-        <div class="card-image">
-          <img src="{{ .image }}">
-        </div>
-        <div class="card-content">
-          <div class="kind">{{ .kind }}</div>
-          <div class="card-agenda-title">{{ .title }}</div>
-          <div class="row card-details">
-          <div class="col s6">
-            <p>{{ .place }}</p>
-            <p>{{ .city }}</p>
+<section>
+  <div class="hero-image ">
+    <img src="{{ .Params.banner }}" alt="{{ .Title }}"> </div>
+    <div class="row">
+      <div class="col s12 m4">
+        <div class="card dark-grey">
+          <div class="card-content white-text">
+            <h1 class="card-title">{{ .Title }}</h1>
+            <div class ="row">
+              {{ range .Params.tags}}
+              <div class="chip">{{ . }}</div>
+              {{ end }}
+            </div>
+            <div class="row">
+            <p>{{ .Description }}</p>
           </div>
-          <div class="col s6">
+            <div class="row">
+              <h2>Quand?</h2>
+              {{$start := time .Params.start}}
+              {{$end := time .Params.end}}
+              <p>le {{ $start.Day }} {{ $start.Month }} {{ $start.Year }}</p>
+              <p>de {{ $start.Hour }} : {{ $start.Minute }} a {{ $end.Hour }}:{{ $end.Minute }}</p>
+            </div>
+            <div class="row">
+              <h2>Ou?</h2>
+              <p>{{ .Params.location}}</p>
+            </div>
+
+            <section class="entrepreneur">
+              <h2>Porteurs du Projet</h2>
+              <div class ="row">
+                {{ range .Params.porteurs }}
+                <div class="col s4 m5 l3 center">
+                  <figure class="avatar" style='background-image: url("{{ .image }}");background-size:cover;background-repeat:none'></figure>
+
+                </div>
+                {{ end }}
+              </div>
+            </section>
+
+            <section class = "row">
+              <h2>Ressources</h2>
+              <ul>
+                {{ range .Params.documentation}}
+                <li><a class="text-light-grey" href="{{ .link }}">{{ .name }}</a></li>
+                {{ end }}
+              </ul>
+            </section>
           </div>
         </div>
-        <div class="row center">{{ .Site.Params.more }}</div>
       </div>
-      </div>
-    </div>
-    {{ end }}
-</div>
-</div>
 
+      <div class="col s12 m8">
+        <section class="container">{{ .Content }}</section>
+      </div>
+ </div>
+ <section class="container">
+   <div class=row>
+     <h2>Les prochains ateliers</h2>
+     {{ range where .Site.Pages ".Params.atelier" "mynikids"}}
+   {{ .Title }}
+ {{ else }}
+ <p>Pas d'ateliers contactez-nous</p>
+   {{ end }}
+   </div>
+ </section>
+ <section id="documentation" class="container scrollspy">
+   <h2>Documentation</h2>
+ </section>
+</section>
 {{ end }}

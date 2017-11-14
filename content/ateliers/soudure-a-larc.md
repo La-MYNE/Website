@@ -9,5 +9,5 @@ banner : "/img/soudure-banner.jpg"
 categories: ["program"]
 type: atelier
 recurring: "no"
-parent: soudurearc
+identifier: soudure-arc
 ---
