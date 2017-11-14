@@ -19,7 +19,7 @@ step3:
   name: Développer son projet de recherche avec son parrain
   picto: /img/picto-fork.png
   subset:
-  - name: Etat de art
+  - name: Etat de l'art
   - name: ' Prototypage et Expérimentation'
   - name: Documentation
 title: Devenir porteur de projet en 3 étapes
