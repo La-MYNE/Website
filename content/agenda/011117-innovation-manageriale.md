@@ -1,6 +1,6 @@
 ---
 title: "Atelier | Séminaire : L’innovation managériale - David Vallat"
-categories: ["program"]
+categories: ["events"]
 start: 2017-11-01T14:48:23.864Z
 end: 2017-11-01T14:48:23.864Z
 thumbnail: "/img/defaul-thumbnail.png"

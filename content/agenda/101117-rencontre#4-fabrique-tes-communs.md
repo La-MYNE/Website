@@ -1,7 +1,7 @@
 ---
 title: "Rencontre #4 Fabrique tes communs !"
 child: ["fabriquedescommuns"]
-categories: ["program"]
+categories: ["events"]
 start: 2017-11-10T18:00:00+02:00
 end: 2017-11-10T20:30:00+02:00
 thumbnail: "/img/defaul-thumbnail.png"

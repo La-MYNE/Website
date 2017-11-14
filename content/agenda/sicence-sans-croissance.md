@@ -11,7 +11,7 @@ thumbnail : "/img/science-sans-croissance.jpg"
 banner : "/img/science-sans-croissance-banner.png"
 start: 2017-11-14T18:20:00+02:00
 end: 2017-11-14T20:00:00+02:00
-categories: ["program"]
+categories: ["events"]
 events: ["masterclass"]
 ---
 

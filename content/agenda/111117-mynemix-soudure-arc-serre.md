@@ -1,7 +1,7 @@
 ---
 title: "Myne Mix - Atelier Soudure à l'Arc & Chantier Grande Serre"
 child: ["mynalab", "soudurearc"]
-categories: ["program"]
+categories: ["events"]
 start: 2017-11-11T14:30:00+02:00
 end: 2017-11-11T18:30:00+02:00
 logo: "/img/apero-projet-logo.png"
@@ -13,6 +13,6 @@ kind: "Atelier"
 link: " "
 description: "Samedi c'est Myne Mix Extérieur: Atelier Soudure à l'arc avec Abel, qui permettra de monter la structure de la grande serre pour mettre au chaud les plantations! On finalise la serre dimanche si besoin (ou si pluie samedi)"
 recurring: "yes"
-events: ["masterclass"]
+events: ["atelier"]
 parent: [soudure-arc, mynemix]
 ---

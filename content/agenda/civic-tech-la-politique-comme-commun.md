@@ -1,7 +1,7 @@
 ---
 title : "Civic Tech - la politique comme commun"
 tags : [ "comnmun", "politique", "civic tech"]
-categories : ["program"]
+categories: ["events"]
 start: 2017-11-01T18:30:00+02:00
 end: 2017-11-01T20:30:00+02:00
 tarif: "adhesion a la myne, 2e/an"

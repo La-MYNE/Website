@@ -1,7 +1,7 @@
 ---
 title : "Créer sa start-up en France"
 tags : [ "Agriculture", "Autonomie", "Art"]
-categories : ["program"]
+categories: ["events"]
 slug : "creer-sa-startup-en-france"
 animateur : "Avocat ADERLY CCI"
 description : "aspects culturels, relations commerciales avec les grands groupes…"

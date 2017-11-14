@@ -1,6 +1,6 @@
 ---
 title: "Le Tiers-Lieux est mort ? Vivent les Tiers-Lieux !"
-categories: ["program"]
+categories: ["events"]
 start: 2017-11-01T14:00:00+02:00
 end: 2017-11-01T17:00:00+02:00
 thumbnail: "/img/defaul-thumbnail.png"

@@ -59,7 +59,8 @@
  <section class="container">
    <div class=row>
      <h2>Les prochains ateliers</h2>
-     {{ range where .Site.Pages ".Params.atelier" "mynikids"}}
+     $identifier := .Params.identifier
+     {{ range where .Site.Pages ".Params.parent" "$identifier"}}
    {{ .Title }}
  {{ else }}
  <p>Pas d'ateliers contactez-nous</p>

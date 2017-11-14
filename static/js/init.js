@@ -8,7 +8,7 @@
 })(jQuery); // end of jQuery name space
 
 
-$('.grid').isotope({
+var $grid = $('.grid').isotope({
   itemSelector: '.grid-item',
   percentPosition: true,
   masonry: {
@@ -17,6 +17,21 @@ $('.grid').isotope({
     gutter: 30
   }
 })
+
+// external js: isotope.pkgd.js
+
+// init Isotope
+
+// bind filter button click
+$('.filters-button-group').on( 'click', 'button', function() {
+  var filterValue = $( this ).attr('data-filter');
+  $grid.isotope({ filter: filterValue });
+});
+
+
+
+
+
 
 
 $(document).ready(function(){
@@ -46,23 +61,6 @@ $('.nav-pin').pushpin({ top:$('#beggining').height() });
 $(document).ready(function(){
     $('.scrollspy').scrollSpy();
   });
-
-
-  // external js: isotope.pkgd.js, imagesloaded.pkgd.js
-
-  // init Isotope
-  var $grid = $('.grid-img').isotope({
-    itemSelector: '.grid-img-item',
-    percentPosition: true,
-    masonry: {
-      columnWidth: '.grid-img-sizer'
-    }
-  });
-  // layout Isotope after each image loads
-  $grid.imagesLoaded().progress( function() {
-    $grid.isotope('layout');
-  });
-
 
 
 

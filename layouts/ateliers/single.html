@@ -13,13 +13,7 @@
               <div class="chip">{{ . }}</div>
               {{ end }}
             </div>
-            <p> {{ .Description }} </p>
-            <div class="row">
-              <h2>Quand?</h2>
-              <p>le {{ .Params.startdate}}</p>
-              <p>de {{ .Params.starttime}} a {{ .Params.endtime}}</p>
-            </div>
-
+            <p>{{ .Description }}</p>
             <section class="entrepreneur">
               <h2>Porteurs du Projet</h2>
               <div class ="row">
@@ -51,7 +45,7 @@
  <section class="container">
    <div class=row>
      <h2>Les prochains ateliers</h2>
-     {{ range where .Site.Taxonomies.categories.program ".Params.atelier" "mynikids"}}
+     {{ range where .Site.Pages ".Params.atelier" "mynikids"}}
    {{ .Title }}
  {{ else }}
  <p>Pas d'ateliers contactez-nous</p>
