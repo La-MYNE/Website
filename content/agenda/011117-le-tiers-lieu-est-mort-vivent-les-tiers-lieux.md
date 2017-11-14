@@ -10,6 +10,7 @@ adresse: "1 Rue Croix de Luizet, 69100 Villeurbanne"
 people: ["Antoine Burret"]
 link: " "
 description: "Une après-midi de travail et de discussion sur les Tiers-Lieux"
+events: ["masterclass"]
 ---
 
 Entre l'atelier de David Vallat le matin et la Masterclasse de Sylvia Fredriksson en soirée (avec Alexandre Monnin en invité surprise), nous vous proposons une après-midi de travail et de discussion avec Antoine Burret en invité autour de la politique et technique du rassemblement, en espérant pouvoir avoir les zamis stéphanois notamment Yoann Duriaux

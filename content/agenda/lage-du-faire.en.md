@@ -13,4 +13,5 @@ home : "yes"
 categories: ["program"]
 type : "Masterclass"
 recurring: "no"
+events: ["masterclass"]
 ---

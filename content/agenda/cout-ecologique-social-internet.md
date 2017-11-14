@@ -13,6 +13,7 @@ description : "Félix Tréguer et Gaël Trouvé discutent des coûts écologique
 logo : "/img/cout-ecologique-social-internet.jpg"
 thumbnail : "/img/cout-ecologique-social-internet.jpg"
 banner : "/img/cout-ecologique-social-internet-banner.png"
+events: ["masterclass"]
 ---
 Félix Tréguer est membre fondateur de La Quadrature du Net - association de défense des libertés publiques à l’ère numérique. Gaël Trouvé est cofondateur de Scolopendre - hackerspace visant une réappropriation citoyenne de la gestion des déchets électroniques.
 

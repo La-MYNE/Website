@@ -10,6 +10,7 @@ adresse: "1 Rue Croix de Luizet, 69100 Villeurbanne"
 people: ["David Vallat"]
 link: " "
 description: "Atelier de co-création sur l’innovation managériale dans un tiers lieu (la Fabrique de l’innovation de l’Université de Lyon). Il y aura quelques surprises par rapport au programme."
+events: ["masterclass"]
 ---
 
 Atelier de co-création / séminaire sur l’innovation managériale dans un tiers lieu (la Fabrique de l’innovation de l’Université de Lyon) le 01/11 matin (tout le détail est dans l’invitation jointe). Il y aura quelques surprises par rapport au programme.
@@ -23,7 +24,7 @@ En deux mots il s’agit :
 
 3) d’explorer ensemble des voies allant dans ce sens notamment autour de l’expérience des tiers-lieux.
 
-Il s’agit de mixer un public large (fondateurs et usagers de tiers-lieux, chercheurs, entrepreneurs, etc.). L’entrée est libre. Vous pouvez convier qui vous voulez. Il y a juste une limite de places -
+Il s’agit de mixer un public large (fonstarturs et usagers de tiers-lieux, chercheurs, entrepreneurs, etc.). L’entrée est libre. Vous pouvez convier qui vous voulez. Il y a juste une limite de places -
 d’où la nécessité de s’inscrire dans le document joint https://www.eventbrite.fr/e/billets-manager-autrement-manager-en-commun-design-du-management-38804867403
 
 Document de prise de notes partagées et de préparation: https://pad.lamyne.org/s/BJZyafQ0Z

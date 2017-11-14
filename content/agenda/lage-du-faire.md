@@ -21,4 +21,5 @@ documentation:
 ressources:
 - link: https://www.franceculture.fr/emissions/la-methode-scientifique/fablab-lage-du-faire
   name: Podcast - FabLab l'age du faire
+events: ["masterclass"]
 ---

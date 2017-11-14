@@ -10,9 +10,8 @@ type: "masterclass"
 theme : "Créer une start Up en France"
 thumbnail: /img/default-thumbnail.png
 banner: /img/default-banner.png
-startdate: 2017-11-25
-enddate: 2017-11-25
-startime: 17:30:00+02:00
-endtime: 19:30:00+02:00
+start: 2017-11-25T17:30:00+02:00
+end: 2017-11-25T19:30:00+02:00
 recurring: "no"
+events: ["masterclass"]
 ---

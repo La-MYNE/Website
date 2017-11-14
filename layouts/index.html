@@ -76,14 +76,23 @@ Les 9 et 10 décembre, un événement public aura lieu à la MJC Confluence: ouv
     </div>
 
     <div class="row">
-    {{ range where .Data.Pages ".Params.home" "yes" }}
+
+
+    {{ $v1 := (where .Site.Pages "Section" "agenda").ByParam "start" }}
+    {{ range last 3 $v1 }}
+    {{$time := time .Params.start}}
+    {{ if isset .Params "start" }}
       <div class="col s12 m4">
         <div class="card card-medium">
           <div class="card-image">
+            <div class=" btn-date">
+              <p class="jour">{{ $time.Day }}</p>
+              <p class="mois">{{ $time.Month }}</p>
+            </div>
             <img src="{{ .Params.thumbnail }}" alt="thumbnail">
           </div>
           <div class="card-content">
-            <div class="kind">{{ .Params.theme }}</div>
+            <div class="kind">KIND</div>
             <div class="card-agenda-title">{{ .Title }}</div>
             <div class="row card-details">
               <p>{{ .Description }} </p>
@@ -91,6 +100,7 @@ Les 9 et 10 décembre, un événement public aura lieu à la MJC Confluence: ouv
           </div>
         </div>
       </div>
+      {{ end }}
       {{ end }}
     </div>
   </div>
@@ -118,14 +128,12 @@ Les 9 et 10 décembre, un événement public aura lieu à la MJC Confluence: ouv
         </div>
       </div>
       <div class="row">
-        {{ range where .Data.Pages ".Params.section" "agenda" }}
-        {{ if eq .Params.featured "yes" }}
+        {{ range last 3 (where .Data.Pages ".Params.recurring" "yes") }}
           <div class="col s12 m4">
             <div class ="center"><img class="thumb" src="{{ .Params.logo }}" alt="{{ .Title }}"></div>
               <h3 class="center">{{ .Title }}</h3>
                 <p class="light"> {{ .Params.description }}</p>
             </div>
-         {{ end }}
          {{ end }}
        </div>
     </div>

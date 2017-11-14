@@ -11,6 +11,7 @@ adresse: "1 Rue Croix de Luizet, 69100 Villeurbanne"
 people: ["Valentine Porche", "Baptise Nomine", "Claudine Revol"]
 link: " "
 description: "La Fabrique des communs 2017 à Lyon offre une nouvelle occasion de rencontres, d'échanges et de coopérations entre toute personne, collectif et institution s'intéressant à la question des communs."
+events: ["masterclass"]
 ---
 
 

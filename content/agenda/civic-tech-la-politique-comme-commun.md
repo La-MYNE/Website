@@ -26,6 +26,7 @@ ressources:
 - link: http://www.remixthecommons.org/2015/04/atlas-interactif-des-chartes-des-communs-urbains/
   name: Charte des communs par le collectif remix the commons
 recurring: "no"
+events: ["masterclass"]
 ---
 Dans le cadre de la programmation des Masterclasse à la MYNE, et ici plus spécifiquement dans le cadre du Programme French Tech Ticket, nous vous convions à une Masterclasse CivicTech sur "La politique comme commun - Processus, Infrastructures, Échelles et Controverses." mené par Sylvia Fredriksson en dialogue avec Alexandre Monnin
 
@@ -33,7 +34,7 @@ Sylvia est designer et chargée de recherche à la Cité du design de Saint-Éti
 
 Pour en savoir plus: http://www.sylviafredriksson.net/about/
 
-Alexandre est Docteur en philosophie de l’Université Paris 1 Panthéon-Sorbonne, sa thèse ayant porté sur l’architecture et la philosophie du Web. Directeur de la Recherche chez Origens Medialab et Enseignant-chercheur à l'ESC Clermont, il a précédemment été chercheur chez Inria auprès de l’équipe-projet WIMMICS (2014-2017) ou encore responsable Recherche Web à l'IRI du Centre Pompidou (2010-2013), période durant laquelle il a initié le DBpedia francophone. Expert Open Data auprès de la mission Etalab sous la responsabilité du Premier Ministre depuis 2013, il a également collaboré entre 2014 et 2017 avec Lafayette Anticiaption (la Fondation des Galeries Lafayette pour l’art contemporain) en tant qu’architecte de sa future plate-forme numérique ("Re-Source"). Enfin, il est le co-fondateur des community group “Philosophy of the Web” et "Web We Can Afford" au W3C.
+Alexandre est Docteur en philosophie de l’Université Paris 1 Panthéon-Sorbonne, sa thèse ayant porté sur l’architecture et la philosophie du Web. Directeur de la Recherche chez Origens Medialab et Enseignant-chercheur à l'ESC Clermont, il a précédemment été chercheur chez Inria auprès de l’équipe-projet WIMMICS (2014-2017) ou encore responsable Recherche Web à l'IRI du Centre Pompidou (2010-2013), période durant laquelle il a initié le DBpedia francophone. Expert Open Data auprès de la mission Etalab sous la responsabilité du Premier Ministre depuis 2013, il a également collaboré entre 2014 et 2017 avec Lafayette Anticiaption (la Fondation des Galeries Lafayette pour l’art contemporain) en tant qu’architecte de sa future plate-forme numérique ("Re-Source"). Enfin, il est le co-fonstartur des community group “Philosophy of the Web” et "Web We Can Afford" au W3C.
 Pour en savoir plus: http://web-and-philosophy.org/abouta-propos/bio/
 
 Points abordés dans le cadre de cette Masterclasse:
