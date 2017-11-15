@@ -1,8 +1,8 @@
 ---
-title : "Workshops and Training sessions"
+title : "Ateliers et Formations"
 banner: /img/program-banner.jpg
 ---
 
-To go further into learning and practice, la MYNE experts and partners join to offer a program of technical workshops and training sessions about various subjects.
+Pour aller plus loin dans l’apprentissage et la pratique, les experts et partenaires de la MYNE s’associent pour vous proposer un programme d’ateliers techniques sur des sujets divers :
 
-##### Discover our program
+## Découvrez notre programme

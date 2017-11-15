@@ -29,7 +29,7 @@
             </div>
 
             <section class="entrepreneur">
-              <h2>Porteurs du Projet</h2>
+              <h2>Qui?</h2>
               <div class ="row">
                 {{ range .Params.porteurs }}
                 <div class="col s4 m5 l3 center">
@@ -59,7 +59,7 @@
  <section class="container">
    <div class=row>
      <h2>Les prochains ateliers</h2>
-     $identifier := .Params.identifier
+     {{$identifier := .Params.identifier}}
      {{ range where .Site.Pages ".Params.parent" "$identifier"}}
    {{ .Title }}
  {{ else }}
