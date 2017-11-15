@@ -44,16 +44,33 @@
  </div>
  <section class="container">
    <div class=row>
+
+    {{ $related := .Site.RegularPages.Related . }}
+     {{ with $related }}
+<h3>See Also</h3>
+<ul>
+	{{ range . }}
+	<li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+	{{ end }}
+</ul>
+{{ end }}
+
+
      <h2>Les prochains ateliers</h2>
-     {{ range where .Site.Pages ".Params.atelier" "mynikids"}}
-   {{ .Title }}
+     {{ $identifier := .Params.identifier }}
+     {{ range where .Site.Pages "Section" "agenda" }}
+     {{ range .Params.parent }}
+     <p>{{ if eq . "$identifier" }} {{ .Title }}<p>
  {{ else }}
  <p>Pas d'ateliers contactez-nous</p>
    {{ end }}
+  {{ end }}
+  {{ end }}
    </div>
  </section>
  <section id="documentation" class="container scrollspy">
    <h2>Documentation</h2>
  </section>
 </section>
+
 {{ end }}

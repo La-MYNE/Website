@@ -3,6 +3,25 @@ DefaultContentLanguage: fr
 address: "1 Rue de Croix de Luizet 69100 Villeurbanne"
 title: La MYNE
 
+related:
+# Only include matches with rank >= threshold. This is a normalized rank between 0 and 100.
+  threshold: 80
+# To get stable "See also" sections we, by default, exclude newer related pages.
+  includeNewer: true
+# Will lower case keywords in both queries and in the indexes.
+  toLower: false
+  indices:
+    - name : "identifier"
+      weight: 150
+    - name: "author"
+      toLower: true
+      weight: 30
+    - name: "tags"
+      weight: 100
+    - name: "date"
+      weight: 10
+      pattern: "2006"
+
 Languages:
   en:
     lang: en
