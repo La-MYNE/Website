@@ -1,7 +1,6 @@
 ---
 banner: /img/daisee-banner.jpg
-contribute:
-  competence:
+competence:
   - description: Développement et cryptographie pour coder smart contract blockchain. Connaissance du language Solidity (similaire au C++) et en administration réseau.
     name: Développeur
   - description: 'Connaissance théorique et pratique de la blockchain pour mise en
@@ -12,10 +11,10 @@ contribute:
     name: Réseau électrique
   - description: Connaissance du fonctionnement d'une place de marché et en particulier celui de l'électricité afin de développer un nouveau modèle décentralisé.
     name: Economie de marché
-  financier:
+financier:
   - description: Contribuez au finacement du projet.
     name: Faire un don au projet
-  materiel:
+materiel:
   - description: Nous recherchons du matériel électroniques servant à capter les données
       de consommation. Pour l'instant nous utilisons des capteurs CitizenWatt et OpenEnergyMonitor.
       Arduino, emetteur radio/wifi, raspberry ... sont les bienvenus.
@@ -23,10 +22,6 @@ contribute:
   - description: Afin de tester grandeur nature le projet nous avons besoin de moyens
       de production d'énergie (solaire, éolien, methaniseur, ...)
     name: Moyen de production d'éléctricité
-  name: Contribuer
-  section1: Compétences
-  section2: Matériel
-  section3: Financier
 description: Decentralized Autonomous Interconnected Systems for Energy Efficiency
 documentation:
 - link: https://hackpad.com/DAISEE-IsOE-Log-book-PUz5Rhc26pE

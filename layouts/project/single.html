@@ -24,42 +24,49 @@
 
 <section id="contribuer" class="container scrollspy">
 <div class="row">
-  <h4>{{ .Params.contribute.name }}</h4>
+  <h4>Comment Contribuer</h4>
+  {{ if isset .Params "competence" }}
   <div class= "col s12 m4">
     <ul class="collapsible collection" data-collapsible="accordion">
-      <li class="collection-item">{{ .Params.contribute.section1 }}</li>
-        {{ range .Params.contribute.competence }}
-        <li>
-          <div class="collapsible-header">{{ .name }}</div>
-          <div class="collapsible-body"><p>{{ .description }}</p></div>
-        </li>
+      <li class="collection-item">Competences</li>
+      {{ range .Params.competence }}
+      <li>
+        <div class="collapsible-header">{{ .name }}</div>
+        <div class="collapsible-body"><p>{{ .description }}</p></div>
+      </li>
+          {{ end }}
+    </ul>
+  </div>
   {{ end }}
-      </ul>
-</div>
 
-<div class= "col s12 m4">
-  <ul class="collapsible collection" data-collapsible="accordion">
-    <li class="collection-item">{{ .Params.contribute.section2 }}</li>
-{{ range .Params.contribute.materiel }}
+  {{ if isset .Params "materiel" }}
+  <div class= "col s12 m4">
+    <ul class="collapsible collection" data-collapsible="accordion">
+      <li class="collection-item">Materiel</li>
+      {{ range .Params.materiel }}
       <li>
         <div class="collapsible-header">{{ .name }}</div>
         <div class="collapsible-body"><p>{{ .description }}</p></div>
       </li>
-{{ end }}
+          {{ end }}
     </ul>
-</div>
+  </div>
+  {{ end }}
 
-<div class= "col s12 m4">
-  <ul class="collapsible collection" data-collapsible="accordion">
-    <li class="collection-item">{{ .Params.contribute.section3 }}</li>
-{{ range .Params.contribute.financier }}
+  {{ if isset .Params "financier" }}
+  <div class= "col s12 m4">
+    <ul class="collapsible collection" data-collapsible="accordion">
+      <li class="collection-item">Financier</li>
+      {{ range .Params.financier }}
       <li>
         <div class="collapsible-header">{{ .name }}</div>
         <div class="collapsible-body"><p>{{ .description }}</p></div>
       </li>
-{{ end }}
+          {{ end }}
     </ul>
-</div>
+  </div>
+  {{ end }}
+
 </div>
 </section>
 
