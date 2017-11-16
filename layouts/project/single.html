@@ -1,71 +1,29 @@
 {{ define "main" }}
 
 <section id = "page-project">
-<div class="hero-image ">
-  <img  id="beggining" src="{{ .Params.banner }}" alt="{{ .Title }}"> </div>
-<nav class ="nav-pin">
-    <div class="nav-wrapper center orange">
-      <div class="col s12">
-        <a href="#pitch" class="breadcrumb">Pitch</a>
-        <a href="#agenda" class="breadcrumb">Agenda</a>
-        <a href="#contribuer" class="breadcrumb">Contribuer</a>
-        <a href="#documentation" class="breadcrumb">Documentation</a>
+  <div class="hero-image ">
+    <img  id="beggining" src="{{ .Params.banner }}" alt="{{ .Title }}"> </div>
+    <nav class ="nav-pin">
+      <div class="nav-wrapper center orange">
+        <div class="col s12">
+          <a href="#pitch" class="breadcrumb">Pitch</a>
+          <a href="#agenda" class="breadcrumb">Agenda</a>
+          <a href="#contribuer" class="breadcrumb">Contribuer</a>
+          <a href="#documentation" class="breadcrumb">Documentation</a>
+        </div>
+      </div>
+    </nav>
+
+    <div class="row">
+      {{ partial "idcard.html" . }}
+
+      <div class="col s12 m8">
+        <section id="pitch" class="container scrollspy">{{ .Content }}</section>
       </div>
     </div>
-  </nav>
-
-<div class="row">
-  {{ partial "idcard.html" . }}
-
-   <div class="col s12 m8">
-     <section id="pitch" class="container scrollspy">{{ .Content }}</section>
- </div>
-
- </div>
-
- <section id="agenda" class="container scrollspy">
-   <h2>Agenda</h2>
-   <div class="row">
-         {{ range $key, $taxonomy := .Site.Taxonomies.projects }}
-         {{ range $taxonomy.Pages }}
-       <div class="col s6 m4">
-         <div class="card card-small">
-           <div class="card-image">
-             <img src="{{ .Params.image }}">
-           </div>
-           <div class="card-content">
-             <div class="kind">{{ .Params.kind }}</div>
-             <div class="card-agenda-title">{{ .Title }}</div>
-             <div class="row card-details">
-
-               <p>{{ .Params.place }}</p>
-               <p>{{ .Params.city }}</p>
-
-              <div class="col s8">
-               <p>{{ .Date.Format "Monday, Jan 2" }}</p>
-               <p>{{ .Params.end  | dateFormat "Monday, 2" }}</p>
-             </div>
-
-             <div class="col s4">
-               <p>{{ .Weight }}</p>
-               <p>{{ .Params.time }}</p>
-             </div>
-
-           </div>
-           <div class="row center">En savoir plus</div>
-         </div>
-         </div>
-       </div>
-       {{ end }}
-       {{ end }}
-   </div>
-   </div>
-
-</section>
 
 <section id="contribuer" class="container scrollspy">
 <div class="row">
-
   <h4>{{ .Params.contribute.name }}</h4>
   <div class= "col s12 m4">
     <ul class="collapsible collection" data-collapsible="accordion">
@@ -104,6 +62,11 @@
 </div>
 </div>
 </section>
+
+{{ if isset .Params "identifier"}}
+{{ partial "related-events.html" . }}
+{{ end }}
+
 
 <section id="documentation" class="container scrollspy">
   <h2>Documentation</h2>
