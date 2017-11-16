@@ -4,74 +4,40 @@
   <div class="hero-image ">
     <img src="{{ .Params.banner }}" alt="{{ .Title }}"> </div>
     <div class="row">
-      <div class="col s12 m4">
-        <div class="card dark-grey">
-          <div class="card-content white-text">
-            <h1 class="card-title">{{ .Title }}</h1>
-            <div class ="row">
-              {{ range .Params.tags}}
-              <div class="chip">{{ . }}</div>
-              {{ end }}
-            </div>
-            <p>{{ .Description }}</p>
-            <section class="entrepreneur">
-              <h2>Porteurs du Projet</h2>
-              <div class ="row">
-                {{ range .Params.porteurs }}
-                <div class="col s4 m5 l3 center">
-                  <figure class="avatar" style='background-image: url("{{ .image }}");background-size:cover;background-repeat:none'></figure>
-
-                </div>
-                {{ end }}
-              </div>
-            </section>
-
-            <section class = "row">
-              <h2>Ressources</h2>
-              <ul>
-                {{ range .Params.documentation}}
-                <li><a class="text-light-grey" href="{{ .link }}">{{ .name }}</a></li>
-                {{ end }}
-              </ul>
-            </section>
-          </div>
-        </div>
-      </div>
-
+      {{ partial "idcard.html" .}}
       <div class="col s12 m8">
         <section class="container">{{ .Content }}</section>
       </div>
- </div>
- <section class="container">
-   <div class=row>
-     {{ $related := .Site.RegularPages.Related . }}
-      {{ with $related }}
-      <h3>Les Ateliers</h3>
-       {{ range . }}
-     <div class="col s12 m4">
-       <div class="card card-agenda">
-         <div class="card-image">
-           <img class="responsive-img" src="{{ .Params.thumbnail }}" alt="thumbnail">
-         </div>
-         <div class="card-content">
-           <div class="kind"> {{ .Type }}</div>
-           <div class="card-agenda-title">{{ .Title | title }}  </div>
-           <div class="row card-details">
-             <p>{{ .Description }} </p>
-         </div>
-         <div class="row center"><a class="btn" href='{{ .URL }}'>{{ .Site.Params.more }}</a></div>
-       </div>
-       </div>
-     </div>
-	{{ end }}
-{{ end }}
-   </div>
- </section>
- <section id="documentation" class="container scrollspy">
-   <h2>Documentation</h2>
- </section>
-</section>
+    </div>
 
-<iframe width="100%" height="500" src="https://hackmd.io/features" frameborder="0"></iframe>
+    <section class="container">
+      <div class=row>
+        {{ $related := .Site.RegularPages.Related . }}
+        {{ with $related }}
+        <h3>Les Ateliers</h3>
+        {{ range . }}
+        <div class="col s12 m4">
+          <div class="card card-agenda">
+            <div class="card-image">
+              <img class="responsive-img" src="{{ .Params.thumbnail }}" alt="thumbnail">
+            </div>
+            <div class="card-content">
+              <div class="kind"> {{ .Type }}</div>
+              <div class="card-agenda-title">{{ .Title | title }}</div>
+              <div class="row card-details">
+                <p>{{ .Description }}</p>
+              </div>
+              <div class="row center"><a class="btn" href='{{ .URL }}'>{{ .Site.Params.more }}</a></div>
+            </div>
+          </div>
+        </div>
+        {{ end }}
+        {{ end }}
+      </div>
+    </section>
 
-{{ end }}
+    <section id="documentation" class="container scrollspy">
+      <h2>Documentation</h2>
+    </section>
+  </section>
+  {{ end }}
