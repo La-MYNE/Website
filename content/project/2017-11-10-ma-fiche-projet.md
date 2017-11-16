@@ -1,6 +1,6 @@
 ---
 title: Ma fiche projet
-tags: mon tag
+tags: ['mon tag']
 banner: fsdlkfjsdkl
 thumbnail: sdfjlk;sd
 stade: fsdf
