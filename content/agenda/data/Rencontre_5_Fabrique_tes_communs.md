@@ -1,13 +1,12 @@
 ---
 title: "Rencontre #5 Fabrique tes communs"
-start: 2017-11-20T18:30:00
-end: 2017-11-20T21:00:00
+start: 2017-11-20T18:30:00+02:00
+end: 2017-11-20T21:00:00+02:00
 banner: https://scontent.xx.fbcdn.net/v/t31.0-8/s720x720/23415315_1599708243422969_3822401573476886249_o.jpg?oh=8e4ffbd11fc7bee9beda76a8c7810904&oe=5AAF36FE
-thumbnail:  https://scontent.xx.fbcdn.net/v/t31.0-8/s720x720/23415315_1599708243422969_3822401573476886249_o.jpg?oh=8e4ffbd11fc7bee9beda76a8c7810904&oe=5AAF36FE
-categories: ["atelier"]
-identifier: [fabriquedescommuns]
+thumbnail: https://scontent.xx.fbcdn.net/v/t31.0-8/s720x720/23415315_1599708243422969_3822401573476886249_o.jpg?oh=8e4ffbd11fc7bee9beda76a8c7810904&oe=5AAF36FE
+identifier: ['fabriquedescommuns']
 ---
------------ Au programme -----------
+ ----------- Au programme -----------
 
 Nous découvrions des projets qui incarnent les communs et définirons les activités et mise en place des festivités des 9 et 10 décembre que l'on animera collectivement à la MJC Confluence.
 

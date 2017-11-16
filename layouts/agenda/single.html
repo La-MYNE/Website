@@ -23,31 +23,32 @@
               <p>le {{ $start.Day }} {{ $start.Month }} {{ $start.Year }}</p>
               <p>de {{ $start.Hour }} : {{ $start.Minute }} a {{ $end.Hour }}:{{ $end.Minute }}</p>
             </div>
+            {{ if isset .Params "location"}}
             <div class="row">
               <h2>Ou?</h2>
               <p>{{ .Params.location}}</p>
             </div>
-
+            {{ end}}
+            
+            {{ range .Params.porteurs }}
             <section class="entrepreneur">
               <h2>Qui?</h2>
               <div class ="row">
-                {{ range .Params.porteurs }}
                 <div class="col s4 m5 l3 center">
                   <figure class="avatar" style='background-image: url("{{ .image }}");background-size:cover;background-repeat:none'></figure>
-
                 </div>
-                {{ end }}
               </div>
             </section>
+            {{ end }}
 
+            {{ range .Params.documentation}}
             <section class = "row">
               <h2>Ressources</h2>
               <ul>
-                {{ range .Params.documentation}}
                 <li><a class="text-light-grey" href="{{ .link }}">{{ .name }}</a></li>
-                {{ end }}
               </ul>
             </section>
+            {{ end }}
           </div>
         </div>
       </div>

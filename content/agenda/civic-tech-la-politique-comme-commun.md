@@ -28,6 +28,7 @@ ressources:
 recurring: "no"
 events: ["masterclass"]
 location: "La MYNE - 1 Rue Croix de Luizet, Villeurbanne"
+identifier: ['french-tech-ticket']
 ---
 Dans le cadre de la programmation des Masterclasse à la MYNE, et ici plus spécifiquement dans le cadre du Programme French Tech Ticket, nous vous convions à une Masterclasse CivicTech sur "La politique comme commun - Processus, Infrastructures, Échelles et Controverses." mené par Sylvia Fredriksson en dialogue avec Alexandre Monnin
 

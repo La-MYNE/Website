@@ -1,3 +1,3 @@
 ---
-foo: animateurs
+banner: /img/agenda-banner.jpg
 ---
