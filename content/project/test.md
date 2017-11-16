@@ -6,6 +6,6 @@ thumbnail: test
 description: test
 porteurs.image: test
 categories: test
-tags: test
+tags: [test]
 ---
 test
