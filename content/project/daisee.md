@@ -1,6 +1,5 @@
 ---
 banner: /img/daisee-banner.jpg
-categories: Projet
 contribute:
   competence:
   - description: Développement et cryptographie pour coder smart contract blockchain. Connaissance du language Solidity (similaire au C++) et en administration réseau.
@@ -45,10 +44,7 @@ porteurs:
   name: Nicolas Loubet
 slug: daisee
 stade: Concept
-tags:
-- energy
-- blockchain
-- hardware
+tags: ["energy", "blockchain", "hardware"]
 thumbnail: /img/daisee-thumbnail.png
 title: DAISEE
 type: project

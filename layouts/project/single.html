@@ -15,56 +15,7 @@
   </nav>
 
 <div class="row">
-   <div class="col s12 m4">
-     <div class="card dark-grey">
-       <div class="card-content white-text">
-         <h1 class="card-title">{{ .Title }}</h1>
-         <div class ="row">
-         {{ range .Params.tags}}
-         <div class="chip">{{ . }}</div>
-         {{ end }}
-       </div>
-         <p> {{ .Description }} </p>
-
-<section class="entrepreneur">
-  <h2>Porteurs du Projet</h2>
-  <div class ="row">
-{{ range .Params.porteurs }}
-<div class="col s12 m4">
-  <figure class="avatar" style='background-image: url("{{ .image }}");background-size:cover;background-repeat:none'></figure>
-</div>
-{{ end }}
-</div>
-</section>
-
-<section class = "row">
-          <h2>Ressources</h2>
-         <ul>
-           {{ range .Params.documentation}}
-           <li><a class="text-light-grey" href="{{ .link }}">{{ .name }}</a></li>
-           {{ end }}
-         </ul>
-</section>
-
-       <section class="steps">
-<h2> Etat d'avancement </h2>
-          <div class="steps-chart first-done second-done">
-
-            <div class="illustration">
-              <span class="line"></span>
-              <span class="step step-1"></span>
-              <span class="step step-2"></span>
-              <span class="step step-3"></span>
-              <span class="step step-4"></span>
-              <span class="progress"></span>
-            </div>
-
-          </div>
-</section>
-      </div>
-</div>
-     </div>
-
+  {{ partial "idcard.html" . }}
 
    <div class="col s12 m8">
      <section id="pitch" class="container scrollspy">{{ .Content }}</section>

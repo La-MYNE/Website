@@ -4,55 +4,7 @@
   <div class="hero-image ">
     <img src="{{ .Params.banner }}" alt="{{ .Title }}"> </div>
     <div class="row">
-      <div class="col s12 m4">
-        <div class="card dark-grey">
-          <div class="card-content white-text">
-            <h1 class="card-title">{{ .Title }}</h1>
-            <div class ="row">
-              {{ range .Params.tags}}
-              <div class="chip">{{ . }}</div>
-              {{ end }}
-            </div>
-            <div class="row">
-            <p>{{ .Description }}</p>
-          </div>
-            <div class="row">
-              <h2>Quand?</h2>
-              {{$start := time .Params.start}}
-              {{$end := time .Params.end}}
-              <p>le {{ $start.Day }} {{ $start.Month }} {{ $start.Year }}</p>
-              <p>de {{ $start.Hour }} : {{ $start.Minute }} a {{ $end.Hour }}:{{ $end.Minute }}</p>
-            </div>
-            {{ if isset .Params "location"}}
-            <div class="row">
-              <h2>Ou?</h2>
-              <p>{{ .Params.location}}</p>
-            </div>
-            {{ end}}
-            
-            {{ range .Params.porteurs }}
-            <section class="entrepreneur">
-              <h2>Qui?</h2>
-              <div class ="row">
-                <div class="col s4 m5 l3 center">
-                  <figure class="avatar" style='background-image: url("{{ .image }}");background-size:cover;background-repeat:none'></figure>
-                </div>
-              </div>
-            </section>
-            {{ end }}
-
-            {{ range .Params.documentation}}
-            <section class = "row">
-              <h2>Ressources</h2>
-              <ul>
-                <li><a class="text-light-grey" href="{{ .link }}">{{ .name }}</a></li>
-              </ul>
-            </section>
-            {{ end }}
-          </div>
-        </div>
-      </div>
-
+      {{ partial "idcard.html" . }}
       <div class="col s12 m8">
         <section class="container">{{ .Content }}</section>
       </div>
@@ -72,4 +24,5 @@
    <h2>Documentation</h2>
  </section>
 </section>
+
 {{ end }}

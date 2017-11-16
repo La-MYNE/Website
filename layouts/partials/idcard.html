@@ -1,0 +1,57 @@
+      <div class="col s12 m4">
+        <div class="card dark-grey">
+          <div class="card-content white-text">
+            <h1 class="card-title">{{ .Title }}</h1>
+            {{ if isset .Params "tags" }}
+            <div class ="row">
+              {{ range .Params.tags }}
+              <div class="chip">{{ . }}</div>
+            {{ end }}
+            </div>
+            {{ end }}
+            <div class="row">
+            <p>{{ .Description }}</p>
+          </div>
+          {{ if isset .Params "start"}}
+            <div class="row">
+              <h2>Quand?</h2>
+              {{$start := time .Params.start}}
+              {{$end := time .Params.end}}
+              <p>le {{ $start.Day }} {{ $start.Month }} {{ $start.Year }}</p>
+              <p>de {{ $start.Hour }} : {{ $start.Minute }} a {{ $end.Hour }}:{{ $end.Minute }}</p>
+            </div>
+          {{ end }}
+
+            {{ if isset .Params "location"}}
+            <div class="row">
+              <h2>Ou?</h2>
+              <p>{{ .Params.location}}</p>
+            </div>
+            {{ end}}
+
+            {{ if isset .Params "porteurs" }}
+            <section class="entrepreneur">
+              <h2>Qui?</h2>
+              <div class ="row">
+                {{ range .Params.porteurs }}
+                <div class="col s4 m5 l3 center">
+                  <figure class="avatar" style='background-image: url("{{ .image }}");background-size:cover;background-repeat:none'></figure>
+                </div>
+                  {{ end }}
+              </div>
+            </section>
+            {{ end }}
+
+            {{ if isset .Params "documentation" }}
+            <section class = "row">
+              <h2>Ressources</h2>
+              <ul>
+                  {{ range .Params.documentation}}
+                <li><a class="text-light-grey" href="{{ .link }}">{{ .name }}</a></li>
+              {{ end }}
+              </ul>
+            </section>
+            {{ end }}
+          </div>
+        </div>
+      </div>

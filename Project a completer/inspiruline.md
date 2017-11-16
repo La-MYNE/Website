@@ -16,7 +16,7 @@ contribute:
   section1: Compétences
   section2: Matériel
   section3: Financier
-date: 2016-09-26T17:04:14+02:00
+date: 2016-09-26T17:04:29+02:00
 description: null
 documentation:
 - link: null
@@ -26,7 +26,11 @@ porteurs:
   name: null
 slug: daisee
 stade: Concept
+tags:
+- null
+- null
+- null
 thumbnail: null
-title: huby
+title: inspiruline
 type: project
 ---

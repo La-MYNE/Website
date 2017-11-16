@@ -17,7 +17,7 @@ porteurs:
   name: David Bartholomeo
 slug: cybergarden
 stade: ''
-tags: ["Agriculture", "Autonomie", "Art"]
+tags: ["Agriculture", "Autonomir. "Art"]
 thumbnail: /img/cybergarden-thumbnail.jpg
 title: Cyber Garden
 type: project

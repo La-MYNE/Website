@@ -1,5 +1,6 @@
 ---
 categories: Projet
+date: '2012-04-06'
 description: "CyberGarden sont des œuvres en cours de recherches. Elles ont comme base
   l’élaboration de jardins intérieurs reliés à un système numérique permettant l’invention
   d’un nouveau langage entre la plante et l’humain."
@@ -17,13 +18,12 @@ porteurs:
   name: David Bartholomeo
 slug: cybergarden
 stade: ''
-tags: ["Agriculture", "Autonomie", "Art"]
+tags: ["Agriculture", "Autonomir. "Art"]
 thumbnail: /img/cybergarden-thumbnail.jpg
 title: Cyber Garden
-type: project
 ---
 
-# Cyber Garden
+## Cyber Garden
 
 **CyberGarden** sont des œuvres en cours de recherches. Elles ont comme base l’élaboration de jardins intérieurs reliés à un système numérique permettant l’invention d’un nouveau langage entre la plante et l’humain.
 Développé par David Bartholomeo, artiste plasticien, le projet s’inscrit et enrichi les sessions CreaTEC, un partenariat entre la Paillasse Saône et les Beaux arts.
