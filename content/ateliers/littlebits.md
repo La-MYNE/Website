@@ -8,7 +8,5 @@ logo : "/img/littlebits-logo.svg"
 thumbnail : "/img/littlebits-thumbnail.jpg"
 banner : "/img/littlebits-banner.png"
 categories: ["program"]
-type: atelier
-recurring: "no"
-parent: littlebits
+identifier: littlebits
 ---

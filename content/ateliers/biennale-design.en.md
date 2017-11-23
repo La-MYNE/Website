@@ -10,7 +10,6 @@ thumbnail : "/img/biennale-design-2017-thumbnail.png"
 banner : "/img/biennale-design-2017-banner.png"
 home : "no"
 categories: ["program"]
-type: atelier
 recurring: "no"
 parent: biennaledesign
 ---

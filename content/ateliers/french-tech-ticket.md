@@ -24,7 +24,6 @@ ressources:
 - link: http://www.remixthecommons.org/2015/04/atlas-interactif-des-chartes-des-communs-urbains/
   name: Charte des communs par le collectif remix the commons
 logo : "/img/mynikids-logo.jpg"
-recurring: "no"
 identifier: french-tech-ticket
 ---
 

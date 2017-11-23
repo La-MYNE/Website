@@ -9,5 +9,5 @@ banner: "/img/wap-banner.png"
 categories: ["program"]
 type: atelier
 recurring: "no"
-parent: wap
+identifier: wap
 ---

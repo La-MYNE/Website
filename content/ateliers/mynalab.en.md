@@ -7,7 +7,5 @@ logo: "/img/mynalab-logo.jpg"
 thumbnail: "/img/mynalab-thumbnail.png"
 banner: "/img/mynalab-banner.png"
 categories: ["program"]
-type: atelier
-recurring: "no"
-parent: mynalab
+identifier: mynalab
 ---

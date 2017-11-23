@@ -1,13 +1,14 @@
 ---
 title : "Artisan Numérique"
-animateur : "ECAN"
-description : ""
-theme : "atelier"
-logo : "ecan-logo.png"
+tags : [ "makers", "numerique"]
+description : "description"
+tarif: "adhesion a la myne, 2e/an"
 thumbnail : "/img/ecan-thumbnail.jpg"
 banner : "/img/ecan-banner.jpg"
+porteurs:
+- image: /img/avatar.jpg
+  name: "ECAN"
 categories: ["program"]
-type: atelier
 recurring: "no"
-parent: artisannumerique
+identifier: artisannumerique
 ---

@@ -7,7 +7,6 @@ logo : "/img/atelier-soude-logo.png"
 thumbnail : "/img/atelier-soude-thumbnail.jpg"
 banner : "/img/atelier-soude-banner.png"
 categories: ["program"]
-type: atelier
 recurring: "no"
 parent: ateliersoude
 ---

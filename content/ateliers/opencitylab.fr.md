@@ -8,7 +8,5 @@ logo : "/img/opencitylab-logo.png"
 thumbnail : "/img/opencitylab-thumbnail.jpg"
 banner : "/img/opencitylab-banner.png"
 categories: ["program"]
-type: atelier
-recurring: "no"
-parent: opencitylab
+idenfitier: opencitylab
 ---

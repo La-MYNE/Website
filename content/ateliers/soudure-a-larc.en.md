@@ -7,7 +7,5 @@ logo : "/img/soudure-logo.jpg"
 thumbnail : "/img/soudure-thumbnail.jpg"
 banner : "/img/soudure-banner.jpg"
 categories: ["program"]
-type: atelier
-recurring: "no"
-parent: soudurearc
+identifier: soudurearc
 ---

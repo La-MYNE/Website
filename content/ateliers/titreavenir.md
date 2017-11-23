@@ -12,5 +12,5 @@ banner : "/img/biennale-design-2017-banner.png"
 home : "yes"
 categories: ["program"]
 recurring: "yes"
-parent: titreavenir
+identifier: titreavenir
 ---

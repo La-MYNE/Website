@@ -7,7 +7,5 @@ logo : "/img/imagineo-logo.png"
 thumbnail : "/img/imagineo-thumbnail.jpg"
 banner : "/img/imagineo-banner.png"
 categories: ["program"]
-type: atelier
-recurring: "no"
-parent: imagineo
+identifier: imagineo
 ---

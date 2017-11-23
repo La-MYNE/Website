@@ -7,7 +7,5 @@ logo: "/img/3Draion-logo.png"
 thumbnail: "/img/3Draion-thumbnail.jpg"
 banner: "/img/3Draion-banner.png"
 categories: ["program"]
-type: atelier
-recurring: "no"
-parent: impression3D
+identifier: impression3D
 ---

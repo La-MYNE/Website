@@ -4,7 +4,7 @@
   <div class="hero-image ">
     <img src="{{ .Params.banner }}" alt="{{ .Title }}"> </div>
     <div class="row">
-      {{ partial "idcard.html" .}}
+      {{ partial "idcard.html" . }}
       <div class="col s12 m8">
         <section class="container">{{ .Content }}</section>
       </div>
