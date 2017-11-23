@@ -1,7 +1,8 @@
+{{$time := time .Params.start }}
+{{$month := $time.Month }}
 <div class="card card-agenda">
   <div class="card-image">
     <div class=" btn-date">
-      {{$month := $time.Month }}
       <p class="jour">{{ $time.Day }}</p>
       <p class="mois">{{ i18n $month }}</p>
     </div>

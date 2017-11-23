@@ -61,7 +61,7 @@
         {{$time := time .Params.start }}
         {{ if lt $time now}}
         <div class="grid-item">
-         {{ partial "card-agenda.html" .}}
+         {{ partial "card-agenda.html" . }}
       </div>
       {{ end }}
       {{ end }}
