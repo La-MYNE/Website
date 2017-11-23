@@ -11,6 +11,7 @@
 var $grid = $('.grid').isotope({
   itemSelector: '.grid-item',
   percentPosition: true,
+  filter: '.future',
   masonry: {
     // use outer width of grid-sizer for columnWidth
     columnWidth: '.grid-sizer',
