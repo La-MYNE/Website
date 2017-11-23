@@ -41,13 +41,14 @@
       {{ range (.Data.Pages.ByParam "start") }}
       {{ if isset .Params "start" }}
       {{$time := time .Params.start}}
+      {{$month := $time.Month }}
       {{ if ge $time now}}
       <div class="grid-item">
         <div class="card card-agenda">
           <div class="card-image">
             <div class=" btn-date">
               <p class="jour">{{ $time.Day }}</p>
-              <p class="mois">{{ $time.Month }}</p>
+              <p class="mois">{{ i18n $month }}</p>
             </div>
             <img class="responsive-img" src="{{ .Params.thumbnail }}" alt="thumbnail">
           </div>
@@ -79,19 +80,20 @@
         {{ range .Data.Pages  }}
         {{ if isset .Params "start" }}
         {{$time := time .Params.start }}
+        {{$month := $time.Month }}
         {{ if lt $time now}}
         <div class="grid-item">
           <div class="card card-agenda">
             <div class="card-image">
               <div class=" btn-date">
                 <p class="jour">{{ $time.Day }}</p>
-                <p class="mois">{{ $time.Month }}</p>
+                <p class="mois">{{ i18n $month }}</p>
               </div>
               <img class="responsive-img" src="{{ .Params.thumbnail }}" alt="thumbnail">
             </div>
             <div class="card-content">
               <div class="kind"> {{ .Type }}</div>
-              <div class="horaire"><p>17h30</p></div>
+              <div class="horaire"><p>{{ $time.Hour }}h{{ $time.Minute}}</p></div>
               <div class="card-agenda-title">{{ .Title | title }}  </div>
               <div class="row card-details">
                 <p>{{ .Description }} </p>
