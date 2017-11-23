@@ -1,0 +1,18 @@
+<div class="card card-agenda">
+  <div class="card-image">
+    <div class=" btn-date">
+      {{$month := $time.Month }}
+      <p class="jour">{{ $time.Day }}</p>
+      <p class="mois">{{ i18n $month }}</p>
+    </div>
+    <img class="responsive-img" src="{{ .Params.thumbnail }}" alt="thumbnail">
+  </div>
+  <div class="card-content">
+    <div class="kind"> {{ .Type }}</div>
+    <div class="card-agenda-title">{{ .Title | title }}  </div>
+    <div class="row card-details">
+      <p>{{ .Description }} </p>
+  </div>
+  <div class="row center"><a class="btn" href='{{ .URL }}'>{{ .Site.Params.more }}</a></div>
+</div>
+</div>
