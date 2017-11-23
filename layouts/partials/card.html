@@ -1,11 +1,13 @@
-{{$time := time .Params.start }}
-{{$month := $time.Month }}
 <div class="card card-agenda">
   <div class="card-image">
+    {{ if isset .Params "start"}}
+    {{$time := time .Params.start }}
+    {{$month := $time.Month }}
     <div class=" btn-date">
       <p class="jour">{{ $time.Day }}</p>
       <p class="mois">{{ i18n $month }}</p>
     </div>
+    {{ end }}
     <img class="responsive-img" src="{{ .Params.thumbnail }}" alt="thumbnail">
   </div>
   <div class="card-content">
