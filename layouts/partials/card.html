@@ -11,7 +11,12 @@
     <img class="responsive-img" src="{{ .Params.thumbnail }}" alt="thumbnail">
   </div>
   <div class="card-content">
+    {{ if isset .Params "start"}}
+    {{$time := time .Params.start }}
+    <div class="horaire">{{ $time.Hour}}h{{$time.Minute}}</div>
+    {{ end }}
     <div class="kind"> {{ .Type }}</div>
+
     <div class="card-agenda-title">{{ .Title | title }}  </div>
     <div class="row card-details">
       <p>{{ .Description }} </p>

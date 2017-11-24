@@ -67,6 +67,25 @@ Les 9 et 10 décembre, un événement public aura lieu à la MJC Confluence: ouv
   </div>
 </section>
 
+<section>
+
+<h1>Flickity - groupCells</h1>
+<div class="row">
+<!-- Flickity HTML init -->
+<div class="main-carousel" data-flickity='{ "groupCells": true }'>
+  {{ $v1 := (where .Site.Pages "Section" "agenda").ByParam "start" }}
+  {{ range last 10 $v1 }}
+  {{$time := time .Params.start}}
+  {{ if isset .Params "start" }}
+    <div class="carousel-cell">
+      {{ partial "card.html" . }}
+    </div>
+    {{ end }}
+    {{ end }}
+</div>
+</div>
+</section>
+
 <section id="section-actus">
   <div class="container">
     <div class="row">
@@ -74,10 +93,7 @@ Les 9 et 10 décembre, un événement public aura lieu à la MJC Confluence: ouv
         <h2>{{ .Params.news }}</h2>
       </div>
     </div>
-
     <div class="row">
-
-
     {{ $v1 := (where .Site.Pages "Section" "agenda").ByParam "start" }}
     {{ range last 3 $v1 }}
     {{$time := time .Params.start}}

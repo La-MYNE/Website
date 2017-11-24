@@ -20,10 +20,9 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Image Banner", name: "banner", widget:"image"}
       - {label: "Thumbnail", name: "thumbnail", widget:"image"}
-      - {label: "Stade d'avancement", name: "stade", widget:"string"}
       - {label: "Description", name: "description", widget:"string"}
       - name: porteurs
-        label: Animateurs
+        label: Porteurs du Projet
         widget: list
         fields:
           - {label: Name, name: name, widget: string}
@@ -47,7 +46,6 @@ collections: # A list of collections the CMS should be able to edit
     label: "Ateliers" # Used in the UI, ie.: "New Post"
     folder: "content/ateliers/main" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields:
       - {label: "Title", name: "title", widget: "string", tagname: "h1"}
       - {label: "Categories", name: categories, widget: list}
