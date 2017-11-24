@@ -13,6 +13,8 @@ related:
   indices:
     - name : "identifier"
       weight: 150
+    - name : "node"
+      weight: 150
     - name: "author"
       toLower: true
       weight: 30
@@ -21,7 +23,6 @@ related:
     - name: "date"
       weight: 10
       pattern: "2006"
-
 Languages:
   en:
     lang: en
