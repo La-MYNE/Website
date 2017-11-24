@@ -44,7 +44,7 @@ collections: # A list of collections the CMS should be able to edit
 
   - name: "ateliers" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "Ateliers" # Used in the UI, ie.: "New Post"
-    folder: "content/ateliers/main" # The path to the folder where the documents are stored
+    folder: "content/ateliers" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     fields:
       - {label: "Title", name: "title", widget: "string", tagname: "h1"}
