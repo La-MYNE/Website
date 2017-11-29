@@ -132,6 +132,7 @@ input[type=email] {
     background-color: #fff
   }
 
+
  /* Parrallax */
 .parallax-container p {
   font-size: 1.7em;
@@ -371,11 +372,6 @@ ul.menu_horizontal i {
   min-width: 100%
 }
 
-@media only screen and (max-width : 600px) {
-  .card { margin-left: 5em; }
-
-  }
-
 /* Section Projects */
 
 .nav-pin {
@@ -419,7 +415,9 @@ z-index: 1030;
    .carousel-cell { width: 90%; }
  }
 
-
+.main-carousel {
+  margin-bottom: 3rem;
+}
  .button.is-checked {
    background-color: #1d7d74;
  }
