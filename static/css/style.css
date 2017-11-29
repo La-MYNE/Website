@@ -406,8 +406,13 @@ z-index: 1030;
  /* external css: flickity.css */
 
  .carousel-cell {
-   width: 22%;
-   margin-right: 5px;
+   width: 28%;
+   margin-right: 1.5rem;
+ }
+
+ @media screen and ( max-width: 768px ) {
+   /* half-width cells for larger devices */
+   .carousel-cell { width: 90%; }
  }
 
 

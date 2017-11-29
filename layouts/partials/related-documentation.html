@@ -1,23 +1,12 @@
-<section class="container">
-  <div class=row>
+
+    <div class=row>
+        <h3>Les Actualites</h3>
+  <div class="main-carousel" data-flickity='{ "contain": true }'>
     {{ $related := .Site.RegularPages.Related . }}
-      <h3>Documentation et Ressources</h3>
     {{ with $related }}
-    {{ range where . ".Type" "documentation" }}
-    <div class="col s12 m4">
-      <div class="card card-agenda">
-        <div class="card-image">
-          <img class="responsive-img" src="{{ .Params.thumbnail }}" alt="thumbnail">
-        </div>
-        <div class="card-content">
-          <div class="kind"> {{ .Type }}</div>
-          <div class="card-agenda-title">{{ .Title | title }}</div>
-          <div class="row card-details">
-            <p>{{ .Description }}</p>
-          </div>
-          <div class="row center"><a class="btn" href='{{ .URL }}'>{{ .Site.Params.more }}</a></div>
-        </div>
-      </div>
+    {{ range (where . ".Type" "documentation") }}
+    <div class="carousel-cell">
+    {{ partial "card.html" . }}
     </div>
     {{ else }}
   </div class="row">
@@ -26,4 +15,4 @@
     {{ end }}
     {{ end }}
   </div>
-</section>
+</div>

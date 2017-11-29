@@ -1,7 +1,7 @@
 ---
 title : "Le coût écologique et social d'Internet : Déjeuner-débat"
-start: 2017-11-24T12:00:00+02:00
-end: 2017-11-24T14:00:00+02:00
+start: 2017-11-24T12:00:00
+end: 2017-11-24T14:00:00
 porteurs :
   - name: Félix Tréguer
     image:
