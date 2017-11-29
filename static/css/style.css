@@ -138,10 +138,10 @@ input[type=email] {
   font-size: 1.7em;
 }
  .banner-hero .parallax-container {
-  min-height: 340px
+  min-height: 380px
  }
 .parallax-container {
-   min-height: 480px;
+   min-height: 380px;
    line-height: 0;
    height: auto;
    color: #ededed;
@@ -151,6 +151,13 @@ input[type=email] {
   background: rgba(208, 12, 14, 0.45)
 }
 
+.page-agenda .parallax-container {
+  background: rgba(255, 212, 0, 0.45)
+}
+
+.page-atelier .parallax-container {
+  background-color: rgba(237, 237, 237, 0.45)
+}
 .parallax-container .section {
      width: 100vh;
    }

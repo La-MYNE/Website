@@ -1,8 +1,8 @@
 ---
-title: "lalala"
+title: "lalala2"
 categories: ["events"]
-start: 2017-12-01T14:48:23.864Z
-end: 2017-12-01T14:48:23.864Z
+start: 2017-12-03T14:48:23
+end: 2017-12-03T14:48:23
 thumbnail: "/img/defaul-thumbnail.png"
 banner: "/img/default-banner.png"
 place: "La MYNE"
@@ -10,7 +10,7 @@ adresse: "1 Rue Croix de Luizet, 69100 Villeurbanne"
 people: ["David Vallat"]
 link: " "
 description: "Atelier de co-création sur l’innovation managériale dans un tiers lieu (la Fabrique de l’innovation de l’Université de Lyon). Il y aura quelques surprises par rapport au programme."
-events: ["masterclass"]
+events: ["rencontre"]
 ---
 
 Atelier de co-création / séminaire sur l’innovation managériale dans un tiers lieu (la Fabrique de l’innovation de l’Université de Lyon) le 01/11 matin (tout le détail est dans l’invitation jointe). Il y aura quelques surprises par rapport au programme.

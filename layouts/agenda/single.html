@@ -1,8 +1,7 @@
 {{ define "main" }}
 
-<section>
-  <div class="hero-image ">
-    <img src="{{ .Params.banner }}" alt="{{ .Title }}"> </div>
+<section class="page-agenda">
+{{ partial "banner-hero.html" . }}
     <div class="row">
       {{ partial "idcard.html" . }}
       <div class="col s12 m8">

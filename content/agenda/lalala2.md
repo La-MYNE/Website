@@ -1,8 +1,8 @@
 ---
 title: "lalala2"
 categories: ["events"]
-start: 2017-12-03T14:48:23.864Z
-end: 2017-12-03T14:48:23.864Z
+start: 2017-12-03T14:48:23
+end: 2017-12-03T14:48:23
 thumbnail: "/img/defaul-thumbnail.png"
 banner: "/img/default-banner.png"
 place: "La MYNE"

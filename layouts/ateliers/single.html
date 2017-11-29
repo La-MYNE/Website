@@ -1,8 +1,7 @@
 {{ define "main" }}
 
-<section id = "page-project">
-  <div class="hero-image ">
-    <img src="{{ .Params.banner }}" alt="{{ .Title }}"> </div>
+<section class="page-atelier">
+{{ partial "banner-hero.html" . }}
     <div class="row">
       {{ partial "idcard.html" . }}
       <div class="col s12 m8">
@@ -16,6 +15,6 @@
     {{ if isset .Params "node" }}
     {{ partial "related-documentation.html" . }}
     {{ end }}
-    
+
   </section>
   {{ end }}

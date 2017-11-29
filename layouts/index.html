@@ -76,8 +76,6 @@ Les 9 et 10 décembre, un événement public aura lieu à la MJC Confluence: ouv
 <div class="main-carousel" data-flickity='{ "contain": true }'>
   {{ $v1 := (where .Site.Pages "Section" "agenda").ByParam "start"}}
   {{ range last 10 $v1 }}
-  {{$time := time .Params.start}}
-  {{ if isset .Params "start"  }}
     <div class="carousel-cell">
       <div class="card card-agenda">
         <div class="card-image">
@@ -104,7 +102,7 @@ Les 9 et 10 décembre, un événement public aura lieu à la MJC Confluence: ouv
       </div>
     </div>
     {{ end }}
-    {{ end }}
+  
     <div class="carousel-cell">
       <div class="card card-agenda">
         <div class="card-image">
