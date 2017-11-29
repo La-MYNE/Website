@@ -2,15 +2,15 @@
 
  /* Colors */
  .orange {
-   background-color: #ff7f00;
+   background-color: #ff7f00;  /*rgba(255, 127, 0, 1)  */
  }
 
  .yellow {
-   background-color: #ffd400;
+   background-color: #ffd400; /* rgba(255, 212, 0, 1) */
  }
 
  .light-grey {
-   background-color: #ededed;
+   background-color: #ededed; /* rgba(237, 237, 237, 1) */
  }
 
  .text-light-grey {
@@ -18,7 +18,7 @@
  }
 
  .dark-grey {
-   background-color: #383838;
+   background-color: #383838; /*  rgba(56, 56, 56, 1) */
  }
 
  .light-grey-text {
@@ -146,6 +146,10 @@ input[type=email] {
    color: #ededed;
    background: rgba(255, 127, 0, 0.45)
  }
+.page-project .parallax-container {
+  background: rgba(208, 12, 14, 0.45)
+}
+
 .parallax-container .section {
      width: 100vh;
    }
@@ -170,8 +174,8 @@ input[type=email] {
 
 /* PAGES - Single View Page- Banner-hero */
  .hero-image img {
-   max-height: 50vh;
-   min-width: 100%
+   max-height: 60vh;
+   min-width: 100%;
  }
 
 /* PAGES - List view */
