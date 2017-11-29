@@ -1,11 +1,21 @@
 ---
-title : "Open City Lab"
-animateur : "Timothée Gosselin"
-description : "Les OpenCityLabs se dérouleront physiquement entre la MYNE et les Pratiques Amateurs Plastique (PAA à Perrache) sur Lyon du 23 au 29 Janvier dans le cadre de l'exposition Tiers-Lieux de la Biennale Internationale de Design 2017."
-theme : "atelier"
-type : "masterclass"
-logo : "/img/opencitylab-logo.png"
-thumbnail : "/img/opencitylab-thumbnail.jpg"
-banner : "/img/opencitylab-banner.png"
-identifier: opencitylab
+title : "Soudure à l'arc"
+tags : [ "soudure", "maker"]
+tarif: "adhesion a la myne, 2e/an"
+thumbnail : "/img/mynikids-thumbnail.png"
+banner : "/img/default-banner.png"
+porteurs:
+- image: /img/avatar.jpg
+  name: "Abel"
+description : "Pour tous vos prototypes en métal, ou pour réparer votre chaise de jardin, Jean Philippe vous accompagne dans la pratique de la soudure à l’arc."
+documentation:
+- link:
+  name:
+ressources:
+- link:
+  name:
+recurring: "no"
+node: soudure-arc
 ---
+
+Apprendre a souder

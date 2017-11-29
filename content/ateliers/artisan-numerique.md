@@ -8,7 +8,6 @@ banner : "/img/ecan-banner.jpg"
 porteurs:
 - image: /img/avatar.jpg
   name: "ECAN"
-categories: ["program"]
 recurring: "no"
-identifier: artisannumerique
+node: artisannumerique
 ---

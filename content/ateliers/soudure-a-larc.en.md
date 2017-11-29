@@ -1,11 +1,21 @@
 ---
-title : "Arc Welding"
-animateur : "Jean-Philippe Abraham"
-description : "For your metal prototypes, or to repair your garden chairs, Jean-Philippe support you into the practice of arc welding."
-theme : "atelier"
-logo : "/img/soudure-logo.jpg"
-thumbnail : "/img/soudure-thumbnail.jpg"
-banner : "/img/soudure-banner.jpg"
-categories: ["program"]
-identifier: soudurearc
+title : "Soudure à l'arc"
+tags : [ "soudure", "maker"]
+tarif: "adhesion a la myne, 2e/an"
+thumbnail : "/img/mynikids-thumbnail.png"
+banner : "/img/default-banner.png"
+porteurs:
+- image: /img/avatar.jpg
+  name: "Abel"
+description : "Pour tous vos prototypes en métal, ou pour réparer votre chaise de jardin, Jean Philippe vous accompagne dans la pratique de la soudure à l’arc."
+documentation:
+- link:
+  name:
+ressources:
+- link:
+  name:
+recurring: "no"
+node: soudure-arc
 ---
+
+Apprendre a souder
