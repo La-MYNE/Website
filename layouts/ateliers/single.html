@@ -9,7 +9,7 @@
         <section class="container">{{ .Content }}</section>
       </div>
     </div>
-    {{ if isset .Params "identifier"}}
+    {{ if isset .Params "node" }}
     {{ partial "related-events.html" . }}
     {{ end }}
     <section id="documentation" class="container scrollspy">

@@ -4,7 +4,7 @@ description : "Au Hackaday Prize il s'agit de faire des choses qui ont du sens. 
 logo : "/img/hackadayprize-2017.png"
 thumbnail : "/img/hackadayprize-2017-thumbnail.png"
 banner : "/img/hackadayprize-2017-banner.png"
-node: hackaday2017
+node: "hackaday2017"
 ressources:
 - link: https://hackaday.io/prize
   name: Lien Hackaday Prize

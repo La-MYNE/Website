@@ -1,8 +1,8 @@
 <section class="container">
   <div class=row>
     {{ $related := .Site.RegularPages.Related . }}
+      <h3>Les Actualites</h3>
     {{ with $related }}
-    <h3>Les Ateliers</h3>
     {{ range . }}
     <div class="col s12 m4">
       <div class="card card-agenda">
@@ -20,6 +20,8 @@
       </div>
     </div>
     {{ end }}
+    {{ else }}
+    <p> pas de prochaines actualites, vous pouvez contacter l'equipe</p>
     {{ end }}
   </div>
 </section>

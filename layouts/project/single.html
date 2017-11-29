@@ -12,7 +12,7 @@
         </div>
       </div>
     </nav>
-    
+
     <div class="row">
       {{ partial "idcard.html" . }}
 
@@ -68,7 +68,7 @@
 </div>
 </section>
 
-{{ if isset .Params "identifier"}}
+{{ if isset .Params "node" }}
 {{ partial "related-events.html" . }}
 {{ end }}
 
