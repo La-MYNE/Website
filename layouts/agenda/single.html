@@ -9,20 +9,15 @@
         <section class="container">{{ .Content }}</section>
       </div>
  </div>
- <section class="container">
-   <div class=row>
-     <h2>Les prochains ateliers</h2>
-     {{$identifier := .Params.identifier}}
-     {{ range where .Site.Pages ".Params.parent" "$identifier"}}
-   {{ .Title }}
- {{ else }}
- <p>Pas d'ateliers contactez-nous</p>
-   {{ end }}
-   </div>
- </section>
- <section id="documentation" class="container scrollspy">
-   <h2>Documentation</h2>
- </section>
+
+ {{ if isset .Params "node" }}
+ {{ partial "related-events.html" . }}
+ {{ end }}
+
+ {{ if isset .Params "node" }}
+ {{ partial "related-documentation.html" . }}
+ {{ end }}
+
 </section>
 
 {{ end }}

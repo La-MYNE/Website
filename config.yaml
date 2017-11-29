@@ -11,7 +11,7 @@ related:
 # Will lower case keywords in both queries and in the indexes.
   toLower: false
   indices:
-    - name : "identifier"
+    - name : "node"
       weight: 150
     - name : "node"
       weight: 150

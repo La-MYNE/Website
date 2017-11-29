@@ -12,8 +12,10 @@
     {{ if isset .Params "node" }}
     {{ partial "related-events.html" . }}
     {{ end }}
-    <section id="documentation" class="container scrollspy">
-      <h2>Documentation</h2>
-    </section>
+
+    {{ if isset .Params "node" }}
+    {{ partial "related-documentation.html" . }}
+    {{ end }}
+    
   </section>
   {{ end }}

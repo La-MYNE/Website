@@ -23,7 +23,7 @@ ressources:
   name: Clément Mabi - Citizen Hacker (typologie de la civictech)
 - link: http://www.remixthecommons.org/2015/04/atlas-interactif-des-chartes-des-communs-urbains/
   name: Charte des communs par le collectif remix the commons
-node: french-tech-ticket
+node: ["french-tech-ticket"]
 ---
 
 De l’apprentissage théorique à la pratique du tiers-lieu, les jeunes de 6 à 16 ans sont invités à pratiquer différents ateliers du bricolage aux expériences de biologie pour apprendre différemment, développer des savoirs faire et savoir vivre et développer leurs propres projets.

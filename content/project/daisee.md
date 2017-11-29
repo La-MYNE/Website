@@ -42,7 +42,7 @@ stade: Concept
 tags: ["energy", "blockchain", "hardware"]
 thumbnail: /img/daisee-thumbnail.png
 title: DAISEE
-type: project
+node: ["daisee"]
 ---
 
 # IsOE - The Internets of Energy

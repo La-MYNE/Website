@@ -1,9 +1,9 @@
 <section class="container">
   <div class=row>
     {{ $related := .Site.RegularPages.Related . }}
-      <h3>Les Actualites</h3>
+      <h3>Documentation et Ressources</h3>
     {{ with $related }}
-    {{ range where . ".Type" "agenda" }}
+    {{ range where . ".Type" "documentation" }}
     <div class="col s12 m4">
       <div class="card card-agenda">
         <div class="card-image">
