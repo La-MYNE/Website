@@ -39,21 +39,21 @@ Languages:
         url: /en/about
         weight: 0
       - identifier: program
-        name: Program
-        url: /en/program/
+        name: Agenda
+        url: /en/agenda/
         weight: 1
       - identifier: projects
         name: Projects
         url: /en/project/
         weight: 2
+      - identifier: ateliers
+        name: Ateliers
+        url: /en/ateliers/
+        weight: 3
       - identifier: contribute
         name: Contribute
         url: /en/contribute/
-        weight: 3
-  #    - identifier: agenda
-  #      name: Agenda
-  #      url: /en/agenda/
-  #      weight: 4
+        weight: 4
     weight: 1
 
   fr:
@@ -68,21 +68,21 @@ Languages:
         url: /about
         weight: 0
       - identifier: program
-        name: Programme
-        url: /program/
+        name: Agenda
+        url: /agenda/
         weight: 1
       - identifier: projects
         name: Projets
         url: /project/
         weight: 2
+      - identifier: ateliers
+        name: Ateliers
+        url: /ateliers/
+        weight: 3
       - identifier: contribute
         name: Contribuer
         url: /contribute/
-        weight: 3
-  #    - identifier: agenda
-  #      name: Agenda
-  #      url: /agenda/
-  #      weight: 4
+        weight: 4
 
 SectionPagesMenu:
 - main
