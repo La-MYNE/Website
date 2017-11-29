@@ -403,10 +403,14 @@ z-index: 1030;
    height: 120px;
  }
 
-
  /* external css: flickity.css */
 
  .carousel-cell {
    width: 22%;
    margin-right: 5px;
+ }
+
+
+ .button.is-checked {
+   background-color: #1d7d74;
  }
