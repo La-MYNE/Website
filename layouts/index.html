@@ -69,9 +69,9 @@ Les 9 et 10 décembre, un événement public aura lieu à la MJC Confluence: ouv
   </div>
 </section>
 
-<section>
+<section id="section-actus">
 
-<h1>Flickity - groupCells</h1>
+<h1>Nos dernieres actualites</h1>
 <div class="row">
 <!-- Flickity HTML init -->
 <div class="main-carousel" data-flickity='{ "groupCells": true }'>
@@ -80,48 +80,49 @@ Les 9 et 10 décembre, un événement public aura lieu à la MJC Confluence: ouv
   {{$time := time .Params.start}}
   {{ if isset .Params "start" }}
     <div class="carousel-cell">
-      {{ partial "card.html" . }}
-    </div>
-    {{ end }}
-    {{ end }}
-</div>
-</div>
-</section>
-
-<section id="section-actus">
-  <div class="container">
-    <div class="row">
-      <div class="col s12 center">
-        <h2>{{ .Params.news }}</h2>
-      </div>
-    </div>
-    <div class="row">
-    {{ $v1 := (where .Site.Pages "Section" "agenda").ByParam "start" }}
-    {{ range last 3 $v1 }}
-    {{$time := time .Params.start}}
-    {{ if isset .Params "start" }}
-      <div class="col s12 m4">
-        <div class="card card-medium">
-          <div class="card-image">
-            <div class=" btn-date">
-              <p class="jour">{{ $time.Day }}</p>
-              <p class="mois">{{ $time.Month }}</p>
-            </div>
-            <img src="{{ .Params.thumbnail }}" alt="thumbnail">
+      <div class="card card-agenda">
+        <div class="card-image">
+          {{ if isset .Params "start"}}
+          {{$time := time .Params.start }}
+          {{$month := $time.Month }}
+          <div class=" btn-date">
+            <p class="jour">{{ $time.Day }}</p>
+            <p class="mois">{{ i18n $month }}</p>
           </div>
-          <div class="card-content">
-            <div class="kind">KIND</div>
-            <div class="card-agenda-title">{{ .Title }}</div>
-            <div class="row card-details">
-              <p>{{ .Description }} </p>
-            </div>
-          </div>
+          {{ end }}
+          <img class="responsive-img" src="{{ .Params.thumbnail }}" alt="thumbnail">
         </div>
+        <div class="card-content">
+          {{ if isset .Params "start"}}
+          {{$time := time .Params.start }}
+          <div class="horaire">{{ $time.Hour}}h{{$time.Minute}}</div>
+          {{ end }}
+          <div class="kind"> {{ .Type }}</div>
+
+          <div class="card-agenda-title">{{ .Title | title }}  </div>
+        <div class="row center"><a class="btn" href='{{ .URL }}'>{{ .Site.Params.more }}</a></div>
       </div>
-      {{ end }}
-      {{ end }}
+      </div>
     </div>
-  </div>
+    {{ end }}
+    {{ end }}
+    <div class="carousel-cell">
+      <div class="card card-agenda">
+        <div class="card-image">
+          <img class="responsive-img" src="/img/default-thumbnail.jpg" alt="thumbnail">
+        </div>
+        <div class="card-content">
+          <div class="kind"> {{ .Type }}</div>
+          <div class="card-agenda-title">Agenda </div>
+          <div class="card-detail">
+            <p> Tous nos evenements</p>
+          </div>
+        <div class="row center"><a class="btn" href='{{ .URL }}'>{{ .Site.Params.more }}</a></div>
+      </div>
+      </div>
+    </div>
+</div>
+</div>
 </section>
 
 <section>
