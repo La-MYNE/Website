@@ -15,8 +15,11 @@
     {{$time := time .Params.start }}
     <div class="horaire">{{ $time.Hour}}h{{$time.Minute}}</div>
     {{ end }}
-    <div class="kind"> {{ .Type }}</div>
-
+    {{ if eq .Type "agenda"}}
+    <div class="kind">{{ if isset .Params "events" }}{{ index .Params.events 0 }}{{end}}</div>
+    {{ else }}
+   <div class="kind"> {{ index .Params.tags 0 }}</div>
+   {{ end }}
     <div class="card-agenda-title">{{ .Title | title }}  </div>
     <div class="row card-details">
       <p>{{ .Description }} </p>

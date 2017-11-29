@@ -1,6 +1,8 @@
 {{ define "main" }}
 
 {{ partial "banner-hero.html" . }}
+
+
 <section class ="container">
   <div class="row">
     <h1>{{ .Title }}</h1>
@@ -8,55 +10,37 @@
   </div>
 
   <div class="row">
-    <h2>Retrouvez nous regulierement pour:</h2>
-  <div class="grid">
-    <!-- .grid-sizer empty element, only used for element sizing -->
-    <div class="grid-sizer "></div>
-    {{ range where .Site.Pages  ".Params.recurring" "yes" }}
-    <div class="grid-item">
-      {{ partial "card.html" . }}
-  </div>
+    <h2>Retrouvez tous nos evenements</h2>
+    <div class="row">
+      <h3>Filtrer par date:</h3>
+      <div class="button-group filters-button-group" data-filter-group="date">
+        <button class="btn button is-checked" data-filter="">tous</button>
+        <button class="btn button" data-filter=".future">future</button>
+        <button class="btn button" data-filter=".past">past</button>
+      </div>
 
-  {{end }}
+      <h3>Filtrer par type:</h3>
+      <div class="button-group filters-button-group" data-filter-group="kind">
+        <button class="btn button is-checked" data-filter="">tous</button>
+        <button class="btn button" data-filter=".masterclass">masterclasses</button>
+        <button class="btn button" data-filter=".atelier">ateliers</button>
+        <button class="btn button" data-filter=".rencontre">rencontres</button>
+      </div>
     </div>
-  </div>
 
-  <div class="row">
-    <h2>Ou pour nos prochaines rencontres:</h2>
     <div class="grid">
       <!-- .grid-sizer empty element, only used for element sizing -->
       <div class="grid-sizer "></div>
       {{ range (.Data.Pages.ByParam "start") }}
       {{ if isset .Params "start" }}
       {{$time := time .Params.start}}
-      {{ if ge $time now}}
-      <div class="grid-item">
-        {{ partial "card.html" .}}
+      <div class="grid-item element-item {{range .Params.events }} {{ . }} {{ end }} {{ if ge $time now}} future {{ else }} past {{ end }} " data-category="{{range .Params.events }} {{ . }} {{ end }} {{ if ge $time now}} future {{ else }} past {{ end }}">
+        {{ partial "card.html" . }}
     </div>
-    {{ end }}
     {{ end }}
     {{ end }}
       </div>
     </div>
-
-    <div class="row">
-      <h2>Retrouvez nos anciens evenements</h2>
-      <div class="grid">
-        <!-- .grid-sizer empty element, only used for element sizing -->
-        <div class="grid-sizer "></div>
-        {{ range .Data.Pages  }}
-        {{ if isset .Params "start" }}
-        {{$time := time .Params.start }}
-        {{ if lt $time now}}
-        <div class="grid-item">
-         {{ partial "card.html" . }}
-      </div>
-      {{ end }}
-      {{ end }}
-      {{ end }}
-        </div>
-      </div>
-
 </section>
 
 {{ end }}
