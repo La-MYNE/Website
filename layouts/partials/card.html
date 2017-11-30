@@ -3,7 +3,7 @@
     {{ if isset .Params "start"}}
     {{$time := time .Params.start }}
     {{$month := $time.Month }}
-    <div class=" btn-date">
+    <div class=" btn-date orange">
       <p class="jour">{{ $time.Day }}</p>
       <p class="mois">{{ i18n $month }}</p>
     </div>
@@ -13,7 +13,7 @@
   <div class="card-content">
     {{ if isset .Params "start"}}
     {{$time := time .Params.start }}
-    <div class="horaire">{{ $time.Hour}}h{{if eq $time.Minute 0}}00{{ else }}{{$time.Minute}} {{ end }}</div>
+    <div class="horaire orange">{{ $time.Hour}}h{{if eq $time.Minute 0}}00{{ else }}{{$time.Minute}} {{ end }}</div>
     {{ end }}
     {{ if eq .Type "agenda"}}
     <div class="kind">{{ if isset .Params "events" }}{{ index .Params.events 0 }}{{end}}</div>
