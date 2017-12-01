@@ -13,12 +13,14 @@
   <div class="card-content">
     {{ if isset .Params "start"}}
     {{$time := time .Params.start }}
-    <div class="horaire orange">{{ $time.Hour}}h{{if eq $time.Minute 0}}00{{ else }}{{$time.Minute}} {{ end }}</div>
+    <div class="horaire light-grey">{{ $time.Hour}}h{{if eq $time.Minute 0}}00{{ else }}{{$time.Minute}} {{ end }}</div>
     {{ end }}
     {{ if eq .Type "agenda"}}
     <div class="kind">{{ if isset .Params "events" }}{{ index .Params.events 0 }}{{end}}</div>
-    {{ else }}
+    {{ else if eq .Type "project" }}
    <div class="kind">{{ if isset .Params "tags" }}{{ index .Params.tags 0 }}{{end}}</div>
+   {{ else}}
+   <div class="kind">{{ if isset .Params "model" }}{{ .Params.model }}{{end}}</div>
    {{ end }}
     <div class="card-agenda-title">{{ .Title | title }}  </div>
     <div class="row card-details">
