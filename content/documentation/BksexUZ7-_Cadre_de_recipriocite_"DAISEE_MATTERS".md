@@ -2,8 +2,8 @@
 title: "Cadre de récipriocité DAISEE / MATTERS"
 shortid: BksexUZ7-
 alias:
-model:
+model: "cadre de réciprocité"
 tags:
-node:
+node: ["daisee"]
 draft: yes
 ---

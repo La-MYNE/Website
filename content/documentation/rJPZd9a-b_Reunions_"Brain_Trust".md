@@ -4,6 +4,6 @@ shortid: rJPZd9a-b
 alias:
 model:
 tags:
-node:
+node: ["brain-trust"]
 draft: yes
 ---

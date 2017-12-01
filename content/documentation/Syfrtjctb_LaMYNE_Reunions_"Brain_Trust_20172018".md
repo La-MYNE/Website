@@ -4,6 +4,6 @@ shortid: Syfrtjctb
 alias:
 model:
 tags:
-node:
+node: ["brain-trust"]
 draft: yes
 ---

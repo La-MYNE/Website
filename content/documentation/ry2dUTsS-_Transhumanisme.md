@@ -1,10 +1,9 @@
 ---
 title: "Transhumanisme"
 shortid: ry2dUTsS-
-alias: 
-model: 
-tags: 
-node: 
+alias:
+model:
+tags:
+node: ["transhumanisme"]
 draft: yes
---- 
- 
+---

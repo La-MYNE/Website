@@ -1,10 +1,9 @@
 ---
 title: "Reciprocity agreement - Lutendo"
 shortid: HJrftIAc-
-alias: 
+alias:
 model: 
-tags: 
-node: 
+tags:
+node: ["lutendo"]
 draft: yes
---- 
- 
+---

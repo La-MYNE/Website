@@ -4,6 +4,6 @@ shortid: Sy_0m5sr-
 alias:
 model:
 tags:
-node:
+node: ["doze-parc", "biennale-design"]
 draft: yes
 ---

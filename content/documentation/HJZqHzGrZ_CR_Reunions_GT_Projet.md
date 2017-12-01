@@ -1,10 +1,9 @@
 ---
 title: "CR Réunions GT Projet"
 shortid: HJZqHzGrZ
-alias: 
-model: 
-tags: 
-node: 
+alias:
+model: "compte-rendu"
+tags:
+node: ["gt-projet"]
 draft: yes
---- 
- 
+---

@@ -4,6 +4,6 @@ shortid: Bk6w6_fNb
 alias:
 model:
 tags:
-node:
+node: ["ouikisaone"]
 draft: yes
 ---

@@ -1,10 +1,9 @@
 ---
 title: "01/09/2015 CA Ordinaire"
 shortid: SyrKE3aWb
-alias: 
-model: 
-tags: 
-node: 
+alias:
+model:
+tags:
+node: ["cc"]
 draft: yes
---- 
- 
+---

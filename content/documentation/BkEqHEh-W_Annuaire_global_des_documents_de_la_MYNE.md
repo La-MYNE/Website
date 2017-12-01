@@ -1,10 +1,9 @@
 ---
 title: "Annuaire global des documents de la MYNE"
 shortid: BkEqHEh-W
-alias: 
-model: 
-tags: 
-node: 
+alias:
+model: "annuaire"
+tags:
+node:
 draft: yes
---- 
- 
+---

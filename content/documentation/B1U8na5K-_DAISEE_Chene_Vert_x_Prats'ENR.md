@@ -1,10 +1,9 @@
 ---
 title: "[DAISEE] Chêne Vert x Prats'ENR"
 shortid: B1U8na5K-
-alias: 
-model: 
-tags: 
-node: 
+alias:
+model:
+tags:
+node: ["daisee"]
 draft: yes
---- 
- 
+---

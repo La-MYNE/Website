@@ -1,10 +1,9 @@
 ---
 title: "Site la MYNE"
 shortid: rJZihcxkf
-alias: 
-model: 
-tags: 
-node: 
+alias:
+model:
+tags:
+node: ["gt-si"]
 draft: yes
---- 
- 
+---

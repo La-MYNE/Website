@@ -2,8 +2,8 @@
 title: "Cadre de récipriocité - AG de Vikidia (Vikidia.org)"
 shortid: Bytoms32Z
 alias:
-model:
+model: "cadre de récipriocité"
 tags:
-node:
+node: ["vikidia"]
 draft: yes
 ---

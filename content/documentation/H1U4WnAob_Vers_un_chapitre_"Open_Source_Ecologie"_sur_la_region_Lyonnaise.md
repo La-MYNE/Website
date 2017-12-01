@@ -4,6 +4,6 @@ shortid: H1U4WnAob
 alias:
 model:
 tags:
-node:
+node: ["ose"]
 draft: yes
 ---

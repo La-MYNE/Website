@@ -1,10 +1,9 @@
 ---
 title: "GT Administratif"
 shortid: Skud2zG0Z
-alias: 
-model: 
-tags: 
-node: 
+alias:
+model:
+tags:
+node: ["gt-admin"]
 draft: yes
---- 
- 
+---

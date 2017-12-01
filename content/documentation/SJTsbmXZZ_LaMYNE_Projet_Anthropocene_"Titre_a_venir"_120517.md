@@ -4,6 +4,6 @@ shortid: SJTsbmXZZ
 alias:
 model:
 tags:
-node:
+node: ["titre-a-venir"]
 draft: yes
 ---

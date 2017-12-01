@@ -1,10 +1,9 @@
 ---
 title: "CC-20161124_CR-RD_Timothée"
 shortid: BkvJw5abb
-alias: 
-model: 
-tags: 
-node: 
+alias:
+model: "cadre de réciprocité" 
+tags:
+node:
 draft: yes
---- 
- 
+---

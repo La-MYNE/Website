@@ -1,10 +1,9 @@
 ---
 title: "Powerplante @La myne"
 shortid: HJ-2tajSZ
-alias: 
-model: 
-tags: 
-node: 
+alias:
+model:
+tags:
+node: ["powerplante"]
 draft: yes
---- 
- 
+---

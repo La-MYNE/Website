@@ -82,7 +82,7 @@ Les 9 et 10 décembre, un événement public aura lieu à la MJC Confluence: ouv
           {{ if isset .Params "start"}}
           {{$time := time .Params.start }}
           {{$month := $time.Month }}
-          <div class=" btn-date">
+          <div class=" btn-date orange">
             <p class="jour">{{ $time.Day }}</p>
             <p class="mois">{{ i18n $month }}</p>
           </div>
@@ -97,12 +97,12 @@ Les 9 et 10 décembre, un événement public aura lieu à la MJC Confluence: ouv
           <div class="kind"> {{ .Type }}</div>
 
           <div class="card-agenda-title">{{ .Title | title }}  </div>
-        <div class="row center"><a class="btn" href='{{ .URL }}'>{{ .Site.Params.more }}</a></div>
+          <div class="row center"><a class="grey btn-floating halfway-fab waves-effect waves-light" href='{{ .URL }}'><i class="material-icons">add</i></a></div>
       </div>
       </div>
     </div>
     {{ end }}
-  
+
     <div class="carousel-cell">
       <div class="card card-agenda">
         <div class="card-image">
@@ -114,7 +114,7 @@ Les 9 et 10 décembre, un événement public aura lieu à la MJC Confluence: ouv
           <div class="card-detail">
             <p> Tous nos evenements</p>
           </div>
-        <div class="row center"><a class="btn" href='{{ .URL }}'>{{ .Site.Params.more }}</a></div>
+          <div class="row center"><a class="grey btn-floating halfway-fab waves-effect waves-light" href='{{ .URL }}'><i class="material-icons">add</i></a></div>
       </div>
       </div>
     </div>

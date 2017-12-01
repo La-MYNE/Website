@@ -4,6 +4,6 @@ shortid: BJApqzsWZ
 alias:
 model:
 tags:
-node:
+node: ["daisee"]
 draft: yes
 ---

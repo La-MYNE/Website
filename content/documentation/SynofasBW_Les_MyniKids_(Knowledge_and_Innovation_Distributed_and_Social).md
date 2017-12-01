@@ -1,10 +1,9 @@
 ---
 title: "Les MyniKids (Knowledge & Innovation, Distributed & Social)"
 shortid: SynofasBW
-alias: 
-model: 
-tags: 
-node: 
+alias:
+model:
+tags:
+node: ["mynikids"]
 draft: yes
---- 
- 
+---

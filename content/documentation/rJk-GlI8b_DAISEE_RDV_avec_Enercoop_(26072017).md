@@ -1,10 +1,9 @@
 ---
 title: "[DAISEE] RDV avec Enercoop (26/07/2017)"
 shortid: rJk-GlI8b
-alias: 
-model: 
-tags: 
-node: 
+alias:
+model:
+tags:
+node: ["daisee"]
 draft: yes
---- 
- 
+---

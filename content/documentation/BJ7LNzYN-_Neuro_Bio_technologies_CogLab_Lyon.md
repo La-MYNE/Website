@@ -1,10 +1,9 @@
 ---
 title: "Neuro-Bio-technologies - CogLab Lyon"
 shortid: BJ7LNzYN-
-alias: 
-model: 
-tags: 
-node: 
+alias:
+model:
+tags:
+node: ["coglab"]
 draft: yes
---- 
- 
+---

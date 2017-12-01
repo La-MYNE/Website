@@ -1,10 +1,9 @@
 ---
 title: "Mécoia - CogLab Lyon"
 shortid: SkhJffKVZ
-alias: 
-model: 
-tags: 
-node: 
+alias:
+model:
+tags:
+node: ["coglab"]
 draft: yes
---- 
- 
+---

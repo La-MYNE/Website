@@ -1,10 +1,9 @@
 ---
-title: "�lec.GREEN.City"
+title: "Elec.GREEN.City"
 shortid: BkiLopiB-
-alias: 
-model: 
-tags: 
-node: 
+alias:
+model:
+tags:
+node: ["elec-green-city"]
 draft: yes
---- 
- 
+---

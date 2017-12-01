@@ -291,14 +291,13 @@ ul.menu_horizontal i {
   display: block;
   float: left;
   height: 24px;
-  color: #fff;
+  color: #383838;
 }
 .kind-title {
   margin-left: 15px;
 }
 
 .horaire {
-  background-color: #26a69a;
   width: 3.5rem;
   position: relative;
   border-bottom-right-radius: 3px;
@@ -315,6 +314,7 @@ ul.menu_horizontal i {
   text-align: center;
   font-size: 1em;
   padding-top: 0.5rem;
+  color: #383838;
 }
 
 
@@ -325,7 +325,7 @@ ul.menu_horizontal i {
   position: absolute;
   overflow: hidden;
   z-index: 1;
-  left: 80%;
+  left: 78%;
   top: 10%;
   width: 60px;
   height: 60px;

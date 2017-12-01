@@ -1,10 +1,9 @@
 ---
 title: "SI, UX & Intelligence - LPS  MYNE"
 shortid: rkI7QdmIW
-alias: 
-model: 
-tags: 
-node: 
+alias:
+model:
+tags:
+node: ["gt-si"]
 draft: yes
---- 
- 
+---

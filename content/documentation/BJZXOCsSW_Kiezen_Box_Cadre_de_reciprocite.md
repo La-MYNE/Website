@@ -1,10 +1,9 @@
 ---
 title: "Kiezen Box - Cadre de réciprocité"
 shortid: BJZXOCsSW
-alias: 
-model: 
-tags: 
-node: 
+alias:
+model:
+tags:
+node: ["kiezen-box"]
 draft: yes
---- 
- 
+---

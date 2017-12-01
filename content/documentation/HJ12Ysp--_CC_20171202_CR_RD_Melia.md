@@ -1,10 +1,9 @@
 ---
 title: "CC-20171202_CR-RD_Mélia"
 shortid: HJ12Ysp--
-alias: 
-model: 
-tags: 
-node: 
+alias:
+model: "compte-rendu"
+tags:
+node: ["cc"]
 draft: yes
---- 
- 
+---

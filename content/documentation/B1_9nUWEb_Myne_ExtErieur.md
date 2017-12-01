@@ -4,7 +4,6 @@ shortid: B1_9nUWEb
 alias:
 model:
 tags:
-node:
+node: ["mynalab"]
 draft: yes
 ---
- 

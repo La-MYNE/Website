@@ -4,6 +4,6 @@ shortid: rkUuQYhaZ
 alias:
 model:
 tags:
-node:
+node: ["french-tech-ticket"]
 draft: yes
 ---

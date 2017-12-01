@@ -1,10 +1,9 @@
 ---
 title: "TMDS biodesign"
 shortid: ByBPFRsH-
-alias: 
-model: 
-tags: 
-node: 
+alias:
+model:
+tags:
+node: ["tmds"]
 draft: yes
---- 
- 
+---

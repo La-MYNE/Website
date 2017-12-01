@@ -1,10 +1,9 @@
 ---
 title: "GT Veille et Communication"
 shortid: rJFCa3vHZ
-alias: 
-model: 
-tags: 
-node: 
+alias:
+model:
+tags:
+node: ["gt-com"]
 draft: yes
---- 
- 
+---

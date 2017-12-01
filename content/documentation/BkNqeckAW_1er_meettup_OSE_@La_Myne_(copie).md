@@ -1,10 +1,9 @@
 ---
 title: "1er meettup OSE @La Myne (copie)"
 shortid: BkNqeckAW
-alias: 
-model: 
-tags: 
-node: 
+alias:
+model:
+tags:
+node: ["ose"]
 draft: yes
---- 
- 
+---
