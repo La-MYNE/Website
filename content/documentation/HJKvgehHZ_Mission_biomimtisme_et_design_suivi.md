@@ -1,10 +1,9 @@
 ---
-title: "Mission biomim�tisme et design - suivi"
+title: "Mission biomimetisme et design - suivi"
 shortid: HJKvgehHZ
-alias: 
-model: 
-tags: 
-node: 
+alias:
+model:
+tags:
+node: ["biomimetisme"]
 draft: yes
---- 
- 
+---

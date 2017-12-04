@@ -1,10 +1,9 @@
 ---
 title: "Biomimicry lab"
 shortid: HJW_bKX8-
-alias: 
-model: 
-tags: 
-node: 
+alias:
+model:
+tags:
+node: ["biomimetisme", 'biomimicry-lab']
 draft: yes
---- 
- 
+---

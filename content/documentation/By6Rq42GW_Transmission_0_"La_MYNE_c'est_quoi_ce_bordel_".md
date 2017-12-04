@@ -4,6 +4,6 @@ shortid: By6Rq42GW
 alias:
 model:
 tags:
-node:
+node: ["conciergerie"]
 draft: yes
 ---

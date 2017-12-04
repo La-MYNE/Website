@@ -4,6 +4,6 @@ shortid: r1s4L9Lmb
 alias:
 model:
 tags:
-node: ["titre-a-venir"]
+node: ["titre-a-venir", "indexmakers"]
 draft: yes
 ---

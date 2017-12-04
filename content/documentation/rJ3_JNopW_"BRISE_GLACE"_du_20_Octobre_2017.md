@@ -4,6 +4,6 @@ shortid: rJ3_JNopW
 alias:
 model:
 tags:
-node:
+node: ["titre-a-venir"]
 draft: yes
 ---

@@ -4,6 +4,6 @@ shortid: SJ6ZmmBcZ
 alias:
 model:
 tags:
-node: 
+node: ["french-tech"]
 draft: yes
 ---

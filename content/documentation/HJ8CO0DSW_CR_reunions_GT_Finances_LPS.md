@@ -4,6 +4,6 @@ shortid: HJ8CO0DSW
 alias:
 model: "compte-rendu"
 tags:
-node: ["ft-finance"]
+node: ["gt-finance"]
 draft: yes
 ---

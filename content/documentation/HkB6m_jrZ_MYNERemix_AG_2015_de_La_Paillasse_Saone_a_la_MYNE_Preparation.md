@@ -4,6 +4,6 @@ shortid: HkB6m_jrZ
 alias:
 model:
 tags:
-node:
+node: ["cc"]
 draft: yes
 ---

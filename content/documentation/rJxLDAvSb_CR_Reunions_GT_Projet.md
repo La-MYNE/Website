@@ -4,6 +4,6 @@ shortid: rJxLDAvSb
 alias:
 model:
 tags:
-node: ["gt=projet"]
+node: ["gt-projet"]
 draft: yes
 ---

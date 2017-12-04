@@ -4,6 +4,6 @@ shortid: r1EkCzFV-
 alias:
 model:
 tags:
-node:
+node: ["coglab"]
 draft: yes
 ---

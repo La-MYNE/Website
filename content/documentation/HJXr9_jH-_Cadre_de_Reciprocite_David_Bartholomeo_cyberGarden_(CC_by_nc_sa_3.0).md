@@ -4,6 +4,6 @@ shortid: HJXr9_jH-
 alias:
 model: "cadre de Reciprocite"
 tags:
-node:
+node: ["cybergarden"]
 draft: yes
 ---

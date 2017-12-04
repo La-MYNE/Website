@@ -4,6 +4,6 @@ shortid: HkG53tpKW
 alias:
 model:
 tags:
-node: ["daisee"]
+node: ["daisee", "grands-voisins"]
 draft: yes
 ---

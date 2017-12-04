@@ -1,10 +1,9 @@
 ---
 title: "[MYNE] FAQ la MYNE"
 shortid: HyrVWnTW-
-alias: 
-model: 
-tags: 
-node: 
+alias:
+model:
+tags:
+node: ["conciergerie"]
 draft: yes
---- 
- 
+---

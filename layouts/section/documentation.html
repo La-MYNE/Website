@@ -2,6 +2,7 @@
 <section class="page-atelier">
 {{ partial "banner-hero.html" . }}
 </section>
+
 <section class ="container">
   <div class="row">
     <h1>{{ .Title }}</h1>
@@ -11,7 +12,7 @@
     <div class="grid-sizer "></div>
     {{ range .Data.Pages }}
     <div class="grid-item">
-      <div class="card orange">
+      <div class="card light-grey">
         <div class="card-content">
           <span class="card-title">{{.Title}}</span>
         </div>

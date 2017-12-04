@@ -1,10 +1,9 @@
 ---
 title: "Technologos Assises 2017 - prise de notes"
 shortid: S10QCzEi-
-alias: 
-model: 
-tags: 
-node: 
+alias:
+model:
+tags:
+node: ["technologos"]
 draft: yes
---- 
- 
+---

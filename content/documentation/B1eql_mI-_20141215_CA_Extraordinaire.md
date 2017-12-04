@@ -4,6 +4,6 @@ shortid: B1eql_mI-
 alias:
 model:
 tags:
-node: ["gouvernance"]
+node: ["cc"]
 draft: yes
 ---

@@ -4,6 +4,6 @@ shortid: "HJVRE_oSZ"
 alias:
 model:
 tags:
-node:
+node: ["cc"]
 draft: yes
 ---

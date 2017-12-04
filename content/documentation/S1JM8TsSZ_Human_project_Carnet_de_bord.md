@@ -2,7 +2,7 @@
 title: "Human project - Carnet de bord"
 shortid: S1JM8TsSZ
 alias:
-model:
+model: "carne de bord"
 tags:
 node: ["human-project"]
 draft: yes

@@ -4,6 +4,6 @@ shortid: BkkxMFs8b
 alias:
 model:
 tags:
-node:
+node: ["impression3d"]
 draft: yes
 ---

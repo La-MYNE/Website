@@ -4,6 +4,6 @@ shortid: HkdRpK3rb
 alias:
 model:
 tags:
-node: ["omm"]
+node: ["omm", "oscedays"]
 draft: yes
 ---

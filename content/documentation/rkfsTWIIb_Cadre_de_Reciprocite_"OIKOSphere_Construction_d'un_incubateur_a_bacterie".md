@@ -4,6 +4,6 @@ shortid: rkfsTWIIb
 alias:
 model:
 tags:
-node:
+node: ["oikosphere"]
 draft: yes
 ---

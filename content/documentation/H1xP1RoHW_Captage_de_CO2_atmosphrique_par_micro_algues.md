@@ -4,6 +4,6 @@ shortid: H1xP1RoHW
 alias:
 model:
 tags:
-node:
+node: ["capteurs"]
 draft: yes
 ---

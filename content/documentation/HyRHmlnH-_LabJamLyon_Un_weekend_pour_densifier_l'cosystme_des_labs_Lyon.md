@@ -1,10 +1,9 @@
 ---
-title: "[#LabJamLyon] Un weekend pour densifier l'�cosyst�me des labs � Lyon"
+title: "[#LabJamLyon] Un weekend pour densifier l'ecosysteme des labs a Lyon"
 shortid: HyRHmlnH-
-alias: 
-model: 
-tags: 
-node: 
+alias:
+model:
+tags:
+node: ["fabjamlyon"]
 draft: yes
---- 
- 
+---

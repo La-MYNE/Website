@@ -4,6 +4,6 @@ shortid: HJCTo2irW
 alias:
 model:
 tags:
-node:
+node: ["grow"]
 draft: yes
 ---
