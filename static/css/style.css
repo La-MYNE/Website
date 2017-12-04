@@ -17,6 +17,10 @@
    color: #ededed;
  }
 
+ .text-orange {
+   color: #ff7f00;
+ }
+
  .dark-grey {
    background-color: #383838; /*  rgba(56, 56, 56, 1) */
  }
@@ -426,3 +430,14 @@ z-index: 1030;
  .button.is-checked {
    background-color: #1d7d74;
  }
+
+.btn-contribute {
+   height: 30px;
+   width: 30px;
+   margin-top: 0.5rem;
+ }
+
+ .btn-contribute i {
+  position: relative;
+  bottom: 0.5rem;
+  }
