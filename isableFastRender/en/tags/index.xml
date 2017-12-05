@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on La MYNE</title>
+    <link>//localhost:1313/en/tags/</link>
+    <description>Recent content in Tags on La MYNE</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 06 Apr 2012 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="//localhost:1313/en/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Agriculture</title>
+      <link>//localhost:1313/en/tags/agriculture/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/en/tags/agriculture/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Art</title>
+      <link>//localhost:1313/en/tags/art/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/en/tags/art/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Autonomie</title>
+      <link>//localhost:1313/en/tags/autonomie/</link>
+      <pubDate>Fri, 06 Apr 2012 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/en/tags/autonomie/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Blockchain</title>
+      <link>//localhost:1313/en/tags/blockchain/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/en/tags/blockchain/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Charbon</title>
+      <link>//localhost:1313/en/tags/charbon/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/en/tags/charbon/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cuiseur</title>
+      <link>//localhost:1313/en/tags/cuiseur/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/en/tags/cuiseur/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Energy</title>
+      <link>//localhost:1313/en/tags/energy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/en/tags/energy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hardware</title>
+      <link>//localhost:1313/en/tags/hardware/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/en/tags/hardware/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jeunes</title>
+      <link>//localhost:1313/en/tags/jeunes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/en/tags/jeunes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Maker</title>
+      <link>//localhost:1313/en/tags/maker/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/en/tags/maker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Makers</title>
+      <link>//localhost:1313/en/tags/makers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/en/tags/makers/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Numerique</title>
+      <link>//localhost:1313/en/tags/numerique/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/en/tags/numerique/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Outdour</title>
+      <link>//localhost:1313/en/tags/outdour/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/en/tags/outdour/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Soudure</title>
+      <link>//localhost:1313/en/tags/soudure/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/en/tags/soudure/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Transdisciplinaire</title>
+      <link>//localhost:1313/en/tags/transdisciplinaire/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/en/tags/transdisciplinaire/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

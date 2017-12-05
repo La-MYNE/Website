@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Notre programme on La MYNE</title>
+    <link>//localhost:1313/categories/program/</link>
+    <description>Recent content in Notre programme on La MYNE</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	<atom:link href="//localhost:1313/categories/program/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Ateliers jeunes publics</title>
+      <link>//localhost:1313/ateliers/mynikids/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/ateliers/mynikids/</guid>
+      <description>De l’apprentissage théorique à la pratique du tiers-lieu, les jeunes de 6 à 16 ans sont invités à pratiquer différents ateliers du bricolage aux expériences de biologie pour apprendre différemment, développer des savoirs faire et savoir vivre et développer leurs propres projets.</description>
+    </item>
+    
+    <item>
+      <title>Imagineo</title>
+      <link>//localhost:1313/ateliers/imagineo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/ateliers/imagineo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Little Bits</title>
+      <link>//localhost:1313/ateliers/littlebits/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/ateliers/littlebits/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Programme French Tech Ticket</title>
+      <link>//localhost:1313/ateliers/french-tech-ticket/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/ateliers/french-tech-ticket/</guid>
+      <description>De l’apprentissage théorique à la pratique du tiers-lieu, les jeunes de 6 à 16 ans sont invités à pratiquer différents ateliers du bricolage aux expériences de biologie pour apprendre différemment, développer des savoirs faire et savoir vivre et développer leurs propres projets.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tag on La MYNE</title>
+    <link>//localhost:1313/tags/tag/</link>
+    <description>Recent content in Tag on La MYNE</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	<atom:link href="//localhost:1313/tags/tag/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>//localhost:1313/team/charlotte-rizzo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/team/charlotte-rizzo/</guid>
+      <description>CHeFCuisto des cerveaux, pro de l’expé, et de l’IA, Jérémy est l’initiateur du CogLab. Bienveillant concierge à ses heures perdues, il défend l’openScience, et accompagne petits et grands étudiants dans le monde fou de la recherche scientifique. Retrouvez le tous les samedi après midi à la MYNE pour ARTificialiser les sciences cognitives.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>//localhost:1313/team/chloe-mayere/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/team/chloe-mayere/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
