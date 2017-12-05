@@ -1,37 +1,35 @@
 {{ define "main"}}
-
 {{ partial "banner-hero.html" . }}
-
 <div class ="container">
-    <div class="grid">
-      <!-- .grid-sizer empty element, only used for element sizing -->
-      <div class="grid-sizer "></div>
-  {{ range .Data.Pages }}
-<div class="grid-item">
-  <div class="card red">
-    <div class="card-content">
-      <div class="row center">
-        {{ if isset .Params "tags"}}
-        {{ range .Params.tags }}
-        <span class="chip light-grey">{{ . }}</span>
-        {{ end }}
-        {{ end }}
+  <div class="grid">
+    <div class="grid-sizer "></div>
+    {{ range .Data.Pages }}
+    <div class="grid-item">
+      <div class="card red">
+        <div class="card-content">
+          <div class="row center">
+            {{ if isset .Params "tags"}}
+            {{ range .Params.tags }}
+            <span class="chip light-grey">{{ . }}</span>
+            {{ end }}
+            {{ end }}
+          </div>
+          <img class="team-profile center" src=" {{ .Params.image }}">
+          <div class="card-agenda-title text-light-grey center">{{ .Params.name }}</div>
+          <div class="row card-details">
+            <p>{{ .Params.hashtag }}</p>
+            <ul class="menu_horizontal center">
+              {{ range .Params.social}}
+              <li><a class="team-social-icon light-grey" href="{{ .link }}"><i class="icon-{{ .name }}"></i></a></li>
+              {{ end }}
+            </ul>
+          </div>
+          <div class="row center">
+            <a class="orange btn-floating halfway-fab waves-effect waves-light" href='{{ .URL }}'><i class="material-icons">add</i></a></div>
+        </div>
       </div>
-      <img class="team-profile center" src=" {{ .Params.image }}">
-      <div class="card-agenda-title text-light-grey center">{{ .Params.name }}</div>
-      <div class="row card-details">
-        <p> {{ .Params.hashtag }}</p>
-        <ul class="menu_horizontal center">
-          {{ range .Params.social}}
-          <li ><a class="team-social-icon light-grey" href="{{ .link }}"><i class="icon-{{ .name }}"></i></a></li>
-          {{ end }}
-        </ul>
     </div>
-    <div class="row center"><a class="orange btn-floating halfway-fab waves-effect waves-light" href='{{ .URL }}'><i class="material-icons">add</i></a></div>
-  </div>
+    {{ end }}
   </div>
 </div>
-{{ end }}
-</div>
-
 {{ end }}
