@@ -1,0 +1,855 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>La MYNE</title>
+    <link>//localhost:1313/</link>
+    <description>Recent content on La MYNE</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 09 Nov 2017 14:48:23 +0000</lastBuildDate>
+    
+	<atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Devenir membre de la MYNE</title>
+      <link>//localhost:1313/contribute/citoyens/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/contribute/citoyens/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>//localhost:1313/contribute/organisations/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/contribute/organisations/</guid>
+      <description>Fort de son expertise dans l&amp;rsquo;animation d&amp;rsquo;ateliers de co-création et en s&amp;rsquo;appuyant sur son écosystèmes de professionnels, la MYNE met à disposition ses compétences et locaux pour vos projets.
+Pour plus d&amp;rsquo;information veuillez nous contacter: team@lamyne.org.</description>
+    </item>
+    
+    <item>
+      <title>Accompagnement des projet d&#39;innovation citoyenne</title>
+      <link>//localhost:1313/accompagnement/section/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/accompagnement/section/</guid>
+      <description>Le coeur de l’offre de la MYNE repose sur un cadre qui favorise le développement de projets citoyens. A travers un processus qui met en avant la démarche de recherche, d’expérimentation et de projet, les parrains de la MYNE vous accompagne pour faire grandir vos idées, fabriquer vos prototypes, déployer vos protocoles expérimentaux et tester vos solutions.
+A destination des citoyens, des universités, des collectivités, des PME ou des grands groupes, l’accompagnement des projets peut intervenir à différentes phases :</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>//localhost:1313/project/test/</link>
+      <pubDate>Thu, 09 Nov 2017 14:48:23 +0000</pubDate>
+      
+      <guid>//localhost:1313/project/test/</guid>
+      <description>test</description>
+    </item>
+    
+    <item>
+      <title>CELLUBY - Ferme bactérienne</title>
+      <link>//localhost:1313/project/celluby---ferme-bact-rienne/</link>
+      <pubDate>Mon, 09 Oct 2017 18:18:23 +0000</pubDate>
+      
+      <guid>//localhost:1313/project/celluby---ferme-bact-rienne/</guid>
+      <description>initialement nommé &amp;ldquo;Minois&amp;rdquo; est une expérimentation de projet initié par Jean-Marie Claisse afin de mettre en pratique la réappropriation citoyenne des sciences.
+Ce fork d&amp;rsquo;un travail open source initié par Suzan Lee et récupéré/développé en France par la Startup, est un travail initialement autour des Biomatières produite par des bactéries.
+Le travail initié à la myne est de créer une dynamique projet autour d&amp;rsquo;un sujet écologique pouvant faire sens dans la réappropriation des moyens de productions de matières, ou comment mélée Low Tech et Hight tech afin de participer au développement d&amp;rsquo;ateliers, ou des procédés permettant d&amp;rsquo;améliorer ou de proposer des travaux collaboratifs.</description>
+    </item>
+    
+    <item>
+      <title>Power Plante</title>
+      <link>//localhost:1313/project/powerplante/</link>
+      <pubDate>Mon, 09 Apr 2012 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/project/powerplante/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cyber Garden</title>
+      <link>//localhost:1313/project/cybergarden/</link>
+      <pubDate>Fri, 06 Apr 2012 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/project/cybergarden/</guid>
+      <description>Cyber Garden CyberGarden sont des œuvres en cours de recherches. Elles ont comme base l’élaboration de jardins intérieurs reliés à un système numérique permettant l’invention d’un nouveau langage entre la plante et l’humain. Développé par David Bartholomeo, artiste plasticien, le projet s’inscrit et enrichi les sessions CreaTEC, un partenariat entre la Paillasse Saône et les Beaux arts.</description>
+    </item>
+    
+    <item>
+      <title>Hackuaponie</title>
+      <link>//localhost:1313/project/hackuaponie/</link>
+      <pubDate>Fri, 06 Apr 2012 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/project/hackuaponie/</guid>
+      <description># Programme de sciences citoyennes d&amp;rsquo;amélioration des systèmes aquaponiques
+L&amp;rsquo;aquaponie est une innovation de production alimentaire symbiotique intéressante à plusieurs points de vue : production alimentaire locale de rendement très interessant production diversifiée de matière végétale et animale en symbiose faible consommation de surface au sol et plus faible poids qu&amp;rsquo;un système utilisant de la terre faible consommation d&amp;rsquo;eau et d&amp;rsquo;énergie possibilité d&amp;rsquo;autonomiser et d&amp;rsquo;automatiser le système de production
+Les objectifs du programme Hackuaponie à la MYNE sont de: - comprendre et s&amp;rsquo;approprier les principes de l&amp;rsquo;aquaponie par le faire et la démonstration (étape découverte et initiation) - participer à des recherches citoyenne sur divers paramètres d&amp;rsquo;amélioration design - substrats - alimentation des poissons - nutriments pour les plantes - autonomie énergétique</description>
+    </item>
+    
+    <item>
+      <title>Myn-A-Lab</title>
+      <link>//localhost:1313/project/mynalab/</link>
+      <pubDate>Fri, 06 Apr 2012 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/project/mynalab/</guid>
+      <description>Vers une maison autonome, expérimentale &amp;amp; interconnectée
+Alors que plusieurs prototypes d’innovations favorisés à la Paillasse Saône posent les questions d’autonomie énergétique, la maison devient en 2016 l’objet de recherche même se son propre laboratoire. Une expérimentation grandeur nature de la réhabilitation d’une maison ancienne avec des briques technologiques « autonomisantes » et expérimentales (énergies, agriculture, eau…), et connectée permettant de tirer partie des ressources du territoires en travaillant avec l’ensemble de ses acteurs et d’être en lien avec d’autres projets et l’expérimentation d’une économie de confiance.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>//localhost:1313/team/baptiste-nomine/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/team/baptiste-nomine/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>//localhost:1313/team/charlotte-rizzo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/team/charlotte-rizzo/</guid>
+      <description>CHeFCuisto des cerveaux, pro de l’expé, et de l’IA, Jérémy est l’initiateur du CogLab. Bienveillant concierge à ses heures perdues, il défend l’openScience, et accompagne petits et grands étudiants dans le monde fou de la recherche scientifique. Retrouvez le tous les samedi après midi à la MYNE pour ARTificialiser les sciences cognitives.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>//localhost:1313/team/chloe-mayere/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/team/chloe-mayere/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>//localhost:1313/team/claudine-revol/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/team/claudine-revol/</guid>
+      <description>Animatrice de la communauté OuiShare en Rhône Alpes, Claudine jongle entre reliance, permaculture et collaboration. Le partage est son ADN, le jardinage son phénotype, mais c’est la créativité et le éducation qui fait battre son coeur. Au détour d’une tomate du jardin et/ou du balcon, rencontrez la pour partager de nouvelles méthodes d’intelligence collective ou explorer les communs dont ceux issus du numérique.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>//localhost:1313/team/connie-benjamin-chow-petit/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/team/connie-benjamin-chow-petit/</guid>
+      <description>Gentils Bonnie And Clyde au sourire éclatant, C&amp;amp;B enrayonnent la MYNE de leurs joie de vivre et de leurs expériences folles. Garants de l’éthique convivialiste et des bons repas de la communauté, vous les trouverez derrière les fourneaux, les platines ou le clavier, à remixer ou hybrider de merveilleux systèmes complexes pour en faire des merveilles.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>//localhost:1313/team/david-bartholomeo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/team/david-bartholomeo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>//localhost:1313/team/jeremy-virgo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/team/jeremy-virgo/</guid>
+      <description>CHeFCuisto des cerveaux, pro de l’expé, et de l’IA, Jérémy est l’initiateur du CogLab. Bienveillant concierge à ses heures perdues, il défend l’openScience, et accompagne petits et grands étudiants dans le monde fou de la recherche scientifique. Retrouvez le tous les samedi après midi à la MYNE pour ARTificialiser les sciences cognitives.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>//localhost:1313/team/melia-villard/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/team/melia-villard/</guid>
+      <description>Grande cheffe scout de l’équipe, Mélia bricole et recolle les formats éducatifs et sociologiques de la MYNE. Gentille traductrice EcoloSocioGeek, elle ne perd jamais ni le nord ni les translations pour accompagner tous les fronts. Vous la trouverez probablement quelque part, entre clowneries improvistes, chant et danse de salopette, à planter les graines de l’intelligence collective</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>//localhost:1313/team/oriane-marignier/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/team/oriane-marignier/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>//localhost:1313/team/rieul-techer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/team/rieul-techer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>//localhost:1313/team/thomas-germain/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/team/thomas-germain/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>//localhost:1313/team/timothee-gosselin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/team/timothee-gosselin/</guid>
+      <description>Une (Res)Source ouverte à lui tout seul! Tim est le touche à tout du Lab. Shtroumpf grincheux mais curieux comme pas deux, il vous aidera à trouver la meilleure licence pour votre projet, et les meilleures combines de récup sur Lyon. Spécialiste de la créativité, de l’économie circulaire et des démarches ouvertes, ce BiohackCoeur Explorateur trouvera toujours réponse folle à vos questions.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>//localhost:1313/team/yoann-duriaux/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/team/yoann-duriaux/</guid>
+      <description>Mentor de la MYNE, pionnier des espaces partagés et de la collaboration, Yoann est notre fou garde de fou. Entre nomadisme, numérique et bienveillance, ce dictateur concierge ne rate pas une occasion d’apporter conseils et contributions au développement de la communauté dans la région et au delà.</description>
+    </item>
+    
+    <item>
+      <title>Accompagnement des projet d&#39;innovation citoyenne</title>
+      <link>//localhost:1313/accompagnement/section/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/accompagnement/section/</guid>
+      <description>Le coeur de l’offre de la MYNE repose sur un cadre qui favorise le développement de projets citoyens. A travers un processus qui met en avant la démarche de recherche, d’expérimentation et de projet, les parrains de la MYNE vous accompagne pour faire grandir vos idées, fabriquer vos prototypes, déployer vos protocoles expérimentaux et tester vos solutions.
+A destination des citoyens, des universités, des collectivités, des PME ou des grands groupes, l’accompagnement des projets peut intervenir à différentes phases :</description>
+    </item>
+    
+    <item>
+      <title>Apero projet MYNE - Juillet</title>
+      <link>//localhost:1313/agenda/data/apero_projet_myne_juillet/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/agenda/data/apero_projet_myne_juillet/</guid>
+      <description>Alors que les dialogues en humanité nous invitent à réinventer le monde, retrouvons nous au parc de la tête d&amp;rsquo;or pour l&amp;rsquo;apéro Projet Myne du mois.
+L&amp;rsquo;occasion de découvrir les nouveaux projets proposés à La Myne, les actus fraîches des projets en cours, boire des coups, et pourquoi pas poursuivre la soirée autour des échanges des dialogues! Elle est pas belle la vie?
+Ouvert à tous les curieux Rendez-vous devant le tipi oasis de RELIOS près de la roseraie</description>
+    </item>
+    
+    <item>
+      <title>Apéro projets La Myne - Juin</title>
+      <link>//localhost:1313/agenda/data/apero_projets_la_myne_juin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/agenda/data/apero_projets_la_myne_juin/</guid>
+      <description>En Juin, fais quelque-chose de tes mains! Venez découvrir les nouveaux projets de la myne et leurs porteurs, parler des avancées des anciens, des évènements à venir.. autour d&amp;rsquo;un verre. On sera dans la salle arrière de l&amp;rsquo;alternatibar, et l&amp;rsquo;évènement à l&amp;rsquo;honneur est la biennale d&amp;rsquo;architecture à laquelle on participe et en particulier RELIOS, qui vous sera présenté.</description>
+    </item>
+    
+    <item>
+      <title>Apéro projets La Myne - octobre</title>
+      <link>//localhost:1313/agenda/data/apero_projets_la_myne_octobre/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/agenda/data/apero_projets_la_myne_octobre/</guid>
+      <description>C&amp;rsquo;est demain!!!
+Temps de rencontre en dehors de la MYNE pour découvrir de nouveaux lieux et parler des projets de la communauté. En ce mois d&amp;rsquo;octobre, coup de projecteur sur le projet OpenVrac présenté par Jean Marie.
+Ouvert à tous</description>
+    </item>
+    
+    <item>
+      <title>Apéromix - Museomix &amp; Tiers-Lieux en Auvergne Rhône-Alpes</title>
+      <link>//localhost:1313/agenda/data/aperomix_museomix_and_tiers_lieux_en_auvergne_rhone_alpes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/agenda/data/aperomix_museomix_and_tiers_lieux_en_auvergne_rhone_alpes/</guid>
+      <description>Hello ! L&amp;rsquo;idée de cet apéromix est de (ré) engager la conversation entre les communautés Museomix et tiers-lieux de la région Auvergne Rhône-Alpes. En ligne de mire : une nouvelle éditon du marathon créatif Museomix du 10 au 12 novembre 2017 !</description>
+    </item>
+    
+    <item>
+      <title>Artisan Numérique</title>
+      <link>//localhost:1313/ateliers/artisan-numerique/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/ateliers/artisan-numerique/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Atelier Soudé</title>
+      <link>//localhost:1313/ateliers/atelier-soude/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/ateliers/atelier-soude/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Atelier | Séminaire : L’innovation managériale - David Vallat</title>
+      <link>//localhost:1313/agenda/011117-innovation-manageriale/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/agenda/011117-innovation-manageriale/</guid>
+      <description>Atelier de co-création / séminaire sur l’innovation managériale dans un tiers lieu (la Fabrique de l’innovation de l’Université de Lyon) le 01/11 matin (tout le détail est dans l’invitation jointe). Il y aura quelques surprises par rapport au programme.
+https://drive.google.com/file/d/0B1ZhoYiOz5DndDByMGpkSEV4c0E/view
+En deux mots il s’agit : 1) de poser les enjeux épistémologiques, théoriques ET pratiques du changement de monde que nous vivons (notamment du fait de l’avènement de l’ère digitale) ;</description>
+    </item>
+    
+    <item>
+      <title>Atelier | Séminaire : L’innovation managériale - David Vallat</title>
+      <link>//localhost:1313/agenda/data/atelier_or_seminaire__linnovation_manageriale_david_vallat/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/agenda/data/atelier_or_seminaire__linnovation_manageriale_david_vallat/</guid>
+      <description>Atelier de co-création / séminaire sur l’innovation managériale dans un tiers lieu (la Fabrique de l’innovation de l’Université de Lyon) le 01/11 matin (tout le détail est dans l’invitation jointe). Il y aura quelques surprises par rapport au programme.
+https://drive.google.com/file/d/0B1ZhoYiOz5DndDByMGpkSEV4c0E/view
+En deux mots il s’agit : 1) de poser les enjeux épistémologiques, théoriques ET pratiques du changement de monde que nous vivons (notamment du fait de l’avènement de l’ère digitale) ;</description>
+    </item>
+    
+    <item>
+      <title>Ateliers jeunes publics</title>
+      <link>//localhost:1313/ateliers/mynikids/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/ateliers/mynikids/</guid>
+      <description>De l’apprentissage théorique à la pratique du tiers-lieu, les jeunes de 6 à 16 ans sont invités à pratiquer différents ateliers du bricolage aux expériences de biologie pour apprendre différemment, développer des savoirs faire et savoir vivre et développer leurs propres projets.</description>
+    </item>
+    
+    <item>
+      <title>Biennale de Design 2017</title>
+      <link>//localhost:1313/ateliers/biennale-design/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/ateliers/biennale-design/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Biohacking - Grow It Together</title>
+      <link>//localhost:1313/ateliers/biohacking/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/ateliers/biohacking/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Civic Tech - la politique comme commun</title>
+      <link>//localhost:1313/agenda/civic-tech-la-politique-comme-commun/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/agenda/civic-tech-la-politique-comme-commun/</guid>
+      <description>Dans le cadre de la programmation des Masterclasse à la MYNE, et ici plus spécifiquement dans le cadre du Programme French Tech Ticket, nous vous convions à une Masterclasse CivicTech sur &amp;ldquo;La politique comme commun - Processus, Infrastructures, Échelles et Controverses.&amp;rdquo; mené par Sylvia Fredriksson en dialogue avec Alexandre Monnin
+Sylvia est designer et chargée de recherche à la Cité du design de Saint-Étienne, porte des projets dédiés à la valorisation des communs et travaille autour des enjeux d’appropriation citoyenne des technologies et des cultures numériques comme levier d’émancipation de la société civile.</description>
+    </item>
+    
+    <item>
+      <title>DAISEE</title>
+      <link>//localhost:1313/project/daisee/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/project/daisee/</guid>
+      <description>IsOE - The Internets of Energy The long terme purpose of The DAISEE project is building the &amp;ldquo;internets of energy&amp;rdquo;.
+What does it mean ? The development of open-source secured decentralized autonomous energy production system and consumption monitoring, in line with building micro-grid infrastructures, thus enabling trusted peer-to-peer energy transaction.
+ Energy Monitoring: how to securely monitor energy consumption and production from a open-source basis ? =&amp;gt; #OpenEnergyMonitor #CitizenWatt #OpenHardware #Slockit</description>
+    </item>
+    
+    <item>
+      <title>Devenir porteur de projet en 3 étapes</title>
+      <link>//localhost:1313/contribute/porteurs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/contribute/porteurs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Exposition vivante et vivre les processus</title>
+      <link>//localhost:1313/agenda/data/exposition_vivante_et_vivre_les_processus/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/agenda/data/exposition_vivante_et_vivre_les_processus/</guid>
+      <description>« Le biomimétisme open source comme modèle pour panser et concevoir la ville vivante et soutenable »
+Du 1er ay 16 décembre venez découvrir, vivre, pratiquer, toucher, manipuler, modifier les réalisations et prototypes du Biome HackLab à l&amp;rsquo;Hôtel Pasteur à Rennes.
+En collaboration avec Open BioFabrics (Dijon), La Myne (eco hacklab de Lyon), Roazhon ferme et Indien dans la Ville (Rennes).
+Exposition vivante dans laquelle vous participez, apprenez, partagez, transmettez C&amp;rsquo;est une exposition vivante et non figée.</description>
+    </item>
+    
+    <item>
+      <title>GT-Com La Myne</title>
+      <link>//localhost:1313/agenda/data/gt_com_la_myne/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/agenda/data/gt_com_la_myne/</guid>
+      <description>On se repenche sur la Communication à la Myne !
+Vaste sujet ! De quelle com on parle? De quels outils? Envers qui? quel rôle à le gt com? Beaucoup de choses à traiter pour continuer le travail commencé et définir de nouveaux objectifs pour répondre à différents besoins :
+ Ca commence par lister clairement les différents rôles de ce groupe de travail et la manière de traiter les différentes tâches.</description>
+    </item>
+    
+    <item>
+      <title>GT-SI La MYne</title>
+      <link>//localhost:1313/agenda/data/gt_si_la_myne/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/agenda/data/gt_si_la_myne/</guid>
+      <description>C&amp;rsquo;est la rentré du GT- Système d&amp;rsquo;information afin de remettre à plat les chantiers et élaboré une stratégie, Lister les problématiques. Nous vous invitons à Poster vos requêtes ou idée sur la fin du Pad : https://pad.lamyne.org/OwDgZsDMAMCm0FoBsBjMBDBAWAjJArAiLCAEwIqwrTqywEAmWDQA# Vous êtes les bienvenus pour participer et prendre part au développement du SI de la myne. Ramenez un petit quelque chose à manger ou boire.</description>
+    </item>
+    
+    <item>
+      <title>Grand ménage avant la reprise des ateliers!</title>
+      <link>//localhost:1313/agenda/data/grand_menage_avant_la_reprise_des_ateliers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/agenda/data/grand_menage_avant_la_reprise_des_ateliers/</guid>
+      <description>L&amp;rsquo;atelier prépare activement sa rentrée! L&amp;rsquo;année écoulée a vu s&amp;rsquo;entasser bon nombre d&amp;rsquo;appareils à l&amp;rsquo;atelier: ils nous servent soit de stock de pièces détachées, soit sont réparés par l&amp;rsquo;équipe pour être revendus/loués. De mardi à jeudi, on repart sur de bonnes bases pour finaliser le chantier entamé début août: - test et tri des appareils - démantèlement des appareils hors service - finalisation d&amp;rsquo;aménagement et signalétique de l&amp;rsquo;espace Vous êtes bienvenus toute la journée entre 9h30 et 21h30, avec repas partagé midi et soir (amener un petit quelquechose pour le midi), et on recrute volontier des cuistots improvisés!</description>
+    </item>
+    
+    <item>
+      <title>Hackaday Prize 2017</title>
+      <link>//localhost:1313/ateliers/hackadayprize-2017/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/ateliers/hackadayprize-2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hacker, coopérer, travailler?</title>
+      <link>//localhost:1313/agenda/lage-du-faire/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/agenda/lage-du-faire/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Imagineo</title>
+      <link>//localhost:1313/ateliers/imagineo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/ateliers/imagineo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Impression 3D</title>
+      <link>//localhost:1313/ateliers/impression3d/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/ateliers/impression3d/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jardinages Communautaires de juillet #2 - La Myne</title>
+      <link>//localhost:1313/agenda/data/jardinages_communautaires_de_juillet_2_la_myne/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/agenda/data/jardinages_communautaires_de_juillet_2_la_myne/</guid>
+      <description>On remet ça cette semaine: - des semis à faire - entretien et évolution du jardin - organisation et transfert de documentation - aménagement intérieur pour ceux qui veulent Bienvenue à tous, et repas contributif à midi!</description>
+    </item>
+    
+    <item>
+      <title>Jardinages communautaires de juillet #1 - La MYNE</title>
+      <link>//localhost:1313/agenda/data/jardinages_communautaires_de_juillet_1_la_myne/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/agenda/data/jardinages_communautaires_de_juillet_1_la_myne/</guid>
+      <description>A la Myne en juillet, on jardine! - jardin partagé en demande d&amp;rsquo;attentions - documentations en cours de transfert et en besoin d&amp;rsquo;organisation - aménagements extérieurs à fabriquer pour se mettre bien&amp;hellip; Bienvenue à tous, avec repas partagé midi et soir!</description>
+    </item>
+    
+    <item>
+      <title>La MYNE</title>
+      <link>//localhost:1313/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/about/</guid>
+      <description>Une Manufacture du concret et du réel La MYNE est un espace hybride partagé et ouvert, au coeur de la région Rhône-Alpes. Elle est hybride car elle regroupe les fonctions de hacklab - laboratoire communautaire ouvert - d&amp;rsquo;atelier de fabrication - d&amp;rsquo;espace de co-working - espace de travail partagé et en réseau - et d&amp;rsquo;espace de vie. La MYNE est au service de l’expérimentation et du développement de projets de recherche citoyens s’inscrivant dans une logique de soutenabilité.</description>
+    </item>
+    
+    <item>
+      <title>Le Tiers-Lieux est mort ? Vivent les Tiers-Lieux !</title>
+      <link>//localhost:1313/agenda/011117-le-tiers-lieu-est-mort-vivent-les-tiers-lieux/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/agenda/011117-le-tiers-lieu-est-mort-vivent-les-tiers-lieux/</guid>
+      <description>Entre l&amp;rsquo;atelier de David Vallat le matin et la Masterclasse de Sylvia Fredriksson en soirée (avec Alexandre Monnin en invité surprise), nous vous proposons une après-midi de travail et de discussion avec Antoine Burret en invité autour de la politique et technique du rassemblement, en espérant pouvoir avoir les zamis stéphanois notamment Yoann Duriaux
+Document de prise de notes partagées et de préparation: https://pad.lamyne.org/s/BJZyafQ0Z
+[Photo: Virgil Roussos - Tous droits réservés]</description>
+    </item>
+    
+    <item>
+      <title>Le Tiers-Lieux est mort ? Vivent les Tiers-Lieux !</title>
+      <link>//localhost:1313/agenda/data/le_tiers_lieux_est_mort_vivent_les_tiers_lieux_/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/agenda/data/le_tiers_lieux_est_mort_vivent_les_tiers_lieux_/</guid>
+      <description>Entre l&amp;rsquo;atelier de David Vallat le matin et la Masterclasse de Sylvia Fredriksson en soirée (avec Alexandre Monnin en invité surprise), nous vous proposons une après-midi de travail et de discussion avec Antoine Burret en invité autour de la politique et technique du rassemblement, en espérant pouvoir avoir les zamis stéphanois notamment Yoann Duriaux
+Document de prise de notes partagées et de préparation: https://pad.lamyne.org/s/BJZyafQ0Z
+[Photo: Virgil Roussos - Tous droits réservés]</description>
+    </item>
+    
+    <item>
+      <title>Le coût écologique et social d&#39;Internet : Déjeuner-débat</title>
+      <link>//localhost:1313/agenda/cout-ecologique-social-internet/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/agenda/cout-ecologique-social-internet/</guid>
+      <description>Félix Tréguer est membre fondateur de La Quadrature du Net - association de défense des libertés publiques à l’ère numérique. Gaël Trouvé est cofondateur de Scolopendre - hackerspace visant une réappropriation citoyenne de la gestion des déchets électroniques.
+Dans leur tribune publiée sur Reporterre, ils présentent leur constat, analyses et propositions : &amp;ldquo;Le combat pour une informatique émancipatrice échoue le plus souvent à expliquer les effroyables coûts écologiques et humains du numérique.</description>
+    </item>
+    
+    <item>
+      <title>Le coût écologique et social d&#39;Internet : Déjeuner-débat</title>
+      <link>//localhost:1313/agenda/data/le_cout_ecologique_et_social_dinternet__dejeuner_debat/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/agenda/data/le_cout_ecologique_et_social_dinternet__dejeuner_debat/</guid>
+      <description>La MYNE (Manufacture des Idées et Nouvelles Expérimentations) accueille Félix Tréguer et Gaël Trouvé pour discuter des coûts écologiques et humain d&amp;rsquo;Internet, et des alternatives possibles pour développer un Internet low-tech, résilient, pertinent et souhaitable.
+Félix Tréguer est membre fondateur de La Quadrature du Net - association de défense des libertés publiques à l’ère numérique. Gaël Trouvé est cofondateur de Scolopendre - hackerspace visant une réappropriation citoyenne de la gestion des déchets électroniques.</description>
+    </item>
+    
+    <item>
+      <title>Le systeme d&#39;information - la MYNE pimp son SI avec toi</title>
+      <link>//localhost:1313/agenda/data/le_systeme_dinformation_la_myne_pimp_son_si_avec_toi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/agenda/data/le_systeme_dinformation_la_myne_pimp_son_si_avec_toi/</guid>
+      <description>&amp;hellip; et pas pour toi :) Une petite session Systeme d&amp;rsquo;Information s&amp;rsquo;organise pour Vendredi matin (oui oui) avec l&amp;rsquo;ami Timothée et on l&amp;rsquo;espère Jean-Marie et Maxime dans la boucle.
+L&amp;rsquo;enjeux principal: - comprendre comment est structuré e SI à la MYNE (IndieHoster, Github, les outils - cloud, pad, rocketchat&amp;hellip;) - comprendre comment est structuré le site web (et potentiellement discuté l&amp;rsquo;arborescence) - B-A - BA de la contribution sur le site web: comment fait-on pour contribuer sur le site web de la MYNE, notamment pour la mise en de la documentation des projets (compréhension de Github, base de markdown&amp;hellip;).</description>
+    </item>
+    
+    <item>
+      <title>Little Bits</title>
+      <link>//localhost:1313/ateliers/littlebits/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/ateliers/littlebits/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MYN-A-LAB - Chantiers Participatifs</title>
+      <link>//localhost:1313/ateliers/mynalab/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/ateliers/mynalab/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Masterclass #FTT - CivicTech : La politique comme commun</title>
+      <link>//localhost:1313/agenda/data/masterclass_ftt_civictech__la_politique_comme_commun/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/agenda/data/masterclass_ftt_civictech__la_politique_comme_commun/</guid>
+      <description>Dans le cadre de la programmation des Masterclasse à la MYNE, et ici plus spécifiquement dans le cadre du Programme French Tech Ticket, nous vous convions à une Masterclasse CivicTech sur &amp;ldquo;La politique comme commun - Processus, Infrastructures, Échelles et Controverses.&amp;rdquo; mené par Sylvia Fredriksson en dialogue avec Alexandre Monnin
+Sylvia est designer et chargée de recherche à la Cité du design de Saint-Étienne, porte des projets dédiés à la valorisation des communs et travaille autour des enjeux d’appropriation citoyenne des technologies et des cultures numériques comme levier d’émancipation de la société civile.</description>
+    </item>
+    
+    <item>
+      <title>Masterclass FTT - Community building and dynamics - Y. Heurtaux</title>
+      <link>//localhost:1313/agenda/data/masterclass_ftt_community_building_and_dynamics_y._heurtaux/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/agenda/data/masterclass_ftt_community_building_and_dynamics_y._heurtaux/</guid>
+      <description>Bonjour à toutes et à tous !
+Nous vous invitons à la masterclasse Communautés, co-animée par Yann Heurtaux et les membres de la MYNE. Elle est organisée dans le cadre du French Tech Ticket et est ouverte à toutes et à tous (libre pour les membres de la MYNE, 2€ pour la cotisation pour des questions d&amp;rsquo;assurance pour les non-membres).
+Masterclasse Community : construction et dynamiques de communautés, retour d&amp;rsquo;expérience par Yann Heurtaux &amp;gt; contributeur hyper actif aux réseaux et communautés coworking (https://www.</description>
+    </item>
+    
+    <item>
+      <title>Myne Mix - Atelier Soudure à l&#39;Arc &amp; Chantier Grande Serre</title>
+      <link>//localhost:1313/agenda/111117-mynemix-soudure-arc-serre/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/agenda/111117-mynemix-soudure-arc-serre/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Myne Mix - Atelier Soudure à l&#39;Arc &amp; Chantier Grande Serre</title>
+      <link>//localhost:1313/agenda/data/myne_mix_atelier_soudure_a_larc_and_chantier_grande_serre/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/agenda/data/myne_mix_atelier_soudure_a_larc_and_chantier_grande_serre/</guid>
+      <description>Samedi c&amp;rsquo;est Myne Mix Extérieur: Atelier Soudure à l&amp;rsquo;arc avec Abel, qui permettra de monter la structure de la grande serre pour mettre au chaud les plantations! On finalise la serre dimanche si besoin (ou si pluie samedi)</description>
+    </item>
+    
+    <item>
+      <title>Open City Lab</title>
+      <link>//localhost:1313/ateliers/opencitylab/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/ateliers/opencitylab/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PROJET CELLUBY</title>
+      <link>//localhost:1313/project/celluby/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/project/celluby/</guid>
+      <description>CELLUBY initialement nommé &amp;ldquo;Minois&amp;rdquo; est une expérimentation de projet initié par Jean-Marie Claisse afin de mettre en pratique la réappropriation citoyenne des sciences. Ce fork d&amp;rsquo;un travail open source initié par Suzan Lee et récupéré/développé en France par la Startup, est un travail initialement autour des Biomatières produite par des bactéries. Le travail initié à la myne est de créer une dynamique projet autour d&amp;rsquo;un sujet écologique pouvant faire sens dans la réappropriation des moyens de productions de matières, ou comment mélée Low Tech et Hight tech afin de participer au développement d&amp;rsquo;ateliers, ou des procédés permettant d&amp;rsquo;améliorer ou de proposer des travaux collaboratifs.</description>
+    </item>
+    
+    <item>
+      <title>Pad de Documentation</title>
+      <link>//localhost:1313/documentation/pad-daisee/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/documentation/pad-daisee/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Portes Ouvertes des Pratiques Artistiques Amateurs</title>
+      <link>//localhost:1313/agenda/data/portes_ouvertes_des_pratiques_artistiques_amateurs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/agenda/data/portes_ouvertes_des_pratiques_artistiques_amateurs/</guid>
+      <description>Les Pratiques Artistiques Amateurs organisent des portes ouvertes le Samedi 24 Juin, afin de présenter l&amp;rsquo;ensemble des ateliers de l&amp;rsquo;an prochain (dessin, peinture, sculpture, photographie, modèles vivants, cours enfants,&amp;hellip;)</description>
+    </item>
+    
+    <item>
+      <title>Pot de rentrée des myneur.euse.s !</title>
+      <link>//localhost:1313/agenda/data/pot_de_rentree_des_myneur.euse.s_/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/agenda/data/pot_de_rentree_des_myneur.euse.s_/</guid>
+      <description>L&amp;rsquo;été se termine, et septembre a débarqué, c&amp;rsquo;est donc l&amp;rsquo;occasion d&amp;rsquo;un pot de rentrée ! Histoire de se raconter nos découvertes et experiences estivales, de boire un verre, d&amp;rsquo;être content.e de se retrouver et de se rebooster collectivement ! Pour le lieu, ça peut être à la Myne ou à décider plus tard selon la météo, mais booke déja ton mardi 5 à 19h !
+Edit : Ca se passe bien à la Myne !</description>
+    </item>
+    
+    <item>
+      <title>Pour une science sans croissance ? Débat avec Fabrice Flipo</title>
+      <link>//localhost:1313/agenda/data/pour_une_science_sans_croissance_debat_avec_fabrice_flipo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/agenda/data/pour_une_science_sans_croissance_debat_avec_fabrice_flipo/</guid>
+      <description>La MYNE (Manufacture des Idées et Nouvelles Expérimentations), tiers-lieu de recherche citoyenne pour des modes de vie durables, invite à questionner les finalités de la recherche scientifique à l&amp;rsquo;occasion d&amp;rsquo;un apéro-débat avec Fabrice Flipo.
+Philosophe, chercheur et administrateur de l&amp;rsquo;association Sciences Citoyennes, Fabrice Flipo travaille sur une anthropologie de la modernité et de la globalisation, croisant des réflexions sur les relations internationales, le service public, le développement durable, la décroissance et l’écologie des infrastructures numériques.</description>
+    </item>
+    
+    <item>
+      <title>Pour une science sans croissance ? Débat avec Fabrice Flipo</title>
+      <link>//localhost:1313/agenda/sicence-sans-croissance/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/agenda/sicence-sans-croissance/</guid>
+      <description>Philosophe, chercheur et administrateur de l&amp;rsquo;association Sciences Citoyennes, Fabrice Flipo travaille sur une anthropologie de la modernité et de la globalisation, croisant des réflexions sur les relations internationales, le service public, le développement durable, la décroissance et l’écologie des infrastructures numériques. Il a notamment publié les ouvrages &amp;ldquo;Nature et politique&amp;rdquo; (Amsterdam, 2014), &amp;ldquo;Réenchanter le monde. Anthropologie politique de l’émancipation&amp;rdquo; (Le Croquant, 2016), et plus récemment &amp;ldquo;Décroissance, ici et maintenant !&amp;rdquo; (Le passager clandestin, 2017).</description>
+    </item>
+    
+    <item>
+      <title>Programme French Tech Ticket</title>
+      <link>//localhost:1313/ateliers/french-tech-ticket/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/ateliers/french-tech-ticket/</guid>
+      <description>De l’apprentissage théorique à la pratique du tiers-lieu, les jeunes de 6 à 16 ans sont invités à pratiquer différents ateliers du bricolage aux expériences de biologie pour apprendre différemment, développer des savoirs faire et savoir vivre et développer leurs propres projets.</description>
+    </item>
+    
+    <item>
+      <title>Pyrocarb Nomade</title>
+      <link>//localhost:1313/project/pyrocarb-nomade/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/project/pyrocarb-nomade/</guid>
+      <description>Pyrocarb Nomade Le « Pyrocarb » est un cuiseur extérieur qui fonctionne avec des brindilles, des pommes de pin, des coques de noix et même des granulés de bois.
+Il rend autonome celles et ceux qui ont besoin de chauffer de l&amp;rsquo;eau, cuire des pâtes, réchauffer une boite de conserve et même les talentueux cuisiniers de plein air.
+Fini le gaz, le pétrole et le kérosène, aujourd&amp;rsquo;hui on cuisine avec du renouvelable, en camping, en randonnée et même sur son balcon sans enfumer ses voisins.</description>
+    </item>
+    
+    <item>
+      <title>Rencontre #4 Fabrique tes communs !</title>
+      <link>//localhost:1313/agenda/101117-rencontre#4-fabrique-tes-communs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/agenda/101117-rencontre#4-fabrique-tes-communs/</guid>
+      <description>La Fabrique des communs 2017 à Lyon offre une nouvelle occasion de rencontres, d&amp;rsquo;échanges et de coopérations entre toute personne, collectif et institution s&amp;rsquo;intéressant à la question des communs. Que vous expérimentiez les communs en actes depuis longtemps, ou que vous en soyez curieux, vous êtes les bienvenus à cette nouvelle réunion conviviale !
+Nous aborderons essentiellement la préparation de l&amp;rsquo;événement des communs, le 9 et 10 décembre à la MJC Confluence.</description>
+    </item>
+    
+    <item>
+      <title>Rencontre #4 Fabrique tes communs !</title>
+      <link>//localhost:1313/agenda/data/rencontre_4_fabrique_tes_communs_/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/agenda/data/rencontre_4_fabrique_tes_communs_/</guid>
+      <description>La Fabrique des communs 2017 à Lyon offre une nouvelle occasion de rencontres, d&amp;rsquo;échanges et de coopérations entre toute personne, collectif et institution s&amp;rsquo;intéressant à la question des communs. Que vous expérimentiez les communs en actes depuis longtemps, ou que vous en soyez curieux, vous êtes les bienvenus à cette nouvelle réunion conviviale !
+Nous aborderons essentiellement la préparation de l&amp;rsquo;événement des communs, le 9 et 10 décembre à la MJC Confluence.</description>
+    </item>
+    
+    <item>
+      <title>Rencontre #5 Fabrique tes communs</title>
+      <link>//localhost:1313/agenda/rencontre_5_fabrique_tes_communs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/agenda/rencontre_5_fabrique_tes_communs/</guid>
+      <description>&amp;mdash;&amp;mdash;&amp;mdash;&amp;ndash; Au programme &amp;mdash;&amp;mdash;&amp;mdash;&amp;ndash;
+Nous découvrions des projets qui incarnent les communs et définirons les activités et mise en place des festivités des 9 et 10 décembre que l&amp;rsquo;on animera collectivement à la MJC Confluence.
+&amp;mdash;&amp;mdash;&amp;mdash;&amp;ndash; La fabrique des Communs 2017 &amp;mdash;&amp;mdash;&amp;mdash;&amp;ndash;
+La Fabrique des communs 2017 à Lyon offre une nouvelle occasion de rencontres, d&amp;rsquo;échanges et de coopérations entre toute personne, collectif et institution s&amp;rsquo;intéressant à la question des communs.</description>
+    </item>
+    
+    <item>
+      <title>Rencontre #5 Fabrique tes communs</title>
+      <link>//localhost:1313/agenda/data/rencontre_5_fabrique_tes_communs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/agenda/data/rencontre_5_fabrique_tes_communs/</guid>
+      <description>&amp;mdash;&amp;mdash;&amp;mdash;&amp;ndash; Au programme &amp;mdash;&amp;mdash;&amp;mdash;&amp;ndash;
+Nous découvrions des projets qui incarnent les communs et définirons les activités et mise en place des festivités des 9 et 10 décembre que l&amp;rsquo;on animera collectivement à la MJC Confluence.
+&amp;mdash;&amp;mdash;&amp;mdash;&amp;ndash; La fabrique des Communs 2017 &amp;mdash;&amp;mdash;&amp;mdash;&amp;ndash;
+La Fabrique des communs 2017 à Lyon offre une nouvelle occasion de rencontres, d&amp;rsquo;échanges et de coopérations entre toute personne, collectif et institution s&amp;rsquo;intéressant à la question des communs.</description>
+    </item>
+    
+    <item>
+      <title>Rencontre / Débat EcologiePolitique Decroissance</title>
+      <link>//localhost:1313/agenda/data/rencontre_debat_ecologiepolitique_decroissance/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/agenda/data/rencontre_debat_ecologiepolitique_decroissance/</guid>
+      <description>A l&amp;rsquo;initiative de Valentine, actuellement à la MYNE et s&amp;rsquo;intéressant aux questions de #décroissance #ecologiepolitique #communs , une rencontre-débat est organisé le Mercredi 18 octobre à 18.00 à la MYNE.
+Au plaisir de vous y croiser et d&amp;rsquo;en débattre / discuter.
+Il y a dix ans, André Gorz se donnait la mort avec sa femme Dorine, à l’âge de 84 ans. Ecologiste des premières heures, marxiste dissident et précurseur de la Décroissance, ce philosophe d’origine autrichienne nous lègue une pensée qui résonne comme une ôde à l’émancipation et reste d’une pertinence rare.</description>
+    </item>
+    
+    <item>
+      <title>Soudure à l&#39;arc</title>
+      <link>//localhost:1313/ateliers/soudure-a-larc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/ateliers/soudure-a-larc/</guid>
+      <description>Apprendre a souder</description>
+    </item>
+    
+    <item>
+      <title>Titre à Venir - Avenir</title>
+      <link>//localhost:1313/ateliers/titreavenir/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/ateliers/titreavenir/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Transmission - Outils Numériques internes</title>
+      <link>//localhost:1313/agenda/data/transmission_outils_numeriques_internes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/agenda/data/transmission_outils_numeriques_internes/</guid>
+      <description>Les Outils Numériques à la Myne commencent à être bien en place. C&amp;rsquo;est donc le moment de transmettre leur usage en pair-à-pair, bienvenue aux apprentis et aux transmetteurs-trices! - Comment contribuer au site web (projet, masterclass, atelier, contenu, admin&amp;hellip;) - Comment (bien) utiliser le chat, le cloud - Travail sur les documentations répertoriées sur l&amp;rsquo;annuaire des pads (transfert, accord sur le sommaire, puis sémantique à appliquer au titre des pads) - Lien avec missions SI &amp;amp; Documentation ?</description>
+    </item>
+    
+    <item>
+      <title>Transmission#2 : Admin à la MYNE: c&#39;est quoi ce bordel</title>
+      <link>//localhost:1313/agenda/data/transmission2__admin_a_la_myne_cest_quoi_ce_bordel/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/agenda/data/transmission2__admin_a_la_myne_cest_quoi_ce_bordel/</guid>
+      <description>[Picture Leg Godt by xavierkatigbak]
+L&amp;rsquo;Admin à la MYNE: c&amp;rsquo;est quoi ce bordel ?
+Voici une 3ème session de transmission de l&amp;rsquo;année, un peu moins glamour que les autres: let&amp;rsquo;s talk about administration.
+Constatant que certaines pratiques que nous pensions comme ancrées dans l&amp;rsquo;ADN de la MYNE ne le sont pas tant que ça, nous sommes arrivés à la conclusion non pas que les gens n&amp;rsquo;y comprenaient rien mais simplement qu&amp;rsquo;il y a et avait de notre part un défaut de transmission.</description>
+    </item>
+    
+    <item>
+      <title>We are the Projects</title>
+      <link>//localhost:1313/ateliers/wap/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/ateliers/wap/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>lalala</title>
+      <link>//localhost:1313/agenda/daisee/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/agenda/daisee/</guid>
+      <description>Atelier de co-création / séminaire sur l’innovation managériale dans un tiers lieu (la Fabrique de l’innovation de l’Université de Lyon) le 01/11 matin (tout le détail est dans l’invitation jointe). Il y aura quelques surprises par rapport au programme.
+https://drive.google.com/file/d/0B1ZhoYiOz5DndDByMGpkSEV4c0E/view
+En deux mots il s’agit : 1) de poser les enjeux épistémologiques, théoriques ET pratiques du changement de monde que nous vivons (notamment du fait de l’avènement de l’ère digitale) ;</description>
+    </item>
+    
+    <item>
+      <title>lalala</title>
+      <link>//localhost:1313/agenda/daisee2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/agenda/daisee2/</guid>
+      <description>Atelier de co-création / séminaire sur l’innovation managériale dans un tiers lieu (la Fabrique de l’innovation de l’Université de Lyon) le 01/11 matin (tout le détail est dans l’invitation jointe). Il y aura quelques surprises par rapport au programme.
+https://drive.google.com/file/d/0B1ZhoYiOz5DndDByMGpkSEV4c0E/view
+En deux mots il s’agit : 1) de poser les enjeux épistémologiques, théoriques ET pratiques du changement de monde que nous vivons (notamment du fait de l’avènement de l’ère digitale) ;</description>
+    </item>
+    
+    <item>
+      <title>lalala</title>
+      <link>//localhost:1313/agenda/daisee3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/agenda/daisee3/</guid>
+      <description>Atelier de co-création / séminaire sur l’innovation managériale dans un tiers lieu (la Fabrique de l’innovation de l’Université de Lyon) le 01/11 matin (tout le détail est dans l’invitation jointe). Il y aura quelques surprises par rapport au programme.
+https://drive.google.com/file/d/0B1ZhoYiOz5DndDByMGpkSEV4c0E/view
+En deux mots il s’agit : 1) de poser les enjeux épistémologiques, théoriques ET pratiques du changement de monde que nous vivons (notamment du fait de l’avènement de l’ère digitale) ;</description>
+    </item>
+    
+    <item>
+      <title>lalala</title>
+      <link>//localhost:1313/agenda/daisee4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/agenda/daisee4/</guid>
+      <description>Atelier de co-création / séminaire sur l’innovation managériale dans un tiers lieu (la Fabrique de l’innovation de l’Université de Lyon) le 01/11 matin (tout le détail est dans l’invitation jointe). Il y aura quelques surprises par rapport au programme.
+https://drive.google.com/file/d/0B1ZhoYiOz5DndDByMGpkSEV4c0E/view
+En deux mots il s’agit : 1) de poser les enjeux épistémologiques, théoriques ET pratiques du changement de monde que nous vivons (notamment du fait de l’avènement de l’ère digitale) ;</description>
+    </item>
+    
+    <item>
+      <title>lalala</title>
+      <link>//localhost:1313/agenda/daisee5/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/agenda/daisee5/</guid>
+      <description>Atelier de co-création / séminaire sur l’innovation managériale dans un tiers lieu (la Fabrique de l’innovation de l’Université de Lyon) le 01/11 matin (tout le détail est dans l’invitation jointe). Il y aura quelques surprises par rapport au programme.
+https://drive.google.com/file/d/0B1ZhoYiOz5DndDByMGpkSEV4c0E/view
+En deux mots il s’agit : 1) de poser les enjeux épistémologiques, théoriques ET pratiques du changement de monde que nous vivons (notamment du fait de l’avènement de l’ère digitale) ;</description>
+    </item>
+    
+    <item>
+      <title>lalala2</title>
+      <link>//localhost:1313/agenda/lalal/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/agenda/lalal/</guid>
+      <description>Atelier de co-création / séminaire sur l’innovation managériale dans un tiers lieu (la Fabrique de l’innovation de l’Université de Lyon) le 01/11 matin (tout le détail est dans l’invitation jointe). Il y aura quelques surprises par rapport au programme.
+https://drive.google.com/file/d/0B1ZhoYiOz5DndDByMGpkSEV4c0E/view
+En deux mots il s’agit : 1) de poser les enjeux épistémologiques, théoriques ET pratiques du changement de monde que nous vivons (notamment du fait de l’avènement de l’ère digitale) ;</description>
+    </item>
+    
+    <item>
+      <title>lalala2</title>
+      <link>//localhost:1313/agenda/lalala/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/agenda/lalala/</guid>
+      <description>Atelier de co-création / séminaire sur l’innovation managériale dans un tiers lieu (la Fabrique de l’innovation de l’Université de Lyon) le 01/11 matin (tout le détail est dans l’invitation jointe). Il y aura quelques surprises par rapport au programme.
+https://drive.google.com/file/d/0B1ZhoYiOz5DndDByMGpkSEV4c0E/view
+En deux mots il s’agit : 1) de poser les enjeux épistémologiques, théoriques ET pratiques du changement de monde que nous vivons (notamment du fait de l’avènement de l’ère digitale) ;</description>
+    </item>
+    
+    <item>
+      <title>lalala2</title>
+      <link>//localhost:1313/agenda/lalala2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/agenda/lalala2/</guid>
+      <description>Atelier de co-création / séminaire sur l’innovation managériale dans un tiers lieu (la Fabrique de l’innovation de l’Université de Lyon) le 01/11 matin (tout le détail est dans l’invitation jointe). Il y aura quelques surprises par rapport au programme.
+https://drive.google.com/file/d/0B1ZhoYiOz5DndDByMGpkSEV4c0E/view
+En deux mots il s’agit : 1) de poser les enjeux épistémologiques, théoriques ET pratiques du changement de monde que nous vivons (notamment du fait de l’avènement de l’ère digitale) ;</description>
+    </item>
+    
+  </channel>
+</rss>

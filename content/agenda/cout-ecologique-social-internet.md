@@ -2,13 +2,8 @@
 title : "Le coût écologique et social d'Internet : Déjeuner-débat"
 start: 2017-11-24T12:00:00+02:00
 end: 2017-11-24T14:00:00+02:00
-porteurs :
-  - name: Félix Tréguer
-    image:
-  - name: Gaël Trouvé
-    image:
-  - name: Valentine Porche
-    image:
+porteurs : ["Valentine Porche"]
+guests: ["Félix Tréguer", "Gaël Trouvé"]
 description : "Félix Tréguer et Gaël Trouvé discutent des coûts écologiques et humain d'Internet, et des alternatives possibles pour développer un Internet low-tech, résilient, pertinent et souhaitable."
 logo : "/img/cout-ecologique-social-internet.jpg"
 thumbnail : "/img/cout-ecologique-social-internet.jpg"

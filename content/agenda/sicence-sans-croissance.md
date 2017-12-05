@@ -1,10 +1,7 @@
 ---
 title : "Pour une science sans croissance ? Débat avec Fabrice Flipo"
-porteurs:
-- image: /img/avatar.jpg
-  name: Fabrice Flipo
-- image: /img/avatar.jpg
-  name: Valentine Porche
+porteurs: ["Valentine Porche"]
+guests: ["Fabrice Flipo"]
 description : "La MYNE invite à questionner les finalités de la recherche scientifique à l'occasion d'un apéro-débat avec Fabrice Flipo."
 logo : "/img/science-sans-croissance.jpg"
 thumbnail : "/img/science-sans-croissance.jpg"

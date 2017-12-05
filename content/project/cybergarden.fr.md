@@ -13,14 +13,11 @@ documentation:
   name: Pitch FR
 - link: https://hackaday.io/project/10879-internets-of-energy-call-me-daisee
   name: Hackaday Prize
-porteurs:
-- image: /img/david-bartholomeo.jpg
-  name: David Bartholomeo
-slug: cybergarden
-stade: ''
+porteurs: ["David Bartholomeo"]
 tags: ["Agriculture", "Autonomie", "Art"]
 thumbnail: /img/cybergarden-thumbnail.jpg
 title: Cyber Garden
+node: ["cybergarden"]
 ---
 
 ## Cyber Garden

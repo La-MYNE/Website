@@ -1,6 +1,5 @@
 ---
 banner: /img/pyrocarb-thumbnail.jpg
-categories: Projet
 contribute:
   competence:
   - description: Nous avons besoin de toi, de vous, pour lui donner un look incomparable, le rendre craquant, distingué, limite incontournable.
@@ -25,19 +24,11 @@ description: Le cuiseur à bois qui se plie et se promène partout, produit du c
 documentation:
 - link: https://www.ascribe.io/app/pieces/28699
   name: Licence
-porteurs:
-- image: /img/pascal-tabary.jpg
-  name: Pascal Tabary
-slug: pyrocarb-nomade
-stade:
-tags:
-- Cuiseur
-- Charbon
-- Outdoor
+porteurs: ["Pascal Tabary"]
+node: pyrocarb-nomade
+tags: ["cuiseur", "charbon", "outdour"]
 thumbnail: /img/pyrocarb-thumbnail.jpg
 title: Pyrocarb Nomade
-type: project
-
 ---
 # Pyrocarb Nomade
 

@@ -35,7 +35,7 @@
               <div class ="row">
                 {{ range .Params.porteurs }}
                 <div class="col s4 m5 l3 center">
-                  <figure class="avatar" style='background-image: url("{{ .image }}");background-size:cover;background-repeat:none'></figure>
+                  <figure class="avatar" style='background-image: url("/img/{{ . | urlize }}.jpg");background-size:cover;background-repeat:none'></figure>
                 </div>
                   {{ end }}
               </div>

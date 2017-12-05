@@ -12,15 +12,9 @@ documentation:
   name: Pitch FR
 - link: https://hackaday.io/project/10879-internets-of-energy-call-me-daisee
   name: Hackaday Prize
-porteurs:
-- image: /img/nicolas-loubet.jpg
-  name: Nicolas Loubet
-slug: powerplante
-stade: ''
-tags:
-- Agriculture
-- Autonomie
+porteurs: [""]
+tags: ["agriculture", "autonomie"]
 thumbnail: /img/powerplante-thumbnail.jpg
 title: Power Plante
-type: project
+node: ["powerplante"]
 ---

@@ -10,15 +10,15 @@ contribute:
   - description: Afin d'améliorer la ferme bactérienne (incubateur), nous recherchons des contributeurs.
     name: Ferme bactérienne
   financial:
-  - description: Contribution sur le projet au niveau financier 
+  - description: Contribution sur le projet au niveau financier
     name: Donate
   material:
-  - description: 
-    name: 
-  - description: 
-    name: 
+  - description:
+    name:
+  - description:
+    name:
   - description:  
-    name: 
+    name:
   name: Contribute
   section1: Design
   section2: Matière
@@ -27,19 +27,11 @@ description: Un ferme bactérienne pour faire pousser vos bio-matériaux
 documentation:
 - link: https://hackpad.com/Cartel-Celluby-aka-scoby-xBoTB2Gt3re
   name: Licence
-porteurs:
-- image: /img/jm-claisse.jpg
-  name: Claisse Jean-Marie
-slug: CELLUBY
-stade:
-tags:
-- Agriculture
-- Autonomie
-- Art
+porteurs: ["Jean-Marie Claisse"]
+tags: ["Agriculture", "Autonomie", "Art"]
 thumbnail: /img/scoby.jpg
 title: PROJET CELLUBY
-type: project
-
+node: ["celluby"]
 ---
 # CELLUBY
 initialement nommé "Minois" est une expérimentation de projet initié par Jean-Marie Claisse afin de mettre en pratique la réappropriation citoyenne des sciences.
@@ -55,7 +47,3 @@ Un simple sujet qui lorsque l'on pousse plus loin nécéssite de connecter et de
   name: Fiche projet
 - link: https://hackpad.com/Cartel-Celluby-aka-scoby-xBoTB2Gt3re
   name: Cartel biennale
-
-
-
-

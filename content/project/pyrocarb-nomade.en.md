@@ -1,6 +1,5 @@
 ---
 banner: /img/pyrocarb-thumbnail.jpg
-categories: Projet
 contribute:
   skills:
   - description: We need you help to give to our product the sexiness it will need in the future.
@@ -27,18 +26,11 @@ description: The transportable wood-burning stove which produce biocarb with a v
 documentation:
 - link: https://www.ascribe.io/app/pieces/28699
   name: Licence
-porteurs:
-- image: /img/pascal-tabary.jpg
-  name: Pascal Tabary
-slug: pyrocarb-nomad
-stade:
-tags:
-- Coocker
-- Charcoan
-- Outdoor
+porteurs: ["Pascal Tabary"]
+node: pyrocarb-nomad
+tags: ["cuiseur", "charbon", "outdour"]
 thumbnail: /img/pyrocarb-thumbnail.jpg
 title: Pyrocarb Nomad
-type: project
 
 ---
 # Pyrocarb Nomade

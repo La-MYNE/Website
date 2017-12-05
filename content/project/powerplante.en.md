@@ -1,14 +1,10 @@
 ---
 title: Power Plante
-tags:
-  - Agriculture
-  - Autonomie
+tags: ["agriculture", "autonomie"]
 banner: /img/contribute-banner.jpg
 thumbnail: /img/powerplante-thumbnail.jpg
 description: Produire de l'énergie à partir de bactéries.
-porteurs:
-  - image: /img/nicolas-loubet.jpg
-    name: Nicolas Loubet
+porteurs: [""]
 documentation:
   - link: 'https://hackpad.com/DAISEE-IsOE-Log-book-PUz5Rhc26pE'
     name: Logbook
@@ -21,5 +17,5 @@ documentation:
 ressources:
   - link: 'https:/pqd.lamyne.org'
     name: ressources
+node: ["powerplante"]
 ---
-je change le texte

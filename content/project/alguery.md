@@ -1,7 +1,6 @@
 ---
 draft: yes
 banner: null
-categories: Projet
 contribute:
   competence:
   - description: biologistes, designers, ingénieurs... qui sont familiers avec les biomatériaux.
@@ -25,24 +24,12 @@ description: Projet Collaboratif Biomimétisme
 documentation:
 - link: null
   name: null
-porteurs:
-- image: null
-  name: Oriane Marignier
-- image: null
-  name: Rieul Techer
-- image: null
-  name: Théo Richard
-- image: null
-  name: Xavier Coadic
-slug:
+porteurs: ["Oriane Marignier", "Rieul Techer", "Théo Richard", "Xavier Coadic"]
 stade: Concept
-tags:
-- energy
-- biomimétisme
-- mécanique
+tags: ["energy", "biomimétisme", "mécanique"]
 thumbnail: null
 title: alguery
-type: project
+node: ["alguery"]
 ---
 # Ré-investir la biodiversité
 

@@ -12,20 +12,12 @@ documentation:
   name: Pitch FR
 - link: https://hackaday.io/project/10879-internets-of-energy-call-me-daisee
   name: Hackaday Prize
-porteurs:
-- image: /img/nicolas-loubet.jpg
-  name: Nicolas Loubet
-resume: ''
+porteurs: [""]
 slug: mynalab
-stade: ''
-tags:
-- ''
-- ''
-- ''
-- ''
+tags: ["autonomie"]
 thumbnail: /img/mynalab-thumbnail.png
 title: Myn-A-Lab
-type: project
+node: ["mynalab"]
 ---
 
 Vers une maison autonome, expérimentale & interconnectée

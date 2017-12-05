@@ -6,14 +6,11 @@ documentation:
 - link: https://hackpad.com/DAISEE-IsOE-Log-book-PUz5Rhc26pE
   name: Logbook
   type: project
-porteurs:
-- image: /img/rieul-techer.jpg
-  name: Rieul Techer
-slug: hackuaponie
-stade: ''
+porteurs: ["Charlotte Rizzo"]
 tags: ["Agriculture", "Autonomie"]
 thumbnail: /img/hackuaponie.jpg
 title: Hackuaponie
+node: ["aquaponie"]
 ---
 
 # Programme de sciences citoyennes d'amélioration des systèmes aquaponiques

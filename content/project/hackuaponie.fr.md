@@ -7,15 +7,11 @@ description: Hackuaponie est un programme de sciences citoyennes d'amélioration
 documentation:
 - link: https://hackpad.com/DAISEE-IsOE-Log-book-PUz5Rhc26pE
   name: Logbook
-porteurs:
-- image: /img/nicolas-loubet.jpg
-  name: Nicolas Loubet
-slug: hackuaponie
-stade: ''
+porteurs: ["Charlotte Rizzo"]
 tags: ["Agriculture", "Autonomie"]
 thumbnail: /img/hackuaponie.jpg
 title: Hackuaponie
-type: project
+node: ["hackuaponie"]
 ---
 
 # Programme de sciences citoyennes d'amélioration des systèmes aquaponiques

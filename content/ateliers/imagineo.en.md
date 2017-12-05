@@ -1,8 +1,6 @@
 ---
 title : "Imagineo"
-porteurs:
-- name: "Imagineo"
-  image: /img/avatar.jpg
+porteurs: ["Imagineo"]
 description : "During school vacations, design thinking based workshops to allow young teenagers to develop their creativity and build their own projects."
 theme : "atelier"
 logo : "/img/imagineo-logo.png"

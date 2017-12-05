@@ -32,12 +32,7 @@ documentation:
   name: Pitch FR
 - link: https://hackaday.io/project/10879-internets-of-energy-call-me-daisee
   name: Hackaday Prize
-porteurs:
-- image: /img/rieul-techer.jpg
-  name: Rieul Techer
-- image: /img/nicolas-loubet.jpg
-  name: Nicolas Loubet
-slug: daisee
+porteurs: ["Rieul Techer", "Nicolas Loubet"]
 stade: Concept
 tags: ["energy", "blockchain", "hardware"]
 thumbnail: /img/daisee-thumbnail.png

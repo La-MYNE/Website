@@ -1,35 +1,46 @@
 ---
-banner: https://scontent.xx.fbcdn.net/v/t31.0-8/s720x720/18839768_1431104120283383_1482828404613143204_o.jpg?oh=c6473137c098a5a7d52463d672a1e9e5&oe=5AA92C70
-categories: Projet
+draft: yes
+banner: null
 contribute:
   competence:
-  - description: null
-    name: null
+  - description: biologistes, designers, ingénieurs... qui sont familiers avec les biomatériaux.
+    name: Bio-matériaux
+  - description: biologistes, designers, ingénieurs... qui sont familiers avec les biomatériaux.
+    name: Bio-matériaux
+  - description: Compétences en bio-mécanique des matériaux
+    name: Bio-mécanique
   financier:
-  - description: null
-    name: null
+  - description: Faire un don au projet
+    name: Contribuez au finacement du projet
   materiel:
-  - description: null
-    name: null
+  - description: Protypage
+    name: matériel de protypage
   name: Contribuer
   section1: Compétences
   section2: Matériel
   section3: Financier
-date: 2016-09-26T17:03:15+02:00
-description: null
+date: 2016-09-26T17:03:19+02:00
+description: Projet Collaboratif Biomimétisme
 documentation:
 - link: null
   name: null
-porteurs:
-- image: null
-  name: null
-slug: daisee
+porteurs: ["Oriane Marignier", "Rieul Techer", "Théo Richard", "Xavier Coadic"]
 stade: Concept
-tags:
-- null
-- null
-- null
+tags: ["energy", "biomimétisme", "mécanique"]
 thumbnail: null
 title: alguery
-type: project
+node: ["alguery"]
 ---
+# Ré-investir la biodiversité
+
+Créer une zone favorable au retour de la biodiversité. Copier le mouvement des algues pour générer de l'électricité. Ré-investssement dans le sol maritme.
+
+Comment
+Un dispositf au sol non opacifant afin de :
+- permetre le dépôt de nutriments et sédiments
+- laisser passer la lumière
+- laisser pousser la fore marine
+
+Une blockchain de générateur d'électricité
+
+Un champ de tiges en mouvement perpétuel
