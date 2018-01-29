@@ -15,7 +15,7 @@
         {{ with $related }}
         <div class="carousel-cell">
           {{ range . }}
-          {{ partial "card.html" .}}
+          {{ partial "card.html" . }}
         {{ end }}
         </div>
         {{ end }}

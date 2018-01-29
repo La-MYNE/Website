@@ -19,10 +19,7 @@
       <li class="collection-item grey text-light-grey">Competences</li>
       {{ range .Params.competence }}
       <li>
-        <div class="collapsible-header light-grey">{{ .name }}
-          <a class="btn-floating right btn-contribute waves-effect waves-light red"><i class="material-icons">add</i></a>
-
-        </div>
+        <div class="collapsible-header light-grey">{{ .name }}</div>
         <div class="collapsible-body light-grey"><p>{{ .description }}</p></div>
       </li>
           {{ end }}
@@ -36,9 +33,7 @@
       <li class="collection-item grey text-light-grey">Materiel</li>
       {{ range .Params.materiel }}
       <li>
-        <div class="collapsible-header light-grey">{{ .name }}
-          <a class="btn-floating right btn-contribute waves-effect waves-light red"><i class="material-icons">add</i></a>
-        </div>
+        <div class="collapsible-header light-grey">{{ .name }}</div>
         <div class="collapsible-body light-grey"><p>{{ .description }}</p></div>
       </li>
           {{ end }}
@@ -52,10 +47,7 @@
       <li class="collection-item grey text-light-grey">Financier</li>
       {{ range .Params.financier }}
       <li>
-        <div class="collapsible-header light-grey ">
-            {{ .name }}
-            <a class="btn-floating right btn-contribute waves-effect waves-light red"><i class="material-icons">add</i></a>
-        </div>
+        <div class="collapsible-header light-grey ">{{ .name }}</div>
         <div class="collapsible-body light-grey"><p>{{ .description }}</p></div>
       </li>
           {{ end }}
