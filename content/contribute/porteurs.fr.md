@@ -1,6 +1,6 @@
 ---
 description: "La MYNE et son écosystème vous accompagne dans le développement de votre
-  projet.<br><br>Tout projet qui soit - Expérimentale - Innovant - Open Source - Durable
+  projet.<br>Tout projet qui soit - Expérimentale - Innovant - Open Source - Durable
   - Bio-inspiré - est le bienvenu."
 identifier: porteurs
 name: Porteurs de Projet

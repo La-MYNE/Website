@@ -137,6 +137,89 @@
   </div>
 </section>
 
+<section id="porteurs" class="col s12">
+  {{ $v2 := where .Site.Pages "Section" "contribute"}}
+  {{ range where $v2 ".Params.identifier" "porteurs" }}
+  <div class="container">
+    <h2 class="center">{{ .Title | markdownify }}</h2>
+    <div class="row center">{{ .Description | markdownify }}</div>
+
+
+<div class="row center">
+  <div class="col s12 m4">
+  <img src="{{ .Params.step1.picto }}" alt="picto">
+  <h3>{{ .Params.step1.name }}</h3>
+  <ul>
+    {{ range .Params.step1.subset }}
+    <li>{{ .name }}</li>
+        {{ end }}
+  </ul>
+</div>
+
+<div class="col s12 m4">
+  <img src="{{ .Params.step2.picto }}" alt="picto">
+  <h3>{{ .Params.step2.name }}</h3>
+  <ul>
+    {{ range .Params.step2.subset }}
+    <li>{{ .name }}</li>
+        {{ end }}
+    </ul>
+</div>
+
+<div class="col s12 m4">
+  <img src="{{ .Params.step3.picto }}" alt="picto">
+  <h3>{{ .Params.step3.name }}</h3>
+    <ul>
+      {{ range .Params.step3.subset }}
+      <li>{{ .name }}</li>
+          {{ end }}
+      </ul>
+</div>
+    {{ end }}
+</div>
+</div>
+</section>
+
+<section id="citoyens" class="col s12">
+  {{ range where $v2 ".Params.identifier" "citoyens" }}
+  <div class="container">
+    <h2 class="center">{{ .Title | markdownify}}</h2>
+    <div class="row center">{{ .Description | markdownify}}</div>
+    <div class="row center">
+      <div class="col s12 m4">
+        <img src="{{ .Params.step1.picto }}" alt="picto">
+        <h3>{{ .Params.step1.name }}</h3>
+        <ul>
+          {{ range .Params.step1.subset }}
+          <li>{{ .name }}</li>
+          {{ end }}
+        </ul>
+      </div>
+
+      <div class="col s12 m4">
+        <img src="{{ .Params.step2.picto }}" alt="picto">
+        <h3>{{ .Params.step2.name }}</h3>
+        <ul>
+          {{ range .Params.step2.subset }}
+          <li>{{ .name }}</li>
+          {{ end }}
+        </ul>
+      </div>
+
+      <div class="col s12 m4">
+        <img src="{{ .Params.step3.picto }}" alt="picto">
+        <h3>{{ .Params.step3.name }}</h3>
+        <ul>
+          {{ range .Params.step3.subset }}
+          <li>{{ .name }}</li>
+          {{ end }}
+        </ul>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
 <!--
 <section class="partenaires">
   <div class="container center">
