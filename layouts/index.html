@@ -56,7 +56,7 @@
 <!-- Flickity HTML init -->
 <div class="main-carousel" data-flickity='{ "contain": true }'>
   {{ $v1 := (where .Site.Pages "Section" "agenda").ByParam "start"}}
-  {{ range last 10 $v1 }}
+  {{ range first 5 $v1.Reverse }}
     <div class="carousel-cell">
       <div class="card card-agenda">
         <div class="card-image">
