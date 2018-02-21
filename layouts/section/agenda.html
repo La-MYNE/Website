@@ -31,7 +31,7 @@
     <div class="grid">
       <!-- .grid-sizer empty element, only used for element sizing -->
       <div class="grid-sizer "></div>
-      {{ range (.Data.Pages.ByParam "start") }}
+      {{ range (.Data.Pages.ByParam "start").Reverse }}
       {{ if isset .Params "start" }}
       {{$time := time .Params.start}}
       <div class="grid-item element-item {{range .Params.events }} {{ . }} {{ end }} {{ if ge $time now}} future {{ else }} past {{ end }} " data-category="{{range .Params.events }} {{ . }} {{ end }} {{ if ge $time now}} future {{ else }} past {{ end }}">
