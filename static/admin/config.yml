@@ -1,5 +1,5 @@
 backend:
-  name: git-gateway
+  name: github
   repo: unteem/website-lamyne # Path to your GitHub repository
   branch: develop # Branch to update (master by default)
 
