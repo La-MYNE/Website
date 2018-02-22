@@ -15,6 +15,7 @@
       <h2>{{ .Site.Params.subtitle }}</h2>
       <div class="row center">
         <h3 class="col s12 center "> {{ .Site.Params.catchline | markdownify }} </h3>
+          <p><a href="https://www.helloasso.com/associations/la-myne/adhesions/adherer-a-la-myne-en-2018" class="btn-large waves-effect waves-light black">Adhérer</a></p>
       </div>
     </div>
     <div class="parallax"><img class="responsive-img" src="/img/lamyne.jpg" alt="Projet Hackuaponie"></div>
@@ -22,7 +23,7 @@
 </section>
 
 <section id="section-offer">
-  <div class="container">
+  <div class="mission">
     <div class="section">
       <div class="row">
         {{ range .Params.mission }}
@@ -30,10 +31,15 @@
           <div class="row center">
             <img src="{{ .picto }}">
             </div>
-          <h3 class="center"><a href="{{ .link }}">{{ .title }}</a></h3>
-          <p class="light">{{ .description }}</p>
-        </div>
-        {{ end }}
+            <div class=row>
+              <h3 class="center"><a href="{{ .link }}">{{ .title }}</a></h3>
+              <p class="center light">{{ .description }}</p>
+            </div>
+            <div class="row center">
+              <a href="#" class="center btn-large waves-effect waves-light orange">Contribuer</a>
+            </div>
+            </div>
+            {{ end }}
       </div>
     </div>
   </div>
@@ -132,7 +138,7 @@
         </div>
       </div>
       <div class="row">
-        {{ range last 3 (where .Data.Pages ".Params.recurring" "yes") }}
+        {{ range last 3 (where .Data.Pages ".Params.home" "yes") }}
           <div class="col s12 m4">
             <div class ="center"><img class="thumb" src="{{ .Params.logo }}" alt="{{ .Title }}"></div>
               <h3 class="center">{{ .Title }}</h3>
@@ -241,7 +247,7 @@
 </div>
 </section>
  -->
- <!--
+
  <script>
    if (window.netlifyIdentity) {
      window.netlifyIdentity.on("init", user => {
@@ -253,5 +259,5 @@
      });
    }
  </script>
- -->
+
  {{ end }}

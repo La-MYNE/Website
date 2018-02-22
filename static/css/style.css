@@ -69,6 +69,10 @@ h3 { font-size: 1.7em }
   font-size: 1.7em
 }
 
+.mission {
+  margin: 3rem;
+}
+
 /* FOOTER */
 
  footer.page-footer {
