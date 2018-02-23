@@ -29,7 +29,7 @@ var $grid = $('.grid').isotope({
 var filters = {};
 
 // bind filter button click
-$('.filters-button-group').on( 'click', 'button', function() {
+$('.filters-button-group').on( 'click', 'a', function() {
   var $this = $(this);
   // get group key
   var $buttonGroup = $this.parents('.button-group');
