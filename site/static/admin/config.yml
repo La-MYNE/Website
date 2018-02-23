@@ -60,7 +60,7 @@ collections: # A list of collections the CMS should be able to edit
           {label: "Description", name: "description", widget: "string"}]}
   - name: "agenda" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "Agenda" # Used in the UI, ie.: "New Post"
-    folder: "static/content/agenda" # The path to the folder where the documents are stored
+    folder: "site/content/agenda" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields:
@@ -83,7 +83,7 @@ collections: # A list of collections the CMS should be able to edit
           {label: "Lien", name: "link", widget: "string"}]}
   - name: "ressources" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "Ressources et Documentation" # Used in the UI, ie.: "New Post"
-    folder: "static/content/documentation" # The path to the folder where the documents are stored
+    folder: "site/content/documentation" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields:
@@ -95,7 +95,7 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Node", name: "node", widget: "list"}
   - name: "people" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "MYNOIS-E" # Used in the UI, ie.: "New Post"
-    folder: "static/content/team" # The path to the folder where the documents are stored
+    folder: "site/content/team" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields:
