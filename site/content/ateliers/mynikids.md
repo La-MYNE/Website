@@ -5,7 +5,7 @@ categories: ["program"]
 tarif: "adhesion a la myne, 2e/an"
 thumbnail : "/img/mynikids-thumbnail.png"
 banner : "/img/default-banner.png"
-pporteurs: ["Timothee Gosselin", "Elodie Foucher"]
+porteurs: ["Timothee Gosselin", "Elodie Foucher"]
 description : "Spécifiquement adapté à la mise en place d’outils d’autonomie, les ateliers jeunes publics sont proposés 2 mercredis par mois."
 documentation:
 - link: https://pad.lamyne.org/s/rkUuQYhaZ#
