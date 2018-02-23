@@ -1,6 +1,6 @@
 backend:
   name: git-giteway
-#  repo: unteem/website-lamyne # Path to your GitHub repository
+  repo: La-MYNE/Website/ # Path to your GitHub repository
   branch: develop # Branch to update (master by default)
 
 publish_mode: editorial_workflow
