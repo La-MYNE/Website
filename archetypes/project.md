@@ -7,19 +7,16 @@ stade:
 tags: [tag1, tag2]
 banner: /img/default-banner.png
 thumbnail: /img/default-thumbnail.png
-
 documentation:
 - link:
   name:
 - link:
   name:
-
 porteurs:
 - image:
   name:
 - image:
   name:
-
 contribute:
   section1: Compétences
   section2: Matériel

@@ -116,6 +116,59 @@
 </div>
 </section>
 
+<section id="section-people" class="container">
+<h1>Les MYNOIS-ES</h1>
+<div class="row">
+<!-- Flickity HTML init -->
+<div class="main-carousel" data-flickity='{ "contain": true }'>
+  {{ $v1 := where .Site.Pages "Section" "team"}}
+  {{ range first 5 $v1.Reverse }}
+    <div class="carousel-cell">
+      <div class="card red">
+        <div class="card-content">
+          <div class="row center">
+            {{ if isset .Params "tags"}}
+            {{ range .Params.tags }}
+            <span class="chip light-grey">{{ . }}</span>
+            {{ end }}
+            {{ end }}
+          </div>
+          <img class="team-profile center" src=" {{ .Params.image }}">
+          <div class="card-agenda-title text-light-grey center">{{ .Params.name }}</div>
+          <div class="row card-details">
+            <p>{{ .Params.hashtag }}</p>
+            <ul class="menu_horizontal center">
+              {{ range .Params.social}}
+              <li><a class="team-social-icon light-grey" href="{{ .link }}"><i class="icon-{{ .name }}"></i></a></li>
+              {{ end }}
+            </ul>
+          </div>
+          <div class="row center">
+            <a class="orange btn-floating halfway-fab waves-effect waves-light" href='{{ .URL }}'><i class="material-icons">add</i></a></div>
+        </div>
+      </div>
+  </div>
+    {{ end }}
+
+    <div class="carousel-cell">
+      <div class="card card-agenda">
+        <div class="card-image">
+          <img class="responsive-img" src="/img/default-thumbnail.jpg" alt="thumbnail">
+        </div>
+        <div class="card-content">
+          <div class="kind"> {{ .Type }}</div>
+          <div class="card-agenda-title">Agenda </div>
+          <div class="card-detail">
+            <p> Tous nos evenements</p>
+          </div>
+          <div class="row center"><a class="grey btn-floating halfway-fab waves-effect waves-light" href='{{ .URL }}'><i class="material-icons">add</i></a></div>
+      </div>
+      </div>
+    </div>
+</div>
+</div>
+</section>
+
 <section>
   <div class="parallax-container valign-wrapper">
       <div class="container">
@@ -138,7 +191,7 @@
         </div>
       </div>
       <div class="row">
-        {{ range last 3 (where .Data.Pages ".Params.home" "yes") }}
+        {{ range last 3 (where .Data.Pages ".Params.featured" "yes") }}
           <div class="col s12 m4">
             <div class ="center"><img class="thumb" src="{{ .Params.logo }}" alt="{{ .Title }}"></div>
               <h3 class="center">{{ .Title }}</h3>
@@ -150,7 +203,7 @@
   </div>
 </section>
 
-<section id="porteurs" class="col s12">
+<section id="porteurs" class="light-grey col s12">
   {{ $v2 := where .Site.Pages "Section" "contribute"}}
   {{ range where $v2 ".Params.identifier" "porteurs" }}
   <div class="container">
