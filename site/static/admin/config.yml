@@ -8,7 +8,7 @@ public_folder: "/img"
 collections: # A list of collections the CMS should be able to edit
   - name: "project" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "Project" # Used in the UI, ie.: "New Post"
-    folder: "content/project" # The path to the folder where the documents are stored
+    folder: "site/content/project" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields:
@@ -39,7 +39,7 @@ collections: # A list of collections the CMS should be able to edit
 
   - name: "ateliers" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "Ateliers" # Used in the UI, ie.: "New Post"
-    folder: "content/ateliers" # The path to the folder where the documents are stored
+    folder: "site/content/ateliers" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     fields:
       - {label: "Title", name: "title", widget: "string", tagname: "h1"}
@@ -74,7 +74,7 @@ collections: # A list of collections the CMS should be able to edit
 
   - name: "evenements" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "Evenements" # Used in the UI, ie.: "New Post"
-    folder: "content/agenda" # The path to the folder where the documents are stored
+    folder: "/site/content/agenda" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields:
