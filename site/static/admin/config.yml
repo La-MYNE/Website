@@ -1,82 +1,110 @@
 backend:
   name: git-gateway
+  branch: develop
 
 media_folder: "site/static/img" # Folder where user uploaded files should go
-public_folder: "img"
+public_folder: "/img"
 
 collections: # A list of collections the CMS should be able to edit
-  - name: "post" # Used in routes, ie.: /admin/collections/:slug/edit
-    label: "Post" # Used in the UI, ie.: "New Post"
-    folder: "site/content/post" # The path to the folder where the documents are stored
+  - name: "project" # Used in routes, ie.: /admin/collections/:slug/edit
+    label: "Project" # Used in the UI, ie.: "New Post"
+    folder: "content/project" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
-    fields: # The fields each document in this collection have
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Intro Blurb", name: "description", widget: "text"}
-      - {label: "Image", name: "image", widget: "image", required: false}
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields:
+      - {label: "Title", name: "title", widget: "string", tagname: "h1"}
+      - {label: "Tags", name: "tags", widget:"markdown"}
       - {label: "Body", name: "body", widget: "markdown"}
-  - name: "pages"
-    label: "Pages"
-    files:
-      - file: "site/content/_index.md"
-        label: "Home Page"
-        name: "home"
+      - {label: "Image Banner", name: "banner", widget:"image"}
+      - {label: "Thumbnail", name: "thumbnail", widget:"image"}
+      - {label: "Description", name: "description", widget:"string"}
+      - name: porteurs
+        label: Porteurs du Projet
+        widget: list
         fields:
-          - {label: Title, name: title, widget: string}
-          - {label: Subtitle, name: subtitle, widget: string}
+          - {label: Name, name: name, widget: string}
           - {label: Image, name: image, widget: image}
-          - {label: "Blurb", name: blurb, widget: object, fields: [
-              {label: "Heading", name: "heading", widget: string},
-              {label: "Text", name: "text", widget: "text"}]}
-          - {label: "Intro", name: intro, widget: object, fields: [
-              {label: "Heading", name: "heading", widget: string},
-              {label: "Text", name: "text", widget: "text"}]}
-          - {label: "Products", name: products, widget: list, fields: [
-              {label: "Image", name: "image", widget: "image"},
-              {label: "Text", name: "text", widget: "text"}]}
-          - {label: "Values", name: "values", widget: "object", fields: [
-              {label: "Heading", name: "heading", widget: string},
-              {label: "Text", name: "text", widget: "text"}]}
-      - file: "site/content/contact/_index.md"
-        label: "Contact Page"
-        name: "contact"
+      - name: documentation
+        label: Documentation
+        widget: list
         fields:
-          - {label: Title, name: title, widget: string}
-          - {label: Logo, name: logo, widget: image}
-          - {label: Body, name: body, widget: markdown}
-          - label: Contact Entries
-            name: contact_entries
-            widget: list
-            fields:
-              - label: Heading
-                name: heading
-                widget: string
-              - label: Text
-                name: text
-                widget: text
-      - file: "site/content/products/_index.md"
-        label: "Products Page"
-        name: "products"
+          - {label: Name, name: name, widget: string}
+          - {label: Lien, name: link, widget: string}
+      - name: ressources
+        label: Ressources
+        widget: list
         fields:
-          - {label: Title, name: title, widget: string}
+          - {label: Name, name: name, widget: string}
+          - {label: Lien, name: link, widget: string}
+
+  - name: "ateliers" # Used in routes, ie.: /admin/collections/:slug/edit
+    label: "Ateliers" # Used in the UI, ie.: "New Post"
+    folder: "content/ateliers" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    fields:
+      - {label: "Title", name: "title", widget: "string", tagname: "h1"}
+      - {label: "Categories", name: categories, widget: list}
+      - {label: "Tags", name: tags, widget: list, default: ['term_1', 'term_2']}
+      - {label: "Tarif", name: "tarif", widget: "string"}
+      - {label: "Image Banner", name: "banner", widget:"image"}
+      - {label: "Thumbnail", name: "thumbnail", widget:"image"}
+      - {label: "Description", name: "description", widget: "string"}
+      - {label: "Parent", name: "parent", widget: "string"}
+      - {label: "Recurrent", name: "recurring", widget: "string"}
+      - {label: "Recurrence", name: "recurrence", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
+      - name: porteurs
+        label: Animateurs
+        widget: list
+        fields:
+          - {label: Name, name: name, widget: string}
           - {label: Image, name: image, widget: image}
-          - {label: Heading, name: heading, widget: string}
-          - {label: Description, name: description, widget: string}
-          - {label: Intro, name: intro, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: text}, {label: Blurbs, name: blurbs, widget: list, fields: [{label: Image, name: image, widget: image}, {label: Text, name: text, widget: text}]}]}
-          - {label: Main, name: main, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: text}, {label: Image1, name: image1, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}, {label: Image2, name: image2, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}, {label: Image3, name: image3, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}]}
-          - {label: Testimonials, name: testimonials, widget: list, fields: [{label: Quote, name: quote, widget: string}, {label: Author, name: author, widget: string}]}
-          - {label: Full_image, name: full_image, widget: image}
-          - {label: Pricing, name: pricing, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: string}, {label: Plans, name: plans, widget: list, fields: [{label: Plan, name: plan, widget: string}, {label: Price, name: price, widget: string}, {label: Description, name: description, widget: string}, {label: Items, name: items, widget: list}]}]}
-      - file: "site/content/values/_index.md"
-        label: "Values Page"
-        name: "values"
+      - name: documentation
+        label: Documentation
+        widget: list
         fields:
-          - {label: Title, name: title, widget: string}
+          - {label: Name, name: name, widget: string}
+          - {label: Lien, name: link, widget: string}
+      - name: ressources
+        label: Ressources
+        widget: list
+        fields:
+          - {label: Name, name: name, widget: string}
+          - {label: Lien, name: link, widget: string}
+
+  - name: "evenements" # Used in routes, ie.: /admin/collections/:slug/edit
+    label: "Evenements" # Used in the UI, ie.: "New Post"
+    folder: "content/agenda" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields:
+      - {label: "Title", name: "title", widget: "string", tagname: "h1"}
+      - {label: Categories, name: categories, widget: list}
+      - {label: Tags, name: tags, widget: list, default: ['term_1', 'term_2']}
+      - {label: Lieu, name: lieu, widget: "string"}
+      - {label: "Quand", name: "start", widget: "datetime"}
+      - {label: "Fin", name: "end", widget: "datetime"}
+      - {label: "Tarif", name: "tarif", widget: "string"}
+      - {label: "Image Banner", name: "banner", widget:"image"}
+      - {label: "Thumbnail", name: "thumbnail", widget:"image"}
+      - {label: "Description", name: "description", widget: "string"}
+      - {label: "Parent", name: "parent", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
+      - name: porteurs
+        label: Animateurs
+        widget: list
+        fields:
+          - {label: Name, name: name, widget: string}
           - {label: Image, name: image, widget: image}
-          - label: Values
-            name: values
-            widget: list
-            fields:
-              - {label: Heading, name: heading, widget: string}
-              - {label: Text, name: text, widget: text}
-              - {label: Image, name: imageUrl, widget: image}
+      - name: documentation
+        label: Documentation
+        widget: list
+        fields:
+          - {label: Name, name: name, widget: string}
+          - {label: Lien, name: link, widget: string}
+      - name: ressources
+        label: Ressources
+        widget: list
+        fields:
+          - {label: Name, name: name, widget: string}
+          - {label: Lien, name: link, widget: string}
