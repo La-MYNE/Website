@@ -18,4 +18,21 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Image Banner", name: "banner", widget:"image"}
       - {label: "Thumbnail", name: "thumbnail", widget:"image"}
       - {label: "Description", name: "description", widget:"string"}
-    
+      - name: porteurs
+        label: Porteurs du Projet
+        widget: list
+        fields:
+          - {label: Name, name: name, widget: string}
+          - {label: Image, name: image, widget: image}
+      - name: documentation
+        label: Documentation
+        widget: list
+        fields:
+          - {label: Name, name: name, widget: string}
+          - {label: Lien, name: link, widget: string}
+      - name: ressources
+        label: Ressources
+        widget: list
+        fields:
+          - {label: Name, name: name, widget: string}
+          - {label: Lien, name: link, widget: string}
