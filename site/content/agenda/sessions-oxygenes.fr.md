@@ -1,11 +1,9 @@
 ---
-date : "2016-09-09"
-weight : "1700"
-end : "2016-09-09"
-time : "1900"
 logo : "/img/oxygene-logo.png"
 thumbnail : "/img/oxygene-logo.png"
 title : "Sessions Ox[Y]Gen"
+start: 2016-12-03T14:48:23
+end: 2016-12-03T14:48:23
 place : "La MYNE"
 city : " "
 kind : "Apéro"
