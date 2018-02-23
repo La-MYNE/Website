@@ -4,6 +4,6 @@ shortid: B1AWfTg3-
 alias:
 model:
 tags:
-node: ["fork-the-worl", "open-democraty-now"]
+node: ["fork-the-world", "open-democraty-now"]
 draft: yes
 ---

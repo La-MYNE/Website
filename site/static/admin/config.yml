@@ -13,13 +13,14 @@ collections: # A list of collections the CMS should be able to edit
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields:
       - {label: "Title", name: "title", widget: "string", tagname: "h1"}
-      - {label: "Tags", name: "tags", widget:"markdown"}
+      - {label: "Node", name: "node", widget: "list"}
+      - {label: "Tags", name: "tags", widget:"list"}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Image Banner", name: "banner", widget:"image"}
       - {label: "Thumbnail", name: "thumbnail", widget:"image"}
       - {label: "Description", name: "description", widget:"string"}
       - {label: "Porteurs", name: "porteurs", widget:"list"}
-      - {label: "Documentation", name: documentation, widget: list, fields: [
+      - {label: "Documentation", name: "documentation", widget: list, fields: [
           {label: "Nom", name: "name", widget: "string"},
           {label: "Lien", name: "link", widget: "string"}]}
       - {label: "Contribuer-Competence", name: competence, widget: list, fields: [
@@ -31,3 +32,75 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Contribuer-Financier", name: financier, widget: list, fields: [
           {label: "Type", name: "name", widget: "string"},
           {label: "Description", name: "description", widget: "string"}]}
+  - name: "ateliers" # Used in routes, ie.: /admin/collections/:slug/edit
+    label: "Atelier et Formation" # Used in the UI, ie.: "New Post"
+    folder: "site/content/ateliers" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields:
+      - {label: "Title", name: "title", widget: "string", tagname: "h1"}
+      - {label: "Node", name: "node", widget: "list"}
+      - {label: "Tags", name: "tags", widget:"list"}
+      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Image Banner", name: "banner", widget:"image"}
+      - {label: "Thumbnail", name: "thumbnail", widget:"image"}
+      - {label: "Description", name: "description", widget:"string"}
+      - {label: "Porteurs", name: "porteurs", widget:"list"}
+      - {label: "Documentation", name: "documentation", widget: list, fields: [
+          {label: "Nom", name: "name", widget: "string"},
+          {label: "Lien", name: "link", widget: "string"}]}
+      - {label: "Contribuer-Competence", name: competence, widget: list, fields: [
+          {label: "Type", name: "name", widget: "string"},
+          {label: "Description", name: "description", widget: "string"}]}
+      - {label: "Contribuer-Materiel", name: materiel, widget: list, fields: [
+          {label: "Type", name: "name", widget: "string"},
+          {label: "Description", name: "description", widget: "string"}]}
+      - {label: "Contribuer-Financier", name: financier, widget: list, fields: [
+          {label: "Type", name: "name", widget: "string"},
+          {label: "Description", name: "description", widget: "string"}]}
+  - name: "agenda" # Used in routes, ie.: /admin/collections/:slug/edit
+    label: "Agenda" # Used in the UI, ie.: "New Post"
+    folder: "static/content/agenda" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields:
+      - {label: "Title", name: "title", widget: "string", tagname: "h1"}
+      - {label: "Node", name: "node", widget: "list"}
+      - {label: "Tags", name: "tags", widget: list, default: ['term_1', 'term_2']}
+      - {label: "Lieu", name: "location", widget: "string"}
+      - {label: "Quand", name: "start", widget: "datetime"}
+      - {label: "Fin", name: "end", widget: "datetime"}
+      - {label: "Tarif", name: "tarif", widget: "string", default: 'adhesion a la myne, 2e/an'}
+      - {label: "Image Banner", name: "banner", widget:"image"}
+      - {label: "Thumbnail", name: "thumbnail", widget:"image"}
+      - {label: "Description", name: "description", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Documentation", name: "documentation", widget: list, fields: [
+          {label: "Nom", name: "name", widget: "string"},
+          {label: "Lien", name: "link", widget: "string"}]}
+      - {label: "Ressources", name: "ressources", widget: list, fields: [
+          {label: "Nom", name: "name", widget: "string"},
+          {label: "Lien", name: "link", widget: "string"}]}
+  - name: "ressources" # Used in routes, ie.: /admin/collections/:slug/edit
+    label: "Ressources et Documentation" # Used in the UI, ie.: "New Post"
+    folder: "static/content/documentation" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields:
+      - {label: "Title", name: "title", widget: "string", tagname: "h1"}
+      - {label: "Tags", name: "tags", widget: list, default: ['term_1', 'term_2']}
+      - {label: "Alias", name: "alias", widget: "string"}
+      - {label: "shortId", name: "start", widget: "string"}
+      - {label: "Model", name: "end", widget: "list"}
+      - {label: "Node", name: "node", widget: "list"}
+  - name: "people" # Used in routes, ie.: /admin/collections/:slug/edit
+    label: "MYNOIS-E" # Used in the UI, ie.: "New Post"
+    folder: "static/content/team" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields:
+      - {label: "Name", name: "name", widget: "string", tagname: "h1"}
+      - {label: "Tags", name: "tags", widget: list, default: ['term_1', 'term_2']}
+      - {label: "Social", name: "social", widget: list, fields: [
+          {label: "Reseau", name: "name", widget: "string"},
+          {label: "Lien", name: "link", widget: "string"}]}
