@@ -1,0 +1,31 @@
+<div class="card card-agenda">
+  <div class="card-image">
+    {{ if isset .Params "start"}}
+    {{$time := time .Params.start }}
+    {{$month := $time.Month }}
+    <div class=" btn-date orange">
+      <p class="jour">{{ $time.Day }}</p>
+      <p class="mois">{{ i18n $month }}</p>
+    </div>
+    {{ end }}
+    <img class="responsive-img" src="{{ .Params.thumbnail }}" alt="thumbnail">
+  </div>
+  <div class="card-content">
+    {{ if isset .Params "start"}}
+    {{$time := time .Params.start }}
+    <div class="horaire light-grey">{{ $time.Hour}}h{{if eq $time.Minute 0}}00{{ else }}{{$time.Minute}} {{ end }}</div>
+    {{ end }}
+    {{ if eq .Type "agenda"}}
+    <div class="kind">{{ if isset .Params "events" }}{{ index .Params.events 0 }}{{end}}</div>
+    {{ else if eq .Type "project" }}
+   <div class="kind">{{ if isset .Params "tags" }}{{ index .Params.tags 0 }}{{end}}</div>
+   {{ else}}
+   <div class="kind">{{ if isset .Params "model" }}{{ .Params.model }}{{end}}</div>
+   {{ end }}
+    <div class="card-agenda-title">{{ .Title | title }}  </div>
+    <div class="row card-details">
+      <p>{{ .Description }} </p>
+  </div>
+  <div class="row center"><a class="grey btn waves-effect waves-light" href='{{ .URL }}'>En savoir plus</a></div>
+</div>
+</div>

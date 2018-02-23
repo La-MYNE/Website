@@ -1,0 +1,22 @@
+{{ define "main" }}
+<section class="page-atelier">
+{{ partial "banner-hero.html" . }}
+</section>
+<section class ="container">
+  <div class="row">
+    <h1>{{ .Title }}</h1>
+    <p> {{ .Content }}<p>
+  <div class="grid">
+    <!-- .grid-sizer empty element, only used for element sizing -->
+    <div class="grid-sizer "></div>
+    {{ range .Data.Pages }}
+    <div class="grid-item">
+      {{ partial "card.html" .}}
+  </div>
+  {{ end }}
+
+    </div>
+  </div>
+</section>
+
+{{ end }}
