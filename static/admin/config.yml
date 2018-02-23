@@ -1,7 +1,7 @@
 backend:
   name: git-giteway
-#  repo: La-MYNE/Website/
-#  branch: develop # Branch to update (master by default)
+  repo: La-MYNE/Website/
+  branch: develop # Branch to update (master by default)
 
 publish_mode: editorial_workflow
 
