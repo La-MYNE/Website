@@ -6,10 +6,9 @@ media_folder: "site/static/img" # Folder where user uploaded files should go
 public_folder: "/img"
 
 collections: # A list of collections the CMS should be able to edit
-
-  - name: "ateliers" # Used in routes, ie.: /admin/collections/:slug/edit
-    label: "Atelier et Formation" # Used in the UI, ie.: "New Post"
-    folder: "site/content/ateliers" # The path to the folder where the documents are stored
+  - name: "project" # Used in routes, ie.: /admin/collections/:slug/edit
+    label: "Project" # Used in the UI, ie.: "New Post"
+    folder: "site/content/project" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields:
@@ -33,6 +32,23 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Contribuer-Financier", name: financier, widget: list, fields: [
           {label: "Type", name: "name", widget: "string"},
           {label: "Description", name: "description", widget: "string"}]}
+  - name: "ateliers" # Used in routes, ie.: /admin/collections/:slug/edit
+    label: "Atelier et Formation" # Used in the UI, ie.: "New Post"
+    folder: "site/content/ateliers" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields:
+      - {label: "Title", name: "title", widget: "string", tagname: "h1"}
+      - {label: "Node", name: "node", widget: "list"}
+      - {label: "Tags", name: "tags", widget:"list"}
+      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Image Banner", name: "banner", widget:"image"}
+      - {label: "Thumbnail", name: "thumbnail", widget:"image"}
+      - {label: "Description", name: "description", widget:"string"}
+      - {label: "Porteurs", name: "porteurs", widget:"list"}
+      - {label: "Documentation", name: "documentation", widget: list, fields: [
+          {label: "Nom", name: "name", widget: "string"},
+          {label: "Lien", name: "link", widget: "string"}]}
   - name: "agenda" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "Agenda" # Used in the UI, ie.: "New Post"
     folder: "site/content/agenda" # The path to the folder where the documents are stored
@@ -42,6 +58,7 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Title", name: "title", widget: "string", tagname: "h1"}
       - {label: "Node", name: "node", widget: "list"}
       - {label: "Tags", name: "tags", widget: list, default: ['term_1', 'term_2']}
+      - {label: "Porteurs", name: "porteurs", widget:"list"}
       - {label: "Lieu", name: "location", widget: "string"}
       - {label: "Quand", name: "start", widget: "datetime"}
       - {label: "Fin", name: "end", widget: "datetime"}
@@ -65,8 +82,8 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Title", name: "title", widget: "string", tagname: "h1"}
       - {label: "Tags", name: "tags", widget: list, default: ['term_1', 'term_2']}
       - {label: "Alias", name: "alias", widget: "string"}
-      - {label: "shortId", name: "start", widget: "string"}
-      - {label: "Model", name: "end", widget: "list"}
+      - {label: "shortId", name: "shortid", widget: "string"}
+      - {label: "Model", name: "model", widget: "list"}
       - {label: "Node", name: "node", widget: "list"}
   - name: "people" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "MYNOIS-E" # Used in the UI, ie.: "New Post"
