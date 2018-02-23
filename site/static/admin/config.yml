@@ -24,10 +24,10 @@ collections: # A list of collections the CMS should be able to edit
           {label: "Lien", name: "link", widget: "string"}]}
       - {label: "Contribuer-Competence", name: competence, widget: list, fields: [
           {label: "Type", name: "name", widget: "string"},
-          {label: "Description", name: "link", widget: "string"}]}
+          {label: "Description", name: "description", widget: "string"}]}
       - {label: "Contribuer-Materiel", name: materiel, widget: list, fields: [
           {label: "Type", name: "name", widget: "string"},
-          {label: "Description", name: "link", widget: "string"}]}
-      - {label: "Contribuer-Financier", name: financer, widget: list, fields: [
+          {label: "Description", name: "description", widget: "string"}]}
+      - {label: "Contribuer-Financier", name: financier, widget: list, fields: [
           {label: "Type", name: "name", widget: "string"},
-          {label: "Description", name: "link", widget: "string"}]}
+          {label: "Description", name: "description", widget: "string"}]}
