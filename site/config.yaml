@@ -2,6 +2,9 @@
 DefaultContentLanguage: fr
 address: "1 Rue de Croix de Luizet 69100 Villeurbanne"
 title: La MYNE
+picto1: "/img/picto-house.png"
+picto2: "/img/picto-experiment.png"
+picto3: "/img/picto-fork.png"
 
 related:
 # Only include matches with rank >= threshold. This is a normalized rank between 0 and 100.
