@@ -1,0 +1,178 @@
+
+DefaultContentLanguage: fr
+address: "1 Rue de Croix de Luizet 69100 Villeurbanne"
+title: La MYNE
+picto1: "/img/picto-house.png"
+picto2: "/img/picto-experiment.png"
+picto3: "/img/picto-fork.png"
+outputs:
+  section: ["HTML", "Calendar"]
+  page: ["HTML", "Calendar"]
+related:
+# Only include matches with rank >= threshold. This is a normalized rank between 0 and 100.
+  threshold: 80
+# To get stable "See also" sections we, by default, exclude newer related pages.
+  includeNewer: true
+# Will lower case keywords in both queries and in the indexes.
+  toLower: false
+  indices:
+    - name : "node"
+      weight: 150
+    - name: "porteurs"
+      weight: 130
+Languages:
+  en:
+    lang: en
+    info: "Public openings Wednesday 6PM. Phone number: +33(0)4 26 64 36 16"
+    subtitle: Manufacture of Ideas and New Experiments
+    catchline: "A Common(s) based Tiers-Lieu for Transitions - #TILIOS <br><br> A Space for Freedom, Experimentations<br> and Citizen Innovation"
+    weight: 2
+    more: More
+
+    menu:
+      main:
+      - identifier: about
+        name: About
+        url: /en/about
+        weight: 0
+      - identifier: program
+        name: Agenda
+        url: /en/agenda/
+        weight: 1
+      - identifier: projects
+        name: Projects
+        url: /en/project/
+        weight: 2
+      - identifier: ateliers
+        name: Ateliers
+        url: /en/ateliers/
+        weight: 3
+      - identifier: contribute
+        name: Contribute
+        url: /en/contribute/
+        weight: 4
+    weight: 1
+
+  fr:
+    lang: fr
+    subtitle: Manufacture des Idées et des Nouvelles Expérimentations
+    catchline: "Tiers-Lieu des Transitions par les Communs - #TILIOS<br><br> Un Espace de Liberté, d'Expérimentations<br> et d'Innovation Citoyenne"
+    more: En Savoir Plus
+    menu:
+      main:
+      - identifier: about
+        name: About
+        url: /about
+        weight: 0
+      - identifier: program
+        name: Agenda
+        url: /agenda/
+        weight: 1
+      - identifier: projects
+        name: Projets
+        url: /project/
+        weight: 2
+      - identifier: ateliers
+        name: Ateliers
+        url: /ateliers/
+        weight: 3
+      - identifier: contribute
+        name: Contribuer
+        url: /contribute/
+        weight: 4
+
+SectionPagesMenu:
+- main
+- citoyen
+baseurl: /
+canonifyurls: true
+config: config.yaml
+MetaDataFormat : yaml
+params:
+  DateForm: Monday, Jan 2
+  banner:
+    sections:
+    - image: /img/project-banner.jpg
+      name: Projects
+    - image: /img/lamyne-banner.jpg
+      name: La MYNE
+    - image: /img/contribute-banner.jpg
+      name: Contribute
+    - image: /img/agenda-banner.jpg
+      name: Agendas
+    - image: /img/program-banner.jpg
+      name: Programs
+  partners:
+  - link: http://lapaillasse.org/
+    logo: /img/paillasse-logo.png
+    name: La Paillasse
+  - link: http://movilab.org/index.php?title=La_POC_Foundation
+    logo: /img/poc-foundation-logo.png
+    name: POC Foundation
+  - link: https://openara.org/
+    logo: /img/open-ara-logo.png
+    name: Open Ara
+  - link: http://www.cellabz.com/
+    logo: /img/cellabz-logo.jpg
+    name: Cellabz
+  - link: http://www.grandlyon.com/
+    logo: /img/grand-lyon-logo.png
+    name: 'Grand Lyon '
+  - link: https://www.insa-lyon.fr/
+    logo: /img/insa-logo.png
+    name: INSA Lyon
+  - link: http://www.fablab-lyon.fr/
+    logo: /img/fol-logo.jpg
+    name: La Fabrique d'Objets Libres
+  - link: https://labolyon.fr/
+    logo: /img/lol-logo.png
+    name: Le Laboratoire Ouvert Lyonnais
+  - link: http://www.ecam.fr/fr/ecam-lyon/ecam-lyon
+    logo: /img/ecam-logo.png
+    name: 'ECAM '
+  - link: http://ouishare.net/fr
+    logo: /img/ouishare-logo.png
+    name: Ouishare
+  - link: http://www.ens-lyon.fr/
+    logo: /img/ens-logo.jpg
+    name: ENS Lyon
+  - link: http://www.tuba-lyon.com/
+    logo: /img/tuba-logo.jpg
+    name: TUBA
+  social:
+  - header: 'yes'
+    icon: icon-twitter
+    title: twitter
+    url: https://twitter.com/laMYNE_
+  - header: 'yes'
+    icon: icon-github
+    title: github
+    url: https://github.com/La-MYNE
+  - header: 'yes'
+    icon: icon-facebook
+    title: facebook
+    url: https://www.facebook.com/La-MYNE-Manufacture-des-Id%C3%A9es-et-Nouvelles-Exp%C3%A9rimentations-648362331890903/
+  - icon: icon-linkedin
+    title: linkedin
+    url: https://www.linkedin.com/company/la-myne-by-lps-
+  - icon: icon-flickr
+    title: flickr
+    url: https://www.flickr.com/photos/lps_myne/
+  - header: 'yes'
+    icon: icon-slack
+    title: rocketchat
+    url: http://chat.lamyne.org
+  - header: 'yes'
+    icon: icon-mail
+    title: email
+    url: team@lamyne.org
+  - icon: icon-social-youtube-outline
+    title: youtube
+    url: https://www.youtube.com/channel/UC-AkSeIOQf3-fscKmoXfmxA
+
+calendar: https://calendar.google.com/calendar/embed?showTitle=0&amp;mode=WEEK&amp;height=600&amp;wkst=2&amp;bgcolor=%23FFFFFF&amp;src=1es2mhb9dqbisemc5bbnpa1uo8%40group.calendar.google.com&amp;color=%23B1440E&amp;src=vp15sr8j80a0tee88ktcsalfos%40group.calendar.google.com&amp;color=%23AB8B00&amp;src=fr.french%23holiday%40group.v.calendar.google.com&amp;color=%23182C57&amp;src=e_2_fr%23weeknum%40group.v.calendar.google.com&amp;color=%2342104A&amp;ctz=Europe%2FParis3
+taxonomies:
+  categorie: categories
+  project: projects
+  tag: tags
+  event: events

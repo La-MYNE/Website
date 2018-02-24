@@ -1,0 +1,54 @@
+{{ define "main" }}
+<section class="page-agenda">
+{{ partial "banner-hero.html" . }}
+</section>
+
+<section class ="container">
+  <div class="row">
+    <h1>{{ .Title }}</h1>
+    <p> {{ .Content }}</p>
+  </div>
+
+  <div class="row">
+    <h2>Retrouvez tous nos evenements</h2>
+    <div class="row">
+  <!-- Dropdown Trigger -->
+  <a class='dropdown-button btn' href='#' data-activates='dropdown1'>Filter par date</a>
+
+  <!-- Dropdown Structure -->
+  <ul id='dropdown1' class="filters-button-group dropdown-content" data-filter-group="date">
+    <li><a href="#!" class="is-checked" data-filter="">tous</a></li>
+    <li><a href="#!" data-filter=".future">a venir</a></li>
+    <li><a href="#!" data-filter=".past">archive</a></li>
+    <li class="divider"></li>
+    <li><a href="#!">three</a></li>
+    <li><a href="#!"><i class="material-icons">view_module</i>four</a></li>
+    <li><a href="#!"><i class="material-icons">cloud</i>five</a></li>
+  </ul>
+
+<a class='dropdown-button btn' href='#' data-activates='dropdown2'>Filtrer par type</a>
+
+<ul id='dropdown2' class="filters-button-group dropdown-content" data-filter-group="date">
+
+    <li><a href="#!" class="is-checked" data-filter="">tous</a></li>
+    <li><a href="#!" class="is-checked" data-filter=".masterclass">masterclass</a></li>
+      <li><a href="#!" class="is-checked" data-filter=".atelier">atelier</a></li>
+      <li><a href="#!" class="is-checked" data-filter=".rencontre">rencontres</a></li>
+</ul>
+</div>
+    <div class="grid">
+      <!-- .grid-sizer empty element, only used for element sizing -->
+      <div class="grid-sizer "></div>
+      {{ range (.Data.Pages.ByParam "start").Reverse }}
+      {{ if isset .Params "start" }}
+      {{$time := time .Params.start}}
+      <div class="grid-item element-item {{range .Params.events }} {{ . }} {{ end }} {{ if ge $time now}} future {{ else }} past {{ end }} " data-category="{{range .Params.events }} {{ . }} {{ end }} {{ if ge $time now}} future {{ else }} past {{ end }}">
+        {{ partial "card.html" . }}
+    </div>
+    {{ end }}
+    {{ end }}
+      </div>
+    </div>
+</section>
+
+{{ end }}

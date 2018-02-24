@@ -1,0 +1,8 @@
+[build]
+  command = "yarn build"
+  publish = "dist"
+[build.environment]
+  YARN_VERSION = "1.3.2"
+
+[context.deploy-preview]
+  command = "yarn build-preview"

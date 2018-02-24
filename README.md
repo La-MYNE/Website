@@ -1,55 +1,46 @@
-# [Site de La MYNE](http://lamyne.org) (anciennement La Paillasse Saône)
+# Hugo template for Netlify CMS with Netlify Identity
 
-> Contributions bienvenues ! Que ce soit sur la création des textes, le constat de bugs ou la correction des fautes.
+This is a small business template built with [Victor Hugo](https://github.com/netlify/victor-hugo) and [Netlify CMS](https://github.com/netlify/netlify-cms), designed and developed by [Darin Dimitroff](http://www.darindimitroff.com/), [spacefarm.digital](https://www.spacefarm.digital).
 
-Ce dépôt est dédié aux composants du site Internet de la MYNE. Afin de comprendre comment contribuer au site, différents dossiers existent dans lesquels les fichiers sources du site peuvent être au choix modifiés ou ajoutés.
-* archetypes : https://github.com/La-MYNE/website/tree/master/archetypes
-* bin : https://github.com/La-MYNE/website/tree/master/bin
-* content : https://github.com/La-MYNE/website/tree/master/content
-* data/events : https://github.com/La-MYNE/website/tree/master/data/events
-* i18n : https://github.com/La-MYNE/website/tree/master/i18n
-* layouts : https://github.com/La-MYNE/website/tree/master/layouts
-* static : https://github.com/La-MYNE/website/tree/master/static
+## Getting started
 
-## archetypes 
+Use our deploy button to get your own copy of the repository. 
 
-Structure d'affichage des différents composants des activités de la MYNE. Aujourd'hui les archetypes effectivement existant sont:
-* projets: https://github.com/La-MYNE/website/blob/master/archetypes/project.md
-* team: https://github.com/La-MYNE/website/blob/master/archetypes/team.md
-Les autres archetypes sont à concevoir.
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/netlify-templates/one-click-hugo-cms&stack=cms)
 
-## bin
+This will setup everything needed for running the CMS:
 
-Rassemble l'ensemble des fichiers "hugo".
+* A new repository in your GitHub account with the code
+* Full Continuous Deployment to Netlify's global CDN network
+* Control users and access with Netlify Identity
+* Manage content with Netlify CMS
 
-## content
+Once the initial build finishes, you can invite yourself as a user. Go to the Identity tab in your new site, click "Invite" and send yourself an invite.
 
-Rassemble l'ensemble des dossiers et fichiers de contenus du site web. Les dossiers sont les suivants:
-* agenda (https://github.com/La-MYNE/website/tree/master/content/agenda) pour l'ensemble des contenus en lien avec l'agenda des événements de la MYNE
-* contribute (https://github.com/La-MYNE/website/tree/master/content/contribute) pour l'ensemble des contenus liés à la contribution que ce soit des citoyens, des organisations ou des porteurs de projet
-* program (https://github.com/La-MYNE/website/tree/master/content/program) pour l'ensemble des contenus en lien avec les programmes de la MYNE, à savoir l'accompagnement, les ateliers et les masterclasses
-* project (https://github.com/La-MYNE/website/tree/master/content/project) pour l'ensemble des contenus en lien avec les projets supportés par la MYNE
-* team (https://github.com/La-MYNE/website/tree/master/content/team) pour l'ensemble des contenus en lien avec les équipes à la MYNE
+Now you're all set, and you can start editing content!
 
-Les fichiers de contnus généraux sont principalement soient des fichiers permanent qui définissent ce qu'est la MYNE (fichier about.md : https://github.com/La-MYNE/website/blob/master/content/about.md) ou bien des fichiers teporaires concernant des éléments/événements marquants ou structurants.
+## Local Development
 
-## data/events
+Clone this repository, and run `yarn` or `npm install` from the new folder to install all required dependencies.
 
-Rassemble les fichiers des événements affichés sur la page principale sous la bannière "Retrouvez-nous".
+Then start the development server with `yarn start` or `npm start`.
 
-## i18n
+## Layouts
 
-Rassemble les fichiers permettant la traduction automatique du site dans diverses langues. `À JARDINER`.
+The template is based on small, content-agnostic partials that can be mixed and matched. The pre-built pages showcase just a few of the possible combinations. Refer to the `site/layouts/partials` folder for all available partials.
 
-## layouts
+Use Hugo’s `dict` functionality to feed content into partials and avoid repeating yourself and creating discrepancies.
 
-Rassemble l'ensemble des structures des éléments du site. 
+## CSS
 
-## static
+The template uses a custom fork of Tachyons and PostCSS with cssnext and cssnano. To customize the template for your brand, refer to `src/css/imports/_variables.css` where most of the important global variables like colors and spacing are stored.
 
-Rassemble l'ensemble des éléments statiques du site:
-* css: strucutre des page
-* fonts: polices
-* img: banque d'images
-* js: javascript
+## SVG
 
+All SVG icons stored in `site/static/img/icons` are automatically optimized with SVGO (gulp-svgmin) and concatenated into a single SVG sprite stored as a a partial called `svg.html`. Make sure you use consistent icons in terms of viewport and art direction for optimal results. Refer to an SVG via the `<use>` tag like so:
+
+```
+<svg width="16px" height="16px" class="db">
+  <use xlink:href="#SVG-ID"></use>
+</svg>
+```
