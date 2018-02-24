@@ -28,7 +28,8 @@ ressources:
   name: Charte des communs par le collectif remix the commons
 events: ["masterclass"]
 location: "La MYNE - 1 Rue Croix de Luizet, Villeurbanne"
-identifier: ['french-tech-ticket']
+node: ['french-tech-ticket']
+draft: yes
 ---
 Dans le cadre de la programmation des Masterclasse à la MYNE, et ici plus spécifiquement dans le cadre du Programme French Tech Ticket, nous vous convions à une Masterclasse CivicTech sur "La politique comme commun - Processus, Infrastructures, Échelles et Controverses." mené par Sylvia Fredriksson en dialogue avec Alexandre Monnin
 
