@@ -12,6 +12,5 @@ banner : "/img/lage-du-faire-banner.jpg"
 home : "yes"
 categories: ["events"]
 type : "Masterclass"
-recurring: "no"
 events: ["masterclass"]
 ---
