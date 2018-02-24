@@ -1,5 +1,5 @@
 ---
-people: "foo"
+name: "Connie et Benjamin Chow-Petit"
 image: "/img/connie-benjamin-chow-petit.jpg"
 social:
 - name: twitter

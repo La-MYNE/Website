@@ -1,28 +1,33 @@
 ---
 title :
-tags : [ "tag1", "tag2", "tag3"]
-categories : ["masterclass"]
-start: 2017-11-01
-end: 2017-11-01
-location:
-condition: "adhesion a la myne, 2e/an"
-thumbnail: /img/masterclass-civic-tech-thumbnail.jpg
+tags : [ "", "", ""]
+start: 2017-11-01T18:30:00
+end: 2017-11-01T20:30:00
+fullday: true
+recurring:
+  frequency: "WEEKLY"
+  count: 2
+  end: "never"
+tarif: "adhesion a la myne, 2e/an"
+thumbnail: /img/default-thumbnail.jpg
 banner: /img/default-banner.png
-porteurs:
-- image: /img/avatar.jpg
-  name:
-description : "Description de moins de 140 mots"
+porteurs: ["", ""]
+guests: ["", ""]
+participants: ["", ""]
+description :
 documentation:
-- link: https://pad.lamyne.org/
-  name: Prise de note
-- link: https://www.youtube.com/
-  name: Live Stream
-- link: https://www.facebook.com/events/
-  name: annonce
+- link:
+  name:
+- link:
+  name:
+- link:
+  name:
 ressources:
 - link:
   name:
 - link:
   name:
-recurring:
+events: ["", ""]
+location: "La MYNE - 1 Rue Croix de Luizet, Villeurbanne"
+node: ['node1', 'node2']
 ---

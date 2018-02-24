@@ -140,6 +140,19 @@ nav .brand-logo {
 .section-home {
   padding-top: 2rem;
 }
+
+.card-agenda-home {
+  min-height: 370px;
+}
+
+.card-team-home {
+  min-height: 180px;
+}
+
+.section-contribute {
+  padding-bottom: 2rem;
+}
+
 /* HOME - Section Newsletter */
 #section-newsletter {
   background-color: #ff7f00;

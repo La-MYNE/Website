@@ -9,7 +9,7 @@ social:
   link: ""
 - name: github
   link: ""
-tags: ["tag1", "tag2", "tag3"]
+tags:
 
 ---
 
