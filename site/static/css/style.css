@@ -403,18 +403,7 @@ ul.menu_horizontal i {
   height: 160px;
 }
 
-<<<<<<< HEAD:static/css/style.css
-#page-about .card {
-  min-width: 100%
-}
 
-@media only screen and (max-width : 600px) {
-  .card { margin-left: 5em; }
-
-  }
-=======
-
->>>>>>> 4f7618765658af3d40ac8979ec736af091f3ee11:site/static/css/style.css
 
 /* Section Projects */
 
