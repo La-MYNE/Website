@@ -78,14 +78,6 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Ressources", name: "ressources", require:"false", widget: list, fields: [
           {label: "Nom", name: "name", widget: "string"},
           {label: "Lien", name: "link", widget: "string"}]}
-
-          fullday: false
-          recurring:
-            frequency: "WEEKLY"
-            count: 2
-            end: "never"
-
-
   - name: "ressources" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "Ressources et Documentation" # Used in the UI, ie.: "New Post"
     folder: "site/content/documentation" # The path to the folder where the documents are stored
