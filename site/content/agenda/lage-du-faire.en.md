@@ -9,8 +9,6 @@ theme : "Atelier"
 logo : "/img/lage-du-faire.jpg"
 thumbnail : "/img/lage-du-faire-thumbnail.jpg"
 banner : "/img/lage-du-faire-banner.jpg"
-home : "yes"
-categories: ["events"]
-type : "Masterclass"
-events: ["masterclass"]
+events:
+  - "masterclass"
 ---

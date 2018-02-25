@@ -11,5 +11,4 @@ recurrent: "Yes"
 link: " "
 featured: "yes"
 description: "Meet the people behind the projects and la MYNE community every 1st friday of the month usually at 6PM. An opportunity to get together around a drink, share and follow-up on the projects' progress."
-section: "agenda"
 ---

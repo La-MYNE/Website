@@ -12,7 +12,9 @@ recurring:
 tarif: "adhesion a la myne, 2e/an"
 thumbnail: /img/masterclass-civic-tech-thumbnail.jpg
 banner: /img/default-banner.png
-porteurs: ["Sylvia Fredriksson", "Alexandre Monnin"]
+porteurs:
+  - "Sylvia Fredriksson"
+  - "Alexandre Monnin"
 description : "Dans un dialogue mené par Sylvia Fredriksson avec Alexandre Monnin, il est question de la politique comme commun - Processus, Infrastructures, Échelles et Controverses."
 documentation:
 - link: https://pad.lamyne.org/s/rkUuQYhaZ#
@@ -28,7 +30,8 @@ ressources:
   name: Charte des communs par le collectif remix the commons
 events: ["masterclass"]
 location: "La MYNE - 1 Rue Croix de Luizet, Villeurbanne"
-node: ['french-tech-ticket']
+node:
+  - 'french-tech-ticket'
 draft: yes
 ---
 Dans le cadre de la programmation des Masterclasse à la MYNE, et ici plus spécifiquement dans le cadre du Programme French Tech Ticket, nous vous convions à une Masterclasse CivicTech sur "La politique comme commun - Processus, Infrastructures, Échelles et Controverses." mené par Sylvia Fredriksson en dialogue avec Alexandre Monnin

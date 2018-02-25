@@ -10,6 +10,5 @@ kind : "Apéro"
 recurrent : "Yes"
 link : " "
 featured : "yes"
-section : "agenda"
 description : "La MYNE welcomes you every Wednesdays starting from 18.00 to 21.00 during our open sessions Ox[Y]Gen at la MYNe's place. You will always find someone to present our last activites and who we are."
 ---

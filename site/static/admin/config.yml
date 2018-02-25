@@ -14,22 +14,22 @@ collections: # A list of collections the CMS should be able to edit
     fields:
       - {label: "Title", name: "title", widget: "string", tagname: "h1"}
       - {label: "Node", name: "node", widget: "list"}
-      - {label: "Tags", name: "tags", widget:"list"}
+      - {label: "Tags", name: "tags", widget:"list", require:"false"}
       - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Image Banner", name: "banner", widget:"image"}
-      - {label: "Thumbnail", name: "thumbnail", widget:"image"}
+      - {label: "Image Banner", name: "banner", widget:"image", require:"false"}
+      - {label: "Thumbnail", name: "thumbnail", widget:"image", require:"false"}
       - {label: "Description", name: "description", widget:"string"}
       - {label: "Porteurs", name: "porteurs", widget:"list"}
-      - {label: "Documentation", name: "documentation", widget: list, fields: [
+      - {label: "Documentation", name: "documentation", require:"false", widget: list, fields: [
           {label: "Nom", name: "name", widget: "string"},
           {label: "Lien", name: "link", widget: "string"}]}
-      - {label: "Contribuer-Competence", name: competence, widget: list, fields: [
+      - {label: "Contribuer-Competence", name: competence, require:"false", widget: list, fields: [
           {label: "Type", name: "name", widget: "string"},
           {label: "Description", name: "description", widget: "string"}]}
-      - {label: "Contribuer-Materiel", name: materiel, widget: list, fields: [
+      - {label: "Contribuer-Materiel", require:"false", name: materiel, widget: list, fields: [
           {label: "Type", name: "name", widget: "string"},
           {label: "Description", name: "description", widget: "string"}]}
-      - {label: "Contribuer-Financier", name: financier, widget: list, fields: [
+      - {label: "Contribuer-Financier", require:"false", name: financier, widget: list, fields: [
           {label: "Type", name: "name", widget: "string"},
           {label: "Description", name: "description", widget: "string"}]}
   - name: "ateliers" # Used in routes, ie.: /admin/collections/:slug/edit
@@ -40,13 +40,13 @@ collections: # A list of collections the CMS should be able to edit
     fields:
       - {label: "Title", name: "title", widget: "string", tagname: "h1"}
       - {label: "Node", name: "node", widget: "list"}
-      - {label: "Tags", name: "tags", widget:"list"}
+      - {label: "Tags", name: "tags", widget:"list", require:"false"}
       - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Image Banner", name: "banner", widget:"image"}
-      - {label: "Thumbnail", name: "thumbnail", widget:"image"}
+      - {label: "Image Banner", name: "banner", widget:"image", require:"false"}
+      - {label: "Thumbnail", name: "thumbnail", widget:"image", require:"false"}
       - {label: "Description", name: "description", widget:"string"}
       - {label: "Porteurs", name: "porteurs", widget:"list"}
-      - {label: "Documentation", name: "documentation", widget: list, fields: [
+      - {label: "Documentation", name: "documentation", require:"false", widget: list, fields: [
           {label: "Nom", name: "name", widget: "string"},
           {label: "Lien", name: "link", widget: "string"}]}
   - name: "agenda" # Used in routes, ie.: /admin/collections/:slug/edit
@@ -57,22 +57,35 @@ collections: # A list of collections the CMS should be able to edit
     fields:
       - {label: "Title", name: "title", widget: "string", tagname: "h1"}
       - {label: "Node", name: "node", widget: "list"}
-      - {label: "Tags", name: "tags", widget: list, default: ['term_1', 'term_2']}
-      - {label: "Porteurs", name: "porteurs", widget:"list"}
-      - {label: "Lieu", name: "location", widget: "string"}
+      - {label: "Tags", name: "tags", widget: list, require:"false", default: ['term_1', 'term_2']}
+      - {label: "Porteurs", name: "porteurs", widget:"list", require:"false"}
+      - {label: "Lieu", name: "location", widget: "string", require:"false"}
+      - {label: "Journee Entiere", name: "fullday", widget: "boolean", default:"false"}
+      - {label: "Recurrence", name: "recurring", require:"false", widget: list, fields: [
+          {label: "Frequence", name: "frequency", widget: "list", options: ["DAILY", "WEEKLY", "MONTHLY"]},
+          {label: "Combien", name: "count", widget: "string"},
+          {label: "Fin", name: "link", widget: "string"}]}
       - {label: "Quand", name: "start", widget: "datetime"}
       - {label: "Fin", name: "end", widget: "datetime"}
-      - {label: "Tarif", name: "tarif", widget: "string", default: 'adhesion a la myne, 2e/an'}
-      - {label: "Image Banner", name: "banner", widget:"image"}
-      - {label: "Thumbnail", name: "thumbnail", widget:"image"}
-      - {label: "Description", name: "description", widget: "string"}
-      - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Documentation", name: "documentation", widget: list, fields: [
+      - {label: "Tarif", name: "tarif", widget: "string", require:"false", default: 'adhesion a la myne, 2e/an'}
+      - {label: "Image Banner", name: "banner", widget:"image", require:"false"}
+      - {label: "Thumbnail", name: "thumbnail", widget:"image", require:"false"}
+      - {label: "Description", name: "description", widget: "string", require:"false"}
+      - {label: "Body", name: "body", widget: "markdown", require:"false"}
+      - {label: "Documentation", name: "documentation", require:"false", widget: list, fields: [
           {label: "Nom", name: "name", widget: "string"},
           {label: "Lien", name: "link", widget: "string"}]}
-      - {label: "Ressources", name: "ressources", widget: list, fields: [
+      - {label: "Ressources", name: "ressources", require:"false", widget: list, fields: [
           {label: "Nom", name: "name", widget: "string"},
           {label: "Lien", name: "link", widget: "string"}]}
+
+          fullday: false
+          recurring:
+            frequency: "WEEKLY"
+            count: 2
+            end: "never"
+
+
   - name: "ressources" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "Ressources et Documentation" # Used in the UI, ie.: "New Post"
     folder: "site/content/documentation" # The path to the folder where the documents are stored
@@ -80,10 +93,10 @@ collections: # A list of collections the CMS should be able to edit
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields:
       - {label: "Title", name: "title", widget: "string", tagname: "h1"}
-      - {label: "Tags", name: "tags", widget: list, default: ['term_1', 'term_2']}
-      - {label: "Alias", name: "alias", widget: "string"}
-      - {label: "shortId", name: "shortid", widget: "string"}
-      - {label: "Model", name: "model", widget: "list"}
+      - {label: "Tags", name: "tags", widget: list, require:"false", default: ['term_1', 'term_2']}
+      - {label: "Alias", name: "alias", widget: "string", require:"false"}
+      - {label: "shortId", name: "shortid", widget: "string", require:"false"}
+      - {label: "Model", name: "model", widget: "list", require:"false"}
       - {label: "Node", name: "node", widget: "list"}
   - name: "people" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "MYNOIS-E" # Used in the UI, ie.: "New Post"
@@ -92,7 +105,7 @@ collections: # A list of collections the CMS should be able to edit
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields:
       - {label: "Name", name: "name", widget: "string", tagname: "h1"}
-      - {label: "Tags", name: "tags", widget: list, default: ['term_1', 'term_2']}
-      - {label: "Social", name: "social", widget: list, fields: [
+      - {label: "Tags", name: "tags", widget: list, default: ['term_1', 'term_2'], require:"false"}
+      - {label: "Social", name: "social", widget: list, require:"false", fields: [
           {label: "Reseau", name: "name", widget: "string"},
           {label: "Lien", name: "link", widget: "string"}]}

@@ -22,9 +22,11 @@ ressources:
   name: Clément Mabi - Citizen Hacker (typologie de la civictech)
 - link: http://www.remixthecommons.org/2015/04/atlas-interactif-des-chartes-des-communs-urbains/
   name: Charte des communs par le collectif remix the commons
-events: ["masterclass"]
+events:
+  - "masterclass"
 location: "La MYNE - 1 Rue Croix de Luizet, Villeurbanne"
-node: ['french-tech-ticket']
+node:
+  - 'french-tech-ticket'
 draft: yes
 ---
 Dans le cadre de la programmation des Masterclasse à la MYNE, et ici plus spécifiquement dans le cadre du Programme French Tech Ticket, nous vous convions à une Masterclasse CivicTech sur "La politique comme commun - Processus, Infrastructures, Échelles et Controverses." mené par Sylvia Fredriksson en dialogue avec Alexandre Monnin
