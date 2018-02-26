@@ -8,7 +8,7 @@
       <p class="mois">{{ i18n $month }}</p>
     </div>
     {{ end }}
-    <img class="responsive-img" src="{{ with or (.Params.thumbnail) (.Params.banner)}}{{.}}{{else}}/img/default-thumbnail.png{{end}}" alt="thumbnail">
+    <img class="responsive-img" src="{{ with or (.Params.thumbnail) (.Params.cover)}}{{.}}{{else}}/img/default-thumbnail.png{{end}}" alt="thumbnail">
   </div>
   <div class="card-content">
     {{ if isset .Params "start"}}

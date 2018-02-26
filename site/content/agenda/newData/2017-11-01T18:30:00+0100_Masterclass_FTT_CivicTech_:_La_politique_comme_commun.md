@@ -2,7 +2,7 @@
 title: "Masterclass #FTT - CivicTech : La politique comme commun"
 start: 2017-11-01T18:30:00
 end: 2017-11-01T20:30:00
-banner: https://scontent.xx.fbcdn.net/v/t31.0-8/s720x720/22712318_10155198294208915_690841928008418898_o.jpg?oh=edc79e71f0ecdfa11cdb2a782be709fc&oe=5B16E874
+cover: https://scontent.xx.fbcdn.net/v/t31.0-8/s720x720/22712318_10155198294208915_690841928008418898_o.jpg?oh=edc79e71f0ecdfa11cdb2a782be709fc&oe=5B16E874
 location: "La MYNE - Manufacture des Idées et Nouvelles Expérimentations, 1 rue du Luizet, Villeurbanne, 69100"
 ---
  Dans le cadre de la programmation des Masterclasse à la MYNE, et ici plus spécifiquement dans le cadre du Programme French Tech Ticket, nous vous convions à une Masterclasse CivicTech sur "La politique comme commun - Processus, Infrastructures, Échelles et Controverses." mené par Sylvia Fredriksson en dialogue avec Alexandre Monnin

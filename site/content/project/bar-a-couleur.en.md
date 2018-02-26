@@ -1,6 +1,6 @@
 ---
 draft: yes
-banner: null
+cover: null
 description: null
 documentation:
 - link: null

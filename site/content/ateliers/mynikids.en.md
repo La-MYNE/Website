@@ -4,7 +4,7 @@ tags : [ "jeunes", "transdisciplinaire"]
 categories: ["program"]
 tarif: "adhesion a la myne, 2e/an"
 thumbnail : "/img/mynikids-thumbnail.png"
-banner : "/img/default-banner.png"
+cover : "/img/default-cover.png"
 porteurs: ["Timothee Gosselin", "Elodie Foucher"]
 description: "Especially designed to offer a toolset for autonomy, the workshops young public are offered two wednesdays a month."
 documentation:

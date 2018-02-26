@@ -1,5 +1,5 @@
 ---
-banner: /img/daisee-banner.jpg
+cover: /img/daisee-cover.jpg
 competence:
   - description: Développement et cryptographie pour coder smart contract blockchain. Connaissance du language Solidity (similaire au C++) et en administration réseau.
     name: Développeur

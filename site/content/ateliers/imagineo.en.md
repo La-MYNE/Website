@@ -5,7 +5,7 @@ description : "During school vacations, design thinking based workshops to allow
 theme : "atelier"
 logo : "/img/imagineo-logo.png"
 thumbnail : "/img/imagineo-thumbnail.jpg"
-banner : "/img/imagineo-banner.png"
+cover : "/img/imagineo-cover.png"
 categories: ["program"]
 node: imagineo
 ---

@@ -2,7 +2,7 @@
 title: "Conférence Adrastia avec Laurent Testot"
 start: 2018-01-12T18:00:00
 end: 2018-01-12T20:30:00
-banner: https://scontent.xx.fbcdn.net/v/t1.0-9/s720x720/25660079_1766235880067559_2444164382540552503_n.png?oh=868efa3dd3b43f0aa6e24d34851c72a3&oe=5B0C6B3E
+cover: https://scontent.xx.fbcdn.net/v/t1.0-9/s720x720/25660079_1766235880067559_2444164382540552503_n.png?oh=868efa3dd3b43f0aa6e24d34851c72a3&oe=5B0C6B3E
 location: "Mpt Salle des Rancy, 249 rue Vendôme, Lyon, 69003"
 ---
  Laurent Testot (journaliste au magazine Sciences Humaines et conférencier) échangera autour de son dernier ouvrage : Cataclysme, une histoire environnementale de l'humanité.

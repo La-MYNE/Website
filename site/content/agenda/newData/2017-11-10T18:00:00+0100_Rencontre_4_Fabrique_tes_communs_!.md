@@ -2,7 +2,7 @@
 title: "Rencontre #4 Fabrique tes communs !"
 start: 2017-11-10T18:00:00
 end: 2017-11-10T20:30:00
-banner: https://scontent.xx.fbcdn.net/v/t1.0-0/p180x540/23244302_1597248813668912_1727596714130536282_n.jpg?oh=3dafc97363bc82675913f07d13858254&oe=5B052560
+cover: https://scontent.xx.fbcdn.net/v/t1.0-0/p180x540/23244302_1597248813668912_1727596714130536282_n.jpg?oh=3dafc97363bc82675913f07d13858254&oe=5B052560
 location: "M.J.C. Presqu'ïle Confluence, 28 quai Rambaud, Lyon, Rhône, 69002"
 ---
  La Fabrique des communs 2017 à Lyon offre une nouvelle occasion de rencontres, d'échanges et de coopérations entre toute personne, collectif et institution s'intéressant à la question des communs. Que vous expérimentiez les communs en actes depuis longtemps, ou que vous en soyez curieux, vous êtes les bienvenus à cette nouvelle réunion conviviale !

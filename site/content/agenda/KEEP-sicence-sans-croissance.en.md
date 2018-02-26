@@ -7,7 +7,7 @@ porteurs:
 description : "La MYNE invite à questionner les finalités de la recherche scientifique à l'occasion d'un apéro-débat avec Fabrice Flipo."
 logo : "/img/science-sans-croissance.jpg"
 thumbnail : "/img/science-sans-croissance.jpg"
-banner : "/img/science-sans-croissance-banner.png"
+cover : "/img/science-sans-croissance-cover.png"
 start: 2017-11-14T18:20:00+02:00
 end: 2017-11-14T20:00:00+02:00
 events:

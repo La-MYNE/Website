@@ -6,7 +6,7 @@ node:
 tags:
   - tag1
   - tag2
-banner: /img/Image-1.jpg
+cover: /img/Image-1.jpg
 thumbnail: /img/Hackuaponie1.jpg
 description: Ma description
 porteurs:

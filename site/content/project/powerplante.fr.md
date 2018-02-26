@@ -1,5 +1,5 @@
 ---
-banner: /img/powerplante-banner.jpg
+cover: /img/powerplante-cover.jpg
 categories: Projet
 date: '2012-04-09'
 description: Produire de l'énergie à partir de bactéries.

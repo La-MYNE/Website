@@ -5,7 +5,7 @@ description : "Une brique électronique + une brique électronique : un petit pr
 theme : "atelier"
 logo : "/img/littlebits-logo.svg"
 thumbnail : "/img/littlebits-thumbnail.jpg"
-banner : "/img/littlebits-banner.png"
+cover : "/img/littlebits-cover.png"
 categories: ["program"]
 node: littlebits
 ---

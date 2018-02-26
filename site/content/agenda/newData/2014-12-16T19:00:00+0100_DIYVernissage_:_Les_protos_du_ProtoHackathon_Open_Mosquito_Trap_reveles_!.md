@@ -2,7 +2,7 @@
 title: "[DIY]Vernissage : Les protos du [Proto]Hackathon Open Mosquito Trap révélés !"
 start: 2014-12-16T19:00:00
 end: 2014-12-16T22:00:00
-banner: https://scontent.xx.fbcdn.net/v/t31.0-8/p720x720/10872785_794295013964300_1940041061577488518_o.jpg?oh=67d22dcb917b712810780927d14aaace&oe=5B1191B0
+cover: https://scontent.xx.fbcdn.net/v/t31.0-8/p720x720/10872785_794295013964300_1940041061577488518_o.jpg?oh=67d22dcb917b712810780927d14aaace&oe=5B1191B0
 ---
  Bonjour à tous et à toutes,
 

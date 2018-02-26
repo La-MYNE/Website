@@ -1,6 +1,6 @@
 {{ define "main" }}
 
-<section id="index-banner">
+<section id="index-cover">
   <div class="parallax-container center">
     <div class="hero-catchline">
       <h1 class="center">{{ .Params.title }}</h1>
@@ -76,7 +76,7 @@
             <p class="mois">{{ i18n $month }}</p>
           </div>
           {{ end }}
-          <img class="responsive-img" src="{{ with or (.Params.thumbnail) (.Params.banner)}}{{.}}{{else}}/img/default-thumbnail.png{{end}}" alt="thumbnail">
+          <img class="responsive-img" src="{{ with or (.Params.thumbnail) (.Params.cover)}}{{.}}{{else}}/img/default-thumbnail.png{{end}}" alt="thumbnail">
         </div>
         <div class="card-content">
           {{ if isset .Params "start"}}

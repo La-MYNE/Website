@@ -10,7 +10,7 @@ recurring:
   end: "never"
 tarif: "adhesion a la myne, 2e/an"
 thumbnail: /img/default-thumbnail.jpg
-banner: /img/default-banner.png
+cover: /img/default-cover.png
 porteurs: ["", ""]
 guests: ["", ""]
 participants: ["", ""]

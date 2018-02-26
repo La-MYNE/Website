@@ -3,7 +3,7 @@ title: "Inspiruline"
 node: ["inspiruline"]
 description: "Programme de sciences participatives pour déployer les méthodes de culture de la spiruline"
 thumbnail: /img/inspiruline-thumbnail.png
-banner: /img/inspiruline-banner.jpg
+cover: /img/inspiruline-cover.jpg
 tags: ["Biologie", "Design", "Energie", "Electronique"]
 porteurs: ["Jean-Pierre Laulhière", "Yvain Berthiot", "Gaëtan Robert", "Charlotte Rizzo", "Oriane Marignier" ]
 competence:

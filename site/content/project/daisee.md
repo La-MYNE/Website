@@ -6,7 +6,7 @@ tags:
   - energy
   - blockchain
   - hardware
-banner: /img/daisee-banner.jpg
+cover: /img/daisee-cover.jpg
 thumbnail: /img/daisee-thumbnail.png
 description: Decentralized Autonomous Interconnected Systems for Energy Efficiency
 porteurs:

@@ -1,7 +1,7 @@
 ---
 title: CELLUBY - Ferme bactérienne
 date: 2017-10-09T18:18:23.277Z
-banner: /img/scoby.jpg
+cover: /img/scoby.jpg
 thumbnail: /img/scoby.jpg
 description: La ferme bactérienne issue de ce projet est un incubateur open-source dédié à la culture contrôler isolé afin d'améliorer le développement de la cellulose bactérienne
 porteurs: ["Jean-Marie Claisse"]

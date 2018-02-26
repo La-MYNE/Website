@@ -2,7 +2,7 @@
 title: "Atelier | Séminaire : L’innovation managériale - David Vallat"
 start: 2017-11-01T09:00:00
 end: 2017-11-01T12:00:00
-banner: https://scontent.xx.fbcdn.net/v/t1.0-9/s720x720/22780328_10155206900538915_8595027661903830023_n.jpg?oh=d067f5736febda39c33517ec8a5b958d&oe=5B0321B7
+cover: https://scontent.xx.fbcdn.net/v/t1.0-9/s720x720/22780328_10155206900538915_8595027661903830023_n.jpg?oh=d067f5736febda39c33517ec8a5b958d&oe=5B0321B7
 location: "Préfabrique de l'innovation, Lyon, 1 rue du Luizet, Villeurbanne, 69100"
 ---
  Atelier de co-création / séminaire sur l’innovation managériale dans un tiers lieu (la Fabrique de l’innovation de l’Université de Lyon) le 01/11 matin (tout le détail est dans l’invitation jointe). Il y aura quelques surprises par rapport au programme.

@@ -2,7 +2,7 @@
 title: "Table Ronde sur les capteurs de pollution"
 start: 2018-02-16T18:30:00
 end: 2018-02-16T20:00:00
-banner: https://scontent.xx.fbcdn.net/v/t31.0-8/s720x720/26841160_1670771906316602_7823442391251160495_o.jpg?oh=ecbaa86f61758577fef416821e1edc5e&oe=5B15B127
+cover: https://scontent.xx.fbcdn.net/v/t31.0-8/s720x720/26841160_1670771906316602_7823442391251160495_o.jpg?oh=ecbaa86f61758577fef416821e1edc5e&oe=5B15B127
 location: "La MYNE - Manufacture des Idées et Nouvelles Expérimentations, 1 rue du Luizet, Villeurbanne, 69100"
 ---
  La MYNE organise une table ronde sur les démarches de capteurs de pollution citoyen. Cette thématique fait le lien entre plusieurs projets à La MYNE, le projet de capteurs citoyens aux Buers,  DAISEE mais aussi plusieurs démarches au sein de l’écosystème « Ambassad’air » à Rennes, « Mobicit’air » à Grenoble et UrPolSens sur Lyon.

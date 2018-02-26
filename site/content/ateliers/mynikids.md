@@ -4,7 +4,7 @@ tags : [ "jeunes", "transdisciplinaire"]
 categories: ["program"]
 tarif: "adhesion a la myne, 2e/an"
 thumbnail : "/img/mynikids-thumbnail.png"
-banner : "/img/default-banner.png"
+cover : "/img/default-cover.png"
 porteurs: ["Timothee Gosselin", "Elodie Foucher"]
 description : "Spécifiquement adapté à la mise en place d’outils d’autonomie, les ateliers jeunes publics sont proposés 2 mercredis par mois."
 documentation:

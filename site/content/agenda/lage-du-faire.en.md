@@ -8,7 +8,7 @@ description : "Michel Lallement and Marie-Christine Bureau, researchers in socio
 theme : "Atelier"
 logo : "/img/lage-du-faire.jpg"
 thumbnail : "/img/lage-du-faire-thumbnail.jpg"
-banner : "/img/lage-du-faire-banner.jpg"
+cover : "/img/lage-du-faire-cover.jpg"
 events:
   - "masterclass"
 ---

@@ -5,7 +5,7 @@ categories: Projet
 description: "Ceci est la description de mon projet (moins de 140 mots)"
 stade:
 tags: [tag1, tag2]
-banner: /img/default-banner.png
+cover: /img/default-cover.png
 thumbnail: /img/default-thumbnail.png
 documentation:
 - link:

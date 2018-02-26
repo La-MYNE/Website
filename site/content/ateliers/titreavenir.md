@@ -6,7 +6,7 @@ description : "Titre à venir, avenir, est un projet expérimental entre structu
 contemporains, des bioHackLabs, hackerSpaces, universités techniques, scientifiques et littéraires. Contribuez aux ateliers tous les Jeudis de 10h à 18h."
 logo : "/img/biennale-design-2017.png"
 thumbnail : "/img/titreavenir-thumbnail.jpg"
-banner : "/img/biennale-design-2017-banner.png"
+cover : "/img/biennale-design-2017-cover.png"
 recurring: "yes"
 node: titreavenir
 ---

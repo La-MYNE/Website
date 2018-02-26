@@ -1,6 +1,6 @@
 ---
 draft: yes
-banner: null
+cover: null
 categories: Projet
 date: 2016-09-26T17:03:59+02:00
 description: null

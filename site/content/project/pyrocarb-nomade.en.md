@@ -1,5 +1,5 @@
 ---
-banner: /img/pyrocarb-thumbnail.jpg
+cover: /img/pyrocarb-thumbnail.jpg
 contribute:
   skills:
   - description: We need you help to give to our product the sexiness it will need in the future.

@@ -121,14 +121,14 @@ nav .brand-logo {
   font-size: 1.7em
 }
 
-/* HOME - index-banner */
- #index-banner {
+/* HOME - index-cover */
+ #index-cover {
    background: rgba(255, 127, 0, 0.25)
  }
- #index-banner h1 {
+ #index-cover h1 {
    color: white;
  }
- #index-banner h2 {
+ #index-cover h2 {
    color: white;
    font-size: 2.2em;
  }
@@ -167,7 +167,7 @@ input[type=email] {
 .parallax-container p {
   font-size: 1.7em;
 }
- .banner-hero .parallax-container {
+ .cover-hero .parallax-container {
   min-height: 380px
  }
 .parallax-container {
@@ -199,18 +199,18 @@ input[type=email] {
      position: absolute;
      top: 40%;
    }
-   #index-banner .section {
+   #index-cover .section {
      top: 10%;
    }
  }
 
 @media only screen and (max-width : 600px) {
-   #index-banner .section {
+   #index-cover .section {
      top: 0;
    }
  }
 
-/* PAGES - Single View Page- Banner-hero */
+/* PAGES - Single View Page- cover-hero */
  .hero-image img {
    max-height: 60vh;
    min-width: 100%;

@@ -1,5 +1,5 @@
 ---
-banner: /img/scoby.jpg
+cover: /img/scoby.jpg
 categories: Projet
 contribute:
   skills:

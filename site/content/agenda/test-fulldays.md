@@ -7,7 +7,7 @@ end: 2018-03-27T21:30:00+02:00
 fullday: true
 tarif: "adhesion a la myne, 2e/an"
 thumbnail: /img/masterclass-civic-tech-thumbnail.jpg
-banner: /img/default-banner.png
+cover: /img/default-cover.png
 porteurs: ["Sylvia Fredriksson", "Alexandre Monnin"]
 description : "Dans un dialogue mené par Sylvia Fredriksson avec Alexandre Monnin, il est question de la politique comme commun - Processus, Infrastructures, Échelles et Controverses."
 documentation:

@@ -2,7 +2,7 @@
 title: "Masterclass Découverte du Design Sprint"
 start: 2018-01-24T18:30:00
 end: 2018-01-24T20:30:00
-banner: https://scontent.xx.fbcdn.net/v/t31.0-8/q83/s720x720/26841528_1670914612968998_963904940437203978_o.jpg?oh=9e2938d9655a6636ede454b99f7f3b07&oe=5B47B71E
+cover: https://scontent.xx.fbcdn.net/v/t31.0-8/q83/s720x720/26841528_1670914612968998_963904940437203978_o.jpg?oh=9e2938d9655a6636ede454b99f7f3b07&oe=5B47B71E
 location: "La MYNE - Manufacture des Idées et Nouvelles Expérimentations, 1 rue du Luizet, Villeurbanne, 69100"
 ---
  Workshop Découverte du Design Sprint

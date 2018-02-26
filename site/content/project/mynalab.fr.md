@@ -1,5 +1,5 @@
 ---
-banner: /img/mynalab-banner.jpg
+cover: /img/mynalab-cover.jpg
 categories: Project
 date: '2012-04-06'
 description: Une maison autonome, expérimentale & interconnectée

@@ -3,7 +3,7 @@ title : "Ateliers jeunes publics"
 tags : [ "jeunes", "transdisciplinaire"]
 condition: "adhesion a la myne, 2e/an"
 thumbnail : "/img/mynikids-thumbnail.png"
-banner : "/img/default-banner.png"
+cover : "/img/default-cover.png"
 porteurs:
 - image: /img/avatar.jpg
   name: ""

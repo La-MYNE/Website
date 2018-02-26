@@ -10,7 +10,7 @@ guests:
 description : "Félix Tréguer et Gaël Trouvé discutent des coûts écologiques et humain d'Internet, et des alternatives possibles pour développer un Internet low-tech, résilient, pertinent et souhaitable."
 logo : "/img/cout-ecologique-social-internet.jpg"
 thumbnail : "/img/cout-ecologique-social-internet.jpg"
-banner : "/img/cout-ecologique-social-internet-banner.png"
+cover : "/img/cout-ecologique-social-internet-cover.png"
 events: ["masterclass"]
 categories: ["events"]
 ---

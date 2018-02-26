@@ -4,7 +4,7 @@ tags: [ "makers", "numerique"]
 porteurs: ["ECAN", "Attom", "la FOL"]
 description: "Des formations sur mesure pour être opérationnel sur les outils de prototypage numérique  "
 thumbnail: "/img/ecan-thumbnail.jpg"
-banner: "/img/ecan-banner.jpg"
+cover: "/img/ecan-cover.jpg"
 node: ["artisan-numerique"]
 ---
 

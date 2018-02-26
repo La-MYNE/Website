@@ -2,7 +2,7 @@
 title: "Apéro Paillasse Saône #4: Project Lab"
 start: 2014-10-23T19:00:00
 end: 2014-10-23T21:00:00
-banner: https://scontent.xx.fbcdn.net/v/t31.0-8/s720x720/10700313_764640443596424_1133689643220265853_o.jpg?oh=710d09b5fddaf2a9da726b2c92e91c7d&oe=5B053446
+cover: https://scontent.xx.fbcdn.net/v/t31.0-8/s720x720/10700313_764640443596424_1133689643220265853_o.jpg?oh=710d09b5fddaf2a9da726b2c92e91c7d&oe=5B053446
 ---
  Vous connaissez La Paillasse Saône eco-hacklab lyonnais ? Vous connaissez La Paillasse ? Si oui... alors cet Apéro est fait pour vous; Sinon... cet Apéro est aussi fait pour vous!
 

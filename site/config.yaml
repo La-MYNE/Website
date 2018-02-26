@@ -90,17 +90,17 @@ config: config.yaml
 MetaDataFormat : yaml
 params:
   DateForm: Monday, Jan 2
-  banner:
+  cover:
     sections:
-    - image: /img/project-banner.jpg
+    - image: /img/project-cover.jpg
       name: Projects
-    - image: /img/lamyne-banner.jpg
+    - image: /img/lamyne-cover.jpg
       name: La MYNE
-    - image: /img/contribute-banner.jpg
+    - image: /img/contribute-cover.jpg
       name: Contribute
-    - image: /img/agenda-banner.jpg
+    - image: /img/agenda-cover.jpg
       name: Agendas
-    - image: /img/program-banner.jpg
+    - image: /img/program-cover.jpg
       name: Programs
   partners:
   - link: http://lapaillasse.org/

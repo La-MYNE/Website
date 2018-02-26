@@ -1,5 +1,5 @@
 ---
-banner: /img/hackuaponie-thumbnail.jpg
+cover: /img/hackuaponie-thumbnail.jpg
 description: Hackuaponie est un programme de sciences citoyennes d'amélioration des
   systèmes aquaoniques pour une production alimentaire symbiotique
 documentation:

@@ -1,6 +1,6 @@
 ---
 draft: yes
-banner: null
+cover: null
 contribute:
   competence:
   - description: biologistes, designers, ingénieurs... qui sont familiers avec les biomatériaux.

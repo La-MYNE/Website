@@ -3,7 +3,7 @@ title: Hackuaponie
 node: ["hackuaponie"]
 tags: ["Agriculture", "Autonomie"]
 thumbnail: /img/hackuaponie.jpg
-banner: /img/hackuaponie-thumbnail.jpg
+cover: /img/hackuaponie-thumbnail.jpg
 porteurs: ["Charlotte Rizzo", "Renaud Becheret", "Adrien Lemardeleu"]
 description: "Hackuaponie est un programme de sciences citoyennes d'amélioration des systèmes aquaponiques pour une production alimentaire symbiotique"
 documentation:

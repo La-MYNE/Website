@@ -5,7 +5,7 @@ description : "Every monday and wednesday evening, meet the soldermen to learn h
 theme : "atelier"
 logo : "/img/atelier-soude-logo.png"
 thumbnail : "/img/atelier-soude-thumbnail.jpg"
-banner : "/img/atelier-soude-banner.png"
+cover : "/img/atelier-soude-cover.png"
 recurring: "no"
 node: ateliersoude
 ---

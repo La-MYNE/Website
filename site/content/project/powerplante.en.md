@@ -1,7 +1,7 @@
 ---
 title: Power Plante
 tags: ["agriculture", "autonomie"]
-banner: /img/contribute-banner.jpg
+cover: /img/contribute-cover.jpg
 thumbnail: /img/powerplante-thumbnail.jpg
 description: Produire de l'énergie à partir de bactéries.
 porteurs: [""]

@@ -2,7 +2,7 @@
 title: "Journées du Logiciel Libre"
 start: 2018-03-24T10:00:00
 end: 2018-03-25T18:00:00
-banner: https://scontent.xx.fbcdn.net/v/t31.0-8/s720x720/27907482_1783583428610716_7085324832612989664_o.jpg?oh=92ccf27230d48eb17902e3581119142b&oe=5B0DF74C
+cover: https://scontent.xx.fbcdn.net/v/t31.0-8/s720x720/27907482_1783583428610716_7085324832612989664_o.jpg?oh=92ccf27230d48eb17902e3581119142b&oe=5B0DF74C
 location: "Mpt Salle des Rancy, 249 rue Vendôme, Lyon, 69003"
 ---
  Les Journées Du Logiciel Libre de Lyon, fêteront leurs 20 ans les 24 et 25 mars 2018 et l’aventure ne fait que commencer !
