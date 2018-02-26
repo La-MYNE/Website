@@ -16,7 +16,7 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Node", name: "node", widget: "list"}
       - {label: "Tags", name: "tags", widget: "list", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Image Banner", name: "banner", widget: "image", required: false}
+      - {label: "Image cover", name: "cover", widget: "image", required: false}
       - {label: "Thumbnail", name: "thumbnail", widget: "image", required: false}
       - {label: "Description", name: "description", widget: "string"}
       - {label: "Porteurs", name: "porteurs", widget: "list"}
@@ -42,7 +42,7 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Node", name: "node", widget: "list"}
       - {label: "Tags", name: "tags", widget: "list", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Image Banner", name: "banner", widget: "image", required: false}
+      - {label: "Image cover", name: "cover", widget: "image", required: false}
       - {label: "Thumbnail", name: "thumbnail", widget: "image", required: false}
       - {label: "Description", name: "description", widget: "string"}
       - {label: "Porteurs", name: "porteurs", widget: "list"}
@@ -68,7 +68,7 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Quand", name: "start", widget: "datetime"}
       - {label: "Fin", name: "end", widget: "datetime"}
       - {label: "Tarif", name: "tarif", widget: "string", required: false, default: 'adhesion a la myne, 2e/an'}
-      - {label: "Image Banner", name: "banner", widget: "image", required: false}
+      - {label: "Image cover", name: "cover", widget: "image", required: false}
       - {label: "Thumbnail", name: "thumbnail", widget: "image", required: false}
       - {label: "Description", name: "description", widget: "string", required: false}
       - {label: "Body", name: "body", widget: "markdown", required: false}
@@ -102,7 +102,6 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Social", name: "social", widget: list, required: false, fields: [
           {label: "Reseau", name: "name", widget: "string"},
           {label: "Lien", name: "link", widget: "string"}]}
-
   - name: "pages"
     label: "Pages"
     files:
@@ -113,43 +112,22 @@ collections: # A list of collections the CMS should be able to edit
           - {label: "Titre", name: "title", widget: "string"}
           - {label: "Sous-Titre", name: "subtitle", widget: "string"}
           - {label: "Slogan", name: "catchline", widget: "string"}
-
-          - {label: "Mission", name: misssion, widget: object, fields: [
+          - {label: "Image Couverture", name: "cover", widget: "image"}
+          - {label: "Newsletter", name: "newsletter", widget: "string"}
+          - {label: "Agenda", name: "event", widget: "string"}
+          - {label: "Actus", name: "news", widget: "string"}
+          - {label: "Team", name: "team", widget: "string"}
+          - {label: "Mission", name: misssion, widget: list, fields: [
               {label: "Title", name: "title", widget: string},
               {label: "Description", name: "text", widget: "text"},
               {label: "Picto", name: "pico", widget: "image"},
-              {label: "Catll To Action", name: "calltoaction", widget: "text"},
-
-              ]}
-
-          - {label: "Intro", name: intro, widget: object, fields: [
-              {label: "Heading", name: "heading", widget: string},
-              {label: "Text", name: "text", widget: "text"}]}
-          - {label: "Products", name: products, widget: list, fields: [
-              {label: "Image", name: "image", widget: "image"},
-              {label: "Text", name: "text", widget: "text"}]}
-          - {label: "Values", name: "values", widget: "object", fields: [
-              {label: "Heading", name: "heading", widget: string},
-              {label: "Text", name: "text", widget: "text"}]}
-
-      fields:
-
-
-        - {label: "Tags", name: "tags", widget: "list", required: false}
-        - {label: "Body", name: "body", widget: "markdown"}
-        - {label: "Image Banner", name: "banner", widget: "image", required: false}
-        - {label: "Thumbnail", name: "thumbnail", widget: "image", required: false}
-        - {label: "Description", name: "description", widget: "string"}
-        - {label: "Porteurs", name: "porteurs", widget: "list"}
-        - {label: "Documentation", name: "documentation", required: false, widget: list, fields: [
-            {label: "Nom", name: "name", widget: "string"},
-            {label: "Lien", name: "link", widget: "string"}]}
-        - {label: "Contribuer-Competence", name: "competence", required: false, widget: list, fields: [
-            {label: "Type", name: "name", widget: "string"},
-            {label: "Description", name: "description", widget: "string"}]}
-        - {label: "Contribuer-Materiel", required: false, name: "materiel", widget: list, fields: [
-            {label: "Type", name: "name", widget: "string"},
-            {label: "Description", name: "description", widget: "string"}]}
-        - {label: "Contribuer-Financier", required: false, name: "financier", widget: list, fields: [
-            {label: "Type", name: "name", widget: "string"},
-            {label: "Description", name: "description", widget: "string"}]}
+              {label: "Call To Action", name: "calltoaction", widget: "object", fields: [
+                {label: "Message", name: "heading", widget: "string"},
+                {label: "Lien", name: "link", widget: "string"}]}]}
+      - file: "site/content/about.md"
+        label: "Page Accueil"
+        name: "home"
+        fields:
+          - {label: "Titre", name: "title", widget: "string"}
+          - {label: "Description", name: "description", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown"}

@@ -1,5 +1,4 @@
 ---
-address: '1 Rue du Luizet, 69100 Villeurbanne'
 college:
   - David Bartholomeo
   - Yoann Duriaux
@@ -10,7 +9,6 @@ college:
   - Charlotte Rizzo
   - Melia Villard
   - Jeremy Virgo
-
 description: La Manufacture des Idées et des Nouvelles Expérimentations
 gt:
   - GT Finance
@@ -19,13 +17,9 @@ gt:
   - GT Projets
   - GT Système d'Information
   - GT Propriété Intellectuelle
-
 info:
   - Ouverture public le mercredi à partir de 18h / Accueil extérieur ponctuel du lundi au jeudi de 14h à 18h / Ouvert aux projets tous les jours
-
 title: La MYNE
-
-published: true
 ---
 
 # Une Manufacture du concret et du réel
