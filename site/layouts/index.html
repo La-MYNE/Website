@@ -7,10 +7,10 @@
       <h2>{{ .Site.Params.subtitle }}</h2>
       <div class="row center">
         <h3 class="col s12 center "> {{ .Site.Params.catchline | markdownify }} </h3>
-          <p><a href="https://www.helloasso.com/associations/la-myne/adhesions/adherer-a-la-myne-en-2018" class="btn-large waves-effect waves-light black">Adhérer</a></p>
+          <p><a href="{{.Params.donation.link}}" class="btn-large waves-effect waves-light black">{{.Params.donation.heading}}</a></p>
       </div>
     </div>
-    <div class="parallax"><img class="responsive-img" src="/img/lamyne.jpg" alt="Projet Hackuaponie"></div>
+    <div class="parallax"><img class="responsive-img" src="/img/lamyne.jpg" alt="La MYNE"></div>
   </div>
 </section>
 
@@ -28,7 +28,7 @@
               <p class="center light">{{ .description }}</p>
             </div>
             <div class="row center">
-              <a href="#" class="center btn-large waves-effect waves-light orange">Contribuer</a>
+              <a href="{{.calltoaction.link}}" class="center btn-large waves-effect waves-light orange">{{.calltoaction.heading}}</a>
             </div>
             </div>
             {{ end }}
@@ -37,29 +37,9 @@
   </div>
 </section>
 
-<!--
-<section>
-  <div class="parallax-container valign-wrapper home-hero">
-    <div class="row center">
-      <div class="col s8 offset-s2">
-        {{ range .Params.catchlinehero }}
-        <p>{{ .content | markdownify }}</p>
-        <div class="row">
-          <a href="{{ .link }}" class="btn-large waves-effect waves-light orange">{{ .calltoaction }}</a>
-          <p><a href="https://www.helloasso.com/associations/la-paillasse-saone/adhesions/adhesions-la-myne-2017" class="btn-large waves-effect waves-light black">Adhérer</a></p>
-          {{ end }}
-        </div>
-      </div>
-    </div>
-
-    <div class="parallax"><img src="/img/background2.jpg" alt="La MYNE, un espace pour tous"></div>
-  </div>
-</section>
--->
-
 <section class="section-home light-grey">
   <div class="container">
-<h1>Nos dernieres actualites</h1>
+<h1>{{.Params.news}}</h1>
 <div class="row">
 <!-- Flickity HTML init -->
 <div class="main-carousel" data-flickity='{ "contain": true }'>
@@ -76,7 +56,7 @@
             <p class="mois">{{ i18n $month }}</p>
           </div>
           {{ end }}
-          <img class="responsive-img" src="{{ with or (.Params.thumbnail) (.Params.cover)}}{{.}}{{else}}/img/default-thumbnail.png{{end}}" alt="thumbnail">
+          <img class="responsive-img" src="{{ with or (.Params.thumbnail) (.Params.cover)}}{{.}}{{else}}/img/default-thumbnail.png{{end}}" alt="thumbnail {{.Title}}">
         </div>
         <div class="card-content">
           {{ if isset .Params "start"}}
@@ -120,7 +100,7 @@
 
 <section class="section-home light-grey">
   <div class="container">
-<h1>Les MYNOIS-ES</h1>
+<h1>{{.Params.team}}</h1>
 <div class="row">
 <!-- Flickity HTML init -->
 <div class="main-carousel" data-flickity='{ "contain": true }'>
@@ -129,7 +109,7 @@
     <div class="carousel-cell">
       <div class="card orange card-team-home">
         <div class="card-content">
-            <a href="{{.URL}}"><img class="team-profile center" src=" {{ .Params.image }}"></a>
+            <a href="{{.URL}}"><img class="team-profile center" src=" {{ .Params.image }}" alt="{{.Params.name}}"></a>
           <div class="card-agenda-title white-text center">{{ .Params.name }}</div>
           <div class="row card-details center">
             {{ if isset .Params "tags"}}
@@ -147,20 +127,6 @@
 </div>
 </section>
 
-<!--
-<section>
-  <div class="parallax-container valign-wrapper">
-      <div class="container">
-        <div class="row center">
-          <div class="col s8 offset-s2">
-          <p>{{ range .Params.ecosystem }} {{ .content | markdownify }}{{ end }}</p>
-        </div>
-      </div>
-    </div>
-    <div class="parallax"><img src="{{ .Site.BaseURL }}img/background3.jpg" alt="background img 3"></div>
-  </div>
-</section>
--->
 <section class="section-home section-contribute">
   <div class="container">
     <div class="main-carousel-fullscreen" data-flickity='{ "contain": true }'>
@@ -249,20 +215,4 @@
     </div>
   </div>
 </section>
-
-<!--
-<section class="partenaires">
-  <div class="container center">
-    <div class ="row">
-<h2>{{ range .Site.Params.ecosystem }} {{ .title | markdownify }}{{ end }}</h2>
-</div>
-<div class="row">
-  {{ range .Site.Params.partners }}
-  <div class="col s4"><a href="{{ .link }}"><img class="responsive-img" src="{{ .logo }}" alt="logo"></a></div>
-{{ end }}
-</div>
-</div>
-</section>
- -->
-
  {{ end }}
