@@ -2,7 +2,7 @@ backend:
   name: git-gateway
 
 media_folder: "site/static/img" # Folder where user uploaded files should go
-public_folder: "/img"
+public_folder: "img"
 publish_mode: editorial_workflow
 
 collections: # A list of collections the CMS should be able to edit
@@ -14,22 +14,22 @@ collections: # A list of collections the CMS should be able to edit
     fields:
       - {label: "Title", name: "title", widget: "string", tagname: "h1"}
       - {label: "Node", name: "node", widget: "list"}
-      - {label: "Tags", name: "tags", widget:"list", required: false}
+      - {label: "Tags", name: "tags", widget: "list", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Image Banner", name: "banner", widget:"image", required: false}
-      - {label: "Thumbnail", name: "thumbnail", widget:"image", required: false}
-      - {label: "Description", name: "description", widget:"string"}
-      - {label: "Porteurs", name: "porteurs", widget:"list"}
+      - {label: "Image Banner", name: "banner", widget: "image", required: false}
+      - {label: "Thumbnail", name: "thumbnail", widget: "image", required: false}
+      - {label: "Description", name: "description", widget: "string"}
+      - {label: "Porteurs", name: "porteurs", widget: "list"}
       - {label: "Documentation", name: "documentation", required: false, widget: list, fields: [
           {label: "Nom", name: "name", widget: "string"},
           {label: "Lien", name: "link", widget: "string"}]}
-      - {label: "Contribuer-Competence", name: competence, required: false, widget: list, fields: [
+      - {label: "Contribuer-Competence", name: "competence", required: false, widget: list, fields: [
           {label: "Type", name: "name", widget: "string"},
           {label: "Description", name: "description", widget: "string"}]}
-      - {label: "Contribuer-Materiel", required: false, name: materiel, widget: list, fields: [
+      - {label: "Contribuer-Materiel", required: false, name: "materiel", widget: list, fields: [
           {label: "Type", name: "name", widget: "string"},
           {label: "Description", name: "description", widget: "string"}]}
-      - {label: "Contribuer-Financier", required: false, name: financier, widget: list, fields: [
+      - {label: "Contribuer-Financier", required: false, name: "financier", widget: list, fields: [
           {label: "Type", name: "name", widget: "string"},
           {label: "Description", name: "description", widget: "string"}]}
   - name: "ateliers" # Used in routes, ie.: /admin/collections/:slug/edit
@@ -40,12 +40,12 @@ collections: # A list of collections the CMS should be able to edit
     fields:
       - {label: "Title", name: "title", widget: "string", tagname: "h1"}
       - {label: "Node", name: "node", widget: "list"}
-      - {label: "Tags", name: "tags", widget:"list", required: false}
+      - {label: "Tags", name: "tags", widget: "list", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Image Banner", name: "banner", widget:"image", required: false}
-      - {label: "Thumbnail", name: "thumbnail", widget:"image", required: false}
-      - {label: "Description", name: "description", widget:"string"}
-      - {label: "Porteurs", name: "porteurs", widget:"list"}
+      - {label: "Image Banner", name: "banner", widget: "image", required: false}
+      - {label: "Thumbnail", name: "thumbnail", widget: "image", required: false}
+      - {label: "Description", name: "description", widget: "string"}
+      - {label: "Porteurs", name: "porteurs", widget: "list"}
       - {label: "Documentation", name: "documentation", required: false, widget: list, fields: [
           {label: "Nom", name: "name", widget: "string"},
           {label: "Lien", name: "link", widget: "string"}]}
@@ -57,8 +57,8 @@ collections: # A list of collections the CMS should be able to edit
     fields:
       - {label: "Title", name: "title", widget: "string", tagname: "h1"}
       - {label: "Node", name: "node", widget: "list"}
-      - {label: "Tags", name: "tags", widget: list, required: false, default: ['term_1', 'term_2']}
-      - {label: "Porteurs", name: "porteurs", widget:"list", required: false}
+      - {label: "Tags", name: "tags", widget: "list", required: false, default: ['term_1', 'term_2']}
+      - {label: "Porteurs", name: "porteurs", widget: "list", required: false}
       - {label: "Lieu", name: "location", widget: "string", required: false}
       - {label: "Journee Entiere", name: "fullday", widget: "boolean", default:"false"}
       - {label: "Recurrence", name: "recurring", required: false, widget: list, fields: [
@@ -68,8 +68,8 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Quand", name: "start", widget: "datetime"}
       - {label: "Fin", name: "end", widget: "datetime"}
       - {label: "Tarif", name: "tarif", widget: "string", required: false, default: 'adhesion a la myne, 2e/an'}
-      - {label: "Image Banner", name: "banner", widget:"image", required: false}
-      - {label: "Thumbnail", name: "thumbnail", widget:"image", required: false}
+      - {label: "Image Banner", name: "banner", widget: "image", required: false}
+      - {label: "Thumbnail", name: "thumbnail", widget: "image", required: false}
       - {label: "Description", name: "description", widget: "string", required: false}
       - {label: "Body", name: "body", widget: "markdown", required: false}
       - {label: "Documentation", name: "documentation", required: false, widget: list, fields: [
@@ -85,7 +85,7 @@ collections: # A list of collections the CMS should be able to edit
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields:
       - {label: "Title", name: "title", widget: "string", tagname: "h1"}
-      - {label: "Tags", name: "tags", widget: list, required: false, default: ['term_1', 'term_2']}
+      - {label: "Tags", name: "tags", widget: "list", required: false, default: ['term_1', 'term_2']}
       - {label: "Alias", name: "alias", widget: "string", required: false}
       - {label: "shortId", name: "shortid", widget: "string", required: false}
       - {label: "Model", name: "model", widget: "list", required: false}
@@ -98,6 +98,7 @@ collections: # A list of collections the CMS should be able to edit
     fields:
       - {label: "Name", name: "name", widget: "string", tagname: "h1"}
       - {label: "Tags", name: "tags", widget: list, default: ['term_1', 'term_2'], required: false}
+      - {label: "Thumbnail", name: "thumbnail", widget: "image", required: false}
       - {label: "Social", name: "social", widget: list, required: false, fields: [
           {label: "Reseau", name: "name", widget: "string"},
           {label: "Lien", name: "link", widget: "string"}]}
