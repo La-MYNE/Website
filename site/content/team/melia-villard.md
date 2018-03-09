@@ -1,7 +1,11 @@
 ---
 name: Mélia Villard
 tags:
-  - '#communs #transition #mednum #educpop #tiers-lieux'
+  - communs
+  - transition
+  - mednum
+  - educpop
+  - tiers-lieux
 thumbnail: /img/melia_villardn&b.jpg
 social:
   - link: ''
