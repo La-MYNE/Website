@@ -1,15 +1,26 @@
 ---
-name: "Mélia Villard"
-porteurs: ["Mélia Villard"]
-image: "/img/melia-villard.jpg"
+name: Mélia Villard
+tags:
+  - Grande cheffe scout de l’équipe
+  - >-
+    Mélia bricole et recolle les formats éducatifs et sociologiques de la MYNE.
+    Gentille traductrice EcoloSocioGeekFéministe
+  - >-
+    elle ne perd jamais ni le nord ni les translations pour accompagner tous les
+    fronts. Vous la trouverez probablement quelque part
+  - entre clowneries improvisées
+  - médiation numérique
+  - ou accompagnement de projets
+  - à planter des graines d'émancipation
+  - d'esprit critique et d’intelligence collective.
+thumbnail: /img/melia_villardn&b.jpg
 social:
-- name: twitter
-  link: ""
-- name: linkedin
-  link: ""
-- name: github
-  link: ""
-tags: 
+  - link: ''
+    name: twitter
+  - link: 'https://www.linkedin.com/in/melia-villard/'
+    name: linkedin
+  - link: 'https://github.com/melvill'
+    name: github
+  - name: Mastodon
 ---
 
-Grande cheffe scout de l’équipe, Mélia bricole et recolle les formats éducatifs et sociologiques de la MYNE. Gentille traductrice EcoloSocioGeek, elle ne perd jamais ni le nord ni les translations pour accompagner tous les fronts. Vous la trouverez probablement quelque part, entre clowneries improvistes, chant et danse de salopette, à planter les graines de l’intelligence collective
