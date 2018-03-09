@@ -99,6 +99,7 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Name", name: "name", widget: "string", tagname: "h1"}
       - {label: "Tags", name: "tags", widget: list, default: ['term_1', 'term_2'], required: false}
       - {label: "Thumbnail", name: "thumbnail", widget: "image", required: false}
+      - {label: "Body", name: "body", widget: "markdown", required: false}
       - {label: "Social", name: "social", widget: list, required: false, fields: [
           {label: "Reseau", name: "name", widget: "string"},
           {label: "Lien", name: "link", widget: "string"}]}
