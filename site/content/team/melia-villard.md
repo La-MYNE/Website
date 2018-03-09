@@ -19,7 +19,8 @@ social:
     name: twitter
   - link: 'https://www.linkedin.com/in/melia-villard/'
     name: linkedin
-  - link: ''
+  - link: 'https://github.com/melvill'
     name: github
+  - name: Mastodon
 ---
 
