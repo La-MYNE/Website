@@ -10,11 +10,18 @@ porteurs:
   - Thomas Germain
 location: La Myne
 fullday: false
-start: 2018-03-16T18:00:00+01:00
+start: 2018-03-16T17:00:00.000Z
 end: 2018-03-16T19:30:39.000Z
 tarif: 'adhesion a la myne, 2e/an'
 cover: /img/mobilablamyne.jpg
 description: Conférence/discussion suivie d'un apéro/repas partagé.
+documentation:
+  - link: 'http://mobilab-songo.com/'
+    name: Mobilab Songo
+  - link: www.feufollet.org
+    name: Feu Follet
+ressources:
+  - {}
 ---
 
 Retrouvez le [Mobilab Sonĝo](http://mobilab-songo.com/) avec Anton Deums pour une conférence/discussion sur l'autonomie en énergie thermique dans un contexte de transition sociale et écologique.  
