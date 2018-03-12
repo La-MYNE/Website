@@ -10,7 +10,7 @@ porteurs:
   - Thomas Germain
 location: La Myne
 fullday: false
-start: 2018-03-16T17:00:00.000Z
+start: 2018-03-16T18:00:00+01:00
 end: 2018-03-16T19:30:39.000Z
 tarif: 'adhesion a la myne, 2e/an'
 cover: /img/mobilablamyne.jpg
