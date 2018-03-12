@@ -1,37 +1,42 @@
 ---
-title: "Inspiruline"
-node: ["inspiruline"]
-description: "Programme de sciences participatives pour déployer les méthodes de culture de la spiruline"
-thumbnail: /img/inspiruline-thumbnail.png
-cover: /img/inspiruline-cover.jpg
-tags: ["Biologie", "Design", "Energie", "Electronique"]
-porteurs: ["Jean-Pierre Laulhière", "Yvain Berthiot", "Gaëtan Robert", "Charlotte Rizzo", "Oriane Marignier" ]
-competence:
-- description: null
-  name: Biologie
-- description: null
-  name: Electronique
-- description: null
-  name: Design
-- description: null
-  name: Mécanique des fluides
-- description: null
-  name: Santé et médecine
-financier:
-- description: null
-  name: null
-materiel:
-- description: null
-  name: Pompes à main
-- description: 'Pour chauffer le milieu'
-  name: Résistance chauffante aquatique
-- description: 'pour automatiser le système'
-  name: Matériel électronique
-- description: 'Faire passer le CO2 extérieur dans le réacteur'
-  name: Pompe à air ou levures
+title: Inspiruline
+node:
+  - inspiruline
+tags:
+  - Biologie
+  - Design
+  - Energie
+  - Electronique
+cover: /img/inspiruline-photo.jpg
+thumbnail: /img/inspiruline-logo.jpg
+description: >-
+  Programme de sciences participatives pour déployer les méthodes de culture de
+  la spiruline
+porteurs:
+  - Jean-Pierre Laulhière
+  - Yvain Berthiot
+  - Gaëtan Robert
+  - Charlotte Rizzo
+  - Oriane Marignier
 documentation:
-- link: https://inspiruline.wordpress.com/
-  name: Blog
+  - link: 'https://inspiruline.wordpress.com/'
+    name: Blog
+competence:
+  - name: Biologie
+  - name: Electronique
+  - name: Design
+  - name: Mécanique des fluides
+  - name: Santé et médecine
+materiel:
+  - name: Pompes à main
+  - description: Pour chauffer le milieu
+    name: Résistance chauffante aquatique
+  - description: pour automatiser le système
+    name: Matériel électronique
+  - description: Faire passer le CO2 extérieur dans le réacteur
+    name: Pompe à air ou levures
+financier:
+  - {}
 ---
 
 # Inspiruline - s’approprier la culture des micro-algues
