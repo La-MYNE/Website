@@ -1,0 +1,19 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Event",
+  "location": {
+    "@type": "Place",
+    "name": "Mpt Salle des Rancy",
+    "street": "249 rue Vendôme",
+    "postal": "69003",
+    "city": "Lyon"
+  },
+  "name": "Journées du Logiciel Libre",
+  "image": "<no value>",
+  "identifier": "/agenda/facebook/2018-03-24t100000+0100_journees_du_logiciel_libre/",
+  "description": "",
+  "startDate": "2018-03-24T10:00:00",
+  "endDate": "2018-03-25T18:00:00",
+  "isAccessibleForFree": "true",    
+]
+}
