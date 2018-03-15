@@ -165,7 +165,7 @@ params:
   - header: 'yes'
     icon: icon-mail
     title: email
-    url: team@lamyne.org
+    url: mailto:team@lamyne.org
   - icon: icon-social-youtube-outline
     title: youtube
     url: https://www.youtube.com/channel/UC-AkSeIOQf3-fscKmoXfmxA
