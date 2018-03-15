@@ -118,8 +118,8 @@ collections: # A list of collections the CMS should be able to edit
           - {label: "Agenda", name: "event", widget: "string"}
           - {label: "Actus", name: "news", widget: "string"}
           - {label: "Team", name: "team", widget: "string"}
-          - {label: "Mission", name: "misssion", widget: list, fields: [
-              {label: "Title", name: "title", widget: string},
+          - {label: "Mission", name: "misssion", widget: "list", fields: [
+              {label: "Title", name: "title", widget: "string"},
               {label: "Description", name: "description", widget: "text"},
               {label: "Picto", name: "picto", widget: "image"},
               {label: "Call To Action", name: "calltoaction", widget: "object", fields: [
