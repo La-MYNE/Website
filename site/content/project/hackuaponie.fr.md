@@ -1,31 +1,41 @@
 ---
 title: Hackuaponie
-node: ["hackuaponie"]
-tags: ["Agriculture", "Autonomie"]
-thumbnail: /img/hackuaponie.jpg
-cover: /img/hackuaponie-thumbnail.jpg
-porteurs: ["Charlotte Rizzo", "Renaud Becheret", "Adrien Lemardeleu"]
-description: "Hackuaponie est un programme de sciences citoyennes d'amélioration des systèmes aquaponiques pour une production alimentaire symbiotique"
+node:
+  - hackuaponie
+tags:
+  - Agriculture
+  - Autonomie
+cover: /img/Hackuaponie1.jpg
+thumbnail: /img/hackuaponie-thumbnail.jpg
+description: >-
+  Hackuaponie est un programme de sciences citoyennes d'amélioration des
+  systèmes aquaponiques pour une production alimentaire symbiotique
+porteurs:
+  - Charlotte Rizzo
+  - Renaud Becheret
+  - Adrien Lemardeleu
 documentation:
-- link: https://hackuaponie.hackpad.com/LISEZMOI-Hackuaponie-Programme-de-sciences-citoyennes-damlioration-des-systmes-aquaponiques-SUyOKhCeKIW
-  name: Lisez-moi
-- link: https://hackuaponie.hackpad.com/Notes-des-rencontres-hackuaponie-K0dkBqKCVNW
-  name: Réunions
+  - link: >-
+      https://hackuaponie.hackpad.com/LISEZMOI-Hackuaponie-Programme-de-sciences-citoyennes-damlioration-des-systmes-aquaponiques-SUyOKhCeKIW
+    name: Lisez-moi
+  - link: >-
+      https://hackuaponie.hackpad.com/Notes-des-rencontres-hackuaponie-K0dkBqKCVNW
+    name: Réunions
 competence:
-  - description: "Connaissance des espèces de poissons"
-    name: "Aquaculture"
-  - description: "Connaissance des techniques de permaculture"
-    name: "Permaculture"
-  - description: ""
-    name: "Monitoring"
+  - description: Connaissance des espèces de poissons
+    name: Aquaculture
+  - description: Connaissance des techniques de permaculture
+    name: Permaculture
+  - description: ''
+    name: Monitoring
+materiel:
+  - description: Besoins de matériels pour captation de de données
+    name: Capteurs et matériel électronique
+  - description: ''
+    name: Poissons
 financier:
   - description: Contribuez au finacement du projet.
     name: Faire un don au projet
-materiel:
-  - description: "Besoins de matériels pour captation de de données"
-    name: "Capteurs et matériel électronique"
-  - description: ""
-    name: "Poissons"
 ---
 
 # Programme de sciences citoyennes d'amélioration des systèmes aquaponiques
