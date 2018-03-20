@@ -29,7 +29,7 @@ porteurs: ["Pascal Tabary"]
 node: 
 tags: ["cuiseur", "charbon", "outdour"]
 thumbnail: /img/pyrocarb-thumbnail.jpg
-title:pyrocarb-nomade
+title: pyrocarb-nomade
 ---
 # Pyrocarb Nomade
 
