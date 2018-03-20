@@ -27,7 +27,7 @@ documentation:
 porteurs: ["Pascal Tabary"]
 node: pyrocarb-nomade
 tags: ["cuiseur", "charbon", "outdour"]
-thumbnail: /img/pyro-thumbnail.jpg.jpg
+thumbnail: /img/pyro-thumbnail.jpg
 title: Pyrocarb Nomade
 ---
 # Pyrocarb Nomade
