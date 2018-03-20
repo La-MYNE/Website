@@ -1,22 +1,23 @@
 ---
 cover: /img/pyrocarb-thumbnail.jpg
+categories: Projet
 contribute:
-  competence:
+  skills:
   - description: Nous avons besoin de toi, de vous, pour lui donner un look incomparable, le rendre craquant, distingué, limite incontournable.
     name: Design
   - description: Nous avons besoin de toi, de vous, pour l'améliorer encore et encore, atteindre des performances hors du commun et repousser les limites de l'efficacité.
     name: Mécanique et Mécanique des fluides
   - description: Pour fabriquer notre second prototype en inox on recherche quelqu’un sachant souder l’inox
     name: Soudage Inox
-  financier:
+  financial:
   - description: Contribuez au financement du projet.
     name: Faire un don au projet
-  materiel:
+  material:
   - description: Pour fabriquer le second prototype.
     name: Rouleuse à tôle
   - description: Découpeuse plasma, laser ou eau pour découper du 1mm d’acier proprement en cercle.
     name: Découpeuse
-  name: Contribuer
+  name: Contribute
   section1: Compétences
   section2: Matériel
   section3: Financier
@@ -25,10 +26,10 @@ documentation:
 - link: https://www.ascribe.io/app/pieces/28699
   name: Licence
 porteurs: ["Pascal Tabary"]
-node: pyrocarb-nomade
+node: 
 tags: ["cuiseur", "charbon", "outdour"]
 thumbnail: /img/pyrocarb-thumbnail.jpg
-title: Pyrocarb Nomade
+title:pyrocarb-nomade
 ---
 # Pyrocarb Nomade
 
