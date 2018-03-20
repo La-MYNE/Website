@@ -1,5 +1,5 @@
 ---
-cover: /img/pyrocarb-thumbnail.jpg
+cover: /img/pyro-thumbnail.jpg
 contribute:
   competence:
   - description: Nous avons besoin de toi, de vous, pour lui donner un look incomparable, le rendre craquant, distingué, limite incontournable.
@@ -27,7 +27,7 @@ documentation:
 porteurs: ["Pascal Tabary"]
 node: pyrocarb-nomade
 tags: ["cuiseur", "charbon", "outdour"]
-thumbnail: /img/pyrocarb-thumbnail.jpg
+thumbnail: /img/pyro-thumbnail.jpg.jpg
 title: Pyrocarb Nomade
 ---
 # Pyrocarb Nomade
