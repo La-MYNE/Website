@@ -1,37 +1,22 @@
 ---
-cover: /img/scoby.jpg
-categories: Projet
-contribute:
-  skills:
-  - description: Nous recherchons des biologistes afin d'analyser les bactéries.
-    name: Biologiste
-  - description: Nous recherchons des contributeurs afin de tester la résistance matériaux
-    name: Science matériaux.
-  - description: Afin d'améliorer la ferme bactérienne (incubateur), nous recherchons des contributeurs.
-    name: Ferme bactérienne
-  financial:
-  - description: Contribution sur le projet au niveau financier
-    name: Donate
-  material:
-  - description:
-    name:
-  - description:
-    name:
-  - description:  
-    name:
-  name: Contribute
-  section1: Design
-  section2: Matière
-  section3: Financier
-description: Un ferme bactérienne pour faire pousser vos bio-matériaux
-documentation:
-- link: https://hackpad.com/Cartel-Celluby-aka-scoby-xBoTB2Gt3re
-  name: Licence
-porteurs: ["Jean-Marie Claisse"]
-tags: ["Agriculture", "Autonomie", "Art"]
-thumbnail: /img/scoby.jpg
 title: PROJET CELLUBY
-node: ["celluby"]
+node:
+  - celluby
+tags:
+  - Agriculture
+  - Autonomie
+  - Art
+cover: /img/scoby.jpg
+thumbnail: /img/scoby.jpg
+description: Un ferme bactérienne pour faire pousser vos bio-matériaux
+porteurs:
+  - Jean-Marie Claisse
+documentation:
+  - link: 'https://hackpad.com/Cartel-Celluby-aka-scoby-xBoTB2Gt3re'
+    name: Licence
+competence:
+  - description: Apporter vos compétences ou accès matériel
+    name: Biologiste
 ---
 # CELLUBY
 initialement nommé "Minois" est une expérimentation de projet initié par Jean-Marie Claisse afin de mettre en pratique la réappropriation citoyenne des sciences.
