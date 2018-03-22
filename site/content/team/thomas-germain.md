@@ -1,6 +1,5 @@
 ---
 name: "Thomas Germain"
-porteurs: ["Thomas Germain"]
 thumbnail: "/img/thomas-germain.jpg"
 social:
 - name: twitter
