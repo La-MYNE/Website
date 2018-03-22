@@ -1,7 +1,6 @@
 ---
 name: "Charlotte Rizzo"
-porteurs: ["Charlotte Rizzo"]
-image: "/img/charlotte-rizzo.jpg"
+thumbnail: "/img/charlotte-rizzo.jpg"
 social:
 - name: twitter
   link: ""

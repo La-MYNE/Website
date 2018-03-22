@@ -1,7 +1,6 @@
 ---
 name: "David Bartholomeo"
-poreturs: ["David Bartholomeo"]
-image: "/img/david-bartholomeo.jpg"
+thumbnail: "/img/david-bartholomeo.jpg"
 social:
 - name: twitter
   link: ""

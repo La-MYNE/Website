@@ -1,7 +1,6 @@
 ---
 name: "Rieul Techer"
-porteurs: ["Rieul Techer"]
-image: "/img/rieul-techer.jpg"
+thumbnail: "/img/rieul-techer.jpg"
 social:
 - name: twitter
   link: ""

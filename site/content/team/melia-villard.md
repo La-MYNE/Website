@@ -14,7 +14,6 @@ social:
     name: linkedin
   - link: 'https://github.com/melvill'
     name: github
-  - name: Mastodon
 ---
 Grande cheffe scout de l’équipe, Mélia bricole et recolle les formats éducatifs et sociologiques de la MYNE. 
 

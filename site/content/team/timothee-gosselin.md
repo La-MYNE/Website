@@ -1,7 +1,6 @@
 ---
 name: "Timothée Gosselin"
-porteurs: ["Timothée Gosselin"]
-image: "/img/timothee-gosselin.jpg"
+thumbnail: "/img/timothee-gosselin.jpg"
 social:
 - name: twitter
   link: ""

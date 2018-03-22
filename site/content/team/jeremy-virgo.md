@@ -1,7 +1,6 @@
 ---
 name: "Jérémy Virgo"
-porteurs: ["Jérémy Virgo"]
-image: "/img/jeremy-virgo.jpg"
+thumbnail: "/img/jeremy-virgo.jpg"
 social:
 - name: twitter
   link: ""

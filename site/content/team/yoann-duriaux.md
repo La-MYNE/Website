@@ -1,7 +1,6 @@
 ---
 name: "Yoann Duriaux"
-porteurs: ["Yoann Duriaux"]
-image: "/img/yoann-duriaux.jpg "
+thumbnail: "/img/yoann-duriaux.jpg "
 social:
 - name: twitter
   link: ""

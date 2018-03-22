@@ -1,7 +1,6 @@
 ---
 name: "Claudine Revol"
-porteurs: ["Claudine Revol"]
-image: "/img/claudine-revol.jpg "
+thumbnail: "/img/claudine-revol.jpg "
 social:
 - name: twitter
   link: ""

@@ -1,7 +1,6 @@
 ---
 name: "Chloe Mayere"
-porteurs: ["Chloe Mayere"]
-image: "/img/chloe-mayere.jpg"
+thumbnail: "/img/chloe-mayere.jpg"
 social:
 - name: twitter
   link: ""
