@@ -13,10 +13,12 @@ porteurs:
   - Jean-Marie Claisse
 documentation:
   - link: 'https://hackpad.com/Cartel-Celluby-aka-scoby-xBoTB2Gt3re'
-    name: Licence
+    name: Licences
+ressources: []
 competence:
   - description: Apporter vos compétences ou accès matériel
     name: Biologiste
+test: Claisse jean-marie
 ---
 # CELLUBY
 initialement nommé "Minois" est une expérimentation de projet initié par Jean-Marie Claisse afin de mettre en pratique la réappropriation citoyenne des sciences.
