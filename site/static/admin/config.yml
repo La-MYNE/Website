@@ -19,7 +19,7 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Image cover", name: "cover", widget: "image", required: false}
       - {label: "Thumbnail", name: "thumbnail", widget: "image", required: false}
       - {label: "Description", name: "description", widget: "string", required: false}
-      - {label: "Porteurs", name: "porteurs", widget: "list", required: false}
+      - {label: "Porteurs", name: "porteurs", widget: "list", allow_add: true, default: ["mynois"], required: false}
       - {label: "Documentation", name: "documentation", required: false, widget: list, fields: [
           {label: "Nom", name: "name", widget: "string"},
           {label: "Lien", name: "link", widget: "string"}]}
