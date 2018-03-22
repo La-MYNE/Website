@@ -3,7 +3,11 @@ title: "Projet - Green Ideas Incubator par Morgane"
 start: 2018-02-22T18:30:00
 end: 2018-02-22T20:30:00
 cover: https://scontent.xx.fbcdn.net/v/t1.0-9/27750314_10156023794001092_5582845779748923647_n.jpg?oh=0db7595407c3e962dcfe2da5408f876d&oe=5B0E0618
-location: "La MYNE - Manufacture des Idées et Nouvelles Expérimentations, 1 rue du Luizet, Villeurbanne, 69100"
+location:
+  name: "La MYNE - Manufacture des Idées et Nouvelles Expérimentations"
+  street: 1 rue du Luizet
+  city: Villeurbanne
+  postal: 69100
 ---
  Je vous propose une  petite soirée de présentation de mon projet Green Ideas Incubator.
 

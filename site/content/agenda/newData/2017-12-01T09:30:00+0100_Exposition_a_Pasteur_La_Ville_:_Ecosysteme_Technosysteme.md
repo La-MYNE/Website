@@ -3,7 +3,8 @@ title: "Exposition à Pasteur - La Ville : Écosystème / Technosystème"
 start: 2017-12-01T09:30:00
 end: 2017-12-15T19:00:00
 cover: https://scontent.xx.fbcdn.net/v/t1.0-9/21768154_478378175867573_2541978691481300964_n.jpg?oh=9ec3f299ba0a2c58fd41f54252b27a5c&oe=5B4D8799
-location: "2 Place Pasteur, 35000 Rennes, France, 8 rue Chaponnay, Lyon, 69003"
+location:
+  name: "2 Place Pasteur, 35000 Rennes, France, 8 rue Chaponnay, Lyon, 69003"
 ---
  « Le biomimétisme open source comme modèle pour panser et concevoir la ville vivante et soutenable »
 

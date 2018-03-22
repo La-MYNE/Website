@@ -8,7 +8,11 @@ tags:
 porteurs:
   - Anton deums
   - Thomas Germain
-location: La Myne
+location:
+  name: "La MYNE - Manufacture des Idées et Nouvelles Expérimentations"
+  street: 1 rue du Luizet
+  city: Villeurbanne
+  postal: 69100
 fullday: false
 start: 2018-03-16T18:00:00+01:00
 end: 2018-03-16T19:30:39.000Z
@@ -20,8 +24,6 @@ documentation:
     name: Mobilab Songo
   - link: www.feufollet.org
     name: Feu Follet
-ressources:
-  - {}
 ---
 # Une approche autonome de l'énergie thermique - Mobilab Songo
 

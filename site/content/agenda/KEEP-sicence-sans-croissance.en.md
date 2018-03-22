@@ -12,6 +12,11 @@ start: 2017-11-14T18:20:00+02:00
 end: 2017-11-14T20:00:00+02:00
 events:
   - "masterclass"
+location:
+  name: "La MYNE - Manufacture des Idées et Nouvelles Expérimentations"
+  street: 1 rue du Luizet
+  city: Villeurbanne
+  postal: 69100
 ---
 
 Philosophe, chercheur et administrateur de l'association Sciences Citoyennes, Fabrice Flipo travaille sur une anthropologie de la modernité et de la globalisation, croisant des réflexions sur les relations internationales, le service public, le développement durable, la décroissance et l’écologie des infrastructures numériques. Il a notamment publié les ouvrages "Nature et politique" (Amsterdam, 2014), "Réenchanter le monde. Anthropologie politique de l’émancipation" (Le Croquant, 2016), et plus récemment "Décroissance, ici et maintenant !" (Le passager clandestin, 2017).

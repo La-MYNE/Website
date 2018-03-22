@@ -3,7 +3,11 @@ title: "Immersion dans la Fabrique Lyonnaise des Communs 2017"
 start: 2017-12-09T11:00:00
 end: 2017-12-10T18:00:00
 cover: https://scontent.xx.fbcdn.net/v/t1.0-9/24294232_1624469104280216_2352573971566931243_n.jpg?oh=24dc035f6826d47ad3440cc3ef0bff8c&oe=5B0E1437
-location: "Mjc Confluence, 28 Quai Rambaud, Lyon, 69002"
+location:
+  name: "Mjc Confluence"
+  street: 28 Quai Rambaud
+  city: Lyon
+  postal: 69002
 ---
  Acteur.rice des Communs reconnu ou insoupçonné, laissez-vous embarquer! Découvrez le programme !
 

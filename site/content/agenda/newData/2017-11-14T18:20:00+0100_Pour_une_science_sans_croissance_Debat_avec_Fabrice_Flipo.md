@@ -3,7 +3,11 @@ title: "Pour une science sans croissance ? Débat avec Fabrice Flipo"
 start: 2017-11-14T18:20:00
 end: 2017-11-14T20:00:00
 cover: https://scontent.xx.fbcdn.net/v/t1.0-9/s720x720/22851714_1586814138045713_2021296176451735889_n.jpg?oh=491dffc608593fef5a0d0b45ef7169d7&oe=5B1ACCF5
-location: "La MYNE - Manufacture des Idées et Nouvelles Expérimentations, 1 rue du Luizet, Villeurbanne, 69100"
+location:
+  name: "La MYNE - Manufacture des Idées et Nouvelles Expérimentations"
+  street: 1 rue du Luizet
+  city: Villeurbanne
+  postal: 69100
 ---
  La MYNE (Manufacture des Idées et Nouvelles Expérimentations), tiers-lieu de recherche citoyenne pour des modes de vie durables, invite à questionner les finalités de la recherche scientifique à l'occasion d'un apéro-débat avec Fabrice Flipo.
 

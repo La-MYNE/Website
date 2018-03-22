@@ -3,8 +3,9 @@ title: "Conférence Environnement : de la science à la décision publique"
 start: 2018-02-08T18:00:00
 end: 2018-02-08T20:00:00
 cover: https://scontent.xx.fbcdn.net/v/t31.0-8/s720x720/26952161_599856577029072_76338327839550864_o.jpg?oh=fb3b1d4814c02d152214f4fa203fa18d&oe=5B130845
-location: "Sciences Po Lyon, lyon, Lyon, 69007"
-
+location:
+  name: "Sciences Po Lyon"
+  city: Lyon
 ---
  L'association Ogmios est heureuse de vous convier à sa première conférence de 2018 !
 Celle-ci portera sur le thème de l'environnement, en particulier la place du chiffre dans les décisions politiques en matière d'environnement.

@@ -7,7 +7,11 @@ tags:
   - term_2
 porteurs:
   - Charlotte Rizzo
-location: la mYne - 1 rue du Luizet
+location:
+  name: "La MYNE - Manufacture des Idées et Nouvelles Expérimentations"
+  street: 1 rue du Luizet
+  city: Villeurbanne
+  postal: 69100
 fullday: true
 start: 2018-03-10T14:00:00+01:00
 end: 2018-03-10T18:00:52+01:00

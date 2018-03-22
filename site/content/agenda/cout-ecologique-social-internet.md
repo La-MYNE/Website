@@ -8,11 +8,15 @@ guests:
   - "Félix Tréguer"
   - "Gaël Trouvé"
 description : "Félix Tréguer et Gaël Trouvé discutent des coûts écologiques et humain d'Internet, et des alternatives possibles pour développer un Internet low-tech, résilient, pertinent et souhaitable."
-logo : "/img/cout-ecologique-social-internet.jpg"
 thumbnail : "/img/cout-ecologique-social-internet.jpg"
 cover : "/img/cout-ecologique-social-internet-cover.png"
-events: ["masterclass"]
-categories: ["events"]
+events: 
+- "masterclass"
+location:
+  name: "La MYNE - Manufacture des Idées et Nouvelles Expérimentations"
+  street: 1 rue du Luizet
+  city: Villeurbanne
+  postal: 69100
 ---
 Félix Tréguer est membre fondateur de La Quadrature du Net - association de défense des libertés publiques à l’ère numérique. Gaël Trouvé est cofondateur de Scolopendre - hackerspace visant une réappropriation citoyenne de la gestion des déchets électroniques.
 

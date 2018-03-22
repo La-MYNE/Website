@@ -3,7 +3,11 @@ title: "Le coût écologique et social d'Internet : Déjeuner-débat"
 start: 2017-11-24T12:00:00
 end: 2017-11-24T14:00:00
 cover: https://scontent.xx.fbcdn.net/v/t1.0-0/p480x480/22780256_10215151625084204_7811576859824342227_n.jpg?oh=2c3e3be17754e98faf858ef15d1d1dff&oe=5B1D16E8
-location: "La MYNE - Manufacture des Idées et Nouvelles Expérimentations, 1 rue du Luizet, Villeurbanne, 69100"
+location:
+  name: "La MYNE - Manufacture des Idées et Nouvelles Expérimentations"
+  street: 1 rue du Luizet
+  city: Villeurbanne
+  postal: 69100
 ---
  La MYNE (Manufacture des Idées et Nouvelles Expérimentations) accueille Gaël Trouvé pour discuter des coûts écologiques et humain d'Internet, et des alternatives possibles pour développer un Internet low-tech, résilient, pertinent et souhaitable.
 

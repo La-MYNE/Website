@@ -3,7 +3,11 @@ title: "Le systeme d'information - la MYNE pimp son SI avec toi"
 start: 2017-10-20T09:30:00
 end: 2017-10-20T12:30:00
 cover: https://scontent.xx.fbcdn.net/v/t31.0-0/p180x540/22519693_10155185292518915_3963077130398285141_o.jpg?oh=4a48b8a2033b426a2940ef69a7501cdd&oe=5B4E5B50
-location: "La MYNE - Manufacture des Idées et Nouvelles Expérimentations, 1 rue du Luizet, Villeurbanne, 69100"
+location:
+  name: "La MYNE - Manufacture des Idées et Nouvelles Expérimentations"
+  street: 1 rue du Luizet
+  city: Villeurbanne
+  postal: 69100
 ---
  ... et pas pour toi :)
 Une petite session Systeme d'Information s'organise pour Vendredi matin (oui oui) avec l'ami Timothée et on l'espère Jean-Marie et Maxime dans la boucle.

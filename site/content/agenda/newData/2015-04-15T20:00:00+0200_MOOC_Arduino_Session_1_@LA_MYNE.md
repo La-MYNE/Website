@@ -3,6 +3,11 @@ title: "MOOC Arduino Session #1 @LA M[Y]NE"
 start: 2015-04-15T20:00:00
 end: 2015-04-15T21:30:00
 cover: https://scontent.xx.fbcdn.net/v/t31.0-8/s720x720/10483807_857882114272256_7382611146816837792_o.jpg?oh=f36f599e9bddb5ddaeb00066b998584c&oe=5B4B8C72
+location:
+  name: "La MYNE - Manufacture des Idées et Nouvelles Expérimentations"
+  street: 1 rue du Luizet
+  city: Villeurbanne
+  postal: 69100
 ---
  Oyez oyez braves makeuses & makers !
 

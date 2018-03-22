@@ -1,7 +1,9 @@
 ---
 title : "Recurring"
-tags : [ "comnmun", "politique", "civic tech"]
-categories: ["events"]
+tags : 
+- "commun"
+- "politique"
+- "civic tech"
 start: 2018-03-25T10:30:00+02:00
 end: 2018-03-27T21:30:00+02:00
 fullday: false
@@ -28,8 +30,13 @@ ressources:
   name: Clément Mabi - Citizen Hacker (typologie de la civictech)
 - link: http://www.remixthecommons.org/2015/04/atlas-interactif-des-chartes-des-communs-urbains/
   name: Charte des communs par le collectif remix the commons
-events: ["masterclass"]
-location: "La MYNE - 1 Rue Croix de Luizet, Villeurbanne"
+events: 
+- "masterclass"
+location:
+  name: "La MYNE - Manufacture des Idées et Nouvelles Expérimentations"
+  street: 1 rue du Luizet
+  city: Villeurbanne
+  postal: 69100
 node:
   - 'french-tech-ticket'
 draft: yes

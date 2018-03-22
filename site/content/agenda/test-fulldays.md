@@ -1,14 +1,18 @@
 ---
-title : "FullDay"
-tags : [ "comnmun", "politique", "civic tech"]
-categories: ["events"]
+title: "FullDay"
+tags: 
+- "comnmun"
+- "politique"
+- "civic tech"
 start: 2018-03-25T10:30:00+02:00
 end: 2018-03-27T21:30:00+02:00
 fullday: true
 tarif: "adhesion a la myne, 2e/an"
 thumbnail: /img/masterclass-civic-tech-thumbnail.jpg
 cover: /img/default-cover.png
-porteurs: ["Sylvia Fredriksson", "Alexandre Monnin"]
+porteurs: 
+- "Sylvia Fredriksson"
+- "Alexandre Monnin"
 description : "Dans un dialogue mené par Sylvia Fredriksson avec Alexandre Monnin, il est question de la politique comme commun - Processus, Infrastructures, Échelles et Controverses."
 documentation:
 - link: https://pad.lamyne.org/s/rkUuQYhaZ#
@@ -24,7 +28,11 @@ ressources:
   name: Charte des communs par le collectif remix the commons
 events:
   - "masterclass"
-location: "La MYNE - 1 Rue Croix de Luizet, Villeurbanne"
+location:
+  name: "La MYNE - Manufacture des Idées et Nouvelles Expérimentations"
+  street: 1 rue du Luizet
+  city: Villeurbanne
+  postal: 69100
 node:
   - 'french-tech-ticket'
 draft: yes

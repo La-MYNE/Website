@@ -1,10 +1,11 @@
 ---
 title : "Civic Tech - la politique comme commun"
-tags : [ "comnmun", "politique", "civic tech"]
-categories: ["events"]
+tags : 
+- "comnmun"
+- "politique"
+- "civic tech"
 start: 2017-11-01T18:30:00+02:00
 end: 2017-11-01T20:30:00+02:00
-test: 2017-11-01
 tarif: "adhesion a la myne, 2e/an"
 thumbnail: /img/masterclass-civic-tech-thumbnail.jpg
 cover: /img/default-cover.png
@@ -24,9 +25,15 @@ ressources:
   name: Clément Mabi - Citizen Hacker (typologie de la civictech)
 - link: http://www.remixthecommons.org/2015/04/atlas-interactif-des-chartes-des-communs-urbains/
   name: Charte des communs par le collectif remix the commons
-events: ["masterclass"]
-location: "La MYNE - 1 Rue Croix de Luizet, Villeurbanne"
-identifier: ['french-tech-ticket']
+events: 
+- "masterclass"
+location:
+  name: "La MYNE - Manufacture des Idées et Nouvelles Expérimentations"
+  street: 1 rue du Luizet
+  city: Villeurbanne
+  postal: 69100
+node: 
+- 'french-tech-ticket'
 ---
 Dans le cadre de la programmation des Masterclasse à la MYNE, et ici plus spécifiquement dans le cadre du Programme French Tech Ticket, nous vous convions à une Masterclasse CivicTech sur "La politique comme commun - Processus, Infrastructures, Échelles et Controverses." mené par Sylvia Fredriksson en dialogue avec Alexandre Monnin
 

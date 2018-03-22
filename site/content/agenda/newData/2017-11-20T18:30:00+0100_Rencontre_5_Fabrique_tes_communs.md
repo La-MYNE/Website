@@ -3,7 +3,11 @@ title: "Rencontre #5 Fabrique tes communs"
 start: 2017-11-20T18:30:00
 end: 2017-11-20T21:00:00
 cover: https://scontent.xx.fbcdn.net/v/t31.0-8/s720x720/23632102_1602358939824566_3241716613290644072_o.jpg?oh=087cefe73e4e66768e09ae8a1b406cd6&oe=5B4732D5
-location: "Mjc Confluence, 28 Quai Rambaud, Lyon, 69002"
+location:
+  name: "La MYNE - Manufacture des Idées et Nouvelles Expérimentations"
+  street: 1 rue du Luizet
+  city: Villeurbanne
+  postal: 69100
 ---
  ----------- Au programme -----------
 
