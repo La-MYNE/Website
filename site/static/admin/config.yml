@@ -35,6 +35,12 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Contribuer-Financier", required: false, name: "financier", widget: list, fields: [
           {label: "Type", name: "name", widget: "string"},
           {label: "Description", name: "description", widget: "string"}]}
+       - label: "Post Author"
+            name: "test"
+            widget: "relation"
+            collection: "people"
+            searchFields: ["name"]
+            valueField: "name"
   - name: "ateliers" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "Atelier et Formation" # Used in the UI, ie.: "New Post"
     folder: "site/content/ateliers" # The path to the folder where the documents are stored
