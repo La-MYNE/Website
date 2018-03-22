@@ -2,7 +2,9 @@
 title : "Hacker, coopérer, travailler?"
 start: 2017-05-18T18:00:00+02:00
 end: 2017-05-18T21:00:00+02:00
-porteurs: ["Michel Lallement", "Christine Bureau"]
+porteurs: 
+- "Michel Lallement"
+- "Christine Bureau"
 description : "Michel Lallement et Marie-Christine Bureau, chercheurs en sociologie au laboratoire LISE du CNAM, nous présentent leurs travaux autour des enjeux de coopérations et d'organisation dans les milieux tiers-lieux français et américains."
 logo : "/img/lage-du-faire.jpg"
 thumbnail : "/img/lage-du-faire-thumbnail.jpg"
@@ -19,4 +21,9 @@ ressources:
   name: Podcast - FabLab l'age du faire
 events:
   - "masterclass"
+location:
+  name: "La MYNE - Manufacture des Idées et Nouvelles Expérimentations"
+  street: 1 rue du Luizet
+  city: Villeurbanne
+  postal: 69100
 ---
