@@ -45,7 +45,6 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Image cover", name: "cover", widget: "image", required: false}
       - {label: "Thumbnail", name: "thumbnail", widget: "image", required: false}
       - {label: "Description", name: "description", widget: "string"}
-      - {label: "Porteurs", name: "porteurs", widget: "relation", collection: "authors", searchFields: ["name"], valueField: "name"}      
       - {label: "Documentation", name: "documentation", required: false, widget: list, fields: [
           {label: "Nom", name: "name", widget: "string"},
           {label: "Lien", name: "link", widget: "string"}]}
