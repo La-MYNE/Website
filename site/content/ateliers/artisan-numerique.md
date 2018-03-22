@@ -6,7 +6,7 @@ tags:
 porteurs: 
 - "ECAN"
 - "Attom"
-- "FOL"f
+- "FOL"
 description: "Des formations sur mesure pour être opérationnel sur les outils de prototypage numérique  "
 thumbnail: "/img/ecan-thumbnail.jpg"
 cover: "/img/ecan-cover.jpg"
