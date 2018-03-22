@@ -104,12 +104,12 @@
 <div class="row">
 <!-- Flickity HTML init -->
 <div class="main-carousel" data-flickity='{ "contain": true }'>
-  {{ $v1 := where .Site.Pages "Section" "team"}}
+  {{ $v1 := where .Site.Pages "Section" "mynois"}}
   {{ range first 5 $v1.Reverse }}
     <div class="carousel-cell">
       <div class="card orange card-team-home">
         <div class="card-content">
-            <a href="{{.URL}}"><img class="team-profile center" src=" {{ .Params.image }}" alt="{{.Params.name}}"></a>
+            <a href="{{.URL}}"><img class="team-profile center" src=" {{ .Params.thumbnail }}" alt="{{.Params.name}}"></a>
           <div class="card-agenda-title white-text center">{{ .Params.name }}</div>
           <div class="row card-details center">
             {{ if isset .Params "tags"}}

@@ -12,6 +12,8 @@ description: Decentralized Autonomous Interconnected Systems for Energy Efficien
 porteurs:
   - Rieul Techer
   - Nicolas Loubet
+contributors:
+  - Timothee Gosselin 
 documentation:
   - link: 'https://hackpad.com/DAISEE-IsOE-Log-book-PUz5Rhc26pE'
     name: Logbook

@@ -19,9 +19,7 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Image cover", name: "cover", widget: "image", required: false}
       - {label: "Thumbnail", name: "thumbnail", widget: "image", required: false}
       - {label: "Description", name: "description", widget: "string", required: false}
-      - {label: "Porteurs", name: "porteurs", widget: "list", required: false, field: 
-        - {label: "Nom", widget: "relation", collection: "people", searchFields: ["name"], valueField: "name"}
-        }
+      - {label: "Porteurs", name: "porteurs", widget: "list", required: false}
       - {label: "Documentation", name: "documentation", required: false, widget: list, fields: [
           {label: "Nom", name: "name", widget: "string"},
           {label: "Lien", name: "link", widget: "string"}]}
@@ -104,12 +102,12 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Title", name: "title", widget: "string", tagname: "h1"}
       - {label: "Tags", name: "tags", widget: "list", required: false, default: ['term_1', 'term_2']}
       - {label: "Alias", name: "alias", widget: "string", required: false}
-      - {label: "shortId", name: "shortid", widget: "string", required: false}
+      - {label: "ShortId", name: "shortid", widget: "string", required: false}
       - {label: "Model", name: "model", widget: "list", required: false}
       - {label: "Node", name: "node", widget: "list"}
   - name: "people" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "MYNOIS-E" # Used in the UI, ie.: "New Post"
-    folder: "site/content/team" # The path to the folder where the documents are stored
+    folder: "site/content/mynois" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields:

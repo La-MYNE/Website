@@ -57,6 +57,13 @@
 </div>
 </section>
 
+<div class="container">
+  {{ range .Params.contributors }}
+  {{ . }}
+{{ end }}
+</div>
+
+
 {{ if isset .Params "node" }}
 {{ partial "related-events.html" . }}
 {{ end }}

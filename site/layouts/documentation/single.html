@@ -1,3 +1,7 @@
 {{ define "main" }}
+{{if isset .Params "shortid"}} 
 <iframe width="100%" height="500" src="https://pad.lamyne.org/s/{{.Params.shortid}}" frameborder="0"></iframe>
+{{else if isset .Params "alias"}}  
+<iframe width="100%" height="500" src="https://pad.lamyne.org/s/{{.Params.alias}}" frameborder="0"></iframe>
+{{ end }}
 {{ end }}
