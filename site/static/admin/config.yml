@@ -13,13 +13,13 @@ collections: # A list of collections the CMS should be able to edit
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields:
       - {label: "Title", name: "title", widget: "string", tagname: "h1"}
-      - {label: "Node", name: "node", widget: "list"}
+      - {label: "Node", name: "node", widget: "list", required: false}
       - {label: "Tags", name: "tags", widget: "list", required: false}
-      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Body", name: "body", widget: "markdown", required: false}
       - {label: "Image cover", name: "cover", widget: "image", required: false}
       - {label: "Thumbnail", name: "thumbnail", widget: "image", required: false}
-      - {label: "Description", name: "description", widget: "string"}
-      - {label: "Porteurs", name: "porteurs", widget: "list"}
+      - {label: "Description", name: "description", widget: "string", required: false}
+      - {label: "Porteurs", name: "porteurs", widget: "list", required: false}
       - {label: "Documentation", name: "documentation", required: false, widget: list, fields: [
           {label: "Nom", name: "name", widget: "string"},
           {label: "Lien", name: "link", widget: "string"}]}
@@ -38,17 +38,17 @@ collections: # A list of collections the CMS should be able to edit
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields:
-      - {label: "Title", name: "title", widget: "string", tagname: "h1"}
-      - {label: "Node", name: "node", widget: "list"}
+      - {label: "Title", name: "title", widget: "string", tagname: "h1", required: false}
+      - {label: "Node", name: "node", widget: "list", required: false}
       - {label: "Tags", name: "tags", widget: "list", required: false}
       - {label: "Body", name: "body", widget: "markdown", required: false}
       - {label: "Image cover", name: "cover", widget: "image", required: false}
       - {label: "Thumbnail", name: "thumbnail", widget: "image", required: false}
-      - {label: "Description", name: "description", widget: "string"}
+      - {label: "Description", name: "description", widget: "string", required: false}
       - {label: "Documentation", name: "documentation", required: false, widget: list, fields: [
           {label: "Nom", name: "name", widget: "string"},
           {label: "Lien", name: "link", widget: "string"}]}
-      - {label: "Porteurs", name: "porteurs", widget: "relation", collection: "authors", searchFields: ["name"], valueField: "name"}                
+      - {label: "Porteurs", name: "porteurs", widget: "relation", collection: "team", searchFields: ["name"], valueField: "name", required: false}                
   - name: "agenda" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "Agenda" # Used in the UI, ie.: "New Post"
     folder: "site/content/agenda" # The path to the folder where the documents are stored
@@ -56,11 +56,11 @@ collections: # A list of collections the CMS should be able to edit
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields:
       - {label: "Title", name: "title", widget: "string", tagname: "h1"}
-      - {label: "Node", name: "node", widget: "list"}
+      - {label: "Node", name: "node", widget: "list", required: false}
       - {label: "Tags", name: "tags", widget: "list", required: false, default: ['term_1', 'term_2']}
       - {label: "Porteurs", name: "porteurs", widget: "list", required: false}
       - {label: "Lieu", name: "location", widget: "string", required: false}
-      - {label: "Journee Entiere", name: "fullday", widget: "boolean", default:"false"}
+      - {label: "Journee Entiere", name: "fullday", widget: "boolean", default:"false", required: false}
       - {label: "Recurrence", name: "recurring", required: false, widget: list, fields: [
           {label: "Frequence", name: "frequency", widget: "list", options: ["DAILY", "WEEKLY", "MONTHLY"]},
           {label: "Combien", name: "count", widget: "string"},
@@ -96,7 +96,7 @@ collections: # A list of collections the CMS should be able to edit
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields:
-      - {label: "Name", name: "name", widget: "string", tagname: "h1"}
+      - {label: "Name", name: "name", widget: "string", tagname: "h1", required: false}
       - {label: "Tags", name: "tags", widget: list, default: ['term_1', 'term_2'], required: false}
       - {label: "Thumbnail", name: "thumbnail", widget: "image", required: false}
       - {label: "Body", name: "body", widget: "markdown", required: false}
