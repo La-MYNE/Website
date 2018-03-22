@@ -1,11 +1,17 @@
 ---
 title: "Artisan Numérique"
-tags: [ "makers", "numerique"]
-porteurs: ["ECAN", "Attom", "la FOL"]
+tags: 
+- "makers"
+- "numerique"
+porteurs: 
+- "ECAN"
+- "Attom"
+- "FOL"f
 description: "Des formations sur mesure pour être opérationnel sur les outils de prototypage numérique  "
 thumbnail: "/img/ecan-thumbnail.jpg"
 cover: "/img/ecan-cover.jpg"
-node: ["artisan-numerique"]
+node: 
+- "artisan-numerique"
 ---
 
 Parce que la révolution numérique nous concerne tous, la MYNE s'associe à l'écosystème des FabLab lyonnais et rhônealpins pour proposer des formations diversifiées :
