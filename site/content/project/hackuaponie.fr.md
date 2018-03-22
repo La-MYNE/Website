@@ -5,6 +5,8 @@ node:
 tags:
   - Agriculture
   - Autonomie
+  - Pisciculture
+  - Alimentation
 cover: /img/Hackuaponie1.jpg
 thumbnail: /img/hackuaponie-thumbnail.jpg
 description: >-
@@ -13,7 +15,7 @@ description: >-
 porteurs:
   - Charlotte Rizzo
   - Renaud Becheret
-  - Adrien Lemardeleu
+  - Adrien Lemardeley
 documentation:
   - link: >-
       https://hackuaponie.hackpad.com/LISEZMOI-Hackuaponie-Programme-de-sciences-citoyennes-damlioration-des-systmes-aquaponiques-SUyOKhCeKIW
@@ -47,7 +49,7 @@ faible consommation de surface au sol et plus faible poids qu'un système utilis
 faible consommation d'eau et d'énergie,
 possibilité d'autonomiser et d'automatiser le système de production.
 
-Les objectifs du programme Hackuaponie à la MYNE sont de :
+**Les objectifs du programme Hackuaponie à la MYNE sont de :**
 
 - comprendre et s'approprier les principes de l'aquaponie par le faire et la démonstration (étape découverte et initiation)
 - participer à des recherches citoyenne sur divers paramètres d'amélioration
