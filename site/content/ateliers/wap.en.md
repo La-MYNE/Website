@@ -8,3 +8,4 @@ cover: "/img/wap-cover.png"
 node: 
 - wap
 ---
+WAP
