@@ -8,14 +8,17 @@ tags:
   - DIY
   - maker
   - hacker
-cover: /img/littlebits5.jpg
-thumbnail: /img/inventartmachine.jpg
+cover: /img/p1130622.jpg
+thumbnail: /img/littlebits5.jpg
 description: >-
   littleBits Lyon propose une introduction à la créativité, la possibilité et
   l'accès de tous à l'univers des makers et hackers.
 porteurs:
   - Connie Chow-Petit
   - Benjamin Chow-Petit
+documentation:
+  - {}
+  - {}
 ---
 **Lancé par Connie et Benjamin en 2015, le club d’inventeurs littleBits Lyon est composé de +10 ans d’expérience** dans le mouvement Maker et Hacker, avec une approche enthousiaste et passionnée de la science, de la technologie, de l’art et du design.
 
