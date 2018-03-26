@@ -491,3 +491,17 @@ z-index: 1030;
       vertical-align: middle;
       padding-top: 0.3rem;
   }
+
+.search mark {
+  color: #ff7f00;
+  background: #fff;
+  font-weight: bold;
+}
+
+.search h4 {
+  font-size: 1.8rem
+}
+
+.search-card {
+  padding: 1rem;
+}
