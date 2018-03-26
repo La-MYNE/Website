@@ -1,16 +1,30 @@
 ---
-cover: /img/hackuaponie-thumbnail.jpg
-description: Hackuaponie est un programme de sciences citoyennes d'amélioration des
-  systèmes aquaoniques pour une production alimentaire symbiotique
-documentation:
-- link: https://hackpad.com/DAISEE-IsOE-Log-book-PUz5Rhc26pE
-  name: Logbook
-  type: project
-porteurs: ["Charlotte Rizzo"]
-tags: ["Agriculture", "Autonomie"]
-thumbnail: /img/hackuaponie.jpg
 title: Hackuaponie
-node: ["aquaponie"]
+node:
+  - aquaponie
+tags:
+  - Agriculture
+  - Autonomie
+cover: /img/hackuaponie-thumbnail.jpg
+thumbnail: /img/hackuaponie.jpg
+description: >-
+  Hackuaponie est un programme de sciences citoyennes d'amélioration des
+  systèmes aquaoniques pour une production alimentaire symbiotique
+porteurs:
+  - Charlotte Rizzo
+documentation:
+  - link: >-
+      https://pad.lamyne.org/IwQwzAZgnAbApgJgLTDnAHEgLAVh1JAIzATCTHWgmCnQBMc4wg==#
+    name: Genese générale du projet Hackuaponie
+  - link: >-
+      https://pad.lamyne.org/KzCGFNgEwZgTgLQDMBsSCMCAsAGAHAEwKgDGMSxoUEKJUKw+QA==#
+    name: ProtoHackuaponie v3
+  - link: >-
+      https://pad.lamyne.org/CwUwbGAmqQtADAMwMYCNbEgQ2LAnPAOyGwCMy88AHFYqiAMyKFA=#
+    name: Hackuaponie - utilisation des coquilles d’huitre en support de culture
+competence:
+  - description: 'trouver des poissons, faire des '
+    name: Aquaculture
 ---
 
 # Programme de sciences citoyennes d'amélioration des systèmes aquaponiques
