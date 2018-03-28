@@ -8,7 +8,7 @@ picto3: "/img/picto-fork.png"
 outputs:
   section: ["HTML", "Calendar"]
   page: ["HTML", "Calendar", "JSON"]
-  home: ["JSON"]
+  home: ["HTML", "JSON"]
 related:
 # Only include matches with rank >= threshold. This is a normalized rank between 0 and 100.
   threshold: 80
