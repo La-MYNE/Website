@@ -1,7 +1,7 @@
 ---
 name: Charlotte Rizzo
 tags:
-  - Aquaponie Collectivite Animation GT MYNE
+  - Aquaponie Collectivite Animation GT MYNE Urbanisme Participation Jardin
 thumbnail: /img/charlotte-rizzo.jpg
 social:
   - link: 'https://twitter.com/ch4r1zz'
