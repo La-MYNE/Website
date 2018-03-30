@@ -17,8 +17,17 @@ porteurs:
   - Connie Chow-Petit
   - Benjamin Chow-Petit
 documentation:
+  - link: >-
+      https://pad.lamyne.org/OwZghgjMDGCmAMBaArATngJkQFg2ViqEIEiIGAHMhBACaqyzbJA=#
+    name: Documentation des ateliers kids à la MYNE
   - {}
-  - {}
+competence:
+  - name: 'Animateur '
+  - name: Electronicien
+  - name: Musicien - arts numériques
+materiel:
+  - description: ''
+    name: Jeux éducatifs divers
 ---
 **Lancé par Connie et Benjamin en 2015, le club d’inventeurs littleBits Lyon est composé de +10 ans d’expérience** dans le mouvement Maker et Hacker, avec une approche enthousiaste et passionnée de la science, de la technologie, de l’art et du design.
 
