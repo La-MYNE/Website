@@ -34,6 +34,19 @@ ressources:
   - link: >-
       http://www.instructables.com/id/10-Smartphone-to-digital-microscope-conversion/
     name: sur Instructable en anglais
+competence:
+  - name: Intelligence artificielle
+  - name: Data science
+  - name: Biologie
+  - name: Médecine
+materiel:
+  - name: Lentille haute précision
+  - name: Impression 3D
+financier:
+  - description: >-
+      Campagne engagée dans le cadre du concours make it happen :
+      https://fr.ulule.com/voir-microscope/
+    name: Contribuer à la campagne de crowdfunding
 ---
 # Objectifs
 
