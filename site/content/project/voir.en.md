@@ -11,8 +11,13 @@ tags:
   - intelligence artificielle
   - développement
   - lowtech
+cover: /img/voir.jpg
+thumbnail: /img/voir.jpg
+description: Le microscope DIY pour détecter le paludisme
 porteurs:
-  - ''
+  - Mokhtar Bacha
+  - Charlotte Rizzo
+  - Mohamed Ali Bacha
 documentation:
   - link: >-
       https://pad.lamyne.org/IYDgrAzAJgZgjAFgLRQKYQExIQBgGxhIg4YDGSEARlAsBMZQOyMRA===
