@@ -16,7 +16,7 @@ recurring:
       - Tous les samedis matins (sauf les jours fériés)
 start: 2018-04-21T07:30:46.000Z
 end: 2018-04-21T14:00:46.000Z
-tarif: 'adhesion a la myne, 2e/an'
+tarif: adhesion a la Myne - 2 Euros par an
 cover: ''
 thumbnail: /img/samedisdusavoir_vers.1.1.png
 description: >-
