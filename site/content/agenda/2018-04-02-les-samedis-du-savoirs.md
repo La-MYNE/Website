@@ -1,5 +1,7 @@
 ---
-title: Les Samedis du Savoirs
+title: >-
+  Les Samedis du Savoirs - Participez à nos sessions d'apprentissage
+  expérimental tous les samedis à la Myne ! 
 node:
   - samedis du savoirs
 tags:
@@ -20,12 +22,11 @@ tarif: adhesion a la Myne - 2 Euros par an
 cover: ''
 thumbnail: /img/samedisdusavoir_vers.1.1.png
 description: >-
-  Participez à nos sessions regulaire tous les samedis matins à la Myne ! Un
+  Participez à nos sessions regulières tous les samedis matins à la Myne ! Un
   réseau personnalisé d'apprentissage pair à pair.
 documentation:
   - link: 'https://frama.link/samedis_du_savoirs'
     name: affiche "Les Samedis du Savoirs"
-  - {}
 ---
 ![les samedis du savoirs](/img/samedisdusavoir_vers.1.1.png)
 
