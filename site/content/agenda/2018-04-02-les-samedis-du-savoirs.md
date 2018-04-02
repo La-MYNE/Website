@@ -17,8 +17,8 @@ recurring:
 start: 2018-04-21T09:00:46+02:00
 end: 2018-04-01T17:00:00+02:00
 tarif: Adhesion a la Myne - 2 Euros par an
-cover: ''
-thumbnail: /img/samedisdusavoir_vers.1.1.png
+cover: /img/samedisdusavoir_small.png
+thumbnail: /img/samedisdusavoir_small.png
 description: >-
   Participez à nos sessions regulières tous les samedis matins à la Myne ! Un
   réseau personnalisé d'apprentissage pair à pair.
@@ -26,6 +26,8 @@ documentation:
   - link: 'https://frama.link/samedis_du_savoirs'
     name: affiche "Les Samedis du Savoirs"
 ---
+![](/img/samedisdusavoir_small.png)
+
 **Pour plus d'informations:**
 
 Email Connie et Benjamin - samedisdusavoir@protonmail.com
