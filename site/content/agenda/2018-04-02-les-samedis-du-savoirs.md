@@ -19,6 +19,9 @@ thumbnail: /img/samedisdusavoir_vers.1.1.png
 description: >-
   Participez à nos sessions regulaire tous les samedis matins à la Myne ! Un
   réseau personnalisé d'apprentissage pair à pair.
+documentation:
+  - link: 'https://frama.link/samedis_du_savoirs'
+    name: affiche
 ---
 ![samedis du savoirs](/img/samedisdusavoir_vers.1.1.png)
 
