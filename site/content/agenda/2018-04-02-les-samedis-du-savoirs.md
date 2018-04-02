@@ -24,9 +24,10 @@ description: >-
   réseau personnalisé d'apprentissage pair à pair.
 documentation:
   - link: 'https://frama.link/samedis_du_savoirs'
-    name: affiche
+    name: affiche "Les Samedis du Savoirs"
+  - {}
 ---
-![samedis du savoirs](/img/samedisdusavoir_vers.1.1.png)
+![les samedis du savoirs](/img/samedisdusavoir_vers.1.1.png)
 
 **Pour plus d'informations:**
 
