@@ -28,8 +28,6 @@ documentation:
   - link: 'https://frama.link/samedis_du_savoirs'
     name: affiche "Les Samedis du Savoirs"
 ---
-![les samedis du savoirs](/img/samedisdusavoir_vers.1.1.png)
-
 **Pour plus d'informations:**
 
 Email Connie et Benjamin - samedisdusavoir@protonmail.com
