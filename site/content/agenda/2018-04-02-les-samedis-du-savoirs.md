@@ -5,12 +5,15 @@ node:
 tags:
   - réseau
   - apprentissage
-  - pairs à pairs
-  - personalisé
+  - pair à pair
+  - personnalisé
 porteurs:
   - Connie Chow-Petit
   - Benjamin Chow-Petit
 location: 'La Myne, 1 Rue du Luizet, 69100 Villeurbanne.'
+recurring:
+  - frequency:
+      - Tous les samedis matins (sauf les jours fériés)
 start: 2018-04-21T07:30:46.000Z
 end: 2018-04-21T14:00:46.000Z
 tarif: 'adhesion a la myne, 2e/an'
