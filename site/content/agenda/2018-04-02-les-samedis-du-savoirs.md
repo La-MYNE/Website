@@ -26,6 +26,7 @@ description: >-
 documentation:
   - link: 'https://frama.link/samedis_du_savoirs'
     name: affiche "Les Samedis du Savoirs"
+ressources: []
 ---
 
 
@@ -66,3 +67,5 @@ _Participez à nos sessions régulières tous les Samedis matins à la Myne. _
 **Pour tous renseignements, merci de contactez:**
 
 _Connie et Benjamin - samedisdusavoir@protonmail.com_
+
+https://frama.link/samedis_du_savoirs
