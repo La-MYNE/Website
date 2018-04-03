@@ -61,3 +61,5 @@ Un réseau personnalisé d’apprentissage pair à pair dans un environnement ex
 _Pour tous renseignements, merci de contacter:_
 
 _Connie & Benjamin samedisdusavoir@protonmail.com_
+
+_https://frama.link/samedis_du_savoirs_
