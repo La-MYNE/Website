@@ -36,8 +36,6 @@ ressources: []
 
 Un réseau personnalisé d’apprentissage pair à pair dans un environnement expérimental…
 
-
-
 **Avec des ressources dédiées:**
 
 * Dans un petit ou grand group
@@ -56,9 +54,9 @@ Un réseau personnalisé d’apprentissage pair à pair dans un environnement ex
 
 
 
-## Aidez à générer des nouveaux processus méthodes de savoir et d’exploration.
+**Aidez à générer des nouveaux processus méthodes de savoir et d’exploration.**
 
-## 
+
 
 _Pour tous renseignements, merci de contacter:_
 
