@@ -28,15 +28,15 @@ documentation:
     name: affiche "Les Samedis du Savoirs"
 ressources: []
 ---
+## **LES SAMEDIS DU SAVOIRS**
 
-
-# LES SAMEDIS DU SAVOIRS
-
-_Participez à nos sessions régulières tous les Samedis matins à la Myne. _
+**Participez à nos sessions régulières tous les Samedis matins à la Myne. **
 
 
 
-## Un réseau personnalisé d’apprentissage pair à pair dans un environnement expérimental…
+Un réseau personnalisé d’apprentissage pair à pair dans un environnement expérimental…
+
+
 
 **Avec des ressources dédiées:**
 
@@ -44,14 +44,10 @@ _Participez à nos sessions régulières tous les Samedis matins à la Myne. _
 * Ou dans un session accélérés
 * Ou avec une classe adaptées et continue
 
-
-
 **Avec un apprentissage adaptatif et un réseau pair à pair:**
 
 * Une fois par semaine, ou plus si vous souhaitez.
 * Apprenez en participant à la recherche et aux projets.
-
-
 
 **Avec un tableau de bord de connaissances:**
 
@@ -62,10 +58,8 @@ _Participez à nos sessions régulières tous les Samedis matins à la Myne. _
 
 ## Aidez à générer des nouveaux processus méthodes de savoir et d’exploration.
 
+## 
 
+_Pour tous renseignements, merci de contacter:_
 
-**Pour tous renseignements, merci de contactez:**
-
-_Connie et Benjamin - samedisdusavoir@protonmail.com_
-
-https://frama.link/samedis_du_savoirs
+_Connie & Benjamin samedisdusavoir@protonmail.com_
