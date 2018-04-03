@@ -30,9 +30,7 @@ ressources: []
 ---
 ## **LES SAMEDIS DU SAVOIRS**
 
-**Participez à nos sessions régulières tous les Samedis matins à la Myne. **
-
-
+**Participez à nos sessions régulières tous les Samedis matins à la Myne.**
 
 Un réseau personnalisé d’apprentissage pair à pair dans un environnement expérimental…
 
@@ -52,11 +50,7 @@ Un réseau personnalisé d’apprentissage pair à pair dans un environnement ex
 * Validez vos connaissances avec des badges pour chaque nouvelle connaissance.
 * Présentez un Masterclass inversée sur un sujet que vous maîtrisez.
 
-
-
 **Aidez à générer des nouveaux processus méthodes de savoir et d’exploration.**
-
-
 
 _Pour tous renseignements, merci de contacter:_
 
