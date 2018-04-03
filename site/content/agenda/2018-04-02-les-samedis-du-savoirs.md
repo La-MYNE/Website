@@ -14,7 +14,7 @@ location: 'La Myne, 1 Rue du Luizet, 69100 Villeurbanne.'
 recurring:
   - frequency:
       - Tous les samedis matins (sauf les jours fériés) à la Myne.
-start: 2018-04-21T07:00:46.000Z
+start: 2018-04-21T09:00:00.000Z
 end: 2018-04-01T15:00:00.000Z
 tarif: Adhesion a la Myne - 2 Euros par an
 cover: /img/samedisdusavoir_vers.1.1.png
