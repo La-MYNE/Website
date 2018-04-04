@@ -4,8 +4,8 @@ tags:
   - term_1
   - term_2
 location: Parc de la Tête d'Or - Entrée Sud  - Avenue Verguin
-start: 04/06/2018 7:00 PM
-end: 04/06/2018 9:00 PM
+start: 2018-04-06T17:00:00.000Z
+end: 2018-04-06T21:00:00+02:00
 tarif: 'adhesion a la myne, 2e/an'
 cover: /img/lamyneprojet.jpg
 description: Apéro porteur de projet - Avril
