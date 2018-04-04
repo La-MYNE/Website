@@ -1,14 +1,15 @@
 ---
 title: Apero projet MYNE - Avril
 tags:
-  - term_1
-  - term_2
+  - apero
 location: Parc de la Tête d'Or - Entrée Sud  - Avenue Verguin
-start: 2018-04-06T17:00:00.000Z
+start: 2018-04-06T19:00+02:00
 end: 2018-04-06T21:00:00+02:00
 tarif: 'adhesion a la myne, 2e/an'
 cover: /img/lamyneprojet.jpg
 description: Apéro porteur de projet - Avril
+node:
+  - apero-projet
 ---
 Retrouvons nous au parc de la tête d'or pour l'apéro Projet Myne du mois.
 
