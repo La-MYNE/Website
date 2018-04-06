@@ -16,7 +16,7 @@ description: Un apéro croisé entre les communauté Ronalpienne et Mynoise
 ---
 Le printemps est de retour, il fat plus doux et les esprits sont à la créativité et à la rencontre. 
 
-Dans ce contexte, avec Ronalpia, nous vous proposons un co-apéro dans la digne lignée des apéros croisés! Ce temps de rencontre est informel, se déroule souvent dans des lieux différents et a pour vocation de se favoriser le croisement et les échanges entre deux communautés.
+Dans ce contexte, avec Ronalpia, nous vous proposons un co-apéro dans la digne lignée des apéros croisés! Ce temps de rencontre est informel, se déroule souvent dans des lieux différents et a pour vocation de favoriser le croisement et les échanges entre deux communautés.
 
 Mynois, mynoises (ou pas d'ailleurs), ronalpiens, ronalpiennes (ou pas aussi) et entrepreneur.neuse.s de tout horizon vous êtes les bienvenu.e.s à la Fourmilière le 12 avril à partir de 18.30 /19.00 pour échanger sur les activités et projets respectifs des un.e.s et des autres, et se connaître. 
 
