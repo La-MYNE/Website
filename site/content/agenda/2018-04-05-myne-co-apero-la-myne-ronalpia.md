@@ -10,8 +10,8 @@ location: 'La Fourmilière, 15 rue Salomon Reinach, 69007 Lyon, France'
 start: 2018-04-12T16:30:00.000Z
 end: 2018-04-12T18:30:24.000Z
 tarif: Consommation sur place
-cover: /img/co-apero-ronalpia.jpg
-thumbnail: /img/co-apero-ronalpia.jpg
+cover: /img/co-apero-ronalpia.png
+thumbnail: /img/co-apero-ronalpia.png
 description: Un apéro croisé entre les communauté Ronalpienne et Mynoise
 ---
 Le printemps est de retour, il fat plus doux et les esprits sont à la créativité et à la rencontre. 
