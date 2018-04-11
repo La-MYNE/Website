@@ -18,6 +18,7 @@ end: 2018-03-10T18:00:52+01:00
 tarif: 'adhesion a la myne, 2e/an'
 cover: /img/mynalab.jpg
 description: Jardin Myne Atelier
+draft: true
 ---
 Elagage, semis, préparation du jardin pour le printemps. 
 
