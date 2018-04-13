@@ -14,9 +14,9 @@ location: 'La Myne, 1 Rue du Luizet, 69100 Villeurbanne.'
 recurring:
   - frequency:
       - Tous les samedis matins (sauf les jours fériés) à la Myne.
-start: 2018-04-21T09:00:00.000Z
-end: 2018-04-01T15:00:00.000Z
-tarif: Adhesion a la Myne - 2 Euros par an
+start: 2018-04-21T09:00:00+02:00
+end: 2018-04-21T12:00:00+02:00
+tarif: Adhesion a la Myne - 2 Euros par an + Prix Libre
 cover: /img/samedisdusavoir_vers.1.1.png
 thumbnail: /img/samedisdusavoir_vers.1.1.png
 description: >-
@@ -56,4 +56,4 @@ _Pour tous renseignements, merci de contacter:_
 
 _Connie & Benjamin samedisdusavoir@protonmail.com_
 
-_https://frama.link/samedis_du_savoirs_
+_chat.lamyne.org/channel/samedi_du_savoirs_
