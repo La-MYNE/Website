@@ -8,8 +8,8 @@ tags:
 porteurs:
   - Connie & Benjamin Chow-Petit
 location: 'La Myne, 1 Rue du Luizet, 69100 Villeurbanne'
-start: 2018-04-18T18:30:36+02:00
-end: 2018-04-18T20:00:36+02:00
+start: 2018-04-17T18:30:36+02:00
+end: 2018-04-17T20:00:36+02:00
 tarif: 'Adhesion a la myne, 2euros par an + Contribution libre'
 cover: /img/dna.jpg
 thumbnail: /img/dna.jpg
