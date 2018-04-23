@@ -3,9 +3,9 @@ title: Transition des territoires et des organisations
 node:
   - masterclass
 tags:
+  - transition
   - territoires
   - organisations
-  - transition
   - cartographie
   - communs
 porteurs:
