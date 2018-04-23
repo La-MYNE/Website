@@ -1,5 +1,5 @@
 ---
-title: Masterclass ‘Transition des territoires et des organisations'
+title: Transition des territoires et des organisations
 node:
   - masterclass
 tags:
@@ -14,8 +14,8 @@ porteurs:
   - Alexandre Solacolu
   - Nicolas Loubet
 location: 'La Myne, 1 Rue du Luizet, 69100 Villeurbanne'
-start: 2018-04-25T18:00:00+02:00
-end: 2018-04-01T09:00:00+02:00
+start: 2018-04-25T16:00:00.000Z
+end: 2018-04-01T07:00:00.000Z
 tarif: Adhesion à l’association la MYNE (2€)
 cover: /img/transition-territoires-organisations.png
 thumbnail: /img/transition-territoires-organisations_miniature.png
