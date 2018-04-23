@@ -3,11 +3,11 @@ title: Transition des territoires et des organisations
 node:
   - masterclass
 tags:
-  - transition des territoires
-  - transformation des organisations
+  - territoires
+  - organisations
+  - transition
   - cartographie
   - communs
-  - ''
 porteurs:
   - Patrick Cheenne
   - Émilie Hourlier
