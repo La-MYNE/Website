@@ -9,9 +9,6 @@ tags:
   - cartographie
   - communs
 porteurs:
-  - Patrick Cheenne
-  - Émilie Hourlier
-  - Alexandre Solacolu
   - Nicolas Loubet
 location: 'La Myne, 1 Rue du Luizet, 69100 Villeurbanne'
 start: 2018-04-25T16:00:00.000Z
