@@ -4,9 +4,9 @@ tags:
   - term_1
   - term_2
 location: La Myne
-start: 2018-05-03T19:00:20+02:00
-end: 2018-05-03T21:00:20+02:00
-tarif: 'adhesion a la myne, 2e/an'
+start: 2018-05-03T17:00:20.000Z
+end: 2018-05-03T19:00:20.000Z
+tarif: ''
 cover: /img/precious plastic logo.png
 description: >-
   Cette rencontre à pour vocation de créer un temps d’échange entre les
