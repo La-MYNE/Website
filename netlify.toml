@@ -9,6 +9,6 @@
 [[headers]]
 for = "/*"
 [headers.values]
-X-Frame-Options = "SAMEORIGIN"
+X-Frame-Options = "ALLOW-FROM https://cloud.lamyne.org"
 X-XSS-Protection = "1; mode=block"
 Access-Control-Allow-Origin= "https://cloud.lamyne.org"
