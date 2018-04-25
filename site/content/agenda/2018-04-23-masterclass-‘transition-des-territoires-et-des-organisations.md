@@ -11,8 +11,8 @@ tags:
 porteurs:
   - Nicolas Loubet
 location: 'La Myne, 1 Rue du Luizet, 69100 Villeurbanne'
-start: 2018-04-25T07:00:00+02:00
-end: 2018-04-25T22:00:00+02:00
+start: 2018-04-25T19:00:00+02:00
+end: 2018-04-25T20:00:00.000Z
 tarif: Adhesion à l’association la MYNE (2€)
 cover: /img/transition-territoires-organisations.png
 thumbnail: /img/transition-territoires-organisations_miniature.png
