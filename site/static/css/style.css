@@ -35,6 +35,10 @@
    color: #383838;
  }
 
+img {
+   max-width: 100%;
+}
+
  .tabs .tab a {
    color: #383838
  }
