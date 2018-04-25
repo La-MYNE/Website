@@ -8,14 +8,17 @@ tags:
 porteurs:
   - Connie & Benjamin Chow-Petit
 location: 'La Myne, 1 Rue du Luizet, 69100 Villeurbanne'
-start: 2018-04-17T18:30:36+02:00
-end: 2018-04-17T20:00:36+02:00
+start: 2018-04-17T16:30:36.000Z
+end: 2018-04-17T18:00:36.000Z
 tarif: 'Adhesion a la myne, 2euros par an + Contribution libre'
 cover: /img/dna.jpg
 thumbnail: /img/dna.jpg
 description: >-
   Masterclass - Génétique, génomique et bio-données présenter par François
   Artiguenave.
+documentation:
+  - link: 'https://pad.lamyne.org/masterclass_genetique'
+    name: 'Masterclass - Génétique, génomique et bio-données'
 ---
 Docteur en génétique moléculaire, François Artiguenave visitera la Myne les 17 et 18 avril, et nous avons la chance de lui faire présenter une Masterclass sur la génétique.
 
