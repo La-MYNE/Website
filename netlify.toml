@@ -11,3 +11,4 @@ for = "/*"
 [headers.values]
 X-Frame-Options = "SAMEORIGIN"
 X-XSS-Protection = "1; mode=block"
+Access-Control-Allow-Origin= "https://cloud.lamyne.org"
