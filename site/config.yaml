@@ -1,5 +1,8 @@
 
 DefaultContentLanguage: fr
+languageCode: fr-FR
+defaultContentLanguageInSubdir: false
+
 address: "1 Rue de Croix de Luizet 69100 Villeurbanne"
 title: La MYNE
 picto1: "/img/picto-house.png"

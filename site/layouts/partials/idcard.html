@@ -18,7 +18,7 @@
               {{$start := time .Params.start}}
               {{$end := time .Params.end}}
               <p>le {{ $start.Day }} {{ $start.Month }} {{ $start.Year }}</p>
-              <p>de {{ $start.Hour }} : {{ $start.Minute }} a {{ $end.Hour }}:{{ $end.Minute }}</p>
+              <p>de {{ printf "%02d:%02d" $start.Hour $start.Minute }} à {{ printf "%02d:%02d" $end.Hour $end.Minute }}</p>
             </div>
           {{ end }}
 
