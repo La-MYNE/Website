@@ -6,5 +6,4 @@ model:
 tags:
 node: 
   - la-miete
-draft: yes
 ---

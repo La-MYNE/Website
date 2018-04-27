@@ -6,5 +6,4 @@ model: suivi
 tags:
 node: 
   - biomimetisme
-draft: yes
 ---

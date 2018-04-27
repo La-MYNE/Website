@@ -6,5 +6,4 @@ model: veille
 tags:
 node: 
   - omm
-draft: yes
 ---

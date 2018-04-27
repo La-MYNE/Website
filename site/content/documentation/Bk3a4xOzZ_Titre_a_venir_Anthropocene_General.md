@@ -6,5 +6,4 @@ model:
 tags:
 node: 
   - titre-a-venir
-draft: yes
 ---

@@ -6,5 +6,4 @@ model:
 tags:
 node: 
   - coglab
-draft: yes
 ---

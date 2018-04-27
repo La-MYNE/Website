@@ -6,4 +6,6 @@ model:
 tags:
 node: 
   - communecter
+  - daisee
+  - myne
 ---

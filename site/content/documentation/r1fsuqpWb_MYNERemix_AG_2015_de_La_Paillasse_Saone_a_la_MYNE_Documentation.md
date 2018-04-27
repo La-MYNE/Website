@@ -7,5 +7,4 @@ tags:
 node: 
   - cc
   - MyneRemix
-draft: yes
 ---

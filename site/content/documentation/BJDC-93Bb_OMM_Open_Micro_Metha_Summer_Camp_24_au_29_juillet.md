@@ -6,5 +6,4 @@ model:
 tags:
 node: 
   - omm
-draft: yes
 ---

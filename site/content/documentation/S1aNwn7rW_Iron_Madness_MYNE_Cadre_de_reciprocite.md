@@ -6,5 +6,4 @@ model:
 tags:
 node: 
   - iron-madness
-draft: yes
 ---

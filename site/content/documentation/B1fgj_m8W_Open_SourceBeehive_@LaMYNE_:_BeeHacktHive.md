@@ -6,5 +6,4 @@ model:
 tags:
 node: 
   - "beehackthive"
-draft: yes
 ---

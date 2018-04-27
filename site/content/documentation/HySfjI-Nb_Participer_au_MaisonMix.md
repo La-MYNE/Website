@@ -6,5 +6,4 @@ model:
 tags:
 node: 
   - mynalab
-draft: yes
 ---

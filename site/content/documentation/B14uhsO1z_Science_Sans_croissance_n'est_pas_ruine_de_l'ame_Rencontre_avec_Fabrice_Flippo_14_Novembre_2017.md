@@ -5,5 +5,7 @@ alias:
 model: 
 tags: 
 node: 
+  - debat-science-sans-croissance-fabrice-flipo
+
 --- 
  

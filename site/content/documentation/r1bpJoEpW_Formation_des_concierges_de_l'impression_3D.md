@@ -7,5 +7,4 @@ tags:
 node: 
   - conciergerie
   - impression3d
-draft: yes
 ---
