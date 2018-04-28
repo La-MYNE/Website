@@ -16,9 +16,7 @@ end: 2018-04-27T10:00:21.000Z
 tarif: ''
 cover: /img/lamyne-gt-doc.png
 thumbnail: /img/lamyne-gt-doc-thumbnail.png
-description: >-
-  Un temps de coordination entre contributeurs du GT-Doc / GT-SI au sujet du
-  GT-Projets.
+description: Un temps de coordination entre contributeurs du GT-Doc de la MYNE.
 documentation:
   - link: 'https://frama.link/lamyne-gt-doc'
     name: Carnet de bord du GT-Doc de la MYNE
