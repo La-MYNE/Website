@@ -1,7 +1,7 @@
 ---
-title: À l'aventure pour explorer Node.js
+title: Atelier découverte de Node.js
 node:
-  - workshops
+  - workshop
 tags:
   - javascript
   - Node.js
@@ -27,6 +27,6 @@ Le niveau : c'est celui du groupe — tout niveau, de jamais programmé à "je s
 
 - - -
 
-Nous utiliserons la plate-forme en ligne [Glitch](https://glitch.com/edit/#!/lamyne-nodejs) pour programmer selon nos envies et voir les résultats sans se prendre la tête. Glitch est une plate-forme open source, collaborative et gratuite. 
+Nous utiliserons la plate-forme [Glitch](https://glitch.com/edit/#!/lamyne-nodejs) pour programmer selon nos envies et voir les résultats sans se prendre la tête. Glitch est open source, collaborative et gratuite. 
 
 ![null](/img/capture%20d%E2%80%99e%CC%81cran%202018-04-25%20a%CC%80%2010.53.20.png)
