@@ -14,7 +14,9 @@ end: 2018-05-03T19:00:20.000Z
 tarif: Adhesion à l’association la MYNE (2€)
 cover: /img/machines_precious-plastic.jpg
 thumbnail: /img/precious-plastic_ thumbnail.jpg
-description: Une rencontre à pour échanger entre curieux autour du projet Precious Plastic.
+description: >-
+  Une rencontre pour échanger entre curieux autour de l'initiative "Precious
+  Plastic".
 documentation:
   - link: 'https://preciousplastic.com/'
     name: Site web de la communauté Precious Plastic
