@@ -1,5 +1,5 @@
 ---
-title: Masterclass 'Transition des territoires et des organisations'
+title: Transition des territoires et des organisations
 node:
   - masterclass
 tags:
