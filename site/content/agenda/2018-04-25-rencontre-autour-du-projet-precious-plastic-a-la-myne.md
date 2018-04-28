@@ -1,5 +1,5 @@
 ---
-title: Rencontre autour du projet Precious Plastic
+title: Rencontre Precious Plastic
 node:
   - meetup
 tags:
