@@ -14,9 +14,7 @@ end: 2018-04-26T16:00:00.000Z
 tarif: Adhesion à l’association la MYNE (2€)
 cover: /img/capture d’écran 2018-04-25 à 10.53.20.png
 thumbnail: /img/capture d’écran 2018-04-25 à 10.53.20.png
-description: >-
-  Un temps pour apprendre la programmation avec Node.js à son rythme et en
-  groupe
+description: Un atelier pour apprendre en groupe la programmation avec Node.js.
 documentation:
   - link: 'https://glitch.com/edit/#!/lamyne-nodejs'
     name: Dossier de l’atelier (hébergé sur Glitch)
