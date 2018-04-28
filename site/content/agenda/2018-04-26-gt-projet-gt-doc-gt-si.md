@@ -1,13 +1,12 @@
 ---
-title: Réunion du GT-DOC & GT-SI de la MYNE
+title: Réunion du GT-DOC de la MYNE
 node:
   - GT-DOC
-  - GT-SI
+  - documentation
   - La MYNE
   - ''
 tags:
   - réunion
-  - ''
 porteurs:
   - Jean-Marie Claisse
 location: 'La MYNE, 1 Rue du Luizet, 69100 Villeurbanne'
