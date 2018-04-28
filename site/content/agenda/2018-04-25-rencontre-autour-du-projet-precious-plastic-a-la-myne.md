@@ -1,11 +1,13 @@
 ---
-title: Présentation de l'initiative Precious Plastic
+title: Rencontre autour du projet Precious Plastic
 node:
   - meetup
 tags:
   - Precious Plastic
   - recyclage
   - plastique
+porteurs:
+  - Sébastien Avon
 location: 'La MYNE, 1 Rue du Luizet, 69100 Villeurbanne'
 start: 2018-05-03T17:00:20.000Z
 end: 2018-05-03T19:00:20.000Z
