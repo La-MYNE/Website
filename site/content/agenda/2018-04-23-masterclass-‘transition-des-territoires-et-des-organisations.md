@@ -18,7 +18,7 @@ cover: /img/transition-territoires-organisations.png
 thumbnail: /img/transition-territoires-organisations_miniature.png
 description: >-
   Une masterclass pour partager des connaissances autour de la transition des
-  territoires et la transformation des organisations.
+  territoires et des organisations.
 documentation:
   - link: 'https://pad.lamyne.org/masterclass-happens-hoali'
     name: Carnet de bord de la masterclass (licence CC-BY-SA 4.0)
