@@ -9,8 +9,8 @@ tags:
 porteurs:
   - Thomas Parisot
 location: 'La MYNE, 1 Rue du Luizet, 69100 Villeurbanne'
-start: 2018-04-26T14:00:00.000Z
-end: 2018-04-26T16:00:00.000Z
+start: 2018-04-26T14:00:00+02:00
+end: 2018-04-26T16:00:00+02:00
 tarif: Adhesion à l’association la MYNE (2€)
 cover: /img/capture d’écran 2018-04-25 à 10.53.20.png
 thumbnail: /img/capture d’écran 2018-04-25 à 10.53.20.png
