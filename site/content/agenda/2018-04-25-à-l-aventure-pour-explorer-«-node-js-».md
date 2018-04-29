@@ -9,8 +9,8 @@ tags:
 porteurs:
   - Thomas Parisot
 location: 'La MYNE, 1 Rue du Luizet, 69100 Villeurbanne'
-start: 2018-04-26T14:00:00+02:00
-end: 2018-04-26T16:00:00+02:00
+start: 2018-04-26T12:00:00.000Z
+end: 2018-04-26T14:00:00.000Z
 tarif: Adhesion à l’association la MYNE (2€)
 cover: /img/capture d’écran 2018-04-25 à 10.53.20.png
 thumbnail: /img/capture d’écran 2018-04-25 à 10.53.20.png
@@ -25,6 +25,6 @@ Le niveau : c'est celui du groupe — tout niveau, de jamais programmé à "je s
 
 - - -
 
-Nous utiliserons la plate-forme [Glitch](https://glitch.com/edit/#!/lamyne-nodejs) pour programmer selon nos envies et voir les résultats sans se prendre la tête. Glitch est open source, collaborative et gratuite. 
+Nous utiliserons la plate-forme en ligne [Glitch](https://glitch.com/edit/#!/lamyne-nodejs) pour programmer selon nos envies et voir les résultats sans se prendre la tête. Glitch est une plate-forme open source, collaborative et gratuite. 
 
 ![null](/img/capture%20d%E2%80%99e%CC%81cran%202018-04-25%20a%CC%80%2010.53.20.png)
