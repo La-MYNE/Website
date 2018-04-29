@@ -11,14 +11,14 @@ tags:
 porteurs:
   - Nicolas Loubet
 location: 'La MYNE, 1 Rue du Luizet, 69100 Villeurbanne'
-start: 2018-04-25T16:00:00.000Z
-end: 2018-04-25T19:00:00.000Z
+start: 2018-04-25T18:00:00+02:00
+end: 2018-04-25T21:00:00+02:00
 tarif: Adhesion à l’association la MYNE (2€)
 cover: /img/transition-territoires-organisations.png
 thumbnail: /img/transition-territoires-organisations_miniature.png
 description: >-
   Une masterclass pour partager des connaissances autour de la transition des
-  territoires et la transformation des organisations.
+  territoires et des organisations.
 documentation:
   - link: 'https://pad.lamyne.org/masterclass-happens-hoali'
     name: Carnet de bord de la masterclass (licence CC-BY-SA 4.0)
