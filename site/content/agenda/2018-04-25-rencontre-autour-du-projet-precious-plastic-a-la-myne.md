@@ -9,8 +9,8 @@ tags:
 porteurs:
   - Sébastien Avon
 location: 'La MYNE, 1 Rue du Luizet, 69100 Villeurbanne'
-start: 2018-05-03T17:00:20.000Z
-end: 2018-05-03T19:00:20.000Z
+start: 2018-05-03T18:00:20+02:00
+end: 2018-05-03T20:00:20+02:00
 tarif: Adhesion à l’association la MYNE (2€)
 cover: /img/machines_precious-plastic.jpg
 thumbnail: /img/precious-plastic_ thumbnail.jpg
