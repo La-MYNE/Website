@@ -11,8 +11,8 @@ porteurs:
   - Jean-Marie Claisse
 location: 'La MYNE, 1 Rue du Luizet, 69100 Villeurbanne'
 recurring: []
-start: 2018-04-27T08:00:21.000Z
-end: 2018-04-27T10:00:21.000Z
+start: 2018-04-27T10:00:21+02:00
+end: 2018-04-27T00:00:21+02:00
 tarif: ''
 cover: /img/lamyne-gt-doc.png
 thumbnail: /img/lamyne-gt-doc-thumbnail.png
