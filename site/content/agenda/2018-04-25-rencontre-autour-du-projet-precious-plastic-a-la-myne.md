@@ -9,8 +9,8 @@ tags:
 porteurs:
   - Sébastien Avon
 location: 'La MYNE, 1 Rue du Luizet, 69100 Villeurbanne'
-start: 2018-05-03T21:00:20+02:00
-end: 2018-05-03T23:00:20+02:00
+start: 2018-05-03T17:00:20.000Z
+end: 2018-05-03T19:00:20.000Z
 tarif: Adhesion à l’association la MYNE (2€)
 cover: /img/machines_precious-plastic.jpg
 thumbnail: /img/precious-plastic_ thumbnail.jpg
@@ -19,7 +19,7 @@ description: >-
   Plastic".
 documentation:
   - link: 'https://preciousplastic.com/'
-    name: Site web de la communauté Precious Plastic
+    name: Site web de Precious Plastic
   - link: 'https://www.facebook.com/events/789078461285662/'
     name: Annonce Facebook de la rencontre
 ---
