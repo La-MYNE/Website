@@ -1,5 +1,7 @@
 ---
 title: CELLUBY - Ferme bactérienne
+node:
+  - CELLUBY
 tags:
   - Agriculture
   - Autonomie
@@ -12,7 +14,6 @@ description: >-
   bactérienne
 porteurs:
   - Jean-Marie Claisse
-test: Jean-marie Claisse
 ---
 initialement nommé "Minois" est une expérimentation de projet initié par Jean-Marie Claisse afin de mettre en pratique la réappropriation citoyenne des sciences.
 
