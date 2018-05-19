@@ -13,6 +13,8 @@ fullday: true
 start: 2018-05-19T15:13:27.556Z
 end: 2018-05-19T15:13:27.560Z
 tarif: 'adhesion a la myne, 2e/an'
+cover: /img/ose.jpg
+thumbnail: /img/ose.jpg
 documentation:
   - link: 'https://annuel.framapad.org/p/CRmeetupOSEMyne'
     name: Prise de notes en ligne
