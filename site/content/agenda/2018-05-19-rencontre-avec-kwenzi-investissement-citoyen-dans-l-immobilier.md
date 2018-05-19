@@ -1,11 +1,11 @@
 ---
-title: 'Rencontre avec Kwenzi : investissement citoyen dans l''immobilier'
+title: '[MYNE] Rencontre avec Kwenzi : investissement citoyen dans l''immobilier'
 tags:
   - term_1
   - term_2
 location: 'la myne, 1 rue du luizet'
-start: 2018-05-23T10:00:11+02:00
-end: 05/23/2018 11:30 AM
+start: 2018-05-23T08:00:11.000Z
+end: '05/23/2018 11:30 AM'
 tarif: 'adhesion a la myne, 2e/an'
 cover: /img/babel__by_duster132-d5t5gty.jpg
 thumbnail: ''
