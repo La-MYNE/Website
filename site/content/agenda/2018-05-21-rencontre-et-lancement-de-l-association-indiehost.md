@@ -38,9 +38,9 @@ Après maintenant 3 ans d’existence, il est temps prendre le temps de vous ren
 Avec le lancement de l’association nous souhaitons définir avec vous, utilisateurs des services IndieHosters, amis et partenaires, votre place au sein de cette nouvelle structure.
 
 ## Au programme: 
-1. Des temps de partager et de discussion
+1. Des temps de partages et de discussions
 2. Des sessions de transmission sur les outils mis en place pour la MYNE
-3. Tout premiere assemblée générale de IndieHost.
+3. Tout premiere assemblée générale de IndieHost
 
 # Une association?
 
