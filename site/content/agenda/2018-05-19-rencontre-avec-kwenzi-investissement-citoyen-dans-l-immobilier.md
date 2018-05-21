@@ -5,7 +5,7 @@ tags:
   - term_2
 location: 'la myne, 1 rue du luizet'
 start: 2018-05-23T08:00:11.000Z
-end: '05/23/2018 11:30 AM'
+end: 2018-05-23T11:30:11.000Z
 tarif: 'adhesion a la myne, 2e/an'
 cover: /img/babel__by_duster132-d5t5gty.jpg
 thumbnail: ''
