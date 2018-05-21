@@ -18,8 +18,8 @@ cover: /img/default-cover.png
 thumbnail: /img/indiehosters.png
 description: >-
   IndieHosters vous invite pour le lancement de l'association et pour une
-  journée de rencontre afin de discuter des questions d'hebergement de partager
-  nos retour d'experience avec la myne
+  journée de rencontre afin de discuter des questions d'hebergement et de partager
+  nos retours d'experience avec la myne
 ---
 Bonjour
 
