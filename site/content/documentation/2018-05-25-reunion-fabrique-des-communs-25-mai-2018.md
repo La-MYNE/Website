@@ -9,6 +9,8 @@ tags:
   - Lyon
 alias: fabriquecommuns-cloture
 shortid: fabriquecommuns-cloture
+model:
+  - Bilan
 node:
   - FABRIQUE DES COMMUNS
   - celluby
