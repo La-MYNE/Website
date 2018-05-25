@@ -11,5 +11,6 @@ alias: fabriquecommuns-cloture
 shortid: fabriquecommuns-cloture
 node:
   - FABRIQUE DES COMMUNS
+  - CELLUBY
 ---
 
