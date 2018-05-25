@@ -7,6 +7,8 @@ tags:
   - maker
   - '2017'
   - Lyon
+alias: fabriquecommuns-cloture
+shortid: fabriquecommuns-cloture
 node:
   - FABRIQUE DES COMMUNS
 ---
