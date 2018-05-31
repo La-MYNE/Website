@@ -10,7 +10,7 @@ porteurs:
   - Pierre Ozoux
 location: 'La MYNE, 1 Rue Croix de Luizet, Villeurbanne'
 start: 2018-06-09T16:00:00.000Z
-end: 2018-05-01T17:30:00.000Z
+end: 2018-06-09T19:30:00+02:00
 tarif: 'adhesion a la myne, 2e/an'
 cover: /img/default-cover.png
 thumbnail: /img/indiehosters.png
