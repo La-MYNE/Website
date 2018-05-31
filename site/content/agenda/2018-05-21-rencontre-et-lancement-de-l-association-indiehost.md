@@ -9,17 +9,17 @@ tags:
 porteurs:
   - Timothee Gosselin
   - Pierre Ozoux
-location: la MYNE
+location: 'la MYNE, 1 Rue Croix de Luizet Villeurbanne'
 fullday: true
-start: 2018-06-09T10:00:29+02:00
-end: 2018-06-09T21:00:29+02:00
+start: 2018-06-09T08:00:29.000Z
+end: 2018-06-09T19:00:29.000Z
 tarif: 'adhesion a la myne, 2e/an'
 cover: /img/default-cover.png
 thumbnail: /img/indiehosters.png
 description: >-
   IndieHosters vous invite pour le lancement de l'association et pour une
-  journée de rencontre afin de discuter des questions d'hebergement et de partager
-  nos retours d'experience avec la myne
+  journée de rencontre afin de discuter des questions d'hebergement et de
+  partager nos retours d'experience avec la myne
 ---
 Bonjour
 
@@ -37,10 +37,27 @@ Après maintenant 3 ans d’existence, il est temps prendre le temps de vous ren
 
 Avec le lancement de l’association nous souhaitons définir avec vous, utilisateurs des services IndieHosters, amis et partenaires, votre place au sein de cette nouvelle structure.
 
-## Au programme: 
-1. Des temps de partages et de discussions
-2. Des sessions de transmission sur les outils mis en place pour la MYNE
-3. Tout premiere assemblée générale de IndieHost
+## Au programme:  
+
+### Transmission sur les outils de la MYNE - 10h 
+
+Une session de transmission sur les outils numeriques mis en place pour la MYNE - chat, cloud, pads, site etc.
+
+L'occasion de prendre en main les differents outils et de discuter des prochaines evolutions. 
+
+### Discussion sur le futur de IndieHosters - 14h
+
+Session ouverte de discussion sur le futur de IndieHosters en preparation du lancement de la structure IndieHost qui aura lieu lors de ce weekend. Ce temps permettra de discuter des questions de gouvernance, modeles économiques, modeles de contribution et de collaboration. 
+
+Que vous soyez de simples curieux, clients ou partenaires de IndieHosters, vous etes tous conviés pour prendre part de cette discussion.
+
+### Ateliers Libres - 18h 
+Lors de ce temps différents ateliers peuvent prendre place. Des propositions seront faites en amont et le jour meme. Chacun est libre de s'inscrire dans l'atelier de son choix. Les ateliers prendront donc place selon les demandes et propositions. 
+
+Ateliers:
+1. Création de mon site web en 1h
+2. L'internet c'est quoi
+3. Libre.sh v2 avec kubernetes. 
 
 # Une association?
 
