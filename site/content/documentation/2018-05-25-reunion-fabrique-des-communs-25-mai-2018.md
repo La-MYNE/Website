@@ -12,7 +12,6 @@ shortid: fabriquecommuns-cloture
 model:
   - Bilan
 node:
-  - FABRIQUE DES COMMUNS
-  - celluby
+  - FABRIQUE-DES-COMMUNS
 ---
 
