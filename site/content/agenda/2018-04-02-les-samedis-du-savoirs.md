@@ -10,12 +10,12 @@ tags:
 porteurs:
   - Connie Chow-Petit
   - Benjamin Chow-Petit
-location: 'La Myne, 1 Rue du Luizet, 69100 Villeurbanne.'
+location: 'La Myne, 1 Rue du Luizet, 69100 Villeurbanne'
 recurring:
   - frequency:
       - Tous les samedis matins (sauf les jours fériés) à la Myne.
-start: 2018-04-21T09:00:00+02:00
-end: 2018-04-21T12:00:00+02:00
+start: 2018-04-21T07:00:00.000Z
+end: 2018-04-21T10:00:00.000Z
 tarif: Adhesion a la Myne - 2 Euros par an + Prix Libre
 cover: /img/samedisdusavoir_vers.1.1.png
 thumbnail: /img/samedisdusavoir_vers.1.1.png
@@ -26,7 +26,15 @@ description: >-
 documentation:
   - link: 'https://frama.link/samedis_du_savoirs'
     name: affiche "Les Samedis du Savoirs"
-ressources: []
+ressources:
+  - link: 'https://pad.lamyne.org/samedisdusavoirs_1'
+    name: 'Documentation Samedi du Savoirs #1'
+  - link: 'https://pad.lamyne.org/samedisdusavoirs_2'
+    name: 'Documentation Samedi du Savoirs #2'
+  - link: 'https://pad.lamyne.org/samedisdusavoirs_3'
+    name: 'Documentation Samedi du Savoirs #3'
+  - link: 'https://pad.lamyne.org/samedisdusavoirs_4'
+    name: 'Documentation Samedi du Savoirs #4'
 ---
 ## **LES SAMEDIS DU SAVOIRS**
 
