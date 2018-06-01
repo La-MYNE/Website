@@ -26,7 +26,15 @@ description: >-
 documentation:
   - link: 'https://frama.link/samedis_du_savoirs'
     name: affiche "Les Samedis du Savoirs"
-ressources: []
+ressources:
+  - link: 'https://pad.lamyne.org/samedisdusavoirs_1'
+    name: 'Documentation Samedi du Savoirs #1'
+  - link: 'https://pad.lamyne.org/samedisdusavoirs_2'
+    name: 'Documentation Samedi du Savoirs #2'
+  - link: 'https://pad.lamyne.org/samedisdusavoirs_3'
+    name: 'Documentation Samedi du Savoirs #3'
+  - link: 'https://pad.lamyne.org/samedisdusavoirs_4'
+    name: 'Documentation Samedi du Savoirs #4'
 ---
 ## **LES SAMEDIS DU SAVOIRS**
 
