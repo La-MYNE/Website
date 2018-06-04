@@ -1,5 +1,5 @@
 ---
-title: CELLUBY - Ferme bactérienne
+title: CELLUBY - Ferme bactérienne et Bio-matières
 node:
   - CELLUBY
 tags:
