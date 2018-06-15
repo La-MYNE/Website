@@ -16,7 +16,7 @@ porteurs:
   - Jm Claisse
 documentation:
   - link: 'https://hackpad.com/Cartel-Celluby-aka-scoby-xBoTB2Gt3re'
-    name: Cartel
+    name: Cartel d'information
 ---
 # CELLUBY
 initialement nommé "Minois" est une expérimentation de projet initié par Jean-Marie Claisse afin de mettre en pratique la réappropriation citoyenne des sciences.
