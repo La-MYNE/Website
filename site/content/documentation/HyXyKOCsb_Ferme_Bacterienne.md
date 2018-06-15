@@ -1,10 +1,9 @@
 ---
-title: "Ferme Bactérienne"
+title: Ferme Bactérienne
 shortid: HyXyKOCsb
-alias:
-model:
-tags:
-node: 
+node:
   - ferme-bacterienne
   - celluby
+  - CELLUBY
 ---
+
