@@ -1,6 +1,8 @@
 ---
 title: CELLUBY - Ferme bactérienne et Bio-matières
 node:
+  - ferme-bacterienne
+  - celluby
   - CELLUBY
 tags:
   - Agriculture
