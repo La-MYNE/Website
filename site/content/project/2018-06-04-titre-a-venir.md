@@ -2,6 +2,7 @@
 title: TITRE A VENIR
 node:
   - TITRE A VENIR
+  - titre-a-venir
 tags:
   - Anthropocène
   - Artiste
