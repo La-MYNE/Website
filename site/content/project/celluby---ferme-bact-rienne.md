@@ -13,7 +13,7 @@ description: >-
   la culture contrôler isolé afin d'améliorer le développement de la cellulose
   bactérienne
 porteurs:
-  - Jean-Marie Claisse
+  - Jm Claisse
 documentation:
   - link: 'https://hackpad.com/Cartel-Celluby-aka-scoby-xBoTB2Gt3re'
     name: Cartel
