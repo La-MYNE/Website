@@ -14,7 +14,7 @@ description: >-
   Titre à venir est un processus qui mêle Art, Science et Technique sur la
   thématique de l'Anthropocène. 
 porteurs:
-  - David Barthelomeo
+  - david bartholomeo
 ---
 Titre à venir est un processus qui mêle Art, Science et Technique sur la thématique de l'Anthropocène. 
 Ensemble de Workshops organisé au sein de centre d'art lyonnais, mêlant les univers différents autour de l'anthropocène.
