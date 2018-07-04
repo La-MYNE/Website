@@ -1,15 +1,12 @@
 ---
 address: 1 Rue du Luizet, 69100 Villeurbanne
 college:
-- David Bartholomeo
-- Yoann Duriaux
-- Thomas Germain
-- Oriane Marignier
-- Chloe Mayere
-- Baptiste Nomine
-- Charlotte Rizzo
-- Melia Villard
-- Jeremy Virgo
+  - Nathalie Feltmann
+  - Melia Villard
+  - Thomas Germain
+  - Oriane Marignier
+  - Baptiste Nomine
+  - Connie Benjamin Chow Petit
 
 contact: team@lamyne.org
 
@@ -33,7 +30,7 @@ title: La MYNE
 
 La Myne provides access to a shared hybrid open-space in the heart of the Rhone-Alpes region, gathering the functions of a **hacklab** - *open community laboratory* - a **workshop** - a **co-working** space - *shared workspace and network* - and a **living space**. La Myne is at the service of the experimentation and development of  sustainable citizen research projects. It's an **open-source 'tiers-lieu' for transitions** or a **space for freedom and free experimentation**, in short, it's an **open citizen laboratory**.
 
-The ambition of La Myne is to be a natural platform for sharing, collaboration and co-construction of expeirmental and research sustainable project by and for the civil society. Combining all types of citizens reflections, whether personal or collective, the projects supported by la Myne are at the interface of art, technology and technics, science and society. It's then also a **pre-incubator for sustainalb eresearch projects**.
+La Myne is a citizen research and experimentation laboratory dedicated to transition states by and for the commons. Combining all types of citizens reflections, whether personal or collective, the projects supported by la Myne are at the interface of art, technology and technics, science and society. It's then also a **pre-incubator for sustainalb eresearch projects**.
 
 **La MYNE is a community hub making it possible to facilitate and fluidify collaboration through resources sharing and gathering**. Its mission : making links and networking, favoring serendipity and synergies, porposing an open-design framework to catalyse a wide diversity of skills, expertises and knowledge for peer-to-peer learning.
 
