@@ -14,10 +14,11 @@ porteurs:
   - Alexandre
   - toi
 location: 'La Myne, 1 rue du Luizet'
-start: 2018-07-05T18:30:43+02:00
-end: 2018-07-05T20:00:43+02:00
+start: 2018-07-05T16:30:43.000Z
+end: 2018-07-05T18:00:43.000Z
 tarif: 'adhesion a la myne, 2e/an'
 cover: /img/ppmyne.png
+thumbnail: /img/ppmyne.png
 documentation:
   - link: >-
       https://pad.lamyne.org/AwdghgnALGBmEFoAmA2FBjBUkEYDMCAHAKyxgIg4giETHFggBGEQA===#
