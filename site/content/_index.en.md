@@ -5,7 +5,7 @@ catchline: >-
   A common(s)-based Tier(s)-Lieu(x) for Transitions - #TILIOS (Tiers-Lieux Libres et Open-Source)
   <br><br>
   Anti-disciplinary Citizen Resarch & Experimentation Laboratory
-cover: /img/lamyne.jpg
+cover: /img/forktheworld.jpg
 newsletter: Follow Newsletter | We're not intrusive
 event: "Meet us"
 news: Check our last news

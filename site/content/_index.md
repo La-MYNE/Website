@@ -5,7 +5,7 @@ catchline: >-
   Tier(s)-Lieu(x) des Transitions par les Communs - #TILIOS (Tiers-Lieux Libres et Open-Source)
   <br><br>
   Laboratoire de Recherche & d'Expérimentation Citoyen Anti-disciplinaire
-cover: /img/lamyne.jpg
+cover: /img/forktheworld.jpg
 newsletter: Suivez notre Newsletter | Notre communication est frugale
 event: Retrouvez-nous
 news: Dernières Actualités
