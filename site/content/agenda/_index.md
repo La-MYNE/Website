@@ -1,5 +1,5 @@
 ---
-title: "Suivez notre agenda"
+title: "Nos agendas ... sont les votres !"
 cover: /img/agenda-cover.jpg
 agendaExterne:
     - 'https://cloud.lamyne.org/apps/calendar/embed/QfTHWoiYaENKj9es'
