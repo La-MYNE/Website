@@ -1,27 +1,30 @@
 ---
-description: "La MYNE et son écosystème vous accompagne dans le développement de votre
-  projet.<br>Tout projet qui soit - Expérimentale - Innovant - Open Source - Durable
-  - Bio-inspiré - est le bienvenu."
+description: "Notre ambition est de facilité vos développements de projets en autonomie.<br>Tout projet - Expérimental - Citoyen - Scientifique - Open Source - Soutenable - est le bienvenu."
 identifier: porteurs
 name: Porteurs de Projet
 step1:
-  name: Identifier ses besoins et possibilités
+  name: 'Identifier ses besoins et possibilités'
   picto: /img/picto-house.png
   subset:
+  - name: ' Se rencontrer et échanger'
+  - name: ' Mettre en lien et faire un état de l''art'
   - name: ' Définir l''état d''avancement'
-  - name: Remplir la Fiche Projet
+  - name: ' Remplir une Fiche Projet'
 step2:
-  name: Cadre de réciprocité
+  name: 'Cadre de réciprocité'
   picto: /img/picto-experiment.png
   subset:
-  - name: Définir et Remplir le cadre de réciprocité
+  - name: ' Trouver un parrain / une marraine'
+  - name: ' S''accorder sur la valeur des apports mutuels'
+  - name: ' Formaliser un accord de réciprocité'
 step3:
-  name: Développer son projet de recherche avec son parrain
+  name: 'Développer son projet de recherche avec son parrain / sa marraine'
   picto: /img/picto-fork.png
   subset:
-  - name: Etat de art
+  - name: ' Etat de l''art et veille'
+  - name: ' Diagnostique terrain et définition d''une question'
   - name: ' Prototypage et Expérimentation'
-  - name: Documentation
-title: Devenir porteur de projet en 3 étapes
+  - name: ' Documentation'
+title: Porter un projet à la MYNE
 weight: 0
 ---

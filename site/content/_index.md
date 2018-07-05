@@ -2,8 +2,9 @@
 title: La MYNE
 subtitle: Manufacture des Idées et des Nouvelles Expérimentations
 catchline: >-
-  Tiers-Lieu pour des Transitions par les Communs - #TILIOS<br><br> Un Espace de
-  Liberté, d'Expérimentations<br> et d'Innovation Citoyenne
+  Tier(s)-Lieu(x) des Transitions par les Communs - #TILIOS (Tiers-Lieux Libres et Open-Source)
+  <br><br>
+  Laboratoire de Recherche & d'Expérimentation Citoyen Anti-disciplinaire
 cover: /img/lamyne.jpg
 newsletter: Suivez notre Newsletter | Notre communication est frugale
 event: Retrouvez-nous
@@ -13,14 +14,14 @@ donation:
   heading: Adhérer
   link: https://www.helloasso.com/associations/la-myne/adhesions/adherer-a-la-myne-en-2018
 mission:
-- title: "Espaces, Rencontre et Partage ouverts"
+- title: "Espaces, Rencontre et Partage Ouverts"
   description: "Des espaces, physiques et virtuels pour se rencontrer, échanger, partager, travailler et expérimenter: Le Seri[O]us Space - pour Coworker, le N[O]t So Seri[O]us Space - pour Coparler, le Lab[O] - pour expérimenter, l'Atel[I]er - pour créer, le Jardin - pour vos envies permacoles et la communauté."
   picto: /img/picto-house.png
   calltoaction:
     heading: contribuer
     link: #
 - title: "Recherche, Expérimentation et Prototypage"
-  description: "La recherche au coeur des activités suportées par la MYNE: c'est un Laboratoire ouvert citoyen s'appuyant sur l'expérimentation libre et ouverte, au sein d'espaces physique et au delà. C'est un espace, non défini, de liberté et d'expérimentation au service des projet citoyens soutenables, par toutes et tous."
+  description: "La recherche au cœur des activités supportées par la MYNE: c'est un Laboratoire ouvert citoyen s'appuyant sur l'expérimentation libre et ouverte, au sein d'espaces physique et au delà. C'est un espace, non défini, de liberté et d'expérimentation au service des projet citoyens soutenables, par toutes et tous."
   picto: /img/picto-experiment.png
   calltoaction:
     heading: contribuer
@@ -37,7 +38,6 @@ catchlinehero:
     heading: Découvrez notre programme
     link: /program
 ecosystem:
-- title: La MYNE et son écosytème
-  content: La finesse du local, la force du global !<br><br> Parce que la communauté de la MYNE repose sur de nouveaux modes de partenariat, de collaboration et d’intelligence collective, elle s’inscrit dans un écosystème fortement interconnecté globalement et soudé localement.
+- title: La MYNE et son écosystème
+  content: La finesse du local, la force du global !<br><br> Parce que la communauté de la MYNE repose sur des modes de partenariat, de collaboration et d’intelligence collective s'incarnant dans des démarches de réciprocité, elle s’inscrit dans un écosystème fortement interconnecté globalement et soudé localement.
 ---
-

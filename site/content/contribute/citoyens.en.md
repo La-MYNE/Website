@@ -19,13 +19,13 @@ step2:
   - name: "Follow and support a project in the long term"
   - name: "Participate in prototyping sessions"
   step3:
-  name: "'Participate in discussions on the co-construction of Myne:'"
+  name: "'Participate in discussions on the co-construction of la MYNE and/or the projects:'"
   picto: "/img/picto-fork.png"
   subset:
   - name: "Attend the Annual General Meeting"
   - name: "Participate in monthly college board"
   - name: "Join a workgroup"
-title: "Become a member of La MYNE"
+title: "Contribute at La MYNE"
 weight: 1
 
 ---

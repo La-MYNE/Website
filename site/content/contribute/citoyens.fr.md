@@ -18,12 +18,12 @@ step2:
   - name: Suivre et accompagner un projet sur le long terme
   - name: Participer au session de prototypage
 step3:
-  name: 'Participer aux réflexions sur la co-construction de la MYNE:'
+  name: 'Participer aux réflexions sur la co-construction de la MYNE et/ou des projets:'
   picto: /img/picto-fork.png
   subset:
   - name: Participer à l'assemblée générale annuelle
   - name: ' Participer au conseil collégial mensuel'
   - name: Rejoindre un groupe de travail
-title: Devenir membre de la MYNE
+title: Contribuer à la MYNE
 weight: 1
 ---
