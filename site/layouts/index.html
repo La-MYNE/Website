@@ -164,6 +164,7 @@
     <div class="main-carousel-fullscreen" data-flickity='{ "contain": true }'>
 
       <div class="carousel-cell fullscreen">
+        {{ $v2 := where .Site.Pages "Section" "contribute"}}
         {{ range where $v2 ".Params.identifier" "citoyens" }}
         <div class="">
           <h2 class="center">{{ .Title | markdownify}}</h2>
