@@ -2,27 +2,25 @@
 identifier: citoyens
 name: Citoyens
 step1:
-  name: 'Participer à des chantiers participatifs'
+  name: 'Se rencontrer'
   picto: /img/picto-house.png
   subset:
-  - name: Trouver le prochain événement dans l'Agenda
-  - name: Proposer ses propres ateliers
-  - name: Porter ses propres chantiers, ensemble
+  - name: Venir aux événements 
+  - name: Proposer ses propres événement
+  - name: Porter ses propres chantiers
 step2:
-  name: 'Apporter ses compétences aux projets citoyens en cours'
+  name: 'S''informer'
   picto: /img/picto-experiment.png
   subset:
-  - name: Organiser une conférence ou une masterclass
-  - name: Participer à des ateliers créatifs
-  - name: Participer à des ateliers de co-design
-  - name: Suivre et accompagner un projet sur le long terme
-  - name: Participer au session de prototypage
+  - name: Organiser un temps de partage
+  - name: Participer à des ateliers
+  - name: Suivre/Accompagner un projet
 step3:
-  name: 'Participer à la co-construction de la MYNE et des projets'
+  name: 'S''investir'
   picto: /img/picto-fork.png
   subset:
-  - name: Participer à l'assemblée générale annuelle
-  - name: ' Participer au conseil collégial mensuel'
+  - name: Participer à l'AG / au CC
+  - name: (Co)Porter un projet
   - name: Rejoindre un groupe de travail
 title: Contribuer à la MYNE
 weight: 1

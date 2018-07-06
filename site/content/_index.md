@@ -1,8 +1,8 @@
 ---
 # title: La MYNE
-subtitle: Une Manufacture des Idées et des Nouvelles Expérimentations
+# subtitle: Une Manufacture des Idées et des Nouvelles Expérimentations
 catchline: >-
-  La MYNE est un Laboratoire de Recherche & d'Expérimentation Citoyen Anti-disciplinaire<br><br>Nous agissons en Tier(s)-Lieu(x) des Transitions par les Communs<br>
+  <p>La MYNE est un Laboratoire de Recherche & d'Expérimentation Citoyen Anti-disciplinaire dédié aux Transitions. Nous agissons en Tier(s)-Lieu(x) par les Communs.</p>
 cover: /img/forktheworld.jpg
 newsletter: Suivez notre Newsletter | Notre communication est frugale
 event: Retrouvez-nous
@@ -13,19 +13,19 @@ donation:
   link: https://www.helloasso.com/associations/la-myne/adhesions/adherer-a-la-myne-en-2018
 mission:
 - title: "Espaces, Rencontre et Partage Ouverts"
-  description: "Des espaces, physiques et virtuels pour se rencontrer, échanger, partager, travailler et expérimenter: Le Seri[O]us Space - pour Coworker, le N[O]t So Seri[O]us Space - pour Coparler, le Lab[O] - pour expérimenter, l'Atel[I]er - pour créer, le Jardin - pour vos envies permacoles et la communauté."
+  description: "Mutualiser ses espaces, physiques et virtuels, pour se rencontrer, échanger, partager, travailler et expérimenter."
   picto: /img/picto-house.png
   calltoaction:
     heading: Se Rencontrer
     link: /agenda/
 - title: "Recherche, Expérimentation et Prototypage"
-  description: "La recherche au cœur des activités supportées par la MYNE: c'est un Laboratoire ouvert citoyen s'appuyant sur l'expérimentation libre et ouverte, au sein d'espaces physique et au delà. C'est un espace, non défini, de liberté et d'expérimentation au service des projet citoyens soutenables, par toutes et tous."
+  description: "Explorer, investiguer et adresser des questions complexe de société en transition(s) par la recherche-action."
   picto: /img/picto-experiment.png
   calltoaction:
     heading: Experimenter
     link: /project/
 - title: "Appropriation, Contribution et Autonomisation"
-  description: "L'autonomisation par l'appropriation des sciences et techniques et de la complexité du monde, ainsi que par le faire et l'apprentissage pair-à-pair est facilitée et permise par la contribution de toutes et tous. Le commun sert ici tant de valeur que de pratique à la mise en capacité d'agir au sein de la communauté."
+  description: "Emanciper par le faire et participer de la construction d'un patrimoine (informationnel) commun facilitant l'autonomisation."
   picto: /img/picto-fork.png
   calltoaction:
     heading: Apprendre

@@ -1,8 +1,8 @@
 ---
 # title: La MYNE
-subtitle: An Ideas & New Experiments Manufacture
+# subtitle: An Ideas & New Experiments Manufacture
 catchline: >-
-  La MYNE is an Anti-disciplinary Citizen Resarch & Experimentation Laboratory<br><br>We are a Third-Party-Place for Transitions by the common(s)<br>
+  <p>La MYNE is an Anti-disciplinary Citizen Resarch & Experimentation Laboratory dedicated to the Transitions. We are a Third-Party-Place by the common(s).</p>
 cover: /img/forktheworld.jpg
 newsletter: Follow Newsletter | We're not intrusive
 event: "Meet us"

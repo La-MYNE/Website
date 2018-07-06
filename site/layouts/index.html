@@ -7,7 +7,7 @@
       <h2>{{ .Site.Params.subtitle }}</h2>
       <div class="row center">
         <h3 class="col s12 center "> {{ .Site.Params.catchline | markdownify }} </h3>
-          <p><a href="{{.Params.donation.link}}" class="btn-large waves-effect waves-light black">{{.Params.donation.heading}}</a></p>
+        <p><a href="{{.Params.donation.link}}" class="btn-large waves-effect waves-light black">{{.Params.donation.heading}}</a></p>
       </div>
     </div>
     <div class="parallax"><img class="responsive-img" src="/img/forktheworld.jpg" alt="La MYNE"></div>
@@ -37,83 +37,25 @@
   </div>
 </section>
 
-  <section class="section-home light-grey">
+<section class="section-home light-grey">
       <div class="container">
-        <div class="row center">
-          <div class="col l4 s16">
-            <center><h2>La MYNE présentée</h2></center>
-            <center>Une petite présentation</center>
-            <center><iframe src="https://cloud.lamyne.org/s/FgwF8JyCLnmQKHZ" frameborder="0" width="90%%" height="360" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe></center>
-          </div>
-          <div class="col l4 s16">
-            <center><h2>La MYNE vécue</h2></center>
-            <center>Une petite vidéo</center>
-            <center><iframe width="90%" height="360" src="https://videos.lescommuns.org/videos/embed/a7fe81c1-f4f5-4841-81c3-7d34b717044f" frameborder="0" allowfullscreen></iframe></center>
-          </div>
-          <div class="col l4 s16">
-            <center><h2>La MYNE en rapport</h2></center>
-            <center>Le rapport 2017 est en cours de finalisation</center>
-            <center><iframe src="https://cloud.lamyne.org/s/mof2tQWkpcDNwSM" frameborder="0" width="90%" height="360" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe></center>
-          </div>
-        </div>
+        <center><iframe width="100%" height="360" src="https://videos.lescommuns.org/videos/embed/a7fe81c1-f4f5-4841-81c3-7d34b717044f" frameborder="0" allowfullscreen></iframe></center>
+        <h6 align="right">powered by <u><strong><a href="https://joinpeertube.org/en/home/">PeerTube</a></strong></u> with <u><strong><a href="http://lescommuns.org/">lescommuns.org</a></strong></u></h6>
       </div>
-    </div>
-  </div>
 </section>
-
-<!--<section class="section-home  light-grey">
-  <div class="container">
-  <center><h2>{{.Params.news}}</h2></center>
-<div class="row">-->
-<!-- Flickity HTML init -->
-<!--<div class="main-carousel" data-flickity='{ "contain": true }'>
-  {{ $v1 := (where .Site.Pages "Section" "agenda").ByParam "start"}}
-  {{ range first 5 $v1.Reverse }}
-    <div class="carousel-cell">
-      <div class="card card-agenda card-agenda-home">
-        <div class="card-image">
-          {{ if isset .Params "start"}}
-          {{$time := time .Params.start }}
-          {{$month := $time.Month }}
-          <div class=" btn-date orange">
-            <p class="jour">{{ $time.Day }}</p>
-            <p class="mois">{{ i18n $month }}</p>
-          </div>
-          {{ end }}
-          <img class="responsive-img" src="{{ with or (.Params.thumbnail) (.Params.cover)}}{{.}}{{else}}/img/default-thumbnail.png{{end}}" alt="thumbnail {{.Title}}">
-        </div>
-        <div class="card-content">
-          {{ if isset .Params "start"}}
-          {{$time := time .Params.start }}
-          <div class="horaire">{{ $time.Hour}}h{{$time.Minute}}</div>
-          {{ end }}
-          <div class="kind"> {{ .Type }}</div>
-
-          <div class="card-agenda-title">{{ .Title | title }}  </div>
-          <div class="row center"><a class="grey btn waves-effect waves-light" href='{{ .URL }}'>En savoir plus</a></div>
-      </div>
-      </div>
-    </div>
-    {{ end }}
-</div>
-</div>
-</div>
-</section>-->
 
 <section class="section-home">
   <div class="container">
     <center><h2>Agenda des Evenements</h2></center>
-    <div class="row">
       <iframe width="100%" height="500px" src="https://cloud.lamyne.org/apps/calendar/embed/4ej7LAtyFKwfFbez"></iframe>
+      <h6 align="right">powered by <u><strong><a href="https://nextcloud.com/">NextCloud</a></strong></u> with <u><strong><a href="https://indie.host/">IndieHosters</a></strong></u></h6>
       <center><p><h5><u><strong><a href="https://www.lamyne.org/agenda/">Les dernières actus</a></strong></u></h5></p></center>
       <center><p><h5><u><strong><a href="https://cloud.lamyne.org/apps/calendar/embed/QfTHWoiYaENKj9es">Quand peut-on vous accueillir à la MYNE</a></strong></u></h5></p></center>
-    </div>
   </div>
 </section>
 
 <section class="section-home light-grey">
   <div class="container">
-  <center><h2>Nos temps récurrents</h2></center>
     <div class="section">
       <div class="row">
         <div class="col s12 center">
@@ -123,45 +65,16 @@
       <div class="row">
         {{ range last 3 (where .Data.Pages ".Params.featured" "yes") }}
           <div class="col s12 m4">
-            <div class ="center"><img class="thumb" src="{{ .Params.logo }}" alt="{{ .Title }}"></div>
-              <h3 class="center">{{ .Title }}</h3>
-                <p class="light"> {{ .Params.description }}</p>
+            <div class ="center"><img class="thumb" src="{{ .Params.logo }}" alt="{{ .Title }}">
             </div>
+            <h3 class="center">{{ .Title }}</h3>
+            <center><p class="light"> {{ .Params.description }}</p></center>
+          </div>
          {{ end }}
        </div>
     </div>
   </div>
 </section>
-
-
-<!--<section class="section-home light-grey">
-  <div class="container">
-<h1>{{.Params.team}}</h1>
-<div class="row">-->
-<!-- Flickity HTML init -->
-<!--<div class="main-carousel" data-flickity='{ "contain": true }'>
-  {{ $v1 := where .Site.Pages "Section" "mynois"}}
-  {{ range first 5 $v1.Reverse }}
-    <div class="carousel-cell">
-      <div class="card orange card-team-home">
-        <div class="card-content">
-            <a href="{{.URL}}"><img class="team-profile center" src=" {{ .Params.thumbnail }}" alt="{{.Params.name}}"></a>
-          <div class="card-agenda-title white-text center">{{ .Params.name }}</div>
-          <div class="row card-details center">
-            {{ if isset .Params "tags"}}
-            {{ range .Params.tags }}
-            <span class="chip light-grey">{{ . }}</span>
-            {{ end }}
-            {{ end }}
-          </div>
-        </div>
-      </div>
-  </div>
-    {{ end }}
-</div>
-</div>
-</div>
-</section>-->
 
 <section class="section-home section-contribute">
   <div class="container">
@@ -261,6 +174,76 @@
       <iframe width="100%" height="500px" src="https://cloud.lamyne.org/apps/calendar/embed/QfTHWoiYaENKj9es"></iframe>
     </div>
   </div>
+</section>-->
+
+
+<!--<section class="section-home  light-grey">
+  <div class="container">
+  <center><h2>{{.Params.news}}</h2></center>
+<div class="row">-->
+<!-- Flickity HTML init -->
+<!--<div class="main-carousel" data-flickity='{ "contain": true }'>
+  {{ $v1 := (where .Site.Pages "Section" "agenda").ByParam "start"}}
+  {{ range first 5 $v1.Reverse }}
+    <div class="carousel-cell">
+      <div class="card card-agenda card-agenda-home">
+        <div class="card-image">
+          {{ if isset .Params "start"}}
+          {{$time := time .Params.start }}
+          {{$month := $time.Month }}
+          <div class=" btn-date orange">
+            <p class="jour">{{ $time.Day }}</p>
+            <p class="mois">{{ i18n $month }}</p>
+          </div>
+          {{ end }}
+          <img class="responsive-img" src="{{ with or (.Params.thumbnail) (.Params.cover)}}{{.}}{{else}}/img/default-thumbnail.png{{end}}" alt="thumbnail {{.Title}}">
+        </div>
+        <div class="card-content">
+          {{ if isset .Params "start"}}
+          {{$time := time .Params.start }}
+          <div class="horaire">{{ $time.Hour}}h{{$time.Minute}}</div>
+          {{ end }}
+          <div class="kind"> {{ .Type }}</div>
+
+          <div class="card-agenda-title">{{ .Title | title }}  </div>
+          <div class="row center"><a class="grey btn waves-effect waves-light" href='{{ .URL }}'>En savoir plus</a></div>
+      </div>
+      </div>
+    </div>
+    {{ end }}
+</div>
+</div>
+</div>
+</section>-->
+
+
+<!--<section class="section-home light-grey">
+  <div class="container">
+<h1>{{.Params.team}}</h1>
+<div class="row">-->
+<!-- Flickity HTML init -->
+<!--<div class="main-carousel" data-flickity='{ "contain": true }'>
+  {{ $v1 := where .Site.Pages "Section" "mynois"}}
+  {{ range first 5 $v1.Reverse }}
+    <div class="carousel-cell">
+      <div class="card orange card-team-home">
+        <div class="card-content">
+            <a href="{{.URL}}"><img class="team-profile center" src=" {{ .Params.thumbnail }}" alt="{{.Params.name}}"></a>
+          <div class="card-agenda-title white-text center">{{ .Params.name }}</div>
+          <div class="row card-details center">
+            {{ if isset .Params "tags"}}
+            {{ range .Params.tags }}
+            <span class="chip light-grey">{{ . }}</span>
+            {{ end }}
+            {{ end }}
+          </div>
+        </div>
+      </div>
+  </div>
+    {{ end }}
+</div>
+</div>
+</div>
 </section>-->
 
  {{ end }}

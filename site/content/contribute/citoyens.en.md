@@ -3,27 +3,25 @@ description: "meet, learn and do together!"
 identifier: "citoyens"
 name: "Citizens"
 step1:
-  name: "Participate in participatory projects"
+  name: "Participate"
   picto: "/img/picto-house.png"
   subset:
-  - name: "Find the next event in the Agenda"
-  - name: "Propose your own workshops"
-  - name: "Build your own event, together"
+  - name: "Come to the events"
+  - name: "Propose your own events"
+  - name: "Build your own event"
 step2:
-  name: "Provide your expertise to the citizens projects"
+  name: "Contribute"
   picto: "/img/picto-experiment.png"
   subset:
-  - name: "Organize a conference or masterclass"
-  - name: "Participate in creative workshops"
-  - name: "Participate in co-design workshops"
-  - name: "Follow and support a project in the long term"
-  - name: "Participate in prototyping sessions"
+  - name: "Organize a share time"
+  - name: "Participate in workshops"
+  - name: "Follow/Support a project"
   step3:
-  name: "'Participate to the co-construction of la MYNE and the projects'"
+  name: "CO-building"
   picto: "/img/picto-fork.png"
   subset:
-  - name: "Attend the Annual General Meeting"
-  - name: "Participate in monthly college board"
+  - name: "Attend the General Assembly"
+  - name: "Participate to the college board"
   - name: "Join a workgroup"
 title: "Contribute at La MYNE"
 weight: 1
