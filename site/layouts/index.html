@@ -7,11 +7,19 @@
       <h2>{{ .Site.Params.subtitle }}</h2>
       <div class="row center">
         <h3 class="col s12 center "> {{ .Site.Params.catchline | markdownify }} </h3>
-        <p><a href="{{.Params.donation.link}}" class="btn-large waves-effect waves-light black">{{.Params.donation.heading}}</a></p>
+        <p><strong><a href="{{.Params.donation.link}}" class="btn waves-effect waves-light light-grey"><font color="orange">{{.Params.donation.heading}}</font></a></strong>
+        <strong><a href="{{.Params.community.link}}" class="btn waves-effect waves-light light-grey"><font color="orange">{{.Params.community.heading}}</font></a></strong></p>
       </div>
     </div>
     <div class="parallax"><img class="responsive-img" src="/img/forktheworld.jpg" alt="La MYNE"></div>
   </div>
+</section>
+
+<section class="section-home">
+      <div class="container">
+        <center><iframe width="100%" height="360" src="https://videos.lescommuns.org/videos/embed/a7fe81c1-f4f5-4841-81c3-7d34b717044f" frameborder="0" allowfullscreen></iframe></center>
+        <h6 align="right">powered by <u><strong><a href="https://joinpeertube.org/en/home/">PeerTube</a></strong></u> with <u><strong><a href="http://lescommuns.org/">lescommuns.org</a></strong></u></h6>
+      </div>
 </section>
 
 <section class="section-home">
@@ -33,28 +41,21 @@
             </div>
             {{ end }}
       </div>
+      <center><p><h5><u><strong><a href="https://cloud.lamyne.org/apps/calendar/embed/QfTHWoiYaENKj9es">Quand peut-on vous accueillir ? | When can we welcome you ?</a></strong></u></h5></p></center>
+
     </div>
   </div>
 </section>
 
 <section class="section-home light-grey">
-      <div class="container">
-        <center><iframe width="100%" height="360" src="https://videos.lescommuns.org/videos/embed/a7fe81c1-f4f5-4841-81c3-7d34b717044f" frameborder="0" allowfullscreen></iframe></center>
-        <h6 align="right">powered by <u><strong><a href="https://joinpeertube.org/en/home/">PeerTube</a></strong></u> with <u><strong><a href="http://lescommuns.org/">lescommuns.org</a></strong></u></h6>
-      </div>
-</section>
-
-<section class="section-home">
   <div class="container">
-    <center><h2>Agenda des Evenements</h2></center>
+    <center><h2>Agenda</h2></center>
       <iframe width="100%" height="500px" src="https://cloud.lamyne.org/apps/calendar/embed/4ej7LAtyFKwfFbez"></iframe>
       <h6 align="right">powered by <u><strong><a href="https://nextcloud.com/">NextCloud</a></strong></u> with <u><strong><a href="https://indie.host/">IndieHosters</a></strong></u></h6>
-      <center><p><h5><u><strong><a href="https://www.lamyne.org/agenda/">Les dernières actus</a></strong></u></h5></p></center>
-      <center><p><h5><u><strong><a href="https://cloud.lamyne.org/apps/calendar/embed/QfTHWoiYaENKj9es">Quand peut-on vous accueillir à la MYNE</a></strong></u></h5></p></center>
   </div>
 </section>
 
-<section class="section-home light-grey">
+<section class="section-home">
   <div class="container">
     <div class="section">
       <div class="row">
@@ -72,11 +73,12 @@
           </div>
          {{ end }}
        </div>
+       <center><p><h5><strong>Dernières actus | Last updates: <u><a href="https://www.lamyne.org/agenda/">Plus d'info | More info</a></strong></u></h5></p></center>
     </div>
   </div>
 </section>
 
-<section class="section-home section-contribute">
+<!--<section class="section-home section-contribute">
   <div class="container">
     <div class="main-carousel-fullscreen" data-flickity='{ "contain": true }'>
 
@@ -165,7 +167,7 @@
 
     </div>
   </div>
-</section>
+</section>-->
 
 <!--<section class="section-home">
   <div class="container">

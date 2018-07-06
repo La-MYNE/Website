@@ -2,15 +2,19 @@
 # title: La MYNE
 # subtitle: An Ideas & New Experiments Manufacture
 catchline: >-
-  <p>La MYNE is an Anti-disciplinary Citizen Resarch & Experimentation Laboratory dedicated to the Transitions. We are a Third-Party-Place by the common(s).</p>
+  <p>La MYNE is an citizen laboratory for citizens experimenting the future. We are a Third-Party-Place by the common(s).</p><br>
+  <p>#Anthropocene #Transitions #TiersLieux #Commons</p>
 cover: /img/forktheworld.jpg
 newsletter: Follow Newsletter | We're not intrusive
 event: "Meet us"
 news: Check our last news
 team: Les MYNOIS·E·S
 donation:
-  heading: Adhérer
+  heading: Join Association
   link: https://www.helloasso.com/associations/la-myne/adhesions/adherer-a-la-myne-en-2018
+community:
+  heading: Join Community 
+  link: https://chat.lamyne.org
 mission:
 - title: "Open Spaces, Meeting and Sharing"
   description: "Physical and virtual spaces for meeting, exchanging, sharing, working and experimentnig: The Seri[O]us Space - for Coworking, the N[O]t So Seri[O]us Space - for Cotalking, the Lab[O] - for experimentation, the Atel[I]er - for creation, th Garden - for permaculture' desires, and the Community."

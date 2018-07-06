@@ -29,7 +29,7 @@ Languages:
     lang: en
     info: "Public openings Wednesday 6.30PM. Phone number: +33(0)4 26 64 36 16"
     # subtitle: An Ideas and New Experiments Manufacture
-    catchline: "La MYNE is an Anti-disciplinary Citizen Resarch & Experimentation Laboratory dedicated to the Transitions. We are a Third-Party-Place by the common(s)."
+    catchline: "La MYNE is an citizen laboratory for citizens experimenting the future. We are a Third-Party-Place by the common(s).<br><br>#Anthropocene #Transitions #TiersLieux #Commons"
     weight: 2
     more: More
 
@@ -57,7 +57,7 @@ Languages:
     lang: fr
     info: "Ouverture au public les mercredis à partir de 18.30. Telephone: +33(0)4 26 64 36 16"
     # subtitle: Une Manufacture des Idées et des Nouvelles Expérimentations
-    catchline: "La MYNE est un Laboratoire de Recherche & d'Expérimentation Citoyen Anti-disciplinaire dédié aux Transitions. Nous agissons en Tier(s)-Lieu(x) par les Communs."
+    catchline: "La MYNE est un laboratoire de recherche pour les citoyen.ne.s qui expérimentent le futur. Nous agissons en Tier(s)-Lieu(x) par les Communs.<br><br>#Anthropocene #Transitions #TiersLieux #Communs"
     more: En Savoir Plus
     menu:
       main:

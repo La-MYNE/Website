@@ -1,0 +1,86 @@
+{{ define "main" }}
+
+{{ partial "cover-hero.html" . }}
+<section class ="container">
+  <div class="row">
+    <h1>{{ .Title }}</h1>
+    <p> {{ .Content }}</p>
+  </div>
+</div class="row">
+        <h2>A venir</h2>
+      </div>
+  <div class=row>
+  <div class="grid">
+    <!-- .grid-sizer empty element, only used for element sizing -->
+    <div class="grid-sizer "></div>
+    {{ range .Data.Pages }}
+    {{ if isset .Params "startdate" }}
+    {{ $f := time .Params.startdate}}
+    {{ if ge $f now}}
+    <div class="grid-item">
+      <div class="card card-agenda">
+        <div class="card-image">
+          <img class="responsive-img" src="{{ .Params.thumbnail }}" alt="thumbnail">
+        </div>
+        <div class="card-content">
+          <div class="kind"> {{ .Type }}</div>
+          <div class="card-agenda-title">{{ .Title | title }}  </div>
+          <div class="row card-details">
+            <p>{{ .Description }} </p>
+            {{ if isset .Params "startdate" }}
+            <div class="divider"></div>
+            <div class=row>
+              <p>{{ .Params.startdate | dateFormat "Monday, 2. Jan. 2006"}}</p>
+            </div>
+          {{ end }}
+        </div>
+        <div class="row center"><a class="btn" href='{{ .URL }}'>{{ .Site.Params.more }}</a></div>
+      </div>
+      </div>
+  </div>
+  {{ end }}
+    {{ end }}
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+<section class="container">
+  <h2>Historique</h2>
+  <div class=row>
+  <div class="grid">
+    <!-- .grid-sizer empty element, only used for element sizing -->
+    <div class="grid-sizer "></div>
+    {{ range .Data.Pages }}
+    {{ if isset .Params "startdate" }}
+    {{ $f := time .Params.startdate}}
+    {{ if le $f now}}
+    <div class="grid-item">
+      <div class="card card-agenda">
+        <div class="card-image">
+          <img class="responsive-img" src="{{ .Params.thumbnail }}" alt="thumbnail">
+        </div>
+        <div class="card-content">
+          <div class="kind"> {{ .Type }}</div>
+          <div class="card-agenda-title">{{ .Title | title }}  </div>
+          <div class="row card-details">
+            <p>{{ .Description }} </p>
+            {{ if isset .Params "startdate" }}
+            <div class="divider"></div>
+            <div class=row>
+              <p>{{ .Params.startdate | dateFormat "Monday, 2. Jan. 2006"}}</p>
+            </div>
+          {{ end }}
+        </div>
+        <div class="row center"><a class="btn" href='{{ .URL }}'>{{ .Site.Params.more }}</a></div>
+      </div>
+      </div>
+  </div>
+  {{ end }}
+    {{ end }}
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+{{ end }}
