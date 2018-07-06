@@ -168,7 +168,3 @@ params:
     url: https://www.youtube.com/channel/UC-AkSeIOQf3-fscKmoXfmxA
 
 calendar: https://cloud.lamyne.org/apps/calendar/embed/4ej7LAtyFKwfFbez
-  categorie: categories
-  project: projects
-  tag: tags
-  event: events
