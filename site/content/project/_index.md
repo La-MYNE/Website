@@ -1,6 +1,6 @@
 ---
-title: Les projets
+## title: Les projets
 cover: /img/project-cover.jpg
 ---
 
-Decouvrez les differents projets de la MYNE et son ecosysteme.
+## Projets supportés par la MYNE et son écosystème

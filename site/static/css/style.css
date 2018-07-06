@@ -179,18 +179,18 @@ input[type=email] {
    line-height: 0;
    height: auto;
    color: #ededed;
-   background: rgba(255, 127, 0, 0.45)
+   background: #383838
  }
 .page-project .parallax-container {
-  background: rgba(208, 12, 14, 0.45)
+  background-color: #FFD400
 }
 
 .page-agenda .parallax-container {
-  background: rgba(255, 212, 0, 0.45)
+  background-color: #FF7F00
 }
 
 .page-atelier .parallax-container {
-  background-color: rgba(237, 237, 237, 0.45)
+  background-color: #383838
 }
 .parallax-container .section {
      width: 100vh;

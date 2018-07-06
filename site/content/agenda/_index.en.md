@@ -6,4 +6,4 @@ agendaExterne:
     - 'https://cloud.lamyne.org/apps/calendar/embed/4ej7LAtyFKwfFbez'
 ---
 
-## Agenda de la "Vie à la MYNE" et des "Evenements"
+## "Life at la MYNE" and "Events" Agendas

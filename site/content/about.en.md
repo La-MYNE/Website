@@ -1,5 +1,14 @@
 ---
-address: 1 Rue du Luizet, 69100 Villeurbanne
+name: about
+title: La MYNE
+description: Idead and New Experimentations Manufacture
+
+info:
+  - Public opening is wednesday at 6.30pm
+  - Ponctual appointments are from monday to thursday from 14h to 18h
+  - Project leaders and teams can access at any moment
+address: 1 Rue du Luizet, 69100 Villeurbanne | +33(0)4 26 64 36 16
+
 college:
   - Nathalie Feltmann
   - Melia Villard
@@ -10,8 +19,6 @@ college:
 
 contact: team@lamyne.org
 
-description: La Manufacture des Idées et des Nouvelles Expérimentations
-
 gt:
 - WG Finance
 - WG MYNE
@@ -20,13 +27,8 @@ gt:
 - WG Information Technology
 - WG Intellectual Property
 
-info:
-  - Public opening is wednesday from 18h to 21h / Ponctual external appointments are from monday to thursday from 14h to 18h / Project leaders and teams can access at any moment
-
-name: about
-title: La MYNE
 ---
-# A Manufacture for concrete and real stuff
+# A common(s)-based citizen laboratory
 
 La Myne provides access to a shared hybrid open-space in the heart of the Rhone-Alpes region, gathering the functions of a **hacklab** - *open community laboratory* - a **workshop** - a **co-working** space - *shared workspace and network* - and a **living space**. La Myne is at the service of the experimentation and development of  sustainable citizen research projects. It's an **open-source 'tiers-lieu' for transitions** or a **space for freedom and free experimentation**, in short, it's an **open citizen laboratory**.
 

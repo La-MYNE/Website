@@ -18,20 +18,20 @@ mission:
   description: "Des espaces, physiques et virtuels pour se rencontrer, échanger, partager, travailler et expérimenter: Le Seri[O]us Space - pour Coworker, le N[O]t So Seri[O]us Space - pour Coparler, le Lab[O] - pour expérimenter, l'Atel[I]er - pour créer, le Jardin - pour vos envies permacoles et la communauté."
   picto: /img/picto-house.png
   calltoaction:
-    heading: contribuer
-    link: #
+    heading: Se Rencontrer
+    link: /agenda/
 - title: "Recherche, Expérimentation et Prototypage"
   description: "La recherche au cœur des activités supportées par la MYNE: c'est un Laboratoire ouvert citoyen s'appuyant sur l'expérimentation libre et ouverte, au sein d'espaces physique et au delà. C'est un espace, non défini, de liberté et d'expérimentation au service des projet citoyens soutenables, par toutes et tous."
   picto: /img/picto-experiment.png
   calltoaction:
-    heading: contribuer
-    link: #
+    heading: Experimenter
+    link: /project/
 - title: "Appropriation, Contribution et Autonomisation"
   description: "L'autonomisation par l'appropriation des sciences et techniques et de la complexité du monde, ainsi que par le faire et l'apprentissage pair-à-pair est facilitée et permise par la contribution de toutes et tous. Le commun sert ici tant de valeur que de pratique à la mise en capacité d'agir au sein de la communauté."
   picto: /img/picto-fork.png
   calltoaction:
-    heading: contribuer
-    link: #
+    heading: Apprendre
+    link: /ateliers/
 catchlinehero:
 - content: Nous sommes tous chercheurs et chercheuses nés au sens de l‘expérimentateur qui teste et valide ou invalide ses hypothèses au travers de l’expérience, ou de l’inventeur qui va à la découverte des possibles - L'Aventure Ordinaire, Rapport d'Activité 2015 La Paillasse Saône.
   calltoaction:
