@@ -1,10 +1,8 @@
 ---
-title: La MYNE
-subtitle: Manufacture des Idées et des Nouvelles Expérimentations
+# title: La MYNE
+subtitle: Une Manufacture des Idées et des Nouvelles Expérimentations
 catchline: >-
-  Tier(s)-Lieu(x) des Transitions par les Communs - #TILIOS (Tiers-Lieux Libres et Open-Source)
-  <br><br>
-  Laboratoire de Recherche & d'Expérimentation Citoyen Anti-disciplinaire
+  La MYNE est un Laboratoire de Recherche & d'Expérimentation Citoyen Anti-disciplinaire<br><br>Nous agissons en Tier(s)-Lieu(x) des Transitions par les Communs<br>
 cover: /img/forktheworld.jpg
 newsletter: Suivez notre Newsletter | Notre communication est frugale
 event: Retrouvez-nous
