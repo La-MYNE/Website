@@ -4,7 +4,7 @@ languageCode: fr-FR
 defaultContentLanguageInSubdir: false
 
 address: "1 Rue de Croix de Luizet 69100 Villeurbanne"
-title: La MYNE
+title: La MYNE - Manufacture des Idees & Nouvelles Experimentations
 picto1: "/img/picto-house.png"
 picto2: "/img/picto-experiment.png"
 picto3: "/img/picto-fork.png"
@@ -27,8 +27,8 @@ related:
 Languages:
   en:
     lang: en
-    info: "Public openings Wednesday 6PM. Phone number: +33(0)4 26 64 36 16"
-    subtitle: Manufacture of Ideas and New Experiments
+    info: "Public openings Wednesday 6.30PM. Phone number: +33(0)4 26 64 36 16"
+    subtitle: Ideas and New Experiments Manufacture
     catchline: "A common(s)-based Tier(s)-Lieu(x) for Transitions - #TILIOS <br><br> Anti-disciplinary Citizen Resarch & Experimentation Laboratory<br>"
     weight: 2
     more: More
@@ -36,11 +36,11 @@ Languages:
     menu:
       main:
       - identifier: about
-        name: About
+        name: Who are we ?
         url: /en/about
         weight: 0
       - identifier: program
-        name: Agenda
+        name: Agendas
         url: /en/agenda/
         weight: 1
       - identifier: projects
@@ -48,28 +48,25 @@ Languages:
         url: /en/project/
         weight: 2
       - identifier: ateliers
-        name: Ateliers
+        name: Workshops & Practice
         url: /en/ateliers/
         weight: 3
-      - identifier: contribute
-        name: Contribute
-        url: /en/contribute/
-        weight: 4
     weight: 1
 
   fr:
     lang: fr
+    info: "Ouverture au public les mercredis à partir de 18.30. Telephone: +33(0)4 26 64 36 16"
     subtitle: Manufacture des Idées et des Nouvelles Expérimentations
     catchline: "Tier(s)-Lieu(x) des Transitions par les Communs - TILIOS<br><br> Laboratoire de Recherche & d'Expérimentation Citoyen Anti-disciplinaire"
     more: En Savoir Plus
     menu:
       main:
       - identifier: about
-        name: About
+        name: Qui sommes nous ?
         url: /about
         weight: 0
       - identifier: program
-        name: Agenda
+        name: Agendas
         url: /agenda/
         weight: 1
       - identifier: projects
@@ -77,13 +74,9 @@ Languages:
         url: /project/
         weight: 2
       - identifier: ateliers
-        name: Ateliers
+        name: Ateliers & Apprentissage
         url: /ateliers/
         weight: 3
-      - identifier: contribute
-        name: Contribuer
-        url: /contribute/
-        weight: 4
 
 SectionPagesMenu:
 - main
@@ -158,7 +151,7 @@ params:
     url: https://www.facebook.com/La-MYNE-Manufacture-des-Id%C3%A9es-et-Nouvelles-Exp%C3%A9rimentations-648362331890903/
   - icon: icon-linkedin
     title: linkedin
-    url: https://www.linkedin.com/company/la-myne-by-lps-
+    url: https://www.linkedin.com/company/la-myne
   - icon: icon-flickr
     title: flickr
     url: https://www.flickr.com/photos/lps_myne/
@@ -174,8 +167,7 @@ params:
     title: youtube
     url: https://www.youtube.com/channel/UC-AkSeIOQf3-fscKmoXfmxA
 
-calendar: https://calendar.google.com/calendar/embed?showTitle=0&amp;mode=WEEK&amp;height=600&amp;wkst=2&amp;bgcolor=%23FFFFFF&amp;src=1es2mhb9dqbisemc5bbnpa1uo8%40group.calendar.google.com&amp;color=%23B1440E&amp;src=vp15sr8j80a0tee88ktcsalfos%40group.calendar.google.com&amp;color=%23AB8B00&amp;src=fr.french%23holiday%40group.v.calendar.google.com&amp;color=%23182C57&amp;src=e_2_fr%23weeknum%40group.v.calendar.google.com&amp;color=%2342104A&amp;ctz=Europe%2FParis3
-taxonomies:
+calendar: https://cloud.lamyne.org/apps/calendar/embed/4ej7LAtyFKwfFbez
   categorie: categories
   project: projects
   tag: tags

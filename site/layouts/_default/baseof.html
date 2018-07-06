@@ -4,7 +4,7 @@
 <head>
   <meta  charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="La MYNE Tiers-Lieu Open Source accompagne les projets d'innovations citoyennes" />
+  <meta name="description" content="Laboratoire de Recherche & d'Expérimentation Citoyen Anti-disciplinaire - Tiers-Lieux Libre & OpenSource des Transitions" />
   <title>{{ .Site.Title }}</title>
   <!-- CSS  -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -49,12 +49,12 @@
 
       <ul id="nav-mobile" class="side-nav">
         {{ range .Site.Params.menu.main }}
-        <li><a href="{{ .url }}">{{ .name }}</a></li>
+          <li><a href="{{ .url }}">{{ .name }}</a></li>
         {{end}}
 
         {{ range .Site.Params.social}}
         {{ if .header }}
-        <li><a href="{{ .url }}"><i class="{{ .icon }}"></i></a></li>
+          <li><a href="{{ .url }}"><i class="{{ .icon }}"></i></a></li>
         {{ end }}
         {{ end }}
       </ul>
@@ -72,9 +72,9 @@
 
         <h5>Informations pratiques</h5>
 
-        <p><strong>Adresse</strong>: 1 rue du luizet, 69100 Villeurbanne<br>
-        <strong>Telephone</strong>: 04 26 64 36 16<br>
-        <strong>Mail</strong>: team[at]lamyne[dot]com<br></p>
+        <p><strong>Adresse</strong>: <u><a href="https://www.openstreetmap.org/node/4319678426">1 rue du luizet, 69100 Villeurbanne</a></u><br>
+        <strong>Telephone</strong>: +33(0)4 26 64 36 16<br>
+        <strong>Mail</strong>: <u><a href="mailto:team@lamyne.org">team[at]lamyne[dot]com</a></u></p>
         <p><strong>Horaires & Modalités d'Ouverture</strong>: voir calendrier <u><strong><a href="https://cloud.lamyne.org/apps/calendar/embed/QfTHWoiYaENKj9es">"VIE A LA MYNE"</a></strong></u></p>
 
       </div>
