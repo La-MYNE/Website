@@ -18,7 +18,7 @@ step2:
   - name: ' Agree on the value of shared ressources'
   - name: ' Formalize a reciprocity agreement'
 step3:
-  name: Develop your research project with a mentor
+  name: Develop your research project
   picto: /img/picto-fork.png
   subset:
   - name: State of art

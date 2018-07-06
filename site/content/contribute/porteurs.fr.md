@@ -18,7 +18,7 @@ step2:
   - name: ' S''accorder sur la valeur des apports mutuels'
   - name: ' Formaliser un accord de réciprocité'
 step3:
-  name: 'Développer son projet de recherche avec son parrain / sa marraine'
+  name: 'Développer son projet de recherche'
   picto: /img/picto-fork.png
   subset:
   - name: ' Etat de l''art et veille'
