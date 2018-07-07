@@ -10,10 +10,10 @@ event: Retrouvez-nous
 news: Dernières Actualités
 team: Les MYNOIS·E·S
 donation:
-  heading: Rejoindre l'association
+  heading: Adhérer
   link: https://www.helloasso.com/associations/la-myne/adhesions/adherer-a-la-myne-en-2018
 community:
-  heading: Rejoindre la communauté
+  heading: Rejoindre
   link: https://chat.lamyne.org
 mission:
 - title: "Espaces, Rencontre et Partage Ouverts"
