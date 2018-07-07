@@ -11,6 +11,6 @@ location:
   postal: 69100
 events: 
 - "rencontres"
-featured: "yes"
+featured: "no"
 description: "A dedicated time to the projects at la MYNE for either project holders or if you have a project idea"
 ---

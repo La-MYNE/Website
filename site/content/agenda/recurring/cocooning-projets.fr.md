@@ -11,6 +11,6 @@ location:
   postal: 69100
 events: 
 - "rencontres"
-featured: "yes"
+featured: "no"
 description: "Un temps dédié aux projets à la MYNE que vous soyez porteur.euse de projet ou que vous ayez une idée de projet"
 ---

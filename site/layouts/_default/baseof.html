@@ -85,11 +85,11 @@
       {{ range .Site.Params.menu.main }}
       <li><a href="{{ .url }}"> {{ .name }}</a></li>
       {{ end }}
-    </ul>
-
+      </ul>
     </div>-->
+
     <div class="col l6 s16">
-      <h5>Nous suivre</h5>
+      <center><h5>{{.Params.newsletterhead}}</h5></center>
       <ul class="menu_horizontal center">
         {{ range .Site.Params.social}}
         <li><a href="{{ .url }}"><i class="{{ .icon }} light-grey"></i></a></li>
@@ -103,7 +103,7 @@
         <div id="mc_embed_signup_scroll">
           <div class="mc-field-group">
             <div align="left">
-              <label for="mce-email"><h6><center>N'hésitez pas à nous laisser votre mail ci-dessous pour accéder à notre newsletter - propulsé par Mailchimp</center></h6></label>
+              <label for="mce-email"><center><h6>{{.Params.newsletter}}</h6></center></label>
             </div>
             <input type="email" value="" name="email" class="required email" id="mce-email">
           </div>
