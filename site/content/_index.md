@@ -13,7 +13,7 @@ donation:
   heading: Adhérer
   link: https://www.helloasso.com/associations/la-myne/adhesions/adherer-a-la-myne-en-2018
 community:
-  heading: Rejoindre
+  heading: Nous Rejoindre
   link: https://chat.lamyne.org
 mission:
 - title: "Espaces, Rencontre et Partage Ouverts"
