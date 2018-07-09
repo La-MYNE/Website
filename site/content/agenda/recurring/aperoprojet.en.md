@@ -3,7 +3,7 @@ start: 2016-12-03T14:48:23
 end: 2019-12-03T14:48:23
 logo: "/img/apero-projet-logo.png"
 thumbnail: "/img/apero-projet-logo.png"
-title: "1st Friday every month - Project MeetUp"
+title: "1st friday every month - Project MeetUp"
 location:
   name: "La MYNE - Manufacture des Idées et Nouvelles Expérimentations"
   street: 1 rue du Luizet
