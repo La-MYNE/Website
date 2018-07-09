@@ -8,9 +8,10 @@ cover: /img/forktheworld.jpg
 newsletter: "Suivez notre Newsletter : Notre communication est frugale - Ne pas hésiter à nous laisser votre e-mail si vous le souhaitez !"
 newsletterhead: Suivez nous
 event: RETROUVEZ-NOUS
-news: Agenda de nos événements
+news: Agenda Evénements
 team: Les MYNOIS·E·S
 projecthead: Quelques projets
+welcome: Agenda des accueils
 
 donation:
   heading: Adhérer

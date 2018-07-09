@@ -8,9 +8,11 @@ cover: /img/forktheworld.jpg
 newsletter: "Follow our Newsletter : Were not intrusive - Do not hesitate to leave your mail if you wish !"
 newsletterhead: Follow us
 event: MEET US
-news: Our events calendar
+news: Events calendar
 team: Les MYNOIS·E·S
 projecthead: Some projects
+welcome: Welcoming calendar
+
 
 donation:
   heading: Join Association
