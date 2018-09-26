@@ -14,15 +14,14 @@ location: 'La Myne, 1 Rue du Luizet, 69100 Villeurbanne'
 recurring:
   - frequency:
       - Tous les samedis (sauf les jours fériés) à la Myne.
-start: 2018-07-07T14:00:00+02:00
-end: 2018-07-07T16:00:00+02:00
+start: 2018-07-07T12:00:00.000Z
+end: 2018-07-07T14:00:00.000Z
 tarif: Adhesion a la Myne - 2 Euros par an + Prix Libre
 cover: /img/samedisdusavoir_vers.1.1.png
 thumbnail: /img/samedisdusavoir_vers.1.1.png
 description: >-
-  Participez à nos sessions régulières tous les Samedis matins à la Myne. Un
-  réseau personnalisé d’apprentissage pair à pair dans un environnement
-  expérimental…
+  Participez à nos sessions régulières tous les Samedis à la Myne. Un réseau
+  personnalisé d’apprentissage pair à pair dans un environnement expérimental…
 documentation:
   - link: 'https://frama.link/samedis_du_savoirs'
     name: affiche "Les Samedis du Savoirs"
@@ -38,7 +37,7 @@ ressources:
 ---
 ## **LES SAMEDIS DU SAVOIRS**
 
-**Participez à nos sessions régulières tous les Samedis matins à la Myne.**
+**Participez à nos sessions régulières tous les Samedis de 14h00 à 16h00 @la Myne.**
 
 Un réseau personnalisé d’apprentissage pair à pair dans un environnement expérimental…
 
