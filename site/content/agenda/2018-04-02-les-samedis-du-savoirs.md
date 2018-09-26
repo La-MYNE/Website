@@ -20,9 +20,8 @@ tarif: Adhesion a la Myne - 2 Euros par an + Prix Libre
 cover: /img/samedisdusavoir_vers.1.1.png
 thumbnail: /img/samedisdusavoir_vers.1.1.png
 description: >-
-  Participez à nos sessions régulières tous les Samedis matins à la Myne. Un
-  réseau personnalisé d’apprentissage pair à pair dans un environnement
-  expérimental…
+  Participez à nos sessions régulières tous les Samedis à la Myne. Un réseau
+  personnalisé d’apprentissage pair à pair dans un environnement expérimental…
 documentation:
   - link: 'https://frama.link/samedis_du_savoirs'
     name: affiche "Les Samedis du Savoirs"
