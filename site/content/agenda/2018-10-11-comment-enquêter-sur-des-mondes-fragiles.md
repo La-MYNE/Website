@@ -11,8 +11,8 @@ porteurs:
   - Nicolas Loubet
   - Alexandre Monnin
 location: 'La MYNE, 1 Rue du Luizet, 69100 Villeurbanne'
-start: 2018-10-12T06:00:00+02:00
-end: 2018-10-12T21:00:34+02:00
+start: 2018-10-12T18:00:00+02:00
+end: 2018-10-12T19:00:34.000Z
 tarif: Adhesion à l’association la MYNE (2€)
 cover: /img/antoine-hennion-enquete-mondes-fragiles.png
 thumbnail: /img/antoine-hennion-enquete-mondes-fragiles-miniature.png
