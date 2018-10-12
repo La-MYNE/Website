@@ -8,18 +8,17 @@ porteurs:
   - Emmanuel L.
 location: La Myne
 fullday: false
-start: 2018-10-15T19:00:00+02:00
-end: 2018-10-15T21:00:08+02:00
+start: 2018-10-15T17:00:00.000Z
+end: 2018-10-15T19:00:08.000Z
 tarif: 'adhesion a la myne, 2e/an'
 cover: /img/em visuel horizon.jpg
 description: >-
-  la Myne invite @boris Aubligine d'Etika Mondo pour un échange de pratiques et
-  un partage de projets. Etika Mondo accompagne les familles pour les aider à
-  réaliser au quotidien des projets alignés sur leurs valeurs, et les
-  organisations éthiques pour les aider à réussir dans cette transition impact
-  éthique et résilience économique. Avec l'ouverture d'un incubateur
-  bioclimatique pour accueillir et accompagner des projets éthiques, Etika Mondo
-  cherche des expériences pour devenir autonome et résilient.
+  Etika Mondo accompagne les familles pour les aider à réaliser au quotidien des
+  projets alignés sur leurs valeurs, et les organisations éthiques pour les
+  aider à réussir dans cette transition impact éthique et résilience économique.
+  Avec l'ouverture d'un incubateur bioclimatique pour accueillir et accompagner
+  des projets éthiques, Etika Mondo cherche des expériences pour devenir
+  autonome et résilient.
 ---
 La Myne invite Boris Aubligine d'[Etika Mondo](https://www.facebook.com/EtikaMondo) pour un échange de pratiques et un partage de projets. Etika Mondo accompagne les familles pour les aider à réaliser au quotidien des projets alignés sur leurs valeurs, et les organisations éthiques pour les aider à réussir dans cette transition éthique avec la nécessaire résilience économique.
 
