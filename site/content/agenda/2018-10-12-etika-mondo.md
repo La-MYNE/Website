@@ -11,8 +11,8 @@ porteurs:
   - Emmanuel Laurent
 location: 'La MYNE, 1 Rue du Luizet, 69100 Villeurbanne'
 fullday: false
-start: 2018-10-15T17:00:00.000Z
-end: 2018-10-15T19:00:08.000Z
+start: 2018-10-15T21:00:00+02:00
+end: 2018-10-15T23:00:08+02:00
 tarif: Adhesion à l’association la MYNE (2€)
 cover: /img/em visuel horizon.jpg
 description: >-
