@@ -4,9 +4,9 @@ tags:
   - effondrement
   - écologie politique
 porteurs:
-  - Valentine
-  - Alexandre
-location: La Myne
+  - Adrastia
+  - La MYNE
+location: La MYNE
 start: 2018-12-17T11:00:22.000Z
 end: 2018-12-17T17:00:22.000Z
 tarif: 'adhesion a la myne, 2e/an'
@@ -30,7 +30,7 @@ La période de basculement physique et mental qu’amorcent nos sociétés aujou
 
 Ceci afin de pouvoir revenir, mieux armés, à la question introductive qui anime et provoque de vifs débats, tant dans les communautés rassemblées autour de l’idée d’effondrement que dans les réseaux politiques critiques du modèle de développement économique, technique et social contemporain.
 
-L'objectif est la contribution collective (au lieu d'inviter un intervenant qui cadrerait le contenu et le savoir) en petit nombre (pour s'écouter et discuter) pour aller plus loin sur les questions présentées plus haut et beaucoup d'autres que chacun va faire émerger.
+L'objectif est la contribution collective (au lieu d'inviter un intervenant qui cadrerait le contenu et le savoir) en petit nombre (pour s'écouter et discuter) afin d'aller plus loin sur les questions présentées plus haut et beaucoup d'autres que chacun fera émerger.
 
 Avec : La MYNE, Adrastia, le Réseau Universités pour la Décroissance, Ingénieurs Engagés, Francis Chateauraynaud, autres compagnons de route et curieux de l’exercice.
 
