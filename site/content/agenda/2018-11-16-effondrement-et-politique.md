@@ -8,7 +8,7 @@ porteurs:
   - La MYNE
 location: La MYNE
 start: 2018-12-17T11:00:22.000Z
-end: 2018-12-17T19:00:22+01:00
+end: 2018-12-17T18:00:22.000Z
 tarif: 'adhesion a la myne, 2e/an'
 ressources:
   - link: 'http://ecorev.org/spip.php?article5'
@@ -32,6 +32,6 @@ Ceci afin de pouvoir revenir, mieux armés, à la question introductive qui anim
 
 L'objectif est la contribution collective (au lieu d'inviter un intervenant qui cadrerait le contenu et le savoir) en petit nombre (pour s'écouter et discuter) afin d'aller plus loin sur les questions présentées plus haut et beaucoup d'autres que chacun fera émerger.
 
-Avec : La MYNE, Adrastia, le Réseau Universités pour la Décroissance, Ingénieurs Engagés, Francis Chateauraynaud, autres compagnons de route et curieux de l’exercice.
+Avec : La MYNE, Adrastia, le Réseau Universités pour la Décroissance, Ingénieurs Engagés, autres compagnons de route et curieux de l’exercice.
 
 Une première rencontre est prévue le **17 décembre 2018 de 12h à 18h**. D'autres suivront dès le début du mois de Janvier 2019.
