@@ -8,7 +8,7 @@ porteurs:
   - La MYNE
 location: La MYNE
 start: 2018-12-17T11:00:22.000Z
-end: 2018-12-17T17:00:22.000Z
+end: 2018-12-17T19:00:22+01:00
 tarif: 'adhesion a la myne, 2e/an'
 ressources:
   - link: 'http://ecorev.org/spip.php?article5'
