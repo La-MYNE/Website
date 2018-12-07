@@ -25,7 +25,7 @@ ressources:
 
 La MYNE propose un séminaire pour prendre le temps de réfléchir à l’articulation de ces deux notions. Chacune à sa manière constitue un prisme d’analyse du réel, porteuse de temporalités longues entrelaçant passé, présent et avenir, responsabilité collective et individuelle, imaginaires castrateurs, dogmatiques et émancipateurs. 
 
-La période de basculement physique et mental qu’amorcent nos sociétés aujourd’hui vers un possible effondrement de la civilisation thermo-industrielle, et son corollaire effondrement de la biodiversité, s’accompagne d’une pluralité de réponses politiques. Nous souhaitons amorcer un travail de fond visant à 
+La période de basculement physique et mental qu’amorcent nos sociétés aujourd’hui vers un possible effondrement de la civilisation thermo-industrielle, et son corollaire effondrement de la biodiversité, s’accompagne d’une pluralité de réponses politiques. Nous souhaitons amorcer un travail de fond visant à :
 
 1- identifier des positionnements politiques existants par rapport à l’effondrement ; \
 2- questionner les fondements éthiques indispensables à une posture politique émancipatrice et non annihilante ; \
