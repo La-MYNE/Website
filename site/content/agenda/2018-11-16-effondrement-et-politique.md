@@ -23,7 +23,7 @@ ressources:
 ---
 # _Effondrement et politique sont-ils des adversaires ?_
 
-La MYNE propose un séminaire pour prendre le temps de réfléchir à l’articulation de ces deux notions. Chacune à sa manière constitue un prisme d’analyse du réel, porteuse de temporalités longues entrelaçant passé, présent et avenir, responsabilité collective et individuelle, imaginaires castrateurs, dogmatiques et émancipateurs. 
+La MYNE propose un séminaire pour prendre le temps de réfléchir à l’articulation de ces deux notions. Chacune à sa manière constitue un prisme d’analyse du réel, porteuse de temporalités longues entrelaçant passé, présent et avenir, responsabilité collective et individuelle, imaginaires castrateurs, dogmatiques et émancipateurs.  
 
 La période de basculement physique et mental qu’amorcent nos sociétés aujourd’hui vers un possible effondrement de la civilisation thermo-industrielle, et son corollaire effondrement de la biodiversité, s’accompagne d’une pluralité de réponses politiques. Nous souhaitons amorcer un travail de fond visant à :
 
@@ -37,7 +37,7 @@ Ceci afin de pouvoir revenir, mieux armés, à la question introductive qui anim
 
 L'objectif est la contribution collective (au lieu d'inviter un intervenant qui cadrerait le contenu et le savoir) en petit nombre (pour s'écouter et discuter) afin d'aller plus loin sur les questions présentées plus haut et beaucoup d'autres que chacun fera émerger.
 
-**Où ?** Au bar associatif _L'Amicale_, 31 rue Sébastien Gryphe, 69007 LYON.
+**Où ?** Au bar-coopérative _Le Court-Circuit_, rue Sébastien Gryphe, 69007 LYON.
 
 **Quand ?** Une première rencontre est prévue le **17 décembre 2018 de 12h à 18h**. D'autres suivront dès le début du mois de Janvier 2019.
 
