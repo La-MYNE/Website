@@ -37,8 +37,8 @@ Ceci afin de pouvoir revenir, mieux armés, à la question introductive qui anim
 
 L'objectif est la contribution collective (au lieu d'inviter un intervenant qui cadrerait le contenu et le savoir) en petit nombre (pour s'écouter et discuter) afin d'aller plus loin sur les questions présentées plus haut et beaucoup d'autres que chacun fera émerger.
 
-**Où ?** Au bar-coopérative _Le Court-Circuit_, rue Sébastien Gryphe, 69007 LYON.
+**Où ?** à La MYNE, 1 rue du Luizet, Villeurbanne.
 
-**Quand ?** Une première rencontre est prévue le **17 décembre 2018 de 12h à 18h**. D'autres suivront dès le début du mois de Janvier 2019.
+**Quand ?** Une première rencontre se tiendra le **17 décembre 2018 de 12h à 18h**. Nous commencerons avec un repas partagé sur place (amenez ce qu'il vous fera plaisir) et nous poursuivrons les échanges tout au long de l'après-midi. D'autres rencontres suivront au début de l'année 2019.
 
-Avec potentiellement : La MYNE, Adrastia, le Réseau Universités pour la Décroissance, Ingénieurs Engagés Lyon, autres compagnons de route et curieux de l’exercice.
+Contact: porchevalentine \[at] protonmail \[dot] com
