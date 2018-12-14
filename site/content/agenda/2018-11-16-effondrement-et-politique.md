@@ -23,7 +23,7 @@ ressources:
 ---
 # _Effondrement et politique sont-ils des adversaires ?_
 
-La MYNE propose un séminaire pour prendre le temps de réfléchir à l’articulation de ces deux notions. Chacune à sa manière constitue un prisme d’analyse du réel, porteuse de temporalités longues entrelaçant passé, présent et avenir, responsabilité collective et individuelle, imaginaires castrateurs, dogmatiques et émancipateurs. 
+La MYNE propose un séminaire pour prendre le temps de réfléchir à l’articulation de ces deux notions. Chacune à sa manière constitue un prisme d’analyse du réel, porteuse de temporalités longues entrelaçant passé, présent et avenir, responsabilité collective et individuelle, imaginaires castrateurs, dogmatiques et émancipateurs.  
 
 La période de basculement physique et mental qu’amorcent nos sociétés aujourd’hui vers un possible effondrement de la civilisation thermo-industrielle, et son corollaire effondrement de la biodiversité, s’accompagne d’une pluralité de réponses politiques. Nous souhaitons amorcer un travail de fond visant à :
 
@@ -39,6 +39,6 @@ L'objectif est la contribution collective (au lieu d'inviter un intervenant qui 
 
 **Où ?** à La MYNE, 1 rue du Luizet, Villeurbanne.
 
-**Quand ?** Une première rencontre est prévue le **17 décembre 2018 de 12h à 18h**. D'autres suivront dès le début du mois de Janvier 2019.
+**Quand ?** Une première rencontre se tiendra le **17 décembre 2018 de 12h à 18h**. Nous commencerons avec un repas partagé sur place (amenez ce qu'il vous fera plaisir) et nous poursuivrons les échanges tout au long de l'après-midi. D'autres rencontres suivront au début de l'année 2019.
 
-Avec potentiellement : La MYNE, Adrastia, le Réseau Universités pour la Décroissance, Ingénieurs Engagés, autres compagnons de route et curieux de l’exercice.
+Contact: porchevalentine \[at] protonmail \[dot] com
