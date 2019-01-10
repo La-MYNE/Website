@@ -1,13 +1,13 @@
 ---
-title: '[MYNE] Rencontre @ExtinctionR Groupe Local Lyon Exinction Rebellion'
+title: '[MYNE] Rencontre @ExtinctionR Groupe Local Lyon Extinction Rebellion'
 node:
   - rencontre
 tags:
   - extinction rebellion
   - rencontre
 location: 'La MYNE, 1 Rue du Luizet, 691000 Villeurbanne'
-start: 2019-01-10T18:30:00+01:00
-end: 2019-01-10T20:00:00+01:00
+start: 2019-01-10T17:30:00.000Z
+end: 2019-01-10T19:00:00.000Z
 tarif: 'Adhesion a la myne, 2e/an'
 cover: /img/extinctionrebellion_affiche.jpg
 thumbnail: /img/extinctionrebellion_affiche.jpg
