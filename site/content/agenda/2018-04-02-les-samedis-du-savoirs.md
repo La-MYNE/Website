@@ -1,7 +1,7 @@
 ---
-title: Les Samedis du Savoirs
+title: Les Samedis du Savoir
 node:
-  - samedis du savoirs
+  - samedis du savoir
 tags:
   - réseau
   - apprentissage
@@ -63,4 +63,4 @@ _Pour tous renseignements, merci de contacter:_
 
 _Connie & Benjamin samedisdusavoir@protonmail.com_
 
-_chat.lamyne.org/channel/samedi_du_savoirs_
+_chat.lamyne.org/channel/samedis_du_savoir_
