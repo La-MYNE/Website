@@ -1,23 +1,23 @@
 ---
+title: Myn-A-Lab2
+node:
+  - mynalab
+tags:
+  - autonomie
 cover: /img/mynalab-cover.jpg
-categories: Project
-date: '2012-04-06'
-description: Une maison autonome, expérimentale & interconnectée
-documentation:
-- link: https://hackpad.com/DAISEE-IsOE-Log-book-PUz5Rhc26pE
-  name: Logbook
-- link: https://hackpad.com/DAISEE-IsOE-Meetings-ldL8yFyYtyi
-  name: Meetings
-- link: https://hackpad.com/DAISEE-Comment-presenter-le-projet-wzsbznK1HSO
-  name: Pitch FR
-- link: https://hackaday.io/project/10879-internets-of-energy-call-me-daisee
-  name: Hackaday Prize
-porteurs: [""]
-slug: mynalab
-tags: ["autonomie"]
 thumbnail: /img/mynalab-thumbnail.png
-title: Myn-A-Lab
-node: ["mynalab"]
+description: 'Une maison autonome, expérimentale & interconnectée'
+porteurs:
+  - ''
+documentation:
+  - link: 'https://hackpad.com/DAISEE-IsOE-Log-book-PUz5Rhc26pE'
+    name: Logbook
+  - link: 'https://hackpad.com/DAISEE-IsOE-Meetings-ldL8yFyYtyi'
+    name: Meetings
+  - link: 'https://hackpad.com/DAISEE-Comment-presenter-le-projet-wzsbznK1HSO'
+    name: Pitch FR
+  - link: 'https://hackaday.io/project/10879-internets-of-energy-call-me-daisee'
+    name: Hackaday Prize
 ---
 
 Vers une maison autonome, expérimentale & interconnectée
