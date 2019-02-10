@@ -20,7 +20,7 @@ documentation:
     name: Hackaday Prize
 ---
 
-Vers une maison autonome, expérimentale & interconnectée
+Ver2s une maison autonome, expérimentale & interconnectée
 
 Alors que plusieurs prototypes d’innovations favorisés à la Paillasse Saône posent les questions d’autonomie énergétique, la maison devient en 2016 l’objet de recherche même se son propre laboratoire.
 Une expérimentation grandeur nature de la réhabilitation d’une maison ancienne avec des briques technologiques « autonomisantes » et expérimentales (énergies, agriculture, eau…), et connectée permettant de tirer partie des ressources du territoires en travaillant avec l’ensemble de ses acteurs et d’être en lien avec d’autres projets et l’expérimentation d’une économie de confiance.
