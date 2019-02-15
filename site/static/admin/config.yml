@@ -10,7 +10,7 @@ collections: # A list of collections the CMS should be able to edit
     label: "Project" # Used in the UI, ie.: "New Post"
     folder: "site/content/project" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields:
       - {label: "Title", name: "title", widget: "string", tagname: "h1"}
       - {label: "Node", name: "node", widget: "list", required: false}
@@ -39,7 +39,7 @@ collections: # A list of collections the CMS should be able to edit
     label: "Atelier et Formation" # Used in the UI, ie.: "New Post"
     folder: "site/content/ateliers" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields:
       - {label: "Title", name: "title", widget: "string", tagname: "h1"}
       - {label: "Node", name: "node", widget: "list", required: false}
@@ -97,7 +97,7 @@ collections: # A list of collections the CMS should be able to edit
     label: "Ressources et Documentation" # Used in the UI, ie.: "New Post"
     folder: "site/content/documentation" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields:
       - {label: "Title", name: "title", widget: "string", tagname: "h1"}
       - {label: "Tags", name: "tags", widget: "list", required: false, default: ['term_1', 'term_2']}
@@ -109,7 +109,7 @@ collections: # A list of collections the CMS should be able to edit
     label: "MYNOIS-E" # Used in the UI, ie.: "New Post"
     folder: "site/content/mynois" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields:
       - {label: "Name", name: "name", widget: "string", tagname: "h1", required: false}
       - {label: "Tags", name: "tags", widget: list, default: ['term_1', 'term_2'], required: false}
