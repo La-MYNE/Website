@@ -10,6 +10,7 @@ thumbnail: /img/default-thumbnail.png
 description: description du projet solarose
 porteurs:
   - Emmanuel Laurent
+  - nicolas
 documentation:
   - link: >-
       https://pad.lamyne.org/OwJgbAzAJhCmYFoAsAGAnC5BWAhgYwTQCMBGAgDiSLSiSxIDMcRgg===#
@@ -21,5 +22,10 @@ competence:
     name: ingenierie lowtech
 ---
 Body de la page concentrateur solaire + solarOSE + actions @Lyon
+avec ca marche !
+
+pouet
+
+prout
 
 lien vers la [page movilab](http://movilab.org/index.php?title=Concentrateur_solaire)
