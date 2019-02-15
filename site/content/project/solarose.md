@@ -10,7 +10,7 @@ thumbnail: /img/default-thumbnail.png
 description: description du projet solarose
 porteurs:
   - Emmanuel Laurent
-  - nicolas
+  - nicolas loubet
 documentation:
   - link: >-
       https://pad.lamyne.org/OwJgbAzAJhCmYFoAsAGAnC5BWAhgYwTQCMBGAgDiSLSiSxIDMcRgg===#
@@ -29,3 +29,5 @@ pouet
 prout
 
 lien vers la [page movilab](http://movilab.org/index.php?title=Concentrateur_solaire)
+
+et VOILA!
