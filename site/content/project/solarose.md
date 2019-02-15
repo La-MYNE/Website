@@ -10,7 +10,8 @@ thumbnail: /img/default-thumbnail.png
 description: description du projet solarose
 porteurs:
   - Emmanuel Laurent
-  - nicolas loubet
+  - nicolas
+  - Rieul
 documentation:
   - link: >-
       https://pad.lamyne.org/OwJgbAzAJhCmYFoAsAGAnC5BWAhgYwTQCMBGAgDiSLSiSxIDMcRgg===#
