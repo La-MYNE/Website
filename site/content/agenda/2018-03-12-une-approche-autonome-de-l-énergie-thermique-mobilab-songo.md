@@ -1,5 +1,5 @@
 ---
-title: Une approche autonome de l'énergie thermique - Mobilab Songo
+title: Une approche autonome de l'énergie thermique
 node:
   - Myne
 tags:
@@ -8,13 +8,9 @@ tags:
 porteurs:
   - Anton deums
   - Thomas Germain
-location:
-  name: "La MYNE - Manufacture des Idées et Nouvelles Expérimentations"
-  street: 1 rue du Luizet
-  city: Villeurbanne
-  postal: 69100
+location: 'La MYNE, 1 Rue du Luizet, 69100 Villeurbanne'
 fullday: false
-start: 2018-03-16T18:00:00+01:00
+start: 2018-03-16T17:00:00.000Z
 end: 2018-03-16T19:30:39.000Z
 tarif: 'adhesion a la myne, 2e/an'
 cover: /img/mobilablamyne.jpg
