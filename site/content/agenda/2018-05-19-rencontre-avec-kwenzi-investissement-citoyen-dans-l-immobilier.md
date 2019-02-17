@@ -1,5 +1,5 @@
 ---
-title: '[MYNE] Rencontre avec Kwenzi : investissement citoyen dans l''immobilier'
+title: Rencontre avec Kwenzi sur l’immobilier éthique
 tags:
   - term_1
   - term_2
