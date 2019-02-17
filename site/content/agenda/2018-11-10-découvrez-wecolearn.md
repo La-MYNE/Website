@@ -1,5 +1,5 @@
 ---
-title: Présentation de l’application WeColearn
+title: Présentation de WeColearn
 node:
   - présentation
 tags:
