@@ -1,5 +1,5 @@
 ---
-title: Lancement du séminaire "Effondrement et politique"
+title: Journée de lancement du séminaire "Effondrement et politique"
 tags:
   - effondrement
   - écologie politique
