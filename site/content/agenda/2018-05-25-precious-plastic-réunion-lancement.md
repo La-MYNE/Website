@@ -1,10 +1,10 @@
 ---
-title: '[PRECIOUS PLASTIC] Réunion lancement'
+title: Lancement du chapitre lyonnais Precious Plastic
 tags:
-  - term_1
-  - term_2
-start: 2018-05-29T18:30:58+02:00
-end: 2018-05-29T21:00:00+02:00
+  - Precious Plastic
+  - ''
+start: 2018-05-29T16:30:58.000Z
+end: 2018-05-29T19:00:00.000Z
 tarif: 'adhesion a la myne, 2e/an'
 cover: /img/precious-plastic_ thumbnail.jpg
 ---
