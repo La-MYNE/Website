@@ -1,5 +1,5 @@
 ---
-title: '[MYNE] Rencontre @ExtinctionR Groupe Local Lyon Extinction Rebellion'
+title: Rencontre du chapitre Extinction Rebellion à Lyon
 node:
   - rencontre
 tags:
@@ -13,4 +13,4 @@ cover: /img/extinctionrebellion_affiche.jpg
 thumbnail: /img/extinctionrebellion_affiche.jpg
 description: 'Rencontre du groupe local lyonnais Extinction Rebellion. '
 ---
-Suite à la rencontre du 11 décembre à la MYNE des personnes intéressées et engagées dans et par Extension Rebellion à Lyon, une autre rencontre est prévue le jeudi 10 janvier à 18.30 pour poursuivre les rencontres et les échanges à la MYNE.
+Cette rencontre fait suite à celle du 11 Décembre 2018. Le but est de réunir et accueillir les personnes intéressées et engagées dans et avec le mouvement _Extension Rebellion_ à Lyon.
