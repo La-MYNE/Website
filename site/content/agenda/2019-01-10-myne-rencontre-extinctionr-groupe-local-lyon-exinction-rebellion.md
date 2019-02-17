@@ -1,5 +1,5 @@
 ---
-title: 'Rencontre du chapitre lyonnais Extinction Rebellion '
+title: Rencontre Extinction Rebellion à Lyon
 node:
   - rencontre
 tags:
