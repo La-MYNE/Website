@@ -17,7 +17,8 @@ documentation:
   - link: 'https://pad.lamyne.org/MYNE-AV-Masterclass?view'
     name: Pad documentant la masterclass
 ---
-# Appréhender le web sémantique avec les outils de l’Assemblée Virtuelle
+# Masterclass Assemblée Virtuelle
+### Appréhender le web sémantique avec les outils de l’Assemblée Virtuelle
 
 L'[Assemblée Virtuelle](https://www.virtual-assembly.org/) est une association qui rassemble un écosystème d'acteurs développant des communs au service de la transition. Son objectif est de travailler au développement d'outils et de méthologies pour dé-siloter nos outils et nos organisations et faciliter la coopération entre les personnes.
 
