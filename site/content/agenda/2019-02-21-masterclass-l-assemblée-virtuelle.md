@@ -7,7 +7,7 @@ tags:
 porteurs:
   - Thomas GERMAIN
 location: La Myne
-start: 2019-02-26T17:30:12.000Z
+start: 2019-02-26T18:30:12+01:00
 end: 2019-02-26T20:00:12.000Z
 tarif: 'Adhesion a la myne, 2€/an'
 cover: /img/jaume-plensa-bannière.jpg
