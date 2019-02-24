@@ -1,6 +1,6 @@
 ---
 # title: La MYNE
-# subtitle: Manufacture des Idées et des Nouvelles Expérimentations
+# subtitle: Une Manufacture des Idées et des Nouvelles Expérimentations
 catchline: >-
   <p>La MYNE est un laboratoire de recherche pour les citoyen.ne.s qui expérimentent le futur. Nous agissons en Tier(s)-Lieu(x) par les Communs.</p><br>
   <p>#Anthropocene #Transitions #TiersLieux #Communs</p>
@@ -14,7 +14,7 @@ projecthead: Quelques projets
 welcome: Agenda des accueils
 
 donation:
-  heading: Rejoindre l'association
+  heading: Adhérer
   link: https://www.helloasso.com/associations/la-myne/adhesions/adhesions-et-dons-2019
 
 community:
