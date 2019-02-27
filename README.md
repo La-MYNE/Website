@@ -1,4 +1,4 @@
-# A website powered by Hugo and Netlify CMS
+# Website powered by Hugo and Netlify CMS
 
 ## Getting started
 
