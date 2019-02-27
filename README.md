@@ -1,4 +1,4 @@
-# La MYNE website powered by Hugo and Netlify CMS
+# A website powered by Hugo and Netlify CMS
 
 ## Getting started
 
