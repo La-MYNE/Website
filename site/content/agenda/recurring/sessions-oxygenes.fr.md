@@ -3,7 +3,7 @@ start: 2016-12-03T14:48:23
 end: 2019-12-03T14:48:23
 logo : "/img/oxygene-logo.png"
 thumbnail : "/img/oxygene-logo.png"
-title : "Tous les mercredi soirs - Sessions Ox[Y]Gen"
+title : "Le dernier Jeudi du mois - Sessions Ox[Y]Gen"
 location:
   name: "La MYNE - Manufacture des Idées et Nouvelles Expérimentations"
   street: 1 rue du Luizet
@@ -12,5 +12,5 @@ location:
 events: 
 - "rencontres"
 featured : "yes"
-description : "De 18.00 à 21.00 nous vous accueillons lors de nos ouvertures publiques, dites Ox[Y]Gen, à la MYNE. Vous y trouverez toujours quelqu'un."
+description : "De 17.30 à 19.30 nous vous accueillons lors de nos ouvertures publiques, dites Ox[Y]Gen, à la MYNE. Vous y trouverez toujours quelqu'un."
 ---
