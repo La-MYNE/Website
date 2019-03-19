@@ -3,7 +3,7 @@ start: 2016-12-03T14:48:23
 end: 2019-12-03T14:48:23
 logo: "/img/apero-projet-logo.png"
 thumbnail: "/img/apero-projet-logo.png"
-title: "1er vendredi du mois - Apéros Projets"
+title: "Apéros Projets"
 location:
   name: "La MYNE - Manufacture des Idées et Nouvelles Expérimentations"
   street: 1 rue du Luizet
