@@ -10,14 +10,14 @@ description: 'Une maison autonome, expérimentale & interconnectée'
 porteurs:
   - ''
 documentation:
-  - link: 'https://hackpad.com/DAISEE-IsOE-Log-book-PUz5Rhc26pE'
-    name: Logbook
-  - link: 'https://hackpad.com/DAISEE-IsOE-Meetings-ldL8yFyYtyi'
-    name: Meetings
-  - link: 'https://hackpad.com/DAISEE-Comment-presenter-le-projet-wzsbznK1HSO'
-    name: Pitch FR
-  - link: 'https://hackaday.io/project/10879-internets-of-energy-call-me-daisee'
-    name: Hackaday Prize
+  - link: ''
+    name: ''
+  - link: ''
+    name: ''
+  - link: ''
+    name: ''
+  - link: ''
+    name: ''
 ---
 
 Ver2s une maison autonome, expérimentale & interconnectée
