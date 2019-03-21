@@ -1,5 +1,5 @@
 ---
-title: Myn-A-Lab2
+title: Myne-A-Lab
 node:
   - mynalab
 tags:
