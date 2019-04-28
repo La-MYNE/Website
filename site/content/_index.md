@@ -14,11 +14,11 @@ projecthead: Quelques projets
 welcome: Agenda des accueils
 
 donation:
-  heading: Adhérer
+  heading: Adhérer à l'asso
   link: https://www.helloasso.com/associations/la-myne/adhesions/adhesions-et-dons-2019
 
 community:
-  heading: Rejoindre la communauté
+  heading: Nous rejoindre
   link: https://chat.lamyne.org
 
 mission:
