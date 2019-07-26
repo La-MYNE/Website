@@ -15,8 +15,8 @@
    width="840"
    height="200"
    viewBox="0 0 840 200"
-   sodipodi:docname="lamyne-bandeau.svg"
-   inkscape:export-filename="/home/ryu5t/Bureau/test/site/static/img/lamyne-bandeau.png"
+   sodipodi:docname="lamyne-bandeau-agenda.svg"
+   inkscape:export-filename="/home/ryu5t/Bureau/site/static/img/lamyne-bandeau-agenda.png"
    inkscape:export-xdpi="364"
    inkscape:export-ydpi="364">
   <metadata
@@ -27,7 +27,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -48,7 +48,7 @@
      showgrid="true"
      showguides="true"
      inkscape:zoom="1.0960155"
-     inkscape:cx="433.44511"
+     inkscape:cx="396.03688"
      inkscape:cy="88.132189"
      inkscape:window-x="67"
      inkscape:window-y="27"
@@ -149,7 +149,7 @@
      inkscape:label="Dessins"
      transform="translate(0,-50)">
     <g
-       transform="matrix(-0.1612084,0.12388817,-0.12388817,-0.1612084,836.07061,229.11059)"
+       transform="matrix(-0.1612084,0.12388817,-0.12388817,-0.1612084,786.07061,203.11059)"
        id="g3338-3"
        inkscape:transform-center-x="53.235236"
        inkscape:transform-center-y="-34.592712">
@@ -184,7 +184,7 @@
          style="fill:#393939" />
     </g>
     <g
-       transform="matrix(0.46438209,0.56135157,-0.56135157,0.46438209,837.33453,-6.388237)"
+       transform="matrix(0.46438209,0.56135157,-0.56135157,0.46438209,803.33453,31.611763)"
        id="g3338-9">
       <path
          sodipodi:nodetypes="ccsssssssssssscsccsccc"
@@ -197,7 +197,7 @@
        sodipodi:nodetypes="ssssscsssssssssssssscsssssssss"
        inkscape:connector-curvature="0"
        id="path3348-35"
-       d="m 512.21005,63.541856 c 2.93784,-2.070478 6.96221,-2.513732 10.29185,-1.133331 1.27103,0.526962 2.13636,1.0932 3.1898,2.088172 1.11724,1.050772 1.72357,1.873693 2.35041,3.172233 1.20386,2.491478 1.38241,5.213117 0.5268,7.997848 l -0.26313,0.856843 2.89187,3.04426 c 2.47205,2.601473 2.88484,3.069933 2.84919,3.215365 -0.0161,0.09548 -0.25293,0.377567 -0.51445,0.630566 -0.7372,0.720724 -0.43659,0.93675 -4.29523,-3.079283 -2.83764,-2.955192 -3.279,-3.442958 -3.23679,-3.581731 0.0376,-0.08662 0.20836,-0.50473 0.39953,-0.925252 1.16664,-2.54084 0.93686,-5.79967 -0.58163,-8.242764 -0.55864,-0.898913 -1.77593,-2.117783 -2.69565,-2.699364 -2.30278,-1.453471 -5.07958,-1.750627 -7.72105,-0.826084 -1.3541,0.474497 -1.91484,0.836164 -3.12203,2.01739 -0.93514,0.916064 -1.09602,1.123074 -1.48847,1.821845 -0.8309,1.509508 -1.1632,2.855691 -1.13141,4.583888 0.0376,2.293485 0.85212,4.250311 2.43424,5.878545 2.59722,2.674548 6.521,3.423701 9.95654,1.900876 l 0.4543,-0.201699 3.43215,3.534211 c 2.578,2.654803 3.4306,3.57635 3.42931,3.700817 -0.003,0.204545 -0.8185,1.014884 -1.1102,1.093023 -0.19654,0.06009 -0.30931,-0.04618 -3.13583,-2.95669 -3.30961,-3.408155 -2.9328,-3.137263 -3.92357,-2.823819 -0.78489,0.249277 -2.38494,0.424609 -3.3298,0.366881 -5.04918,-0.309852 -9.08573,-3.846286 -10.02055,-8.778786 -0.18741,-0.979704 -0.17667,-2.904697 0.0161,-3.895201 0.56219,-2.82274 2.06231,-5.163809 4.33663,-6.766744 z"
+       d="m 568.21005,97.541856 c 2.93784,-2.070478 6.96221,-2.513732 10.29185,-1.133331 1.27103,0.526962 2.13636,1.0932 3.1898,2.088172 1.11724,1.050772 1.72357,1.873693 2.35041,3.172233 1.20386,2.49148 1.38241,5.21312 0.5268,7.99785 l -0.26313,0.85684 2.89187,3.04426 c 2.47205,2.60147 2.88484,3.06993 2.84919,3.21537 -0.0161,0.0955 -0.25293,0.37756 -0.51445,0.63056 -0.7372,0.72073 -0.43659,0.93675 -4.29523,-3.07928 -2.83764,-2.95519 -3.279,-3.44296 -3.23679,-3.58173 0.0376,-0.0866 0.20836,-0.50473 0.39953,-0.92525 1.16664,-2.54084 0.93686,-5.79967 -0.58163,-8.24277 -0.55864,-0.89891 -1.77593,-2.117781 -2.69565,-2.699362 -2.30278,-1.453471 -5.07958,-1.750627 -7.72105,-0.826084 -1.3541,0.474497 -1.91484,0.836164 -3.12203,2.017386 -0.93514,0.91607 -1.09602,1.12308 -1.48847,1.82185 -0.8309,1.50951 -1.1632,2.85569 -1.13141,4.58389 0.0376,2.29348 0.85212,4.25031 2.43424,5.87854 2.59722,2.67455 6.521,3.4237 9.95654,1.90088 l 0.4543,-0.2017 3.43215,3.53421 c 2.578,2.6548 3.4306,3.57635 3.42931,3.70082 -0.003,0.20454 -0.8185,1.01488 -1.1102,1.09302 -0.19654,0.0601 -0.30931,-0.0462 -3.13583,-2.95669 -3.30961,-3.40815 -2.9328,-3.13726 -3.92357,-2.82382 -0.78489,0.24928 -2.38494,0.42461 -3.3298,0.36688 -5.04918,-0.30985 -9.08573,-3.84628 -10.02055,-8.77878 -0.18741,-0.97971 -0.17667,-2.9047 0.0161,-3.8952 0.56219,-2.82274 2.06231,-5.163814 4.33663,-6.766749 z"
        style="fill:#ffffff;fill-opacity:0.94117647;stroke-width:0.32734817" />
   </g>
   <g
@@ -224,19 +224,15 @@
        xml:space="preserve"
        id="flowRoot1037"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:189.99999762%;font-family:'Futura Bk BT';-inkscape-font-specification:'Futura Bk BT';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:0.99061028;stroke:#fffff0;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       transform="translate(-104,10)"><flowRegion
+       transform="translate(-42.452916,32.809896)"><flowRegion
          id="flowRegion1039"
          style="line-height:189.99999762%;fill:#ffffff;fill-opacity:0.99061028;stroke:#fffff0;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"><rect
            id="rect1041"
-           width="265.50717"
-           height="141.42139"
+           width="237.22292"
+           height="135.03462"
            x="643.23907"
            y="83.031555"
            style="line-height:189.99999762%;fill:#ffffff;fill-opacity:0.99061028;stroke:#fffff0;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" /></flowRegion><flowPara
-         id="flowPara1043"
-         style="font-size:29.33333397px;line-height:150%;letter-spacing:0.60000002px;fill:#ffffff;fill-opacity:0.99061028;stroke:none;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">Explorer les futurs.</flowPara><flowPara
-         id="flowPara1045"
-         style="font-size:29.33333397px;line-height:150%;letter-spacing:0.60000002px;fill:#ffffff;fill-opacity:0.99061028;stroke:none;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">Agir en tiers-lieu,</flowPara><flowPara
          id="flowPara1047"
-         style="font-size:29.33333397px;line-height:150%;letter-spacing:1.81000006px;fill:#ffffff;fill-opacity:0.99061028;stroke:none;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">par les Communs.</flowPara></flowRoot>  </g>
+         style="font-size:42.66666794px;line-height:189.99999762%;letter-spacing:1.81000006px;fill:#ffffff;fill-opacity:0.99061028;stroke:none;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">Agenda</flowPara></flowRoot>  </g>
 </svg>

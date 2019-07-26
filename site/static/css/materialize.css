@@ -1652,11 +1652,11 @@
 }
 
 .orange {
-  background-color: #ff9800 !important;
+  background-color: #fe7e00ff !important;
 }
 
 .orange-text {
-  color: #ff9800 !important;
+  color: #fe7e00ff !important;
 }
 
 .orange.lighten-5 {
@@ -4962,7 +4962,7 @@ small {
 }
 
 .btn:hover, .btn-large:hover {
-  background-color: #2bbbad;
+  background-color: #fe7e00ff;
 }
 
 .btn-floating {

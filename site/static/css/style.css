@@ -2,7 +2,7 @@
 
  /* Colors */
  .orange {
-   background-color: #ff7f00;  /*rgba(255, 127, 0, 1)  */
+   background-color: #fe7e00ff;  /*rgba(255, 127, 0, 1)  */
  }
 
  .yellow {
@@ -80,7 +80,7 @@ h3 { font-size: 1.7em }
 /* FOOTER */
 
  footer.page-footer {
-   background-color: #ededed;
+   background: #ededed;
  }
 
  footer.page-footer .footer-copyright {
@@ -100,7 +100,7 @@ body {
 }
 
 html {
-  background-color: #fff;
+  background: #ffffff;
 }
 
 /* Header Navigation */
@@ -143,6 +143,14 @@ nav .brand-logo {
 
 .section-home {
   padding-top: 2rem;
+  background: #ededed;
+
+}
+
+.section-home-annexe {
+  padding-top: 2rem;
+  background: #ffffff;
+
 }
 
 .card-agenda-home {
@@ -179,7 +187,7 @@ input[type=email] {
    line-height: 0;
    height: auto;
    color: #ededed;
-   background: #383838
+   background: #fe7e00ff
  }
 .page-project .parallax-container {
   background-color: #FFD400
@@ -418,12 +426,12 @@ z-index: 1030;
 /* Masonry Grid */
 @media only screen and (min-width: 600px) {
 .grid-sizer,
-.grid-item { width: 30%; }
+.grid-item { width: 20%; }
 }
 
 @media only screen and (max-width : 600px) {
   .grid-sizer,
-  .grid-item { width: 90%  }
+  .grid-item { width: 20%  }
 }
 
 
@@ -509,4 +517,3 @@ z-index: 1030;
 .search-card {
   padding: 1rem;
 }
-

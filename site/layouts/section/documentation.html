@@ -1,12 +1,79 @@
 {{ define "main" }}
-<section class="page-atelier">
-{{ partial "cover-hero.html" . }}
+
+<body style="background: #ffffff;">
+
+<div class="mj-container" style="background-color:#fe7e00ff;">
+
+    <!--[if mso | IE]>
+      <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="600" align="center" style="width:600px;">
+        <tr>
+          <td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;">
+      <![endif]-->
+<table role="presentation" cellpadding="0" cellspacing="0" style="font-size:0px;width:100%;" border="0">
+  <tbody>
+    <tr>
+      <td>
+        <div style="margin:0px auto;max-width:500px;">
+          <table role="presentation" cellpadding="0" cellspacing="0" style="font-size:0px;width:100%;" align="center" border="0">
+            <tbody>
+              <tr>
+                <td style="text-align:center;vertical-align:top;direction:ltr;font-size:0px;padding:20px 0px;padding-bottom:0px;padding-top:0px;">
+
+                    <!--[if mso | IE]>
+                  <table role="presentation" border="0" cellpadding="0" cellspacing="0">
+                    <tr>
+                      <td style="vertical-align:top;width:600px;">
+                  <![endif]-->
+
+                  <div class="mj-column-per-100 outlook-group-fix" style="vertical-align:top;display:inline-block;direction:ltr;font-size:13px;text-align:left;width:100%;">
+                    <table role="presentation" cellpadding="0" cellspacing="0" width="100%" border="0">
+                      <tbody>
+                        <tr>
+                          <td style="word-wrap:break-word;font-size:0px;padding:10px 25px;padding-top:0px;padding-bottom:0px;padding-right:0px;padding-left:0px;" align="center">
+                            <table role="presentation" cellpadding="0" cellspacing="0" style="border-collapse:collapse;border-spacing:0px;" align="center" border="0">
+                              <tbody>
+                                <tr>
+                                  <td style="width:499px;">
+                                    <a href="../index.html" target="_blank"><img alt="Association La MYNE" title="" height="auto" img src="/img/lamyne-bandeau-ressources.png" style="border:none;border-radius:;display:block;font-size:13px;outline:none;text-decoration:none;width:100%;height:auto;" width="499"></a>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+
+                        <center><h5>{{.Params.newsletterhead}}</h5></center>
+                        <ul class="menu_horizontal center">
+                          {{ range .Site.Params.social}}
+                          <li><a href="{{ .url }}"><i class="{{ .icon }}"></i></a></li>
+                          {{ end }}
+                        </ul>
+
+                  </div>
+                  <!--[if mso | IE]>
+                  </td></tr></table>
+                  <![endif]-->
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+<section class="section-home-annexe">
+  <iframe width="80%" height="500" src="https://pad.lamyne.org/s/bienvenue#"  frameborder="0"></iframe>
 </section>
 
 <section class ="container">
   <div class="row">
-    <h1>{{ .Title }}</h1>
-    <p> {{ .Content }}<p>
+    <h5>Ressources documentaire de la MYNE</h5>
+
   <div class="grid">
     <!-- .grid-sizer empty element, only used for element sizing -->
     <div class="grid-sizer "></div>
@@ -26,5 +93,6 @@
     </div>
   </div>
 </section>
+</body>
 
 {{ end }}
