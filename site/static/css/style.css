@@ -372,15 +372,22 @@ ul.menu_horizontal i {
 
 .btn-date .jour {
   position: relative;
-  top: -25%;
+  top: -30%;
   text-align: center;
-  font-size: 1.5em;
+  font-size: 1.2em;
 }
 
 .btn-date .mois {
   position: relative;
-  top: -80%;
+  top: -83%;
   text-align: center;
+}
+
+.btn-date .year {
+  position: relative;
+  top: -130%;
+  text-align: center;
+  font-size: 0.8rem;
 }
 
 .card-title {
