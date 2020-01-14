@@ -7,12 +7,13 @@
   <meta name="description" content="Laboratoire de Recherche & d'Expérimentation Citoyen Anti-disciplinaire - Tiers-Lieux Libre & OpenSource des Transitions" />
   <title>{{ .Site.Title }}</title>
   <!-- CSS  -->
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="/css/materialize.css" type="text/css" rel="stylesheet"/>
   <link href="/css/myne-site-icons-codes.css" type="text/css" rel="stylesheet"/>
   <link href="/css/myne-site-icons.css" type="text/css" rel="stylesheet"/>
   <link href="/css/flickity.css" type="text/css" rel="stylesheet">
   <link href="/css/style.css" type="text/css" rel="stylesheet"/>
+  {{ $style := resources.Get "sass/main.scss" | toCSS | minify | fingerprint }}
+  <link rel="stylesheet" href="{{ $style.Permalink }}">
   <script src="/js/modernizr.js"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.0/fuse.min.js"></script>
@@ -21,6 +22,18 @@
 </head>
 
 <body>
+  <section class="hero hero-nav">
+    <div class="hero-body center">
+        <a href="../index.html" target="_blank"><img alt="Association La MYNE" title="" src="/img/lamyne-bandeau-agenda.png"></a>
+    </div>
+
+    <ul class="menu_horizontal center">
+        {{ range .Site.Params.social}}
+        <li><a href="{{ .url }}"><i class="{{ .icon }}"></i></a></li>
+        {{ end }}
+      </ul>
+
+  </section>
 
 <!--<nav class="light-grey">
     <div class="nav-wrapper container">

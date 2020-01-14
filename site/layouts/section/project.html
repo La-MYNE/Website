@@ -1,17 +1,14 @@
 {{ define "main" }}
-<section class="page-project">
-{{ partial "cover-hero.html" . }}
-</section>
 
-<section class ="container">
-  <div class="row">
+<section class ="section">
+  <div class="row container">
     <h1>{{ .Title }}</h1>
     <p> {{ .Content }}</p>
-  <div class="grid">
+  <div class="columns is-multiline">
     <!-- .grid-sizer empty element, only used for element sizing -->
-    <div class="grid-sizer "></div>
+    <div class=" "></div>
     {{ range .Data.Pages }}
-    <div class="grid-item">
+    <div class="column is-one-third">
       {{ partial "card.html" .}}
   </div>
   {{ end }}

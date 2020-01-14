@@ -23,7 +23,7 @@ related:
     - name : "node"
       weight: 150
     - name: "porteurs"
-      weight: 130
+      weight: 100
 Languages:
   en:
     lang: en

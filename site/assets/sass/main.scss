@@ -1,0 +1,108 @@
+@charset "utf-8";
+@import "./bulma-0.8.0/bulma";
+
+// Set your brand colors
+$color-1: #fe7e00ff;  /*rgba(255, 127, 0, 1)  */
+$color-2: #ffd400; /* rgba(255, 212, 0, 1) */
+$color-3: #ededed; /* rgba(237, 237, 237, 1) */
+$color-4: #383838; /*  rgba(56, 56, 56, 1) */
+
+body {
+  background-color: $color-1;
+}
+.orange {
+  background-color: $color-1;  /*rgba(255, 127, 0, 1)  */
+}
+
+.yellow {
+  background-color: $color-2; /* rgba(255, 212, 0, 1) */
+}
+
+.light-grey {
+  background-color: $color-3; /* rgba(237, 237, 237, 1) */
+}
+
+.dark-grey {
+  background-color: $color-4; /*  rgba(56, 56, 56, 1) */
+}
+
+.text-light-grey {
+  color: #ededed;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-size: 1rem;
+}
+
+h1, h2 {
+	padding-bottom: 1rem;
+	padding-top: 1rem;
+}
+
+.has-display-none {
+    display: none;
+    visibility: hidden;
+}
+
+.right {
+  position: relative;
+  right: -10rem;
+}
+
+.hero h1 {
+  font-size: 2rem;
+  color: white;
+}
+
+.hero h2 {
+  font-size: 1.5rem;
+  color: white;
+}
+
+.is-color-1{
+      background-color: $color-1!important;
+}
+
+.is-color-2{
+    background-color: $color-2!important;
+}
+
+.is-color-3{
+    background-color: $color-3!important;
+}
+
+.is-color-4{
+    background-color: $color-4!important;
+}
+
+.is-equal-height {
+  height: 100%;
+}
+
+
+.home-menu img {
+  width: 230px;
+  height: 200px;
+}
+
+.hero-nav {
+  img {
+    margin-top: -20px;
+    width: 500px;
+    height: auto;
+  }
+  a {
+    color: $color-4;
+  }
+  .menu_horizontal {
+    margin-top: -45px;
+  }
+}
