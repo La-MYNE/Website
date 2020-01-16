@@ -1,21 +1,22 @@
 {{ define "main" }}
-<div class="page-project">
-{{ partial "cover-hero.html" . }}
-</div>
-
 <section>
-    <div class="row">
+    <div class="columns">
+        <div class="column is-4">
+
       {{ partial "idcard.html" . }}
-      <div class="col s12 m8">
+    </div>
+
+      <div class="column">
         <section id="pitch" class="container scrollspy">{{ .Content }}</section>
       </div>
     </div>
-
+<!--
 <section id="contribuer" class="container scrollspy">
-<div class="row">
-  <h4>Comment Contribuer</h4>
+    <h4>Comment Contribuer</h4>
+
+<div class="columns">
   {{ if isset .Params "competence" }}
-  <div class= "col s12 m4">
+  <div class= "column is-4">
     <ul class="collapsible collection" data-collapsible="accordion">
       <li class="collection-item grey text-light-grey">Competences</li>
       {{ range .Params.competence }}
@@ -29,7 +30,7 @@
   {{ end }}
 
   {{ if isset .Params "materiel" }}
-  <div class= "col s12 m4">
+  <div class= "column is-4">
     <ul class="collapsible collection" data-collapsible="accordion">
       <li class="collection-item grey text-light-grey">Materiel</li>
       {{ range .Params.materiel }}
@@ -43,7 +44,7 @@
   {{ end }}
 
   {{ if isset .Params "financier" }}
-  <div class= "col s12 m4">
+  <div class= "column is-4">
     <ul class="collapsible collection" data-collapsible="accordion">
       <li class="collection-item grey text-light-grey">Financier</li>
       {{ range .Params.financier }}
@@ -58,12 +59,7 @@
 </div>
 </section>
 
-<div class="container">
-  {{ range .Params.contributors }}
-  {{ . }}
-{{ end }}
-</div>
-
+-->
 
 {{ if isset .Params "node" }}
 {{ partial "related-events.html" . }}

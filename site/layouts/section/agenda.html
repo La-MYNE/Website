@@ -1,21 +1,8 @@
 {{ define "main" }}
 
-  <section class="section-home-annexe">
-
-    <div class="section">
-      <center><h6><a href="https://cloud.lamyne.org/apps/calendar/embed/QfTHWoiYaENKj9es" class="btn waves-effect waves-light dark-grey"><font color="white">Agenda des permanences</font></a></h6></center>
-    </div>
-
-    <div class="container">
-      <iframe width="100%" height="500px" src="https://cloud.lamyne.org/apps/calendar/embed/4ej7LAtyFKwfFbez"></iframe>
-      <h6 align="right">powered by <u><strong><a href="https://nextcloud.com/">NextCloud</a></strong></u> with <u><strong><a href="https://indie.host/">IndieHost</a></strong></u></h6>
-    </div>
-
-  </section>
-
-<section class ="container">
-
-    <div class="row">
+<section class ="section is-narrow">
+  <div class="container is-fluid">
+    <div class="">
       <!-- Dropdown Trigger -->
       <a class='dropdown-button btn' href='#' data-activates='dropdown1'>Filter par date</a>
 
@@ -36,33 +23,17 @@
         <li><a href="#!" class="is-checked" data-filter=".rencontre">rencontres</a></li>
       </ul>
     </div>
-    <div class="grid">
-      <!-- .grid-sizer empty element, only used for element sizing -->
-      <div class="grid-sizer">
-      </div>
+    <div class="columns is-multiline">
       {{ range (.Data.Pages.ByParam "start").Reverse }}
       {{ if isset .Params "start" }}
       {{$time := time .Params.start}}
-      <div class="grid-item element-item {{range .Params.events }} {{ . }} {{ end }} {{ if ge $time now}} future {{ else }} past {{ end }} " data-category="{{range .Params.events }} {{ . }} {{ end }} {{ if ge $time now}} future {{ else }} past {{ end }}">
+      <div class="column is-one-third {{range .Params.events }}{{ . }}{{ end }}{{ if ge $time now}}future{{ else }}past{{ end }}" data-category="{{range .Params.events }} {{ . }} {{ end }} {{ if ge $time now}} future {{ else }} past {{ end }}">
         {{ partial "card.html" . }}
       </div>
     {{ end }}
     {{ end }}
     </div>
-
-    <div class="grid">
-      <!-- .grid-sizer empty element, only used for element sizing -->
-      <div class="grid-sizer "></div>
-      {{ range (.Data.Pages.ByParam "start").Reverse }}
-      {{ if isset .Params "start" }}
-      {{$time := time .Params.start}}
-      <div class="grid-item element-item {{range .Params.events }} {{ . }} {{ end }} {{ if ge $time now}} future {{ else }} past {{ end }} " data-category="{{range .Params.events }} {{ . }} {{ end }} {{ if ge $time now}} future {{ else }} past {{ end }}">
-        {{ partial "card.html" . }}
-      </div>
-    {{ end }}
-    {{ end }}
-    </div>
+  </div>
 </section>
-</body>
 
 {{ end }}

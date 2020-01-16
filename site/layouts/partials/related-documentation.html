@@ -1,18 +1,15 @@
 <section class="container">
-    <div class=row>
-        <h3>Documentation et Ressources</h3>
-  <div class="main-carousel" data-flickity='{ "contain": true }'>
-    {{ $related := .Site.RegularPages.Related . }}
-    {{ with $related }}
-    {{ range (where . ".Type" "documentation") }}
-    <div class="carousel-cell">
-    {{ partial "card.html" . }}
+    <h3>Documentation et Ressources</h3>
+    <div class="main-carousel" data-flickity='{ "contain": true }'>
+      {{ $related := .Site.RegularPages.Related . }}
+      {{ with $related }}
+      {{ range (where . ".Type" "documentation") }}
+      <div class="carousel-cell">
+        {{ partial "card.html" . }}
+      </div>
+      {{ else }}
+      <p> pas de prochaines actualites, vous pouvez contacter l'equipe</p>
     </div>
-    {{ else }}
-  </div class="row">
-    <p> pas de prochaines actualites, vous pouvez contacter l'equipe</p>
-  </div>
     {{ end }}
     {{ end }}
-  </div>
 </section>

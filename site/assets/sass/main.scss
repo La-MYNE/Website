@@ -7,9 +7,6 @@ $color-2: #ffd400; /* rgba(255, 212, 0, 1) */
 $color-3: #ededed; /* rgba(237, 237, 237, 1) */
 $color-4: #383838; /*  rgba(56, 56, 56, 1) */
 
-body {
-  background-color: $color-1;
-}
 .orange {
   background-color: $color-1;  /*rgba(255, 127, 0, 1)  */
 }
@@ -102,7 +99,121 @@ h1, h2 {
   a {
     color: $color-4;
   }
-  .menu_horizontal {
-    margin-top: -45px;
+}
+
+.btn-date {
+  display: inline-block;
+  color: #fff;
+  position: absolute;
+  overflow: hidden;
+  z-index: 1;
+  left: 75%;
+  top: 10%;
+  width: 60px;
+  height: 60px;
+  line-height: 40px;
+  padding: 0;
+  border-radius: 50%;
+  transition: .3s;
+  cursor: pointer;
+  vertical-align: middle;
+}
+
+.btn-date .jour {
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.btn-date .mois {
+  position: relative;
+  top: -20%;
+  text-align: center;
+}
+
+
+.horaire {
+  position: relative;
+  float: right;
+  right: -1rem;
+  top: -3rem;
+  font-size: 1em;
+}
+
+
+.kind {
+  position: relative;
+  top: -3rem;
+  left: -1rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  float: left;
+}
+
+.kind-title {
+  margin-left: 15px;
+}
+
+.card-image {
+//  width: 240px;
+ // height: 160px;
+}
+
+.is-narrow {
+  padding-left: 8rem;
+  padding-right: 8rem;
+}
+.card-agenda-title {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  position: relative;
+  font-size: 1.2em;
+}
+
+/* FOOTER */
+
+.footer-copyright {
+  background-color: #383838;
+  font-size: 1.7rem;
+  color: $color-3;
+}
+
+a {
+  color: $color-4;
+}
+
+ul.menu_horizontal {
+  li {
+    display : inline;
+    padding : 0 0.5em; /* Pour espacer les boutons entre eux */
   }
+  i {
+    font-size: 2em;
+  }
+  list-style-type : none; /* Car sinon les puces se placent n'importe où */
+}
+
+ /* external css: flickity.css */
+
+ .carousel-cell {
+  width: 28%;
+  margin-right: 1.5rem;
+}
+
+.fullscreen {
+  width: 100%;
+  margin-right: 1.5rem;
+}
+
+@media screen and ( max-width: 768px ) {
+  /* half-width cells for larger devices */
+  .carousel-cell { width: 90%; }
+}
+
+.main-carousel {
+ margin-bottom: 3rem;
+}
+
+.has-image-centered {
+  margin-left: auto;
+  margin-right: auto;
 }
