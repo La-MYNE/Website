@@ -1,73 +1,23 @@
 {{ define "main" }}
 <section>
-    <div class="columns">
-        <div class="column is-4">
+  <div class="columns">
+    <div class="column is-4">
 
       {{ partial "idcard.html" . }}
     </div>
 
-      <div class="column">
-        <section id="pitch" class="container scrollspy">{{ .Content }}</section>
-      </div>
+    <div class="column">
+      <section id="pitch" class="container scrollspy">{{ .Content }}</section>
     </div>
-<!--
-<section id="contribuer" class="container scrollspy">
-    <h4>Comment Contribuer</h4>
-
-<div class="columns">
-  {{ if isset .Params "competence" }}
-  <div class= "column is-4">
-    <ul class="collapsible collection" data-collapsible="accordion">
-      <li class="collection-item grey text-light-grey">Competences</li>
-      {{ range .Params.competence }}
-      <li>
-        <div class="collapsible-header light-grey">{{ .name }}</div>
-        <div class="collapsible-body light-grey"><p>{{ .description }}</p></div>
-      </li>
-          {{ end }}
-    </ul>
   </div>
+
+  {{ if isset .Params "node" }}
+  {{ partial "related-events.html" . }}
   {{ end }}
-
-  {{ if isset .Params "materiel" }}
-  <div class= "column is-4">
-    <ul class="collapsible collection" data-collapsible="accordion">
-      <li class="collection-item grey text-light-grey">Materiel</li>
-      {{ range .Params.materiel }}
-      <li>
-        <div class="collapsible-header light-grey">{{ .name }}</div>
-        <div class="collapsible-body light-grey"><p>{{ .description }}</p></div>
-      </li>
-          {{ end }}
-    </ul>
-  </div>
-  {{ end }}
-
-  {{ if isset .Params "financier" }}
-  <div class= "column is-4">
-    <ul class="collapsible collection" data-collapsible="accordion">
-      <li class="collection-item grey text-light-grey">Financier</li>
-      {{ range .Params.financier }}
-      <li>
-        <div class="collapsible-header light-grey ">{{ .name }}</div>
-        <div class="collapsible-body light-grey"><p>{{ .description }}</p></div>
-      </li>
-          {{ end }}
-    </ul>
-  </div>
-  {{ end }}
-</div>
-</section>
-
--->
-
-{{ if isset .Params "node" }}
-{{ partial "related-events.html" . }}
-{{ end }}
 
   {{ if isset .Params "node" }}
   {{ partial "related-documentation.html" . }}
   {{ end }}
 
-    </section>
-    {{ end }}
+</section>
+{{ end }}

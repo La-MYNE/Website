@@ -3,9 +3,11 @@
     {{ if isset .Params "start"}}
     {{$time := time .Params.start }}
     {{$month := $time.Month }}
+    {{$year := $time.Year }}
     <div class=" btn-date orange">
       <p class="jour">{{ $time.Day }}</p>
       <p class="mois">{{ i18n $month }}</p>
+      <p class="year">{{ $year }}</p>
     </div>
     {{ end }}
     <img class="" src="{{ with or (.Params.thumbnail) (.Params.cover)}}{{.}}{{else}}/img/default-thumbnail.png{{end}}" alt="thumbnail">
@@ -26,10 +28,10 @@
    <div class="kind tag">{{ if isset .Params "model" }}{{ .Params.model }}{{end}}</div>
    {{ end }}
     <div class="card-agenda-title">{{ .Title | title }}  </div>
-    <div class="row card-details">
+    <div class="card-details">
       <p>{{ .Description }} </p>
   </div>
-  <div class="has-text-centered"><a class="button is-color-1" href='{{ .URL }}'>En savoir plus</a></div>
+  <div class="has-text-centered"><a class="button is-color-1 has-text-white" href='{{ .URL }}'>En savoir plus</a></div>
 </div>
 </div>
 </div>
