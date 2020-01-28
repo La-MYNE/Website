@@ -158,10 +158,20 @@ h1, h2 {
  // height: 160px;
 }
 
-.is-narrow {
-  padding-left: 8rem;
-  padding-right: 8rem;
+
+@media screen and (min-width: 768px) {
+  .is-narrow {
+    padding-left: 8rem;
+    padding-right: 8rem;
+  }
 }
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
+
 .card-agenda-title {
   margin-top: 10px;
   margin-bottom: 10px;

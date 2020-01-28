@@ -23,17 +23,20 @@
         <li><a href="#!" class="is-checked" data-filter=".rencontre">rencontres</a></li>
       </ul>
     </div>
-    <div class="columns is-multiline">
+    <input class="search" placeholder="Search" />
+    <button class="sort" data-sort="MyneMix">
+      Sort by type
+    </button>
+    <ul class="columns is-multiline">
       {{ range (.Data.Pages.ByParam "start").Reverse }}
       {{ if isset .Params "start" }}
       {{$time := time .Params.start}}
-      <div class="column is-one-third {{range .Params.events }}{{ . }}{{ end }}{{ if ge $time now}}future{{ else }}past{{ end }}" data-category="{{range .Params.events }} {{ . }} {{ end }} {{ if ge $time now}} future {{ else }} past {{ end }}">
+      <li class="column is-one-third {{range .Params.events }}{{ . }}{{ end }}{{ if ge $time now}}future{{ else }}past{{ end }}" data-category="{{range .Params.events }} {{ . }} {{ end }} {{ if ge $time now}} future {{ else }} past {{ end }}" data-sort="{{ .Params.enventType }}">
         {{ partial "card.html" . }}
-      </div>
+      </li>
     {{ end }}
     {{ end }}
-    </div>
+    </ul>
   </div>
 </section>
-
 {{ end }}
