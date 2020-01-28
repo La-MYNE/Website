@@ -1,11 +1,10 @@
 {{ define "main" }}
 
-<section class="is-narrow section-carousel">
+<section class="is-narrow">
   <div class="container">
     <h1>{{ .Title }}</h1>
     <p> {{ .Content }}</p>
     <div class="columns is-multiline">
-      <!-- .grid-sizer empty element, only used for element sizing -->
       <div class=" "></div>
       {{ range .Data.Pages }}
       <div class="column is-one-third">

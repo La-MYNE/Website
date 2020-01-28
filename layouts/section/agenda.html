@@ -2,6 +2,8 @@
 
 <section class ="section is-narrow">
   <div class="container is-fluid">
+      <h1>{{ .Title }}</h1>
+      <p> {{ .Content }}</p>
     <ul class="columns is-multiline">
       {{ range (.Data.Pages.ByParam "start").Reverse }}
       {{ if isset .Params "start" }}
