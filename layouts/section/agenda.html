@@ -2,31 +2,6 @@
 
 <section class ="section is-narrow">
   <div class="container is-fluid">
-    <div class="">
-      <!-- Dropdown Trigger -->
-      <a class='dropdown-button btn' href='#' data-activates='dropdown1'>Filter par date</a>
-
-      <!-- Dropdown Structure -->
-      <ul id='dropdown1' class="filters-button-group dropdown-content" data-filter-group="date">
-        <li><a href="#!" class="is-checked" data-filter="">tous</a></li>
-        <li><a href="#!" data-filter=".future">a venir</a></li>
-        <li><a href="#!" data-filter=".past">archive</a></li>
-      </ul>
-
-      <a class='dropdown-button btn' href='#' data-activates='dropdown2'>Filtrer par type</a>
-
-      <ul id='dropdown2' class="filters-button-group dropdown-content" data-filter-group="date">
-
-        <li><a href="#!" class="is-checked" data-filter="">tous</a></li>
-        <li><a href="#!" class="is-checked" data-filter=".masterclass">masterclass</a></li>
-        <li><a href="#!" class="is-checked" data-filter=".atelier">atelier</a></li>
-        <li><a href="#!" class="is-checked" data-filter=".rencontre">rencontres</a></li>
-      </ul>
-    </div>
-    <input class="search" placeholder="Search" />
-    <button class="sort" data-sort="MyneMix">
-      Sort by type
-    </button>
     <ul class="columns is-multiline">
       {{ range (.Data.Pages.ByParam "start").Reverse }}
       {{ if isset .Params "start" }}

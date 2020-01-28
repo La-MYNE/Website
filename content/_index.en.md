@@ -4,7 +4,7 @@
 catchline: >-
   <p>La MYNE is an citizen laboratory for citizens experimenting the future. We are a Third-Party-Place by the common(s).</p><br>
   <p>#Anthropocene #Transitions #TiersLieux #Commons</p>
-cover: /img/forktheworld.jpg
+banner: /img/lamyne-bandeau.png
 newsletter: "Follow our Newsletter : Were not intrusive - Do not hesitate to leave your mail if you wish !"
 newsletterhead: Follow us
 event: MEET US

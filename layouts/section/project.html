@@ -1,109 +1,102 @@
 {{ define "main" }}
 
-<section class ="section is-narrow">
+<section class="is-narrow section-carousel">
   <div class="container">
     <h1>{{ .Title }}</h1>
     <p> {{ .Content }}</p>
-  <div class="columns is-multiline">
-    <!-- .grid-sizer empty element, only used for element sizing -->
-    <div class=" "></div>
-    {{ range .Data.Pages }}
-    <div class="column is-one-third">
-      {{ partial "card.html" .}}
-  </div>
-  {{ end }}
+    <div class="columns is-multiline">
+      <!-- .grid-sizer empty element, only used for element sizing -->
+      <div class=" "></div>
+      {{ range .Data.Pages }}
+      <div class="column is-one-third">
+        {{ partial "card.html" .}}
+      </div>
+      {{ end }}
 
     </div>
   </div>
 </section>
 
-<section class="section-home section-contribute">
-  <div class="container">
+<section class="is-narrow">
+  <div class="container has-text-centered">
     <div class="main-carousel-fullscreen" data-flickity='{ "contain": true }'>
-
       <div class="carousel-cell fullscreen">
         {{ $v2 := where .Site.Pages "Section" "contribute"}}
         {{ range where $v2 ".Params.identifier" "porteurs" }}
-        <div class="">
-          <h2 class="center">{{ .Title | markdownify }}</h2>
-          <div class="row center">{{ .Description | markdownify }}</div>
-
-          <div class="row center">
-            <div class="col s12 m4">
-              <img src="{{ .Params.step1.picto }}" alt="picto">
-              <h3>{{ .Params.step1.name }}</h3>
-        <ul>
-          {{ range .Params.step1.subset }}
-          <li>{{ .name }}</li>
+        <h2>{{ .Title | markdownify }}</h2>
+        <div>{{ .Description | markdownify }}</div>
+        <div class="columns">
+          <div class="column">
+            <img src="{{ .Params.step1.picto }}" alt="picto">
+            <h3>{{ .Params.step1.name }}</h3>
+            <ul>
+              {{ range .Params.step1.subset }}
+              <li>{{ .name }}</li>
               {{ end }}
-        </ul>
-      </div>
-
-      <div class="col s12 m4">
-        <img src="{{ .Params.step2.picto }}" alt="picto">
-        <h3>{{ .Params.step2.name }}</h3>
-        <ul>
-          {{ range .Params.step2.subset }}
-          <li>{{ .name }}</li>
-              {{ end }}
-          </ul>
-      </div>
-
-      <div class="col s12 m4">
-        <img src="{{ .Params.step3.picto }}" alt="picto">
-        <h3>{{ .Params.step3.name }}</h3>
-          <ul>
-            {{ range .Params.step3.subset }}
-            <li>{{ .name }}</li>
-                {{ end }}
             </ul>
-      </div>
+          </div>
+
+          <div class="column">
+            <img src="{{ .Params.step2.picto }}" alt="picto">
+            <h3>{{ .Params.step2.name }}</h3>
+            <ul>
+              {{ range .Params.step2.subset }}
+              <li>{{ .name }}</li>
+              {{ end }}
+            </ul>
+          </div>
+
+          <div class="column">
+            <img src="{{ .Params.step3.picto }}" alt="picto">
+            <h3>{{ .Params.step3.name }}</h3>
+            <ul>
+              {{ range .Params.step3.subset }}
+              <li>{{ .name }}</li>
+              {{ end }}
+            </ul>
+          </div>
           {{ end }}
-      </div>
-      </div>
+        </div>
       </div>
 
       <div class="carousel-cell fullscreen">
         {{ $v2 := where .Site.Pages "Section" "contribute"}}
         {{ range where $v2 ".Params.identifier" "citoyens" }}
-        <div class="">
-          <h2 class="center">{{ .Title | markdownify}}</h2>
-          <div class="row center">{{ .Description | markdownify}}</div>
-          <div class="row center">
-            <div class="col s12 m4">
-              <img src="{{ .Params.step1.picto }}" alt="picto">
-              <h3>{{ .Params.step1.name }}</h3>
-              <ul>
-                {{ range .Params.step1.subset }}
-                <li>{{ .name }}</li>
-                {{ end }}
-              </ul>
-            </div>
-
-            <div class="col s12 m4">
-              <img src="{{ .Params.step2.picto }}" alt="picto">
-              <h3>{{ .Params.step2.name }}</h3>
-              <ul>
-                {{ range .Params.step2.subset }}
-                <li>{{ .name }}</li>
-                {{ end }}
-              </ul>
-            </div>
-
-            <div class="col s12 m4">
-              <img src="{{ .Params.step3.picto }}" alt="picto">
-              <h3>{{ .Params.step3.name }}</h3>
-              <ul>
-                {{ range .Params.step3.subset }}
-                <li>{{ .name }}</li>
-                {{ end }}
-              </ul>
-            </div>
-            {{ end }}
+        <h2>{{ .Title | markdownify}}</h2>
+        <div>{{ .Description | markdownify}}</div>
+        <div class="columns">
+          <div class="column">
+            <img src="{{ .Params.step1.picto }}" alt="picto">
+            <h3>{{ .Params.step1.name }}</h3>
+            <ul>
+              {{ range .Params.step1.subset }}
+              <li>{{ .name }}</li>
+              {{ end }}
+            </ul>
           </div>
+
+          <div class="column">
+            <img src="{{ .Params.step2.picto }}" alt="picto">
+            <h3>{{ .Params.step2.name }}</h3>
+            <ul>
+              {{ range .Params.step2.subset }}
+              <li>{{ .name }}</li>
+              {{ end }}
+            </ul>
+          </div>
+
+          <div class="column">
+            <img src="{{ .Params.step3.picto }}" alt="picto">
+            <h3>{{ .Params.step3.name }}</h3>
+            <ul>
+              {{ range .Params.step3.subset }}
+              <li>{{ .name }}</li>
+              {{ end }}
+            </ul>
+          </div>
+          {{ end }}
         </div>
       </div>
-
     </div>
   </div>
 </section>

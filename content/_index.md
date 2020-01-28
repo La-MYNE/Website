@@ -4,7 +4,7 @@
 catchline: >-
   <p>La MYNE est un laboratoire de recherche pour les citoyen.ne.s qui expérimentent le futur</p><br>
   <p>#Anthropocene #TiersLieux #Communs</p>
-cover: /img/forktheworld.jpg
+banner: /img/lamyne-bandeau.png
 newsletter: "Suivez notre newsletter - Notre communication est frugale. Ne pas hésiter à nous laisser votre e-mail si vous le souhaitez !"
 newsletterhead: Suivez nous
 event: RETROUVEZ-NOUS
