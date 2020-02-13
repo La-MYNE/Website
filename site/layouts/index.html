@@ -1,0 +1,277 @@
+{{ define "main" }}
+
+<section id="index-cover">
+  <div class="parallax-container center">
+    <div class="hero-catchline">
+      <h1 class="center">{{ .Params.title }}</h1>
+      <h2>{{ .Site.Params.subtitle }}</h2>
+      <div class="row center">
+        <h3 class="col s12 center "> {{ .Site.Params.catchline | markdownify }} </h3>
+        <p><strong><a href="{{.Params.donation.link}}" class="btn waves-effect waves-light orange"><font color="white">{{.Params.donation.heading}}</font></a></strong>
+        <strong><a href="{{.Params.community.link}}" class="btn waves-effect waves-light orange"><font color="white">{{.Params.community.heading}}</font></a></strong></p>
+      </div>
+    </div>
+    <div class="parallax"><img class="responsive-img" src="/img/forktheworld.jpg" alt="La MYNE"></div>
+  </div>
+</section>
+
+<section class="section-home">
+      <div class="container">
+        <center><iframe width="100%" height="360" src="https://videos.lescommuns.org/videos/embed/a7fe81c1-f4f5-4841-81c3-7d34b717044f" frameborder="0" allowfullscreen></iframe></center>
+        <h6 align="right">powered by <u><strong><a href="https://joinpeertube.org/en/home/">PeerTube</a></strong></u> with <u><strong><a href="http://lescommuns.org/">lescommuns.org</a></strong></u></h6>
+        <h6 align="right"><u><strong><a href="https://alternatiba.eu/rhone/alternatv/">AlternaTV</a></strong></u> with love</h6>
+
+      </div>
+</section>
+
+<section class="section-home light-grey">
+  <div class="mission">
+    <div class="section">
+      <div class="row">
+        {{ range .Params.mission }}
+        <div class="col s12 m4">
+          <div class="row center">
+            <img src="{{ .picto }}" width="100" height="100">
+            </div>
+            <div class=row>
+              <h3 class="center"><a href="{{ .link }}">{{ .title }}</a></h3>
+              <p class="center light">{{ .description }}</p>
+            </div>
+            <div class="row center">
+              <a href="{{.calltoaction.link}}" class="center btn-large waves-effect waves-light orange">{{.calltoaction.heading}}</a>
+            </div>
+            </div>
+            {{ end }}
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section-home">
+  <div class="section">
+    <center><p><h6><a href="https://cloud.lamyne.org/apps/calendar/embed/4ej7LAtyFKwfFbez" class="btn waves-effect waves-light dark-grey"><font color="white">Agenda des Activités</font></a></h6></p></center>
+  </div>
+  <div class="section">
+    <center><p><h6><a href="https://cloud.lamyne.org/apps/calendar/embed/QfTHWoiYaENKj9es" class="btn waves-effect waves-light dark-grey"><font color="white">{{.Params.welcome}}</font></a></h6></p></center>
+  </div>
+</section>
+
+<section class="section-home  light-grey">
+  <div class="container">
+    <center><h3><strong>{{.Params.event}}</strong></h3></center>
+    <div class="section">
+      <div class="row">
+        <div class="col s12 center">
+          <h2>{{ .Site.Params.event }}</h2>
+        </div>
+      </div>
+      <div class="row">
+        {{ range last 2 (where .Data.Pages ".Params.featured" "yes") }}
+          <div class="col s12 m6">
+            <div class ="center"><img class="thumb" src="{{ .Params.logo }}" alt="{{ .Title }}">
+            </div>
+            <h3 class="center">{{ .Title }}</h3>
+            <center><p class="light">{{ .Params.description }}</p></center>
+          </div>
+         {{ end }}
+       </div>
+    </div>
+  </div>
+</section>
+
+<section class="section-home">
+  <div class="project">
+    <center><u><h3><a href="https://www.lamyne.org/project/" class="btn waves-effect waves-light dark-grey"><font color="white">{{.Params.projecthead}}</font></a></h3></u></center>
+    <div class="section">
+      <div class="row">
+        {{ range .Params.project }}
+        <div class="col s12 m4">
+          <div class="row center">
+            <img src="{{ .picto }}" width="100" height="100">
+            </div>
+            <div class=row>
+              <h3 class="center"><a href="{{ .link }}">{{ .title }}</a></h3>
+              <p class="center light">{{ .description }}</p>
+            </div>
+            <div class="row center">
+              <a href="{{.calltoaction.link}}" class="center btn-large waves-effect waves-light orange">{{.calltoaction.heading}}</a>
+            </div>
+            </div>
+            {{ end }}
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--<section class="section-home section-contribute">
+  <div class="container">
+    <div class="main-carousel-fullscreen" data-flickity='{ "contain": true }'>
+
+      <div class="carousel-cell fullscreen">
+        {{ $v2 := where .Site.Pages "Section" "contribute"}}
+        {{ range where $v2 ".Params.identifier" "citoyens" }}
+        <div class="">
+          <h2 class="center">{{ .Title | markdownify}}</h2>
+          <div class="row center">{{ .Description | markdownify}}</div>
+          <div class="row center">
+            <div class="col s12 m4">
+              <img src="{{ .Params.step1.picto }}" alt="picto">
+              <h3>{{ .Params.step1.name }}</h3>
+              <ul>
+                {{ range .Params.step1.subset }}
+                <li>{{ .name }}</li>
+                {{ end }}
+              </ul>
+            </div>
+
+            <div class="col s12 m4">
+              <img src="{{ .Params.step2.picto }}" alt="picto">
+              <h3>{{ .Params.step2.name }}</h3>
+              <ul>
+                {{ range .Params.step2.subset }}
+                <li>{{ .name }}</li>
+                {{ end }}
+              </ul>
+            </div>
+
+            <div class="col s12 m4">
+              <img src="{{ .Params.step3.picto }}" alt="picto">
+              <h3>{{ .Params.step3.name }}</h3>
+              <ul>
+                {{ range .Params.step3.subset }}
+                <li>{{ .name }}</li>
+                {{ end }}
+              </ul>
+            </div>
+            {{ end }}
+          </div>
+        </div>
+      </div>
+
+      <div class="carousel-cell fullscreen">
+        {{ $v2 := where .Site.Pages "Section" "contribute"}}
+        {{ range where $v2 ".Params.identifier" "porteurs" }}
+        <div class="">
+          <h2 class="center">{{ .Title | markdownify }}</h2>
+          <div class="row center">{{ .Description | markdownify }}</div>
+
+          <div class="row center">
+            <div class="col s12 m4">
+              <img src="{{ .Params.step1.picto }}" alt="picto">
+              <h3>{{ .Params.step1.name }}</h3>
+        <ul>
+          {{ range .Params.step1.subset }}
+          <li>{{ .name }}</li>
+              {{ end }}
+        </ul>
+      </div>
+
+      <div class="col s12 m4">
+        <img src="{{ .Params.step2.picto }}" alt="picto">
+        <h3>{{ .Params.step2.name }}</h3>
+        <ul>
+          {{ range .Params.step2.subset }}
+          <li>{{ .name }}</li>
+              {{ end }}
+          </ul>
+      </div>
+
+      <div class="col s12 m4">
+        <img src="{{ .Params.step3.picto }}" alt="picto">
+        <h3>{{ .Params.step3.name }}</h3>
+          <ul>
+            {{ range .Params.step3.subset }}
+            <li>{{ .name }}</li>
+                {{ end }}
+            </ul>
+      </div>
+          {{ end }}
+      </div>
+      </div>
+      </div>
+
+    </div>
+  </div>
+</section>-->
+
+<!--<section class="section-home">
+  <div class="container">
+    <center><h2>Agenda de la Vie à la MYNE</h2></center>
+    <div class="row">
+      <iframe width="100%" height="500px" src="https://cloud.lamyne.org/apps/calendar/embed/QfTHWoiYaENKj9es"></iframe>
+    </div>
+  </div>
+</section>-->
+
+
+<!--<section class="section-home  light-grey">
+  <div class="container">
+    <center><h2>{{.Params.news}}</h2></center>
+    <div class="row">-->
+
+  <!-- Flickity HTML init -->
+  <!--<div class="main-carousel" data-flickity='{ "contain": true }'>
+      {{ $v1 := (where .Site.Pages "Section" "agenda").ByParam "start"}}
+      {{ range first 5 $v1.Reverse }}
+      <div class="carousel-cell">
+        <div class="card card-agenda card-agenda-home">
+          <div class="card-image">
+            {{ if isset .Params "start"}}
+            {{$time := time .Params.start }}
+            {{$month := $time.Month }}
+            <div class=" btn-date orange">
+              <p class="jour">{{ $time.Day }}</p>
+              <p class="mois">{{ i18n $month }}</p>
+            </div>
+            {{ end }}
+            <img class="responsive-img" src="{{ with or (.Params.thumbnail) (.Params.cover)}}{{.}}{{else}}/img/default-thumbnail.png{{end}}" alt="thumbnail {{.Title}}">
+          </div>
+          <div class="card-content">
+            {{ if isset .Params "start"}}
+            {{$time := time .Params.start }}
+            <div class="horaire">{{ $time.Hour}}h{{$time.Minute}}</div>
+            {{ end }}
+            <div class="kind"> {{ .Type }}</div>
+
+            <div class="card-agenda-title">{{ .Title | title }}  </div>
+            <div class="row center"><a class="grey btn waves-effect waves-light" href='{{ .URL }}'>En savoir plus</a></div>
+          </div>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</div>
+</section>-->
+
+
+<!--<section class="section-home light-grey">
+  <div class="container">
+<h1>{{.Params.team}}</h1>
+<div class="row">-->
+<!-- Flickity HTML init -->
+<!--<div class="main-carousel" data-flickity='{ "contain": true }'>
+  {{ $v1 := where .Site.Pages "Section" "mynois"}}
+  {{ range first 5 $v1.Reverse }}
+    <div class="carousel-cell">
+      <div class="card orange card-team-home">
+        <div class="card-content">
+            <a href="{{.URL}}"><img class="team-profile center" src=" {{ .Params.thumbnail }}" alt="{{.Params.name}}"></a>
+          <div class="card-agenda-title white-text center">{{ .Params.name }}</div>
+          <div class="row card-details center">
+            {{ if isset .Params "tags"}}
+            {{ range .Params.tags }}
+            <span class="chip light-grey">{{ . }}</span>
+            {{ end }}
+            {{ end }}
+          </div>
+        </div>
+      </div>
+  </div>
+    {{ end }}
+</div>
+</div>
+</div>
+</section>-->
+
+ {{ end }}
