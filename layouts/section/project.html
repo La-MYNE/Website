@@ -4,10 +4,21 @@
   <div class="container">
     <h1>{{ .Title }}</h1>
     <p> {{ .Content }}</p>
-    <div class="columns is-multiline">
-      <div class=" "></div>
+<!--     <div class="button-group filter-button-group">
+      <button class="button is-color-1 has-text-white" data-filter="*">show all</button>
+      {{ $tags := slice "all" }}
+      {{ range .Pages }}
+      {{ if .Params.tags }}
+      {{ $tags = $tags | append .Params.tags }}
+      {{ end }}
+      {{ end }}
+      {{ range $tags | uniq }}
+      <button class="button is-color-1 has-text-white" data-filter=".{{ . }}">{{ . }}</button>
+      {{ end }}
+    </div> -->
+    <div class="columns grid is-multiline">
       {{ range .Data.Pages }}
-      <div class="column is-one-third">
+      <div class="column is-one-third {{ range .Params.tags }} {{ . }} {{ end }}">
         {{ partial "card.html" .}}
       </div>
       {{ end }}
