@@ -1,0 +1,24 @@
+{{ define "main" }}
+
+<section class="page-agenda">
+  <div class="columns">
+    <div class="column is-4">
+        {{ partial "idcard.html" . }}
+    </div>
+        <div class="column">
+          <section class="container">{{ .Content }}</section>
+        </div>
+  </div>
+
+
+ {{ if isset .Params "node" }}
+ {{ partial "related-events.html" . }}
+ {{ end }}
+
+ {{ if isset .Params "node" }}
+ {{ partial "related-documentation.html" . }}
+ {{ end }}
+
+</section>
+
+{{ end }}

@@ -1,0 +1,37 @@
+<div class="card card-agenda">
+  <div class="card-image  image is-3by2 ">
+    {{ if isset .Params "start"}}
+    {{$time := time .Params.start }}
+    {{$month := $time.Month }}
+    {{$year := $time.Year }}
+    <div class=" btn-date orange">
+      <p class="jour">{{ $time.Day }}</p>
+      <p class="mois">{{ i18n $month }}</p>
+      <p class="year">{{ $year }}</p>
+    </div>
+    {{ end }}
+    <img class="" src="{{ with or (.Params.thumbnail) (.Params.cover)}}{{.}}{{else}}/img/default-thumbnail.png{{end}}" alt="thumbnail">
+  </div>
+  <div class="card-content">
+    <div class="content">
+    {{ if isset .Params "start"}}
+    {{$time := time .Params.start }}
+    <div class="horaire tag light-grey">{{ $time.Hour}}h{{if eq $time.Minute 0}}00{{ else }}{{$time.Minute}} {{ end }}</div>
+    {{ end }}
+    {{ if eq .Type "agenda"}}
+    {{ if isset .Params "events" }}
+    <div class="kind tag">{{ index .Params.events 0 }}</div>
+    {{end}}
+    {{ else if eq .Type "project" }}
+   <div class="kind tag">{{ if isset .Params "tags" }}{{ index .Params.tags 0 }}{{end}}</div>
+   {{ else}}
+   <div class="kind tag">{{ if isset .Params "model" }}{{ .Params.model }}{{end}}</div>
+   {{ end }}
+    <div class="card-agenda-title">{{ .Title | title }}  </div>
+    <div class="card-details">
+      <p>{{ .Description }} </p>
+  </div>
+  <div class="has-text-centered"><a class="button is-color-1 has-text-white" href='{{ .URL }}'>En savoir plus</a></div>
+</div>
+</div>
+</div>

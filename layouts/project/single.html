@@ -1,0 +1,23 @@
+{{ define "main" }}
+<section>
+  <div class="columns">
+    <div class="column is-4">
+
+      {{ partial "idcard.html" . }}
+    </div>
+
+    <div class="column">
+      <section id="pitch" class="container scrollspy">{{ .Content }}</section>
+    </div>
+  </div>
+
+  {{ if isset .Params "node" }}
+  {{ partial "related-events.html" . }}
+  {{ end }}
+
+  {{ if isset .Params "node" }}
+  {{ partial "related-documentation.html" . }}
+  {{ end }}
+
+</section>
+{{ end }}

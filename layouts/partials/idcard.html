@@ -1,0 +1,47 @@
+<div class="card dark-grey">
+  <div class="card-content has-text-white">
+    <h1 class="card-title">{{ .Title }}</h1>
+    {{ if isset .Params "tags" }}
+    {{ range .Params.tags }}
+    <div class="tag">{{ . }}</div>
+    {{ end }}
+    {{ end }}
+    <p>{{ .Description }}</p>
+    {{ if isset .Params "start"}}
+    <h2>Quand?</h2>
+    {{$start := time .Params.start}}
+    {{$end := time .Params.end}}
+    <p>le {{ $start.Day }} {{ $start.Month }} {{ $start.Year }}</p>
+    <p>de {{ printf "%02d:%02d" $start.Hour $start.Minute }} à {{ printf "%02d:%02d" $end.Hour $end.Minute }}</p>
+    {{ end }}
+    {{ if isset .Params "location"}}
+    <h2>Ou?</h2>
+    <p>{{ .Params.location}}</p>
+    {{ end}}
+    {{ if isset .Params "porteurs" }}
+    <section class="section entrepreneur">
+      <h2>Qui?</h2>
+      <div class ="columns is-multiline">
+        {{ range .Params.porteurs }}
+        <div class="column has-text-centered">
+            <figure class="image is-96x96">
+                <img class="is-rounded" src="/img/{{ . | urlize }}.jpg">
+              </figure>
+        </div>
+        {{ end }}
+      </div>
+    </section>
+    {{ end }}
+
+    {{ if isset .Params "documentation" }}
+    <section class="section">
+      <h2>Ressources</h2>
+      <ul>
+        {{ range .Params.documentation}}
+        <li><a class="text-light-grey" href="{{ .link }}">{{ .name }}</a></li>
+        {{ end }}
+      </ul>
+    </section>
+    {{ end }}
+  </div>
+</div>

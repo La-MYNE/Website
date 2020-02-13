@@ -1,0 +1,41 @@
+<footer class="page-footer light-grey">
+  <div class="container">
+    <div class="row center">
+      <div class="col l6 s12">
+
+        <h5> {{ .Site.Params.title }}</h5>
+        <p>{{ .Site.Params.info  }}</p>
+        <p>{{ .Site.Params.address  }}</p>
+
+
+      </div>
+
+<div class="col l3 s12">
+  <h5>Menu</h5>
+  <ul>
+    {{ range .Site.Params.menu.main }}
+    <li><a href="{{ .url }}"> {{ .name }}</a></li>
+    {{ end }}
+</ul>
+
+</div>
+<div class="col l3 s12">
+  <h5>Connect</h5>
+  <ul class="menu_horizontal center">
+    {{ range .Site.Params.social}}
+    <li><a href="{{ .url }}"><i class="{{ .icon }} light-grey"></i></a></li>
+    {{ end }}
+  </ul>
+</div>
+</div>
+</div>
+
+
+<div class="footer-copyright">
+<div class="container center licence">
+  <i class="icon-cc"></i>
+  <i class="icon-cc-by"></i>
+  <i class="icon-cc-sa"></i>
+</div>
+</div>
+</footer>

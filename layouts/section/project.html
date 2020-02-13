@@ -1,0 +1,115 @@
+{{ define "main" }}
+
+<section class="is-narrow">
+  <div class="container">
+    <h1>{{ .Title }}</h1>
+    <p> {{ .Content }}</p>
+<!--     <div class="button-group filter-button-group">
+      <button class="button is-color-1 has-text-white" data-filter="*">show all</button>
+      {{ $tags := slice "all" }}
+      {{ range .Pages }}
+      {{ if .Params.tags }}
+      {{ $tags = $tags | append .Params.tags }}
+      {{ end }}
+      {{ end }}
+      {{ range $tags | uniq }}
+      <button class="button is-color-1 has-text-white" data-filter=".{{ . }}">{{ . }}</button>
+      {{ end }}
+    </div> -->
+    <div class="columns grid is-multiline">
+      {{ range .Data.Pages }}
+      <div class="column is-one-third {{ range .Params.tags }} {{ . }} {{ end }}">
+        {{ partial "card.html" .}}
+      </div>
+      {{ end }}
+
+    </div>
+  </div>
+</section>
+
+<section class="is-narrow">
+  <div class="container has-text-centered">
+    <div class="main-carousel-fullscreen" data-flickity='{ "contain": true }'>
+      <div class="carousel-cell fullscreen">
+        {{ $v2 := where .Site.Pages "Section" "contribute"}}
+        {{ range where $v2 ".Params.identifier" "porteurs" }}
+        <h2>{{ .Title | markdownify }}</h2>
+        <div>{{ .Description | markdownify }}</div>
+        <div class="columns">
+          <div class="column">
+            <img src="{{ .Params.step1.picto }}" alt="picto">
+            <h3>{{ .Params.step1.name }}</h3>
+            <ul>
+              {{ range .Params.step1.subset }}
+              <li>{{ .name }}</li>
+              {{ end }}
+            </ul>
+          </div>
+
+          <div class="column">
+            <img src="{{ .Params.step2.picto }}" alt="picto">
+            <h3>{{ .Params.step2.name }}</h3>
+            <ul>
+              {{ range .Params.step2.subset }}
+              <li>{{ .name }}</li>
+              {{ end }}
+            </ul>
+          </div>
+
+          <div class="column">
+            <img src="{{ .Params.step3.picto }}" alt="picto">
+            <h3>{{ .Params.step3.name }}</h3>
+            <ul>
+              {{ range .Params.step3.subset }}
+              <li>{{ .name }}</li>
+              {{ end }}
+            </ul>
+          </div>
+          {{ end }}
+        </div>
+      </div>
+
+      <div class="carousel-cell fullscreen">
+        {{ $v2 := where .Site.Pages "Section" "contribute"}}
+        {{ range where $v2 ".Params.identifier" "citoyens" }}
+        <h2>{{ .Title | markdownify}}</h2>
+        <div>{{ .Description | markdownify}}</div>
+        <div class="columns">
+          <div class="column">
+            <img src="{{ .Params.step1.picto }}" alt="picto">
+            <h3>{{ .Params.step1.name }}</h3>
+            <ul>
+              {{ range .Params.step1.subset }}
+              <li>{{ .name }}</li>
+              {{ end }}
+            </ul>
+          </div>
+
+          <div class="column">
+            <img src="{{ .Params.step2.picto }}" alt="picto">
+            <h3>{{ .Params.step2.name }}</h3>
+            <ul>
+              {{ range .Params.step2.subset }}
+              <li>{{ .name }}</li>
+              {{ end }}
+            </ul>
+          </div>
+
+          <div class="column">
+            <img src="{{ .Params.step3.picto }}" alt="picto">
+            <h3>{{ .Params.step3.name }}</h3>
+            <ul>
+              {{ range .Params.step3.subset }}
+              <li>{{ .name }}</li>
+              {{ end }}
+            </ul>
+          </div>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+{{ end }}

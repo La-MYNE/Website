@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="{{ .Lang }}">
+
+<head>
+  <meta  charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Laboratoire de Recherche & d'Expérimentation Citoyen Anti-disciplinaire - Tiers-Lieux Libre & OpenSource des Transitions" />
+  <title>{{ .Site.Title }}</title>
+  <!-- CSS  
+  <link href="/css/materialize.css" type="text/css" rel="stylesheet"/>
+   -->
+  <link href="/css/myne-site-icons-codes.css" type="text/css" rel="stylesheet"/>
+  <link href="/css/myne-site-icons.css" type="text/css" rel="stylesheet"/>
+  <link href="/css/flickity.css" type="text/css" rel="stylesheet">
+  {{ $style := resources.Get "sass/main.scss" | toCSS | minify | fingerprint }}
+  <link rel="stylesheet" href="{{ $style.Permalink }}">
+  <script src="/js/modernizr.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.0/fuse.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js"></script>
+  <script src="/js/search.js"></script>
+</head>
+
+<body>
+  <section class="hero hero-nav is-color-1">
+    <div class="hero-body has-text-centered">
+        <a href="../index.html" target="_blank"><img alt="Association La MYNE" title="" src="{{.Params.banner}}"></a>
+
+    <ul class="menu_horizontal center">
+        {{ range .Site.Params.social}}
+        <li><a href="{{ .url }}"><i class="{{ .icon }}"></i></a></li>
+        {{ end }}
+      </ul>
+    </div>
+  </section>
+  {{ block "main". }}
+  {{end}}
+
+ <footer class="page-footer footer is-color-3">
+   <div class="container has-text-centered">
+
+        <p><strong>Adresse</strong>: <u><a href="https://www.openstreetmap.org/node/4319678426">1 rue du luizet, 69100 Villeurbanne</a></u><br>
+        <strong>Telephone</strong>: +33(0)4 26 64 36 16<br>
+        <strong>E-Mail</strong>: team [at] lamyne [dot] org<br>
+    </div>
+</footer>
+
+<div class="footer-copyright is-color-4">
+    <div class="container has-text-centered licence">
+      <i class="icon-cc"></i>
+      <i class="icon-cc-by"></i>
+      <i class="icon-cc-sa"></i>
+    </div>
+    </div>
+
+  <!--  Scripts-->
+<script src="/js/flickity.js"></script>
+<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+<script src="/js/init.js"></script>
+
+</body>
+</html>
