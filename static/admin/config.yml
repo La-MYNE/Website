@@ -1,14 +1,14 @@
 backend:
   name: git-gateway
 
-media_folder: "site/static/img" # Folder where user uploaded files should go
+media_folder: "tatic/img" # Folder where user uploaded files should go
 public_folder: "img"
 publish_mode: editorial_workflow
 
 collections: # A list of collections the CMS should be able to edit
   - name: "project" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "Project" # Used in the UI, ie.: "New Post"
-    folder: "site/content/project" # The path to the folder where the documents are stored
+    folder: "content/project" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields:
@@ -121,7 +121,7 @@ collections: # A list of collections the CMS should be able to edit
   - name: "pages"
     label: "Pages"
     files:
-      - file: "site/content/_index.md"
+      - file: "content/_index.md"
         label: "Page Accueil"
         name: "home"
         fields:
@@ -140,7 +140,7 @@ collections: # A list of collections the CMS should be able to edit
               {label: "Call To Action", name: "calltoaction", widget: "object", fields: [
                 {label: "Message", name: "heading", widget: "string"},
                 {label: "Lien", name: "link", widget: "string"}]}]}
-      - file: "site/content/about.md"
+      - file: "content/about.md"
         label: "Page Accueil"
         name: "home"
         fields:
