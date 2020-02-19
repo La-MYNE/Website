@@ -42,8 +42,8 @@ collections: # A list of collections the CMS should be able to edit
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields:
       - {label: "Title", name: "title", widget: "string", tagname: "h1"}
-      - {label: "Node", name: "node", widget: "list", required: false}
-      - {label: "Tags", name: "tags", widget: "list", required: false, default: ['term_1', 'term_2']}
+      - {label: "Projets", name: "node", widget: "list", required: false}
+      - {label: "Tags", name: "tags", widget: "list", required: false, default: ['tag1', 'tag2']}
       - {label: "Porteurs", name: "porteurs", widget: "list", required: false}
       - {label: "Lieu", name: "location", widget: "string", required: false}
       - {label: "Journee Entiere", name: "fullday", widget: "boolean", default:"false", required: false}
@@ -54,8 +54,7 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Quand", name: "start", widget: "datetime"}
       - {label: "Fin", name: "end", widget: "datetime"}
       - {label: "Tarif", name: "tarif", widget: "string", required: false, default: 'adhesion a la myne, 2e/an'}
-      - {label: "Image cover", name: "cover", widget: "image", required: false}
-      - {label: "Thumbnail", name: "thumbnail", widget: "image", required: false}
+      - {label: "Image", name: "thumbnail", widget: "image", required: false}
       - {label: "Description", name: "description", widget: "string", required: false}
       - {label: "Body", name: "body", widget: "markdown", required: false}
       - {label: "Documentation", name: "documentation", required: false, widget: list, fields: [
