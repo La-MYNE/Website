@@ -22,15 +22,5 @@ competence:
   - description: low tech solaire
     name: ingenierie lowtech
 ---
-Body de la page concentrateur solaire + solarOSE + actions @Lyon
-avec ca marche !
-
-pouet
-
-prout
 
 lien vers la [page movilab](http://movilab.org/index.php?title=Concentrateur_solaire)
-
-et VOILA!
-
-et donc maintenant
