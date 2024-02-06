@@ -1,0 +1,33 @@
+{{ define "main" }}
+
+<section class="section is-narrow">
+  <div class="container has-text-centered">
+    <h1>{{ .Title }}</h1>
+    <p> {{ .Content }}</p>
+    <a class="has-text-white" href="https://cloud.lamyne.org/apps/calendar/embed/4ej7LAtyFKwfFbez"><button
+        class="button is-color-4 has-text-white">Agenda des Activités</a></button>
+    <a class="has-text-white" href="https://cloud.lamyne.org/apps/calendar/embed/QfTHWoiYaENKj9es"><button
+        class="button is-color-4 has-text-white">Agenda des Accueils</a></button>
+    <div class="section">
+     <div class="button-group filter-button-group">
+        <button class="button is-color-1 has-text-white" data-filter="*">show all</button>
+        <button class="button is-color-1 has-text-white" data-filter=".past">passé</button>
+        <button class="button is-color-1 has-text-white" data-filter=".future">à venir</button>
+      </div>
+      <ul class="columns is-multiline grid">
+        {{ range (.Data.Pages.ByParam "start").Reverse }}
+        {{ if isset .Params "start" }}
+        {{$time := time .Params.start}}
+        <li
+          class="column is-one-third {{range .Params.events }}{{ . }}{{ end }}{{ if ge $time now}}future{{ else }}past{{ end }}"
+          data-category="{{range .Params.events }} {{ . }} {{ end }} {{ if ge $time now}} future {{ else }} past {{ end }}"
+          data-sort="{{ .Params.enventType }}">
+          {{ partial "card.html" . }}
+        </li>
+        {{ end }}
+        {{ end }}
+      </ul>
+    </div>
+  </div>
+</section>
+{{ end }}
