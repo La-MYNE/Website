@@ -9,12 +9,7 @@
     <a class="has-text-white" href="https://cloud.lamyne.org/apps/calendar/embed/QfTHWoiYaENKj9es"><button
         class="button is-color-4 has-text-white">Agenda des Accueils</a></button>
     <div class="section">
-     <div class="button-group filter-button-group">
-        <button class="button is-color-1 has-text-white" data-filter="*">show all</button>
-        <button class="button is-color-1 has-text-white" data-filter=".past">passé</button>
-        <button class="button is-color-1 has-text-white" data-filter=".future">à venir</button>
-      </div>
-      <ul class="columns is-multiline grid">
+           <ul class="columns is-multiline grid">
         {{ range (.Data.Pages.ByParam "start").Reverse }}
         {{ if isset .Params "start" }}
         {{$time := time .Params.start}}
