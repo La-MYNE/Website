@@ -17,7 +17,7 @@ documentation:
       https://pad.lamyne.org/OwJgbAzAJhCmYFoAsAGAnC5BWAhgYwTQCMBGAgDiSLSiSxIDMcRgg===#
     name: doc1 remontage concentrateur
   - link: 'https://pad.lamyne.org/OSExMyne#'
-    name: doc2
+    name: doc2 à changer
 competence:
   - description: low tech solaire
     name: ingenierie lowtech
