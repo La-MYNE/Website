@@ -23,4 +23,4 @@ competence:
     name: ingenierie lowtech
 ---
 
-lien vers la [page movilab](http://movilab.org/index.php?title=Concentrateur_solaire)
+lien direct vers la [page movilab](http://movilab.org/index.php?title=Concentrateur_solaire)
