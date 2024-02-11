@@ -7,7 +7,7 @@ tags:
   - energie
 cover: /img/17492462_888061878001228_7345287047245186839_o.jpg
 thumbnail: /img/default-thumbnail.png
-description: description du projet solarose
+description: description du projet solarose2
 porteurs:
   - Emmanuel Laurent
   - nicolas
