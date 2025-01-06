@@ -1,0 +1,170 @@
+
+DefaultContentLanguage: fr
+languageCode: fr-FR
+defaultContentLanguageInSubdir: false
+
+address: "2 rue JB Clément 69100 Villeurbanne"
+title: La MYNE - Une Manufacture des Idees & Nouvelles Experimentations
+picto1: "/img/picto-house.png"
+picto2: "/img/picto-experiment.png"
+picto3: "/img/picto-fork.png"
+outputs:
+  section: ["HTML", "Calendar"]
+  page: ["HTML", "Calendar", "JSON"]
+  home: ["HTML", "JSON"]
+related:
+# Only include matches with rank >= threshold. This is a normalized rank between 0 and 100.
+  threshold: 80
+# To get stable "See also" sections we, by default, exclude newer related pages.
+  includeNewer: true
+# Will lower case keywords in both queries and in the indexes.
+  toLower: false
+  indices:
+    - name : "node"
+      weight: 150
+    - name: "porteurs"
+      weight: 100
+Languages:
+  en:
+    lang: en
+    info: "Public openings Wednesday 6.30PM. Phone number: +33(0)4 26 64 36 16"
+    # subtitle: An Ideas and New Experiments Manufacture
+    catchline: "La MYNE is an citizen laboratory for citizens experimenting the future. We are a Third-Party-Place by the common(s).<br><br>#Anthropocene #Transitions #TiersLieux #Commons"
+    weight: 2
+    more: More
+
+    menu:
+      main:
+      - identifier: about
+        name: Who are we ?
+        url: /en/about
+        weight: 0
+      - identifier: program
+        name: Agendas
+        url: /en/agenda/
+        weight: 1
+      - identifier: projects
+        name: Projects
+        url: /en/project/
+        weight: 2
+      - identifier: ateliers
+        name: Workshops & Practice
+        url: /en/ateliers/
+        weight: 3
+    weight: 1
+
+  fr:
+    lang: fr
+    info: "Ouverture au public les mercredis à partir de 18.30. Telephone: +33(0)4 26 64 36 16"
+    # subtitle: Une Manufacture des Idées et des Nouvelles Expérimentations
+    catchline: "La MYNE est un laboratoire de recherche pour les citoyen.ne.s qui expérimentent le futur. Nous agissons en Tier(s)-Lieu(x) par les Communs.<br><br>#Anthropocene #Transitions #TiersLieux #Communs"
+    more: En Savoir Plus
+    menu:
+      main:
+      - identifier: about
+        name: Qui sommes nous ?
+        url: /about
+        weight: 0
+      - identifier: program
+        name: Agendas
+        url: /agenda/
+        weight: 1
+      - identifier: projects
+        name: Projets
+        url: /project/
+        weight: 2
+      - identifier: ateliers
+        name: Ateliers & Apprentissage
+        url: /ateliers/
+        weight: 3
+
+SectionPagesMenu:
+- main
+- citoyen
+baseurl: /
+canonifyurls: true
+config: config.yaml
+MetaDataFormat : yaml
+params:
+  DateForm: Monday, Jan 2
+  cover:
+    sections:
+    - image: /img/project-cover.jpg
+      name: Projects
+    - image: /img/lamyne-cover.jpg
+      name: La MYNE
+    - image: /img/contribute-cover.jpg
+      name: Contribute
+    - image: /img/agenda-cover.jpg
+      name: Agendas
+    - image: /img/program-cover.jpg
+      name: Programs
+  partners:
+  - link: http://lapaillasse.org/
+    logo: /img/paillasse-logo.png
+    name: La Paillasse
+  - link: http://movilab.org/index.php?title=La_POC_Foundation
+    logo: /img/poc-foundation-logo.png
+    name: POC Foundation
+  - link: https://openara.org/
+    logo: /img/open-ara-logo.png
+    name: Open Ara
+  - link: http://www.cellabz.com/
+    logo: /img/cellabz-logo.jpg
+    name: Cellabz
+  - link: http://www.grandlyon.com/
+    logo: /img/grand-lyon-logo.png
+    name: 'Grand Lyon '
+  - link: https://www.insa-lyon.fr/
+    logo: /img/insa-logo.png
+    name: INSA Lyon
+  - link: http://www.fablab-lyon.fr/
+    logo: /img/fol-logo.jpg
+    name: La Fabrique d'Objets Libres
+  - link: https://labolyon.fr/
+    logo: /img/lol-logo.png
+    name: Le Laboratoire Ouvert Lyonnais
+  - link: http://www.ecam.fr/fr/ecam-lyon/ecam-lyon
+    logo: /img/ecam-logo.png
+    name: 'ECAM '
+  - link: http://ouishare.net/fr
+    logo: /img/ouishare-logo.png
+    name: Ouishare
+  - link: http://www.ens-lyon.fr/
+    logo: /img/ens-logo.jpg
+    name: ENS Lyon
+  - link: http://www.tuba-lyon.com/
+    logo: /img/tuba-logo.jpg
+    name: TUBA
+  social:
+  - header: 'yes'
+    icon: icon-twitter
+    title: twitter
+    url: https://twitter.com/laMYNE_
+  - header: 'yes'
+    icon: icon-github
+    title: github
+    url: https://github.com/La-MYNE
+  - header: 'yes'
+    icon: icon-facebook
+    title: facebook
+    url: https://www.facebook.com/La-MYNE-Manufacture-des-Id%C3%A9es-et-Nouvelles-Exp%C3%A9rimentations-648362331890903/
+  - icon: icon-linkedin
+    title: linkedin
+    url: https://www.linkedin.com/company/la-myne
+  - icon: icon-flickr
+    title: flickr
+    url: https://www.flickr.com/photos/lps_myne/
+  - header: 'yes'
+    icon: icon-slack
+    title: rocketchat
+    url: http://chat.lamyne.org
+  - header: 'yes'
+    icon: icon-mail
+    title: email
+    url: mailto:team@lamyne.org
+  - icon: icon-social-youtube-outline
+    title: youtube
+    url: https://www.youtube.com/channel/UC-AkSeIOQf3-fscKmoXfmxA
+
+calendar: https://cloud.lamyne.org/apps/calendar/embed/4ej7LAtyFKwfFbez
