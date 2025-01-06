@@ -152,9 +152,6 @@ params:
   - icon: icon-linkedin
     title: linkedin
     url: https://www.linkedin.com/company/la-myne
-  - icon: icon-flickr
-    title: flickr
-    url: https://www.flickr.com/photos/lps_myne/
   - header: 'yes'
     icon: icon-slack
     title: rocketchat
