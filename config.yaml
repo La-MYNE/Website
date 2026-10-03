@@ -145,14 +145,14 @@ params:
     icon: icon-github
     title: github
     url: https://github.com/La-MYNE
-  - header: 'yes'
+  - header: 'no'
     icon: icon-facebook
     title: facebook
     url: https://www.facebook.com/La-MYNE-Manufacture-des-Id%C3%A9es-et-Nouvelles-Exp%C3%A9rimentations-648362331890903/
   - icon: icon-linkedin
     title: linkedin
     url: https://www.linkedin.com/company/la-myne
-  - header: 'yes'
+  - header: 'no'
     icon: icon-slack
     title: 
     url: 
