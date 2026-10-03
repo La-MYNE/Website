@@ -154,8 +154,8 @@ params:
     url: https://www.linkedin.com/company/la-myne
   - header: 'yes'
     icon: icon-slack
-    title: rocketchat
-    url: http://chat.lamyne.org
+    title: 
+    url: 
   - header: 'yes'
     icon: icon-mail
     title: email
